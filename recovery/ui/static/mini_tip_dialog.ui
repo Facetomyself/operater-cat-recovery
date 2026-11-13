@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>580</width>
+    <height>274</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>提示</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+background-color:#3c3f42;
+color: #e6e6e6;
+}
+
+*:disabled {
+	background-color: #3c3f42;
+	color: #afafaf;
+	cursor: not-allowed;
+
+}
+QListWidget:disabled,QTextEdit:disabled,QLineEdit:disabled,QTabWidget:disabled{
+background-color:rgb(40, 40, 40);
+}
+QTextBrowser:disabled{
+background-color:rgb(40, 40, 40);
+color: rgb(152, 197, 150);
+}
+
+QPushButton:disabled {
+	background-color: rgb(80, 80, 80);
+	color: #afafaf;
+	cursor: not-allowed;
+
+}
+
+QCheckBox:hover,QRadioButton:hover {
+color: white;
+}
+
+QPushButton:hover {
+
+font-weight: bold;
+background-color:rgb(84, 84, 84);
+color: white;
+border-radius: 10pt;
+
+}
+
+QPushButton{
+font-weight: bold;
+background-color:rgb(106, 106, 106);
+color: #e6e6e6;
+border-radius: 10pt;
+}
+
+QTextBrowser,QListWidget,QTextEdit,QLineEdit,QTabWidget{
+background-color:rgb(40, 40, 40);
+color: rgba(152, 197, 150, 185);
+font-size:12pt;
+}
+
+QTextBrowser:hover,QTextEdit:hover,QLineEdit:hover{
+background-color:rgb(40, 40, 40);
+color: rgb(152, 197, 150);
+font-size:12pt;
+}
+
+
+QLabel{
+color: #ebf905;
+}
+
+
+
+QRadioButton,QCheckBox {
+        border: none;
+        border-radius: 9px;
+}
+QRadioButton::indicator,QCheckBox::indicator{
+    background-color: rgb(42, 45, 66);
+    border: 0px solid #b1b1b1;
+	width: 18px;
+	height: 18px;
+	border-radius: 9px;
+}
+
+QRadioButton::indicator:checked,QCheckBox::indicator:checked {
+    background-color: #ebf905;
+    border-color: #ebf905;
+}
+
+QMenuBar { background-color: transparent; }
+QMenuBar::item { background-color: transparent; }
+QMenuBar::item:selected { background-color:transparent; color: #ffffff;}
+QMenu { background-color: transparent; }
+QMenu::item { background-color: transparent; }
+QMenu::item:selected { background-color: transparent; color: #ffffff; }
+
+</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout" stretch="1,2">
+     <property name="spacing">
+      <number>50</number>
+     </property>
+     <property name="bottomMargin">
+      <number>50</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>请选择关闭行为</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,1,1">
+       <property name="spacing">
+        <number>20</number>
+       </property>
+       <property name="leftMargin">
+        <number>20</number>
+       </property>
+       <property name="rightMargin">
+        <number>20</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="btn_mini">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>150</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>最小化</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_tray">
+         <property name="minimumSize">
+          <size>
+           <width>180</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>隐藏到托盘</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_ext">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>150</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>退出程序</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

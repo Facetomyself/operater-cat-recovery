@@ -1,0 +1,1848 @@
+{
+  "schema": "operater-cat-class-method-coverage.v1",
+  "method": "parse Class.method qualnames from Nuitka constants and resolve same-module or unique cross-module inheritance before comparing against recovered source AST methods",
+  "checked": 1167,
+  "present": 1167,
+  "missing": 0,
+  "details": [
+    {
+      "module": "src.py.com.yun.mao.MainWindow",
+      "source_file": "src/py/com/yun/mao/MainWindow.py",
+      "present": [
+        "YunYinMaoMainWindow.__init__",
+        "YunYinMaoMainWindow._bring_main_window_to_front",
+        "YunYinMaoMainWindow.activate_window",
+        "YunYinMaoMainWindow.biao_shi_text_change",
+        "YunYinMaoMainWindow.can_changed_tab",
+        "YunYinMaoMainWindow.cleanup",
+        "YunYinMaoMainWindow.clear_log",
+        "YunYinMaoMainWindow.click_action_reset",
+        "YunYinMaoMainWindow.closeEvent",
+        "YunYinMaoMainWindow.close_event",
+        "YunYinMaoMainWindow.copy_code",
+        "YunYinMaoMainWindow.copy_log",
+        "YunYinMaoMainWindow.displayProxy",
+        "YunYinMaoMainWindow.display_account",
+        "YunYinMaoMainWindow.display_ai_tab",
+        "YunYinMaoMainWindow.display_experience_dialog_by_delay",
+        "YunYinMaoMainWindow.display_grade",
+        "YunYinMaoMainWindow.display_input_apikey_dialog_by_delay",
+        "YunYinMaoMainWindow.display_premium_tab",
+        "YunYinMaoMainWindow.display_self_experience_button_if_need",
+        "YunYinMaoMainWindow.expand_log",
+        "YunYinMaoMainWindow.fetch_zw",
+        "YunYinMaoMainWindow.final_quit",
+        "YunYinMaoMainWindow.handle_new_connection",
+        "YunYinMaoMainWindow.init_child_widget",
+        "YunYinMaoMainWindow.init_parent_widget",
+        "YunYinMaoMainWindow.init_tray",
+        "YunYinMaoMainWindow.init_view",
+        "YunYinMaoMainWindow.kefu_link",
+        "YunYinMaoMainWindow.locked_ui",
+        "YunYinMaoMainWindow.onProxyStatsChanged",
+        "YunYinMaoMainWindow.on_activate_code_stats",
+        "YunYinMaoMainWindow.on_program_frozen",
+        "YunYinMaoMainWindow.on_quit_action",
+        "YunYinMaoMainWindow.on_restore_action",
+        "YunYinMaoMainWindow.on_show_expri_permission",
+        "YunYinMaoMainWindow.on_show_input_apikey_dialog",
+        "YunYinMaoMainWindow.on_tab_changed",
+        "YunYinMaoMainWindow.on_tray_icon_activated",
+        "YunYinMaoMainWindow.open_down_load_folder",
+        "YunYinMaoMainWindow.open_log_folder",
+        "YunYinMaoMainWindow.process_client",
+        "YunYinMaoMainWindow.setLastTab",
+        "YunYinMaoMainWindow.setup_single_instance",
+        "YunYinMaoMainWindow.showProxySettingDialog",
+        "YunYinMaoMainWindow.showTipDialog",
+        "YunYinMaoMainWindow.showTipDialogByRestart",
+        "YunYinMaoMainWindow.showTipDialogBySize",
+        "YunYinMaoMainWindow.show_dirty_item_saving_dialog",
+        "YunYinMaoMainWindow.show_env",
+        "YunYinMaoMainWindow.show_message_box",
+        "YunYinMaoMainWindow.update_ico_fun",
+        "YunYinMaoMainWindow.update_tray_text"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.ad.AddOrEditAdDialog",
+      "source_file": "src/py/com/yun/mao/ad/AddOrEditAdDialog.py",
+      "present": [
+        "AddOrEditAdDialog.__init__",
+        "AddOrEditAdDialog.btnCancel",
+        "AddOrEditAdDialog.btnSave",
+        "AddOrEditAdDialog.fillBeanIfNeed",
+        "AddOrEditAdDialog.showEvent"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.ad.ToolsBoxEditAdDialog",
+      "source_file": "src/py/com/yun/mao/ad/ToolsBoxEditAdDialog.py",
+      "present": [
+        "ToolsBoxEditAdDialog.__init__",
+        "ToolsBoxEditAdDialog.on_ad_btn_save",
+        "ToolsBoxEditAdDialog.showEvent"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.ai.AiTextGenFlow",
+      "source_file": "src/py/com/yun/mao/ai/AiTextGenFlow.py",
+      "present": [
+        "AiTextGenFlow._detect_api_refusal",
+        "AiTextGenFlow._is_content_policy_error",
+        "AiTextGenFlow._open_client_and_prompt",
+        "AiTextGenFlow.check_sensitive",
+        "AiTextGenFlow.final_gen_ai_text",
+        "AiTextGenFlow.generate_text",
+        "AiTextGenFlow.no_semantic",
+        "AiTextGenFlow.obtain_open_ai_client",
+        "AiTextGenFlow.replace_sensitive"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.ai.TextCache",
+      "source_file": "src/py/com/yun/mao/ai/TextCache.py",
+      "present": [
+        "TextCacheBean.__init__"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.IsoBmffFirstFrameParser",
+      "source_file": "src/py/com/yun/mao/auto/IsoBmffFirstFrameParser.py",
+      "present": [
+        "Box.payload_start",
+        "_ChunkOffsets.get",
+        "_SampleSizes.get"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.VideoProcessingIds",
+      "source_file": "src/py/com/yun/mao/auto/VideoProcessingIds.py",
+      "present": [
+        "Watch.__aenter__",
+        "Watch.__aexit__",
+        "Watch.__init__",
+        "Watch._apply_known",
+        "Watch._ingest",
+        "Watch._poll_history",
+        "Watch._remember_posted",
+        "Watch.ids"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.cd.AsyncDequeQueueClass",
+      "source_file": "src/py/com/yun/mao/cd/AsyncDequeQueueClass.py",
+      "present": [
+        "AsyncDequeQueue.__init__",
+        "AsyncDequeQueue._check_closed",
+        "AsyncDequeQueue._wake_up_waiters",
+        "AsyncDequeQueue.close",
+        "AsyncDequeQueue.empty",
+        "AsyncDequeQueue.full",
+        "AsyncDequeQueue.get",
+        "AsyncDequeQueue.get_nowait",
+        "AsyncDequeQueue.join",
+        "AsyncDequeQueue.put",
+        "AsyncDequeQueue.put_nowait",
+        "AsyncDequeQueue.qsize",
+        "AsyncDequeQueue.task_done"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.cd.ConditionalTabWidget",
+      "source_file": "src/py/com/yun/mao/cd/ConditionalTabWidget.py",
+      "present": [
+        "ConditionalTabWidget.__init__",
+        "ConditionalTabWidget.eventFilter"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.cd.TaskHardStop",
+      "source_file": "src/py/com/yun/mao/cd/TaskHardStop.py",
+      "present": [
+        "_MainThreadPoster.__init__",
+        "_MainThreadPoster._dispatch",
+        "_MainThreadPoster.post"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.comment.ConfigCommentRuleDialog",
+      "source_file": "src/py/com/yun/mao/comment/ConfigCommentRuleDialog.py",
+      "present": [
+        "ConfigCommentRuleDialog.__init__",
+        "ConfigCommentRuleDialog._chai_zu_component_states",
+        "ConfigCommentRuleDialog.addCommentAd",
+        "ConfigCommentRuleDialog.btnSave",
+        "ConfigCommentRuleDialog.changedWaterModeUIComponent",
+        "ConfigCommentRuleDialog.comment_ad_call_back",
+        "ConfigCommentRuleDialog.deleteItem",
+        "ConfigCommentRuleDialog.editItem",
+        "ConfigCommentRuleDialog.fillAdList",
+        "ConfigCommentRuleDialog.fillBeanIfNeed",
+        "ConfigCommentRuleDialog.fillDefault",
+        "ConfigCommentRuleDialog.initCheckBoxControlQuYu",
+        "ConfigCommentRuleDialog.onAdEnableChanged",
+        "ConfigCommentRuleDialog.onAiEnableChanged",
+        "ConfigCommentRuleDialog.onKeepSourceChanged",
+        "ConfigCommentRuleDialog.on_grid_jiao_chen",
+        "ConfigCommentRuleDialog.on_random_cover_jiao_chen",
+        "ConfigCommentRuleDialog.on_select_ai_em",
+        "ConfigCommentRuleDialog.on_select_ai_em_callback",
+        "ConfigCommentRuleDialog.on_select_pic",
+        "ConfigCommentRuleDialog.on_show_pic_water_jiao_chen",
+        "ConfigCommentRuleDialog.saveCommentRule",
+        "ConfigCommentRuleDialog.set_elided_path",
+        "ConfigCommentRuleDialog.shoeMenu",
+        "ConfigCommentRuleDialog.showEvent",
+        "ConfigCommentRuleDialog.showResOpDialog",
+        "ConfigCommentRuleDialog.showResourceTypeDialog",
+        "ConfigCommentRuleDialog.showWaterSelectMode",
+        "ConfigCommentRuleDialog.videoPhotoChanged"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.config.constant_cache",
+      "source_file": "src/py/com/yun/mao/config/constant_cache.py",
+      "present": [
+        "ConstantCache.__init__",
+        "ConstantCache.init",
+        "ConstantCache.read_cache",
+        "ConstantCache.update_cache"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.config.tabl_cache",
+      "source_file": "src/py/com/yun/mao/config/tabl_cache.py",
+      "present": [
+        "TableCache.__init__",
+        "TableCache.init",
+        "TableCache.read_cache",
+        "TableCache.update_cache"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.dclass.AutoBeanXXX",
+      "source_file": "src/py/com/yun/mao/dclass/AutoBeanXXX.py",
+      "present": [
+        "AutoBeanXXX.__init__",
+        "AutoBeanXXX.adIsBottomUp",
+        "AutoBeanXXX.adIsDelete",
+        "AutoBeanXXX.beanLike",
+        "AutoBeanXXX.containWords",
+        "AutoBeanXXX.convertDbChannel",
+        "AutoBeanXXX.convertSource",
+        "AutoBeanXXX.convertSourceTopicId",
+        "AutoBeanXXX.deleLink",
+        "AutoBeanXXX.deleSourceText",
+        "AutoBeanXXX.dtype",
+        "AutoBeanXXX.ensure_valid",
+        "AutoBeanXXX.excludeWords",
+        "AutoBeanXXX.filterButton",
+        "AutoBeanXXX.genTypeText",
+        "AutoBeanXXX.getAdDest",
+        "AutoBeanXXX.getDbChannel",
+        "AutoBeanXXX.getDbChannelOriginal",
+        "AutoBeanXXX.getDbChannelTopic",
+        "AutoBeanXXX.getDestes",
+        "AutoBeanXXX.getName",
+        "AutoBeanXXX.getSelfAdes",
+        "AutoBeanXXX.getSource",
+        "AutoBeanXXX.getYulanDestes",
+        "AutoBeanXXX.increase_numberMode",
+        "AutoBeanXXX.increase_startId",
+        "AutoBeanXXX.increase_want_count",
+        "AutoBeanXXX.isAutoFlowType",
+        "AutoBeanXXX.isBanYunType",
+        "AutoBeanXXX.isDownLoadFlowType",
+        "AutoBeanXXX.isYuLanFlowType",
+        "AutoBeanXXX.isYunAutoType",
+        "AutoBeanXXX.isYunPreViewType",
+        "AutoBeanXXX.is_increase_mode",
+        "AutoBeanXXX.is_loop_mode",
+        "AutoBeanXXX.is_ramdom_mode",
+        "AutoBeanXXX.keepSourceText",
+        "AutoBeanXXX.loop_mode_endId",
+        "AutoBeanXXX.loop_mode_startId",
+        "AutoBeanXXX.model",
+        "AutoBeanXXX.needSendComment",
+        "AutoBeanXXX.need_start_by_new_group",
+        "AutoBeanXXX.parse_dest_one_at_name",
+        "AutoBeanXXX.parse_wire",
+        "AutoBeanXXX.printFailedTips",
+        "AutoBeanXXX.ramdom_numberMode",
+        "AutoBeanXXX.ramdom_want_count",
+        "AutoBeanXXX.replaces",
+        "AutoBeanXXX.tailText"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.dclass.DTopClass",
+      "source_file": "src/py/com/yun/mao/dclass/DTopClass.py",
+      "present": [
+        "Ad.__init__",
+        "AdWrapper.__init__",
+        "AddDurationInfo.__init__",
+        "AdvancedFilterBean.__init__",
+        "AiEmployee.__init__",
+        "AiRefusedOption.__init__",
+        "AiRefusedOption.default_instance",
+        "AiRefusedOption.is_keep_origin_source",
+        "AiRefusedOption.is_skip_group",
+        "AutoBean.__init__",
+        "AutoBean.adIsBottomUp",
+        "AutoBean.adIsDelete",
+        "AutoBean.containWords",
+        "AutoBean.convertDbChannel",
+        "AutoBean.convertSource",
+        "AutoBean.convertSourceTopicId",
+        "AutoBean.deleLink",
+        "AutoBean.deleSourceText",
+        "AutoBean.dtype",
+        "AutoBean.excludeWords",
+        "AutoBean.filterButton",
+        "AutoBean.genTypeText",
+        "AutoBean.getAdDest",
+        "AutoBean.getDbChannel",
+        "AutoBean.getDbChannelOriginal",
+        "AutoBean.getDbChannelTopic",
+        "AutoBean.getDestes",
+        "AutoBean.getName",
+        "AutoBean.getSelfAdes",
+        "AutoBean.getSource",
+        "AutoBean.getYulanDestes",
+        "AutoBean.increase_numberMode",
+        "AutoBean.increase_startId",
+        "AutoBean.increase_want_count",
+        "AutoBean.isAutoFlowType",
+        "AutoBean.isBanYunType",
+        "AutoBean.isDownLoadFlowType",
+        "AutoBean.isYuLanFlowType",
+        "AutoBean.isYunAutoType",
+        "AutoBean.isYunPreViewType",
+        "AutoBean.is_increase_mode",
+        "AutoBean.is_loop_mode",
+        "AutoBean.is_ramdom_mode",
+        "AutoBean.keepSourceText",
+        "AutoBean.loop_mode_endId",
+        "AutoBean.loop_mode_startId",
+        "AutoBean.model",
+        "AutoBean.needSendComment",
+        "AutoBean.need_start_by_new_group",
+        "AutoBean.parse_dest_one_at_name",
+        "AutoBean.printFailedTips",
+        "AutoBean.ramdom_numberMode",
+        "AutoBean.ramdom_want_count",
+        "AutoBean.replaces",
+        "AutoBean.set_increase_startId",
+        "AutoBean.tailText",
+        "AutoFlowBean.__init__",
+        "BanYunBean.__init__",
+        "BaseFilterBean.__init__",
+        "BotBean.__init__",
+        "CommentBean.__init__",
+        "CommentRuleBean.__init__",
+        "CompleteVersionOp.__init__",
+        "DTopClass.__init__",
+        "DownLoadBean.__init__",
+        "DurationFilterBean.__init__",
+        "DurationMode.__init__",
+        "ForwardActionBean.__init__",
+        "GridOpt.__init__",
+        "HuiYuanLink.__init__",
+        "Increase.__init__",
+        "Loop.__init__",
+        "ModelWrapper.__init__",
+        "PresentMode.__init__",
+        "Random.__init__",
+        "Replace.__init__",
+        "SizeFilterBean.__init__",
+        "SuperFlowBean.__init__",
+        "SuperFlowBean.convertSource",
+        "SuperFlowBean.convertSourceTopicId",
+        "SuperFlowBean.is_increase_mode",
+        "SuperFlowBean.is_loop_mode",
+        "SuperFlowBean.is_ramdom_mode",
+        "SuperFlowBean.need_start_by_new_group",
+        "SuperFlowBean.parse_dest_one_at_name",
+        "SuperFlowBean.parse_fist_dest_link",
+        "SuperFlowBean.parse_source_dest_link",
+        "SuperFlowBean.printFailedTips",
+        "Tail.__init__",
+        "Water.__init__",
+        "YouKeLink.__init__",
+        "YuLanBean.__init__",
+        "YuLanModeBean.__init__",
+        "YuLanResOp.__init__",
+        "YunAutoBean.__init__",
+        "YunPreViewBean.__init__"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.dialog.AiModelInfoPriceDialog",
+      "source_file": "src/py/com/yun/mao/dialog/AiModelInfoPriceDialog.py",
+      "present": [
+        "AiModelInfoPriceDialog.__init__",
+        "AiModelInfoPriceDialog.on_close",
+        "AiModelInfoPriceDialog.showEvent"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.dialog.CourseImageDialog",
+      "source_file": "src/py/com/yun/mao/dialog/CourseImageDialog.py",
+      "present": [
+        "CourseImageDialog.__init__",
+        "CourseImageDialog.next_image",
+        "CourseImageDialog.prev_image",
+        "CourseImageDialog.showEvent",
+        "CourseImageDialog.show_image",
+        "CourseImageDialog.update_current_label"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.dialog.ExpriActivatePermissionDialog",
+      "source_file": "src/py/com/yun/mao/dialog/ExpriActivatePermissionDialog.py",
+      "present": [
+        "ExpriActivatePermissionDialog.__init__",
+        "ExpriActivatePermissionDialog.activate_cancel",
+        "ExpriActivatePermissionDialog.activate_permission",
+        "ExpriActivatePermissionDialog.on_dialog_activate_code_stats",
+        "ExpriActivatePermissionDialog.showEvent"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.dialog.PremiumBigPriceDialog",
+      "source_file": "src/py/com/yun/mao/dialog/PremiumBigPriceDialog.py",
+      "present": [
+        "PremiumBigPriceDialog.__init__",
+        "PremiumBigPriceDialog.on_close",
+        "PremiumBigPriceDialog.showEvent"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.dialog.PremiumDialog",
+      "source_file": "src/py/com/yun/mao/dialog/PremiumDialog.py",
+      "present": [
+        "PremiumDialog.__init__",
+        "PremiumDialog._setup_timer",
+        "PremiumDialog.add_tron_usdt_logo",
+        "PremiumDialog.closeEvent",
+        "PremiumDialog.close_signals",
+        "PremiumDialog.display_address_amount",
+        "PremiumDialog.display_qr_code",
+        "PremiumDialog.do_poll",
+        "PremiumDialog.on_check_order_stats",
+        "PremiumDialog.on_copy_address",
+        "PremiumDialog.on_copy_contacts",
+        "PremiumDialog.on_copy_onumber",
+        "PremiumDialog.on_copy_ucode",
+        "PremiumDialog.on_had_paied",
+        "PremiumDialog.on_log",
+        "PremiumDialog.reject",
+        "PremiumDialog.set_text_info",
+        "PremiumDialog.showEvent",
+        "PremiumDialog.show_exit_box",
+        "PremiumDialog.start_polling",
+        "PremiumDialog.stop_polling"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.dialog.PremiumExitTipDialog",
+      "source_file": "src/py/com/yun/mao/dialog/PremiumExitTipDialog.py",
+      "present": [
+        "PremiumExitTipDialog.__init__",
+        "PremiumExitTipDialog.showEvent"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.dialog.ReceiveCodeDialog",
+      "source_file": "src/py/com/yun/mao/dialog/ReceiveCodeDialog.py",
+      "present": [
+        "ReceiveCodeDialog.__init__",
+        "ReceiveCodeDialog._bind_account_identity",
+        "ReceiveCodeDialog._on_code",
+        "ReceiveCodeDialog._on_copy_phone",
+        "ReceiveCodeDialog._on_start",
+        "ReceiveCodeDialog._on_status",
+        "ReceiveCodeDialog._on_stop",
+        "ReceiveCodeDialog._on_worker_finished",
+        "ReceiveCodeDialog._release_working",
+        "ReceiveCodeDialog._session_abs_path",
+        "ReceiveCodeDialog._set_busy_buttons",
+        "ReceiveCodeDialog._set_idle_buttons",
+        "ReceiveCodeDialog._stop_worker",
+        "ReceiveCodeDialog.closeEvent",
+        "ReceiveCodeDialog.reject",
+        "ReceiveCodeDialog.showEvent"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._cj_dd_file",
+      "source_file": "src/py/com/yun/mao/fea/_cj_dd_file.py",
+      "present": [
+        "CreateOrderTask.__init__",
+        "CreateOrderTask.run"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._dtdm_jz",
+      "source_file": "src/py/com/yun/mao/fea/_dtdm_jz.py",
+      "present": [
+        "DtdmJz._decode_and_decompress",
+        "DtdmJz._dt_zx_zj",
+        "DtdmJz.dt_hq_hc",
+        "DtdmJz.dt_js_hx",
+        "DtdmJz.dt_jz_xy",
+        "DtdmJz.dt_qc_hc"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._jc_dd_cz_file",
+      "source_file": "src/py/com/yun/mao/fea/_jc_dd_cz_file.py",
+      "present": [
+        "CheckOrderRechargeTask.__init__",
+        "CheckOrderRechargeTask.run"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._qy_hy_file",
+      "source_file": "src/py/com/yun/mao/fea/_qy_hy_file.py",
+      "present": [
+        "FeaMigrateCodeTask.__init__",
+        "FeaMigrateCodeTask.run"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._r_hb_file",
+      "source_file": "src/py/com/yun/mao/fea/_r_hb_file.py",
+      "present": [
+        "RemoteHb.__init__",
+        "RemoteHb.failed_retry",
+        "RemoteHb.failed_terminal",
+        "RemoteHb.success"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_jqm",
+      "source_file": "src/py/com/yun/mao/fea/_sq_jqm.py",
+      "present": [
+        "SqJqm.__init__",
+        "SqJqm.genHuiyuanGrade",
+        "SqJqm.gen_grade_card_str",
+        "SqJqm.gen_ka_info",
+        "SqJqm.geneDisplay",
+        "SqJqm.get_cloud_bot",
+        "SqJqm.get_experi_duration_hours",
+        "SqJqm.get_price_config",
+        "SqJqm.has_ai_ability",
+        "SqJqm.has_bot_ability",
+        "SqJqm.has_exp_permission",
+        "SqJqm.is_exp_eight",
+        "SqJqm.is_multi_permission",
+        "SqJqm.open_premium",
+        "SqJqmEnc.default"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_ks",
+      "source_file": "src/py/com/yun/mao/fea/_sq_ks.py",
+      "present": [
+        "KjJyTask.__init__",
+        "KjJyTask.kj_yh_cb",
+        "KjJyTask.run",
+        "KjJyTask.start_checker",
+        "KjJyTask.start_checker_inner",
+        "KjSbTask.__init__",
+        "KjSbTask.run"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_qi",
+      "source_file": "src/py/com/yun/mao/fea/_sq_qi.py",
+      "present": [
+        "SqQiTask.__init__",
+        "SqQiTask.run"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_r_ks",
+      "source_file": "src/py/com/yun/mao/fea/_sq_r_ks.py",
+      "present": [
+        "KjRRoiTask._inner",
+        "KjRRoiTask.run",
+        "KjRSpuiTask.__init__",
+        "KjRSpuiTask._inner",
+        "KjRSpuiTask.run",
+        "KjRUiTask.__init__",
+        "KjRUiTask._inner",
+        "KjRUiTask.run"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._yjx_hb_file",
+      "source_file": "src/py/com/yun/mao/fea/_yjx_hb_file.py",
+      "present": [
+        "YjxHb.__init__",
+        "YjxHb.failed_retry",
+        "YjxHb.failed_terminal",
+        "YjxHb.success"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._zz_jh_ty_file",
+      "source_file": "src/py/com/yun/mao/fea/_zz_jh_ty_file.py",
+      "present": [
+        "SelfActivatePermissionTask.__init__",
+        "SelfActivatePermissionTask.run"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_h_x",
+      "source_file": "src/py/com/yun/mao/link/_fds_h_x.py",
+      "present": [
+        "FdsHhx._cached_proc_names",
+        "FdsHhx._deep_scan_allowed",
+        "FdsHhx._fd_log",
+        "FdsHhx._fd_log_msg",
+        "FdsHhx._invalidate_scan_caches",
+        "FdsHhx._jcm_xx_jq",
+        "FdsHhx._jk_jz_biao",
+        "FdsHhx._jk_ky_1",
+        "FdsHhx._jk_ky_bt",
+        "FdsHhx._jk_ky_mk_1",
+        "FdsHhx._mark_deep_scan_done",
+        "FdsHhx._sj_xc_mz",
+        "FdsHhx._wj_mz_stem",
+        "FdsHhx.entry_blocked",
+        "FdsHhx.fh_cj",
+        "FdsHhx.fh_ht_jk",
+        "FdsHhx.fh_lx_sd",
+        "FdsHhx.fh_qing",
+        "FdsHhx.fh_quan",
+        "FdsHhx.fh_ui_qd",
+        "FdsHhx.fh_zhong",
+        "FdsHhx.fh_zhong_fast",
+        "FdsHhx.jk_bd_api",
+        "FdsHhx.jk_ky_jc",
+        "FdsHhx.jk_ky_jc_deep",
+        "FdsHhx.jk_ky_jc_fast",
+        "FdsHhx.jk_ky_jc_mk_all",
+        "FdsHhx.jk_qb",
+        "FdsHhx.jk_sx",
+        "FdsHhx.jk_yc_ts",
+        "FdsHhx.seal_abort",
+        "FdsHhx.try_begin_abort",
+        "FdsHhx.wait_startup_probe"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.link._sjk_cli",
+      "source_file": "src/py/com/yun/mao/link/_sjk_cli.py",
+      "present": [
+        "SjkCli._current_exe_path",
+        "SjkCli._resolve_version",
+        "SjkCli._running_exe_path",
+        "SjkCli._sha256_file",
+        "SjkCli._sjk_db_qq",
+        "SjkCli._sjk_exe_hx",
+        "SjkCli._sjk_jb_xy",
+        "SjkCli._sjk_pkg_rt",
+        "SjkCli._sjk_post_once",
+        "SjkCli._sjk_validate_rk",
+        "SjkCli._sjk_validate_rk_only",
+        "SjkCli._sjk_validate_url",
+        "SjkCli.sjk_lq_qd",
+        "SjkCli.sjk_qd"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.link._tw_ctx",
+      "source_file": "src/py/com/yun/mao/link/_tw_ctx.py",
+      "present": [
+        "TwCtx._ensure_built",
+        "TwCtx._layer_d_bytes",
+        "TwCtx._open_with_d",
+        "TwCtx._static_cipher_instance",
+        "TwCtx.get",
+        "TwCtx.tw_hq_by_k",
+        "TwCtx.tw_hq_rk",
+        "TwCtx.tw_jm_ok",
+        "TwCtx.tw_jm_str",
+        "TwCtx.tw_sjk_pk_ld",
+        "TwCtx.tw_sjk_pk_pem",
+        "TwCtx.tw_sjk_url",
+        "TwCtx.tw_yy_mk"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.link._xb_ms",
+      "source_file": "src/py/com/yun/mao/link/_xb_ms.py",
+      "present": [
+        "_fe_skld_inte.run"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.log.LogWorker",
+      "source_file": "src/py/com/yun/mao/log/LogWorker.py",
+      "present": [
+        "LogWorker.__init__",
+        "LogWorker.snapshot_recent_lines"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.log.glog",
+      "source_file": "src/py/com/yun/mao/log/glog.py",
+      "present": [
+        "GlobalLog.__init__",
+        "GlobalLog._append_to_text_browser",
+        "GlobalLog._backfill_ui_log_from_disk",
+        "GlobalLog._merge_tail_lines",
+        "GlobalLog._on_frozen_timeout",
+        "GlobalLog._restart_frozen_timer",
+        "GlobalLog._text_browser",
+        "GlobalLog.attach_ui",
+        "GlobalLog.cleanup",
+        "GlobalLog.get_last_line",
+        "GlobalLog.onDisplayUpdateText",
+        "GlobalLog.pause_ui_log",
+        "GlobalLog.remove_empty_line",
+        "GlobalLog.resume_ui_log",
+        "LogStream.write"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.login.NetTest",
+      "source_file": "src/py/com/yun/mao/login/NetTest.py",
+      "present": [
+        "FastTelegramTestTask.__init__",
+        "FastTelegramTestTask.run"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.login.SessionLoader",
+      "source_file": "src/py/com/yun/mao/login/SessionLoader.py",
+      "present": [
+        "SessionLoader.__init__",
+        "SessionLoader.is_contain"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.monitor.HistoryMessageOpDialog",
+      "source_file": "src/py/com/yun/mao/monitor/HistoryMessageOpDialog.py",
+      "present": [
+        "HistoryMessageOpDialog.__init__",
+        "HistoryMessageOpDialog.confirm_callback_wrapper",
+        "HistoryMessageOpDialog.fill_history",
+        "HistoryMessageOpDialog.showEvent"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.monitor.MonitorFollowUp",
+      "source_file": "src/py/com/yun/mao/monitor/MonitorFollowUp.py",
+      "present": [
+        "MonitorFollowUp.__init__",
+        "MonitorFollowUp._autos_for_safe_source",
+        "MonitorFollowUp._caption_message",
+        "MonitorFollowUp._dest_id_map_for",
+        "MonitorFollowUp._ensure_joined",
+        "MonitorFollowUp._handle_caption_edit",
+        "MonitorFollowUp._handle_discussion_comment",
+        "MonitorFollowUp._join_source_discussion",
+        "MonitorFollowUp._prepare_discussions",
+        "MonitorFollowUp._register_handlers",
+        "MonitorFollowUp.resolve_group_first_id",
+        "MonitorFollowUp.setup"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.monitor.MonitorHistoryManagerFile",
+      "source_file": "src/py/com/yun/mao/monitor/MonitorHistoryManagerFile.py",
+      "present": [
+        "MonitorHistoryManager.__init__",
+        "MonitorHistoryManager._get_history_file_path",
+        "MonitorHistoryManager._write_to_file",
+        "MonitorHistoryManager.clean_monitor_message_list",
+        "MonitorHistoryManager.delete_monitor_message_list",
+        "MonitorHistoryManager.get_history_map",
+        "MonitorHistoryManager.get_monitor_message_list",
+        "MonitorHistoryManager.load_history_map",
+        "MonitorHistoryManager.update_monitor_message_list"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.monitor.MonitorSchedulerReport",
+      "source_file": "src/py/com/yun/mao/monitor/MonitorSchedulerReport.py",
+      "present": [
+        "MonitorSchedulerReportThread.__init__",
+        "MonitorSchedulerReportThread.run",
+        "MonitorSchedulerReportThread.stop_qthread"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.monitor.QHistoryMsgItemQWidget",
+      "source_file": "src/py/com/yun/mao/monitor/QHistoryMsgItemQWidget.py",
+      "present": [
+        "QHistoryMsgItemQWidget.__init__",
+        "QHistoryMsgItemQWidget.bindData",
+        "QHistoryMsgItemQWidget.clean_history"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.monitor.TelegramMonitorWorker",
+      "source_file": "src/py/com/yun/mao/monitor/TelegramMonitorWorker.py",
+      "present": [
+        "TelegramMonitorWorker.__init__",
+        "TelegramMonitorWorker._delete_record_by",
+        "TelegramMonitorWorker._finalize_stop",
+        "TelegramMonitorWorker._invoke_finish_once",
+        "TelegramMonitorWorker.fetch_monitor_msg_from_queue",
+        "TelegramMonitorWorker.inner_monitor",
+        "TelegramMonitorWorker.match_topic_condition",
+        "TelegramMonitorWorker.monitor_start_inner",
+        "TelegramMonitorWorker.monitor_start_inner_wrapper",
+        "TelegramMonitorWorker.on_task_done",
+        "TelegramMonitorWorker.process_queues",
+        "TelegramMonitorWorker.process_send_monitor_msg",
+        "TelegramMonitorWorker.process_single_queue",
+        "TelegramMonitorWorker.publish_event",
+        "TelegramMonitorWorker.restore_history_message",
+        "TelegramMonitorWorker.run",
+        "TelegramMonitorWorker.setup_event_handlers",
+        "TelegramMonitorWorker.stop_qthread"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.mthread.GenHtmlThread",
+      "source_file": "src/py/com/yun/mao/mthread/GenHtmlThread.py",
+      "present": [
+        "GenHtmlThread.__init__",
+        "GenHtmlThread.async_biz_task_run",
+        "GenHtmlThread.sync_biz_task_run"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.mthread.PostHtmlADThread",
+      "source_file": "src/py/com/yun/mao/mthread/PostHtmlADThread.py",
+      "present": [
+        "PostHtmlADThread.__init__",
+        "PostHtmlADThread.async_biz_task_run",
+        "PostHtmlADThread.check_channel",
+        "PostHtmlADThread.gen_msg_link",
+        "PostHtmlADThread.publish_test_ad",
+        "PostHtmlADThread.sync_biz_task_run"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.mthread.ReceiveCodeThread",
+      "source_file": "src/py/com/yun/mao/mthread/ReceiveCodeThread.py",
+      "present": [
+        "ReceiveCodeThread.__init__",
+        "ReceiveCodeThread._async_stop",
+        "ReceiveCodeThread._listen",
+        "ReceiveCodeThread.request_stop",
+        "ReceiveCodeThread.run"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.mthread.SchedulerThreadClass",
+      "source_file": "src/py/com/yun/mao/mthread/SchedulerThreadClass.py",
+      "present": [
+        "SchedulerThread.__init__",
+        "SchedulerThread._finalize_stop",
+        "SchedulerThread._init_and_start_scheduler",
+        "SchedulerThread._invoke_finish_once",
+        "SchedulerThread._shutdown_scheduler",
+        "SchedulerThread._start_scheduler_final",
+        "SchedulerThread._worker_start_inner_wrapper",
+        "SchedulerThread.run",
+        "SchedulerThread.stop_qthread"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.mthread.SingleLongTaskThreadClass",
+      "source_file": "src/py/com/yun/mao/mthread/SingleLongTaskThreadClass.py",
+      "present": [
+        "SingleLongTaskThread.__init__",
+        "SingleLongTaskThread._finalize_stop",
+        "SingleLongTaskThread._invoke_finish_once",
+        "SingleLongTaskThread._safe_worker_start_inner_wrapper",
+        "SingleLongTaskThread.run",
+        "SingleLongTaskThread.stop_qthread"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.mthread.TgClientBaseAsyncTaskThread",
+      "source_file": "src/py/com/yun/mao/mthread/TgClientBaseAsyncTaskThread.py",
+      "present": [
+        "TgClientBaseAsyncTaskThread.__init__",
+        "TgClientBaseAsyncTaskThread._safe_worker_start_inner_wrapper",
+        "TgClientBaseAsyncTaskThread.async_biz_task_run",
+        "TgClientBaseAsyncTaskThread.run",
+        "TgClientBaseAsyncTaskThread.stop",
+        "TgClientBaseAsyncTaskThread.sync_biz_task_run"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.prices.CreateOrderResponseClass",
+      "source_file": "src/py/com/yun/mao/prices/CreateOrderResponseClass.py",
+      "present": [
+        "CreateOrderResponse.__init__",
+        "Order.__init__"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.proxy.ProxySettingDialog",
+      "source_file": "src/py/com/yun/mao/proxy/ProxySettingDialog.py",
+      "present": [
+        "ProxySettingDialog.__init__",
+        "ProxySettingDialog.proxyCancel",
+        "ProxySettingDialog.proxySave",
+        "ProxySettingDialog.showEvent"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.tab.gen_session_queue",
+      "source_file": "src/py/com/yun/mao/tab/gen_session_queue.py",
+      "present": [
+        "GenSessionQueue.__init__",
+        "GenSessionQueue.phoneLogin",
+        "GenSessionQueue.requestCode",
+        "GenSessionQueue.send_stop_send"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.tab.mid_ai_employee_tab",
+      "source_file": "src/py/com/yun/mao/tab/mid_ai_employee_tab.py",
+      "present": [
+        "AiEmployeeTab.__init__",
+        "AiEmployeeTab.ai_refuse_list_text_change",
+        "AiEmployeeTab.copyItem",
+        "AiEmployeeTab.deleteItem",
+        "AiEmployeeTab.editItem",
+        "AiEmployeeTab.employeeDataChanged",
+        "AiEmployeeTab.init",
+        "AiEmployeeTab.initListDataSource",
+        "AiEmployeeTab.init_employee_list",
+        "AiEmployeeTab.init_fill_api_if_need",
+        "AiEmployeeTab.init_fill_refuse_token",
+        "AiEmployeeTab.init_list_menu",
+        "AiEmployeeTab.lock_ai_ui",
+        "AiEmployeeTab.on_add_ai_employee",
+        "AiEmployeeTab.on_ai_add_refuse",
+        "AiEmployeeTab.on_ai_refuse_jiao_chen",
+        "AiEmployeeTab.on_goto_api_key",
+        "AiEmployeeTab.on_save_api_and_lock",
+        "AiEmployeeTab.on_show_ai_course",
+        "AiEmployeeTab.on_un_lock",
+        "AiEmployeeTab.on_validation_finished",
+        "AiEmployeeTab.readOnlyItem",
+        "AiEmployeeTab.showEmployeeMenu"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.tab.mid_ai_test_tab",
+      "source_file": "src/py/com/yun/mao/tab/mid_ai_test_tab.py",
+      "present": [
+        "AiTestTab.__init__",
+        "AiTestTab._apply_ai_test_finish",
+        "AiTestTab.change_test_run_button",
+        "AiTestTab.init",
+        "AiTestTab.is_sexy_ai",
+        "AiTestTab.on_ai_effect_show",
+        "AiTestTab.on_ai_em_changed",
+        "AiTestTab.on_ai_test_click",
+        "_AiTestFinishBridge.__init__"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.tab.mid_api_config_tab",
+      "source_file": "src/py/com/yun/mao/tab/mid_api_config_tab.py",
+      "present": [
+        "ApiConfigTab.__init__",
+        "ApiConfigTab.go_to_link",
+        "ApiConfigTab.init",
+        "ApiConfigTab.init_api_config",
+        "ApiConfigTab.save_app_config"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.tab.mid_auto_yun_yin_tab",
+      "source_file": "src/py/com/yun/mao/tab/mid_auto_yun_yin_tab.py",
+      "present": [
+        "AutoYunYinTab.__init__",
+        "AutoYunYinTab._busy_worker_name",
+        "AutoYunYinTab._check_selected_items_water_resources",
+        "AutoYunYinTab._froze_attempt_restart",
+        "AutoYunYinTab._froze_begin_wait_then_restart",
+        "AutoYunYinTab._froze_elapsed_ms",
+        "AutoYunYinTab._froze_l3_escalate_then_restart",
+        "AutoYunYinTab._froze_mark_session_taken_over",
+        "AutoYunYinTab._froze_on_start_gate_rejected",
+        "AutoYunYinTab._froze_poll_idle_for_restart",
+        "AutoYunYinTab._froze_release_recovery",
+        "AutoYunYinTab._froze_safety_force_release",
+        "AutoYunYinTab._froze_safety_release_lock",
+        "AutoYunYinTab._froze_safety_release_lock_final",
+        "AutoYunYinTab._froze_stop_monitor_and_restart",
+        "AutoYunYinTab._froze_stop_timing_and_restart",
+        "AutoYunYinTab._reset_click_status",
+        "AutoYunYinTab._restart_auto_task",
+        "AutoYunYinTab._restart_monitor",
+        "AutoYunYinTab._restore_monitor_ui_after_stop_request",
+        "AutoYunYinTab._restore_ui_after_stop_request",
+        "AutoYunYinTab._sync_worker_after_stop",
+        "AutoYunYinTab._test_fdg_cm_rx_push",
+        "AutoYunYinTab._test_fdg_ct_ew_drop",
+        "AutoYunYinTab._test_fdg_ct_is_snap",
+        "AutoYunYinTab._test_fdg_os_kx_blow",
+        "AutoYunYinTab._test_fdg_pw_rm_fire",
+        "AutoYunYinTab._test_pl_g_wp_flush",
+        "AutoYunYinTab._test_pl_k_dm_drain",
+        "AutoYunYinTab._test_pl_n_lc_rinse",
+        "AutoYunYinTab._test_pl_o_yt_purge",
+        "AutoYunYinTab._test_pl_s_bq_sweep",
+        "AutoYunYinTab._test_pl_v_hz_scrub",
+        "AutoYunYinTab._try_start_worker",
+        "AutoYunYinTab._workers_still_active",
+        "AutoYunYinTab.addAutoFlowItem",
+        "AutoYunYinTab.addBanYunFlowItem",
+        "AutoYunYinTab.addDownLoadFlowItem",
+        "AutoYunYinTab.addGlobalAd",
+        "AutoYunYinTab.addYuLanFlowItem",
+        "AutoYunYinTab.addYunAutoItem",
+        "AutoYunYinTab.addYunPreViewItem",
+        "AutoYunYinTab.autoTaskRunOne",
+        "AutoYunYinTab.autoTaskRunOneAndStart",
+        "AutoYunYinTab.autoTaskRunOneAndStartByClick",
+        "AutoYunYinTab.autoTaskRunOneByClick",
+        "AutoYunYinTab.autoTaskStart",
+        "AutoYunYinTab.autoTaskStartByClick",
+        "AutoYunYinTab.autoTaskStop",
+        "AutoYunYinTab.autoTaskStopByClick",
+        "AutoYunYinTab.changeAllUiButStop",
+        "AutoYunYinTab.changedDingshiMonitorComponent",
+        "AutoYunYinTab.changedFolder",
+        "AutoYunYinTab.changedWaterModeUIComponent",
+        "AutoYunYinTab.checkParams",
+        "AutoYunYinTab.checkSuccessProcess",
+        "AutoYunYinTab.checkSuccessProcessDoOne",
+        "AutoYunYinTab.check_control_button_visile",
+        "AutoYunYinTab.check_item_ai_status_with_ai_api_key",
+        "AutoYunYinTab.cleanRemember",
+        "AutoYunYinTab.click_unkown1",
+        "AutoYunYinTab.click_unkown2",
+        "AutoYunYinTab.closeLeftLayout",
+        "AutoYunYinTab.closeRightLayout",
+        "AutoYunYinTab.copyFormatText",
+        "AutoYunYinTab.copyItem",
+        "AutoYunYinTab.copyText",
+        "AutoYunYinTab.deleteAdItem",
+        "AutoYunYinTab.deleteItem",
+        "AutoYunYinTab.displayAllActiveCheckBox",
+        "AutoYunYinTab.editAdItem",
+        "AutoYunYinTab.editItem",
+        "AutoYunYinTab.fillGlobalAdList",
+        "AutoYunYinTab.fillListView",
+        "AutoYunYinTab.fillRightUIIfNeed",
+        "AutoYunYinTab.filter_all_select",
+        "AutoYunYinTab.final_stop_quit",
+        "AutoYunYinTab.genCheckingBoxs",
+        "AutoYunYinTab.genWaterBean",
+        "AutoYunYinTab.getActivateAutoBean",
+        "AutoYunYinTab.getSession",
+        "AutoYunYinTab.get_rate",
+        "AutoYunYinTab.global_ad_call_back_add",
+        "AutoYunYinTab.global_ad_call_back_update",
+        "AutoYunYinTab.init",
+        "AutoYunYinTab.initListDataSource",
+        "AutoYunYinTab.onAutoMasuRate",
+        "AutoYunYinTab.onAutoRateChanged",
+        "AutoYunYinTab.onFloodDescendRate",
+        "AutoYunYinTab.onGlobalAdEnableChanged",
+        "AutoYunYinTab.onItemClicked",
+        "AutoYunYinTab.on_program_suspected_frozen",
+        "AutoYunYinTab.on_select_pic",
+        "AutoYunYinTab.on_show_pic_water_jiao_chen",
+        "AutoYunYinTab.openOrCloseBigShow",
+        "AutoYunYinTab.openRateDesc",
+        "AutoYunYinTab.readAllActiveStatus",
+        "AutoYunYinTab.runOne",
+        "AutoYunYinTab.selectTgAccount",
+        "AutoYunYinTab.selectTgAccountResult",
+        "AutoYunYinTab.set_elided_path",
+        "AutoYunYinTab.shoeAdMenu",
+        "AutoYunYinTab.shoeMenu",
+        "AutoYunYinTab.shouBanYunMonitorCourseDialog",
+        "AutoYunYinTab.shouItemsCourseDialog",
+        "AutoYunYinTab.showDingshiMonitor",
+        "AutoYunYinTab.showTempFolder",
+        "AutoYunYinTab.showWaterSelectMode",
+        "AutoYunYinTab.show_history_map_dialog_in_main_thread",
+        "AutoYunYinTab.startMonitor",
+        "AutoYunYinTab.startMonitorByClick",
+        "AutoYunYinTab.startMonitorReporter",
+        "AutoYunYinTab.start_timer_reset_click_status",
+        "AutoYunYinTab.stopMonitor",
+        "AutoYunYinTab.stopMonitorByClick",
+        "AutoYunYinTab.stopMonitorReportor",
+        "AutoYunYinTab.stopMonitorWorkerAndSchedulerIfNeed",
+        "AutoYunYinTab.stop_scheduler_thread",
+        "AutoYunYinTab.stop_single_task_thread",
+        "AutoYunYinTab.updateMonitorPanel",
+        "AutoYunYinTab.updateUIWithAutoById",
+        "AutoYunYinTab.update_monitor_status_tip",
+        "AutoYunYinTab.yunYinDataChanged"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.tab.mid_base_tab",
+      "source_file": "src/py/com/yun/mao/tab/mid_base_tab.py",
+      "present": [
+        "MidBaseTab.__init__",
+        "MidBaseTab.on_tab_show"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.tab.mid_premium_tab",
+      "source_file": "src/py/com/yun/mao/tab/mid_premium_tab.py",
+      "present": [
+        "PremiumTab.__init__",
+        "PremiumTab._inner_update_payment_info",
+        "PremiumTab._refresh_combined_payment_tip",
+        "PremiumTab._set_up_account_info",
+        "PremiumTab.control_grad_stats",
+        "PremiumTab.display_prices_desc",
+        "PremiumTab.init",
+        "PremiumTab.no_any_rb_check_fun",
+        "PremiumTab.onShouPremiumCourseDialog",
+        "PremiumTab.on_ai_effect_show",
+        "PremiumTab.on_ai_toggled",
+        "PremiumTab.on_calc_pre_cost_and_display",
+        "PremiumTab.on_create_order",
+        "PremiumTab.on_create_order_failed",
+        "PremiumTab.on_create_order_success",
+        "PremiumTab.on_days_toggled",
+        "PremiumTab.on_grade_toggled",
+        "PremiumTab.on_payment_changed",
+        "PremiumTab.on_premium_show_big_price",
+        "PremiumTab.on_tab_activate_code_stats",
+        "PremiumTab.on_tab_check_order_stats",
+        "PremiumTab.on_tab_show",
+        "PremiumTab.reset_values",
+        "PremiumTab.set_ai_enable",
+        "PremiumTab.set_day_enable",
+        "PremiumTab.set_grad_enable",
+        "PremiumTab.setup_payment_enum",
+        "PremiumTab.show_top_tip"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.tab.mid_session_fun_tab",
+      "source_file": "src/py/com/yun/mao/tab/mid_session_fun_tab.py",
+      "present": [
+        "SessionFunTab.__init__",
+        "SessionFunTab._clear_receive_code_dialog",
+        "SessionFunTab._on_receive_code_dialog_finished",
+        "SessionFunTab.changedAutoTaskWidgetStatus",
+        "SessionFunTab.deleteItem",
+        "SessionFunTab.fillListView",
+        "SessionFunTab.get_phone",
+        "SessionFunTab.init",
+        "SessionFunTab.init_session_list",
+        "SessionFunTab.net_test",
+        "SessionFunTab.phone_login",
+        "SessionFunTab.refresh_account",
+        "SessionFunTab.request_code",
+        "SessionFunTab.shoeAccountMenu",
+        "SessionFunTab.showReceiveCode"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.tab.mid_toolbox_tab",
+      "source_file": "src/py/com/yun/mao/tab/mid_toolbox_tab.py",
+      "present": [
+        "ToolBoxTab.__init__",
+        "ToolBoxTab.comment_ad_call_back",
+        "ToolBoxTab.dis_play_config_tip",
+        "ToolBoxTab.edit_ad",
+        "ToolBoxTab.gen_html",
+        "ToolBoxTab.get_session_path",
+        "ToolBoxTab.init",
+        "ToolBoxTab.lock_ui",
+        "ToolBoxTab.move_permission",
+        "ToolBoxTab.on_migrate_code_stats",
+        "ToolBoxTab.on_post_ad_stats",
+        "ToolBoxTab.on_show_ad_jiao_chen",
+        "ToolBoxTab.on_update_stats",
+        "ToolBoxTab.post_ad",
+        "ToolBoxTab.show_qian_yi_jiao_chen",
+        "ToolBoxTab.update_status_label"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.telefast.FastTelethon",
+      "source_file": "src/py/com/yun/mao/telefast/FastTelethon.py",
+      "present": [
+        "DownloadSender.__init__",
+        "DownloadSender.disconnect",
+        "DownloadSender.next",
+        "ParallelTransferrer.__init__",
+        "ParallelTransferrer._cleanup",
+        "ParallelTransferrer._connect_sender",
+        "ParallelTransferrer._create_download_sender",
+        "ParallelTransferrer._create_sender",
+        "ParallelTransferrer._create_upload_sender",
+        "ParallelTransferrer._get_connection_count",
+        "ParallelTransferrer._init_download",
+        "ParallelTransferrer._init_upload",
+        "ParallelTransferrer._normalize_part_size",
+        "ParallelTransferrer.download",
+        "ParallelTransferrer.finish_upload",
+        "ParallelTransferrer.init_upload",
+        "ParallelTransferrer.upload",
+        "UploadSender.__init__",
+        "UploadSender._next",
+        "UploadSender.disconnect",
+        "UploadSender.next"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.telefast.RateLimiterClass",
+      "source_file": "src/py/com/yun/mao/telefast/RateLimiterClass.py",
+      "present": [
+        "RateLimiter.__init__",
+        "RateLimiter.__new__",
+        "RateLimiter.wait"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.tgaccount.AiEmployeeListDialog",
+      "source_file": "src/py/com/yun/mao/tgaccount/AiEmployeeListDialog.py",
+      "present": [
+        "AiEmployeeListDialog.__init__",
+        "AiEmployeeListDialog.fillListView",
+        "AiEmployeeListDialog.init_ai_employee_list",
+        "AiEmployeeListDialog.onItemClicked",
+        "AiEmployeeListDialog.showEvent"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.tgaccount.TGAuthAccount",
+      "source_file": "src/py/com/yun/mao/tgaccount/TGAuthAccount.py",
+      "present": [
+        "TGAuthAccount.__init__",
+        "TGAuthAccountEncoder.default"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.tgaccount.TgAccountListDialog",
+      "source_file": "src/py/com/yun/mao/tgaccount/TgAccountListDialog.py",
+      "present": [
+        "TgAccountListDialog.__init__",
+        "TgAccountListDialog.fillListView",
+        "TgAccountListDialog.init_session_list",
+        "TgAccountListDialog.onItemClicked",
+        "TgAccountListDialog.showEvent"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.AITextGenTextRunnable",
+      "source_file": "src/py/com/yun/mao/util/AITextGenTextRunnable.py",
+      "present": [
+        "AITextGenTextRunnable.__init__",
+        "AITextGenTextRunnable.run"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.CacheRemoveTask",
+      "source_file": "src/py/com/yun/mao/util/CacheRemoveTask.py",
+      "present": [
+        "CacheRemoveTask.__init__",
+        "CacheRemoveTask._migrate_item_data",
+        "CacheRemoveTask.run"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.XAIKeyValidator",
+      "source_file": "src/py/com/yun/mao/util/XAIKeyValidator.py",
+      "present": [
+        "XAIKeyValidator.__init__",
+        "XAIKeyValidator.run"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.AllBeanDef",
+      "source_file": "src/py/com/yun/mao/util/need/AllBeanDef.py",
+      "present": [
+        "ActivateCodeBean.__init__",
+        "AiEmployeeBean.__init__",
+        "AiEmployeeListWrapper.__init__",
+        "AiEmployeeShowItemData.__init__",
+        "AiModelObj.__init__",
+        "BanYunProtectSendResult.__init__",
+        "BanYunProtectSendResult.mark_ai_refused",
+        "BanYunUnProtectSendResult.__init__",
+        "BanYunUnProtectSendResult.mark_ai_refused",
+        "CheckOrderAndRechargeBean.__init__",
+        "CreateOrderBean.__init__",
+        "CreateOrderBean.to_string",
+        "DTopClassWrapper.__init__",
+        "FilterSessionItem.__init__",
+        "FlowYunSendResult.__init__",
+        "FlowYunSendResult.skip_group",
+        "ForeachTotals.__init__",
+        "ForeachTotals.apply_group_result",
+        "ForeachTotals.to_return_tuple",
+        "ForeachTotals.to_shared_results",
+        "GenHtmlParamsBean.__init__",
+        "ListUIAccountShowItemData.__init__",
+        "MigrateCodeBean.__init__",
+        "MonitorSignalBean.__init__",
+        "MonitorSignalBeanWrapper.__init__",
+        "MonitorTgMessageBean.__init__",
+        "MonitorTgMessageBean.__str__",
+        "ParseBean.__init__",
+        "ParseGroupSendResult.__init__",
+        "ParseGroupSendResult.from_unprotect_send",
+        "ParseGroupSendResult.skip_group",
+        "ParseGroupSendResult.stop_all",
+        "PostAdTestBean.__init__",
+        "PremiumEnumBean.__init__",
+        "SendResult.should_count",
+        "SendTarget.is_comment_mode",
+        "SleepArgs.__init__",
+        "TgClientTaskSuperBean.__init__"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.BaseDialog",
+      "source_file": "src/py/com/yun/mao/util/need/BaseDialog.py",
+      "present": [
+        "BaseDialog.__init__",
+        "BaseDialog.setup_mini_tip_window",
+        "BaseDialog.showEvent"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "source_file": "src/py/com/yun/mao/util/need/CommonCode.py",
+      "present": [
+        "MessageMyObj.__init__"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CoolUtils",
+      "source_file": "src/py/com/yun/mao/util/need/CoolUtils.py",
+      "present": [
+        "ButtonCooldownManager.__init__",
+        "ButtonCooldownManager.handle_click",
+        "ButtonCooldownManager.reset_cooldown"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.EditAutoFlowItemEditDialog",
+      "source_file": "src/py/com/yun/mao/util/need/EditAutoFlowItemEditDialog.py",
+      "present": [
+        "EditAutoFlowItemEditDialog.__init__",
+        "EditAutoFlowItemEditDialog._chai_zu_component_states",
+        "EditAutoFlowItemEditDialog.ad_call_back",
+        "EditAutoFlowItemEditDialog.addAd",
+        "EditAutoFlowItemEditDialog.changedModeUIComponent",
+        "EditAutoFlowItemEditDialog.changedWaterModeUIComponent",
+        "EditAutoFlowItemEditDialog.changedYulanModeUIComponent",
+        "EditAutoFlowItemEditDialog.defaultFill",
+        "EditAutoFlowItemEditDialog.deleteItem",
+        "EditAutoFlowItemEditDialog.editItem",
+        "EditAutoFlowItemEditDialog.fillAdList",
+        "EditAutoFlowItemEditDialog.fillBeanIfNeed",
+        "EditAutoFlowItemEditDialog.flowVideoPhotoChanged",
+        "EditAutoFlowItemEditDialog.howBqFontCourse",
+        "EditAutoFlowItemEditDialog.initCheckBoxControlQuYu",
+        "EditAutoFlowItemEditDialog.onAdEnableChanged",
+        "EditAutoFlowItemEditDialog.onAiEnableChanged",
+        "EditAutoFlowItemEditDialog.onHuiYuanCustomerLinkChanged",
+        "EditAutoFlowItemEditDialog.onHuiYuanEnableChanged",
+        "EditAutoFlowItemEditDialog.onKeepSourceChanged",
+        "EditAutoFlowItemEditDialog.onYouKeEnableChanged",
+        "EditAutoFlowItemEditDialog.on_grid_jiao_chen",
+        "EditAutoFlowItemEditDialog.on_random_cover_jiao_chen",
+        "EditAutoFlowItemEditDialog.on_select_ai_em",
+        "EditAutoFlowItemEditDialog.on_select_ai_em_callback",
+        "EditAutoFlowItemEditDialog.on_select_pic",
+        "EditAutoFlowItemEditDialog.on_show_pic_water_jiao_chen",
+        "EditAutoFlowItemEditDialog.on_show_topic_jiao_chen",
+        "EditAutoFlowItemEditDialog.saveYunYinItem",
+        "EditAutoFlowItemEditDialog.set_elided_path",
+        "EditAutoFlowItemEditDialog.shoeMenu",
+        "EditAutoFlowItemEditDialog.showActionTypeDialog",
+        "EditAutoFlowItemEditDialog.showEvent",
+        "EditAutoFlowItemEditDialog.showResOpDialog",
+        "EditAutoFlowItemEditDialog.showResourceTypeDialog",
+        "EditAutoFlowItemEditDialog.showSelectMode",
+        "EditAutoFlowItemEditDialog.showWaterSelectMode",
+        "EditAutoFlowItemEditDialog.showYulanSelectMode",
+        "EditAutoFlowItemEditDialog.yulanVideoCustomerChanged",
+        "EditAutoFlowItemEditDialog.yunAutoChannelResTypeChanged"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.EditBanYunCommentItemEditDialog",
+      "source_file": "src/py/com/yun/mao/util/need/EditBanYunCommentItemEditDialog.py",
+      "present": [
+        "EditBanYunCommentItemEditDialog.__init__",
+        "EditBanYunCommentItemEditDialog._chai_zu_component_states",
+        "EditBanYunCommentItemEditDialog.ad_call_back",
+        "EditBanYunCommentItemEditDialog.addAd",
+        "EditBanYunCommentItemEditDialog.changedModeUIComponent",
+        "EditBanYunCommentItemEditDialog.changedWaterModeUIComponent",
+        "EditBanYunCommentItemEditDialog.comment_rule_call_back",
+        "EditBanYunCommentItemEditDialog.configCommentRule",
+        "EditBanYunCommentItemEditDialog.defaultFill",
+        "EditBanYunCommentItemEditDialog.deleteItem",
+        "EditBanYunCommentItemEditDialog.editItem",
+        "EditBanYunCommentItemEditDialog.fillAdList",
+        "EditBanYunCommentItemEditDialog.fillBeanIfNeed",
+        "EditBanYunCommentItemEditDialog.initCheckBoxControlQuYu",
+        "EditBanYunCommentItemEditDialog.onAdEnableChanged",
+        "EditBanYunCommentItemEditDialog.onAiEnableChanged",
+        "EditBanYunCommentItemEditDialog.onCopyCommentChanged",
+        "EditBanYunCommentItemEditDialog.onKeepSourceChanged",
+        "EditBanYunCommentItemEditDialog.on_grid_jiao_chen",
+        "EditBanYunCommentItemEditDialog.on_random_cover_jiao_chen",
+        "EditBanYunCommentItemEditDialog.on_select_ai_em",
+        "EditBanYunCommentItemEditDialog.on_select_ai_em_callback",
+        "EditBanYunCommentItemEditDialog.on_select_pic",
+        "EditBanYunCommentItemEditDialog.on_show_pic_water_jiao_chen",
+        "EditBanYunCommentItemEditDialog.on_show_topic_jiao_chen",
+        "EditBanYunCommentItemEditDialog.saveYunYinItem",
+        "EditBanYunCommentItemEditDialog.set_elided_path",
+        "EditBanYunCommentItemEditDialog.shoeMenu",
+        "EditBanYunCommentItemEditDialog.showEvent",
+        "EditBanYunCommentItemEditDialog.showResOpDialog",
+        "EditBanYunCommentItemEditDialog.showResourceTypeDialog",
+        "EditBanYunCommentItemEditDialog.showSelectMode",
+        "EditBanYunCommentItemEditDialog.showWaterSelectMode",
+        "EditBanYunCommentItemEditDialog.videoPhotoChanged"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.EditDownLoadItemEditDialog",
+      "source_file": "src/py/com/yun/mao/util/need/EditDownLoadItemEditDialog.py",
+      "present": [
+        "EditDownLoadItemEditDialog.__init__",
+        "EditDownLoadItemEditDialog.changedModeUIComponent",
+        "EditDownLoadItemEditDialog.changedWaterModeUIComponent",
+        "EditDownLoadItemEditDialog.defaultFill",
+        "EditDownLoadItemEditDialog.fillBeanIfNeed",
+        "EditDownLoadItemEditDialog.initCheckBoxControlQuYu",
+        "EditDownLoadItemEditDialog.on_select_pic",
+        "EditDownLoadItemEditDialog.on_show_pic_water_jiao_chen",
+        "EditDownLoadItemEditDialog.on_show_topic_jiao_chen",
+        "EditDownLoadItemEditDialog.saveYunYinItem",
+        "EditDownLoadItemEditDialog.set_elided_path",
+        "EditDownLoadItemEditDialog.showEvent",
+        "EditDownLoadItemEditDialog.showResourceTypeDialog",
+        "EditDownLoadItemEditDialog.showSelectMode",
+        "EditDownLoadItemEditDialog.showWaterSelectMode",
+        "EditDownLoadItemEditDialog.videoPhotoChanged"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.EditEmployeeItemEditDialog",
+      "source_file": "src/py/com/yun/mao/util/need/EditEmployeeItemEditDialog.py",
+      "present": [
+        "EditEmployeeItemEditDialog.__init__",
+        "EditEmployeeItemEditDialog._apply_ai_em_test_finish",
+        "EditEmployeeItemEditDialog._apply_ai_employee_fill_vertical_space",
+        "EditEmployeeItemEditDialog._apply_responsive_editor_heights",
+        "EditEmployeeItemEditDialog._install_text_edit_no_document_grow",
+        "EditEmployeeItemEditDialog.apply_readonly",
+        "EditEmployeeItemEditDialog.check_params",
+        "EditEmployeeItemEditDialog.display_model_component_with_employee",
+        "EditEmployeeItemEditDialog.fillBeanIfNeed",
+        "EditEmployeeItemEditDialog.fillDefault",
+        "EditEmployeeItemEditDialog.on_em_import_sensitive",
+        "EditEmployeeItemEditDialog.on_em_news_init",
+        "EditEmployeeItemEditDialog.on_em_save",
+        "EditEmployeeItemEditDialog.on_em_sexy_init",
+        "EditEmployeeItemEditDialog.on_em_test",
+        "EditEmployeeItemEditDialog.on_show_model_info",
+        "EditEmployeeItemEditDialog.reset_fill_comboBox_component",
+        "EditEmployeeItemEditDialog.showEvent",
+        "_AiTestFinishBridge.__init__"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.EditYulanFlowItemEditDialog",
+      "source_file": "src/py/com/yun/mao/util/need/EditYulanFlowItemEditDialog.py",
+      "present": [
+        "EditYulanFlowItemEditDialog.__init__",
+        "EditYulanFlowItemEditDialog._chai_zu_component_states",
+        "EditYulanFlowItemEditDialog.ad_call_back",
+        "EditYulanFlowItemEditDialog.addAd",
+        "EditYulanFlowItemEditDialog.changedModeUIComponent",
+        "EditYulanFlowItemEditDialog.changedWaterModeUIComponent",
+        "EditYulanFlowItemEditDialog.changedYulanModeUIComponent",
+        "EditYulanFlowItemEditDialog.defaultFill",
+        "EditYulanFlowItemEditDialog.deleteItem",
+        "EditYulanFlowItemEditDialog.editItem",
+        "EditYulanFlowItemEditDialog.fillAdList",
+        "EditYulanFlowItemEditDialog.fillBeanIfNeed",
+        "EditYulanFlowItemEditDialog.howBqFontCourse",
+        "EditYulanFlowItemEditDialog.initCheckBoxControlQuYu",
+        "EditYulanFlowItemEditDialog.onAdEnableChanged",
+        "EditYulanFlowItemEditDialog.onAiEnableChanged",
+        "EditYulanFlowItemEditDialog.onHuiYuanCustomerLinkChanged",
+        "EditYulanFlowItemEditDialog.onHuiYuanEnableChanged",
+        "EditYulanFlowItemEditDialog.onKeepSourceChanged",
+        "EditYulanFlowItemEditDialog.onYouKeEnableChanged",
+        "EditYulanFlowItemEditDialog.on_grid_jiao_chen",
+        "EditYulanFlowItemEditDialog.on_random_cover_jiao_chen",
+        "EditYulanFlowItemEditDialog.on_select_ai_em",
+        "EditYulanFlowItemEditDialog.on_select_ai_em_callback",
+        "EditYulanFlowItemEditDialog.on_select_pic",
+        "EditYulanFlowItemEditDialog.on_show_pic_water_jiao_chen",
+        "EditYulanFlowItemEditDialog.on_show_topic_jiao_chen",
+        "EditYulanFlowItemEditDialog.saveYunYinItem",
+        "EditYulanFlowItemEditDialog.set_elided_path",
+        "EditYulanFlowItemEditDialog.shoeMenu",
+        "EditYulanFlowItemEditDialog.showActionTypeDialog",
+        "EditYulanFlowItemEditDialog.showEvent",
+        "EditYulanFlowItemEditDialog.showResOpDialog",
+        "EditYulanFlowItemEditDialog.showResourceTypeDialog",
+        "EditYulanFlowItemEditDialog.showSelectMode",
+        "EditYulanFlowItemEditDialog.showWaterSelectMode",
+        "EditYulanFlowItemEditDialog.showYulanSelectMode",
+        "EditYulanFlowItemEditDialog.yulanVideoCustomerChanged",
+        "EditYulanFlowItemEditDialog.yulanVideoPhotoChanged",
+        "EditYulanFlowItemEditDialog.yunAutoChannelResTypeChanged"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.EditYunAutoItemEditDialog",
+      "source_file": "src/py/com/yun/mao/util/need/EditYunAutoItemEditDialog.py",
+      "present": [
+        "EditYunAutoItemEditDialog.__init__",
+        "EditYunAutoItemEditDialog._chai_zu_component_states",
+        "EditYunAutoItemEditDialog.ad_call_back",
+        "EditYunAutoItemEditDialog.addAd",
+        "EditYunAutoItemEditDialog.changedModeUIComponent",
+        "EditYunAutoItemEditDialog.changedWaterModeUIComponent",
+        "EditYunAutoItemEditDialog.changedYulanModeUIComponent",
+        "EditYunAutoItemEditDialog.defaultFill",
+        "EditYunAutoItemEditDialog.deleteItem",
+        "EditYunAutoItemEditDialog.editItem",
+        "EditYunAutoItemEditDialog.fillAdList",
+        "EditYunAutoItemEditDialog.fillBeanIfNeed",
+        "EditYunAutoItemEditDialog.initCheckBoxControlQuYu",
+        "EditYunAutoItemEditDialog.onAdEnableChanged",
+        "EditYunAutoItemEditDialog.onAiEnableChanged",
+        "EditYunAutoItemEditDialog.onKeepSourceChanged",
+        "EditYunAutoItemEditDialog.on_grid_jiao_chen",
+        "EditYunAutoItemEditDialog.on_random_cover_jiao_chen",
+        "EditYunAutoItemEditDialog.on_select_ai_em",
+        "EditYunAutoItemEditDialog.on_select_ai_em_callback",
+        "EditYunAutoItemEditDialog.on_select_pic",
+        "EditYunAutoItemEditDialog.on_show_pic_water_jiao_chen",
+        "EditYunAutoItemEditDialog.saveYunYinItem",
+        "EditYunAutoItemEditDialog.set_elided_path",
+        "EditYunAutoItemEditDialog.shoeMenu",
+        "EditYunAutoItemEditDialog.showActionTypeDialog",
+        "EditYunAutoItemEditDialog.showBotBqFontCourse",
+        "EditYunAutoItemEditDialog.showChannelTopicDialog",
+        "EditYunAutoItemEditDialog.showDbChannelDialog",
+        "EditYunAutoItemEditDialog.showEvent",
+        "EditYunAutoItemEditDialog.showResourceTypeDialog",
+        "EditYunAutoItemEditDialog.showSelectMode",
+        "EditYunAutoItemEditDialog.showWaterSelectMode",
+        "EditYunAutoItemEditDialog.showYulanResOpDialog",
+        "EditYunAutoItemEditDialog.showYulanSelectMode",
+        "EditYunAutoItemEditDialog.yulanVideoCustomerChanged",
+        "EditYunAutoItemEditDialog.yunAutoChannelResTypeChanged",
+        "EditYunAutoItemEditDialog.yunAutoVideoPhotoTypeChanged"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.EditYunPreViewItemEditDialog",
+      "source_file": "src/py/com/yun/mao/util/need/EditYunPreViewItemEditDialog.py",
+      "present": [
+        "EditYunPreViewItemEditDialog.__init__",
+        "EditYunPreViewItemEditDialog._chai_zu_component_states",
+        "EditYunPreViewItemEditDialog.ad_call_back",
+        "EditYunPreViewItemEditDialog.addAd",
+        "EditYunPreViewItemEditDialog.changedModeUIComponent",
+        "EditYunPreViewItemEditDialog.changedWaterModeUIComponent",
+        "EditYunPreViewItemEditDialog.changedYulanModeUIComponent",
+        "EditYunPreViewItemEditDialog.defaultFill",
+        "EditYunPreViewItemEditDialog.deleteItem",
+        "EditYunPreViewItemEditDialog.editItem",
+        "EditYunPreViewItemEditDialog.fillAdList",
+        "EditYunPreViewItemEditDialog.fillBeanIfNeed",
+        "EditYunPreViewItemEditDialog.initCheckBoxControlQuYu",
+        "EditYunPreViewItemEditDialog.onAdEnableChanged",
+        "EditYunPreViewItemEditDialog.onAiEnableChanged",
+        "EditYunPreViewItemEditDialog.onKeepSourceChanged",
+        "EditYunPreViewItemEditDialog.on_grid_jiao_chen",
+        "EditYunPreViewItemEditDialog.on_random_cover_jiao_chen",
+        "EditYunPreViewItemEditDialog.on_select_ai_em",
+        "EditYunPreViewItemEditDialog.on_select_ai_em_callback",
+        "EditYunPreViewItemEditDialog.on_select_pic",
+        "EditYunPreViewItemEditDialog.on_show_pic_water_jiao_chen",
+        "EditYunPreViewItemEditDialog.saveYunYinItem",
+        "EditYunPreViewItemEditDialog.set_elided_path",
+        "EditYunPreViewItemEditDialog.shoeMenu",
+        "EditYunPreViewItemEditDialog.showActionTypeDialog",
+        "EditYunPreViewItemEditDialog.showBotBqFontCourse",
+        "EditYunPreViewItemEditDialog.showChannelTopicDialog",
+        "EditYunPreViewItemEditDialog.showDbChannelDialog",
+        "EditYunPreViewItemEditDialog.showEvent",
+        "EditYunPreViewItemEditDialog.showResourceTypeDialog",
+        "EditYunPreViewItemEditDialog.showSelectMode",
+        "EditYunPreViewItemEditDialog.showWaterSelectMode",
+        "EditYunPreViewItemEditDialog.showYulanResOpDialog",
+        "EditYunPreViewItemEditDialog.showYulanSelectMode",
+        "EditYunPreViewItemEditDialog.yulanVideoCustomerChanged",
+        "EditYunPreViewItemEditDialog.yunAutoChannelResTypeChanged",
+        "EditYunPreViewItemEditDialog.yunAutoVideoPhotoTypeChanged"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.LoadingDialog",
+      "source_file": "src/py/com/yun/mao/util/need/LoadingDialog.py",
+      "present": [
+        "LoadingDialog.__init__",
+        "LoadingDialog._center",
+        "LoadingDialog.allow_close",
+        "LoadingDialog.closeEvent",
+        "LoadingDialog.reject",
+        "LoadingDialog.showEvent"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.MiniTipDialog",
+      "source_file": "src/py/com/yun/mao/util/need/MiniTipDialog.py",
+      "present": [
+        "MiniTipDialog.__init__",
+        "MiniTipDialog.showEvent"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.QAccountItemQWidget",
+      "source_file": "src/py/com/yun/mao/util/need/QAccountItemQWidget.py",
+      "present": [
+        "QAccountItemQWidget.__init__",
+        "QAccountItemQWidget.setData"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.QAutoFlowItemQWidget",
+      "source_file": "src/py/com/yun/mao/util/need/QAutoFlowItemQWidget.py",
+      "present": [
+        "QAutoFlowItemQWidget.__init__",
+        "QAutoFlowItemQWidget.ai_is_enable",
+        "QAutoFlowItemQWidget.bindData",
+        "QAutoFlowItemQWidget.displayActionLabel",
+        "QAutoFlowItemQWidget.display_ai_icon",
+        "QAutoFlowItemQWidget.setSelect",
+        "QAutoFlowItemQWidget.updateAutoBeanUI"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.QBanYunFlowItemQWidget",
+      "source_file": "src/py/com/yun/mao/util/need/QBanYunFlowItemQWidget.py",
+      "present": [
+        "QBanYunFlowItemQWidget.__init__",
+        "QBanYunFlowItemQWidget.ai_is_enable",
+        "QBanYunFlowItemQWidget.bindData",
+        "QBanYunFlowItemQWidget.displayActionLabel",
+        "QBanYunFlowItemQWidget.displayRepliesLabel",
+        "QBanYunFlowItemQWidget.display_ai_icon",
+        "QBanYunFlowItemQWidget.setSelect",
+        "QBanYunFlowItemQWidget.updateAutoBeanUI"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.QDownLoadFlowItemQWidget",
+      "source_file": "src/py/com/yun/mao/util/need/QDownLoadFlowItemQWidget.py",
+      "present": [
+        "QDownLoadFlowItemQWidget.__init__",
+        "QDownLoadFlowItemQWidget.bindData",
+        "QDownLoadFlowItemQWidget.setSelect",
+        "QDownLoadFlowItemQWidget.updateAutoBeanUI"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.QEmployeeItemQWidget",
+      "source_file": "src/py/com/yun/mao/util/need/QEmployeeItemQWidget.py",
+      "present": [
+        "QEmployeeItemQWidget.__init__",
+        "QEmployeeItemQWidget.setData"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.QYuLanFlowItemQWidget",
+      "source_file": "src/py/com/yun/mao/util/need/QYuLanFlowItemQWidget.py",
+      "present": [
+        "QYuLanFlowItemQWidget.__init__",
+        "QYuLanFlowItemQWidget.ai_is_enable",
+        "QYuLanFlowItemQWidget.bindData",
+        "QYuLanFlowItemQWidget.displayActionLabel",
+        "QYuLanFlowItemQWidget.display_ai_icon",
+        "QYuLanFlowItemQWidget.setSelect",
+        "QYuLanFlowItemQWidget.updateAutoBeanUI"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.QYunAutoItemQWidget",
+      "source_file": "src/py/com/yun/mao/util/need/QYunAutoItemQWidget.py",
+      "present": [
+        "QYunAutoItemQWidget.__init__",
+        "QYunAutoItemQWidget.ai_is_enable",
+        "QYunAutoItemQWidget.bindData",
+        "QYunAutoItemQWidget.displayActionLabel",
+        "QYunAutoItemQWidget.display_ai_icon",
+        "QYunAutoItemQWidget.setSelect",
+        "QYunAutoItemQWidget.updateAutoBeanUI"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.QYunPreViewItemQWidget",
+      "source_file": "src/py/com/yun/mao/util/need/QYunPreViewItemQWidget.py",
+      "present": [
+        "QYunPreViewItemQWidget.__init__",
+        "QYunPreViewItemQWidget.ai_is_enable",
+        "QYunPreViewItemQWidget.bindData",
+        "QYunPreViewItemQWidget.displayActionLabel",
+        "QYunPreViewItemQWidget.display_ai_icon",
+        "QYunPreViewItemQWidget.setSelect",
+        "QYunPreViewItemQWidget.updateAutoBeanUI"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.ResetBirdDialog",
+      "source_file": "src/py/com/yun/mao/util/need/ResetBirdDialog.py",
+      "present": [
+        "ResetBirdDialog.__init__",
+        "ResetBirdDialog.onResetCode",
+        "ResetBirdDialog.resetSuccess",
+        "ResetBirdDialog.showEvent",
+        "ResetCodeAsyncTask.__init__",
+        "ResetCodeAsyncTask.run"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.TipDialog",
+      "source_file": "src/py/com/yun/mao/util/need/TipDialog.py",
+      "present": [
+        "TipDialog.__init__",
+        "TipDialog.clickIKown",
+        "TipDialog.closeEvent",
+        "TipDialog.reject",
+        "TipDialog.restart_app",
+        "TipDialog.showEvent"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.signals",
+      "source_file": "src/py/com/yun/mao/util/need/signals.py",
+      "present": [
+        "UISignals.__init__"
+      ],
+      "missing": []
+    }
+  ]
+}

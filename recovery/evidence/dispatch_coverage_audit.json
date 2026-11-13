@@ -1,0 +1,27 @@
+{
+  "schema": "operater-cat-dispatch-coverage-audit.v1",
+  "packages": {
+    "bz_uc": {
+      "entries": 22,
+      "covered": 22,
+      "missing": []
+    },
+    "kv_nx": {
+      "entries": 23,
+      "covered": 23,
+      "missing": []
+    },
+    "rm_qh": {
+      "entries": 23,
+      "covered": 23,
+      "missing": []
+    },
+    "wp_jt": {
+      "entries": 23,
+      "covered": 23,
+      "missing": []
+    }
+  },
+  "total_entries": 91,
+  "total_missing": 0
+}

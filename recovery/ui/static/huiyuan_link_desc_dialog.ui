@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>926</width>
+    <height>540</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>926</width>
+    <height>540</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+background-color:#3c3f42;
+color: #e6e6e6;
+}
+
+*:disabled {
+	background-color: #3c3f42;
+	color: #afafaf;
+	cursor: not-allowed;
+
+}
+QListWidget:disabled,QTextEdit:disabled,QLineEdit:disabled,QTabWidget:disabled{
+background-color:rgb(40, 40, 40);
+}
+QTextBrowser:disabled{
+background-color:rgb(40, 40, 40);
+color: rgb(152, 197, 150);
+}
+
+QPushButton:disabled {
+	background-color: rgb(80, 80, 80);
+	color: #afafaf;
+	cursor: not-allowed;
+
+}
+
+QCheckBox:hover,QRadioButton:hover {
+color: white;
+}
+
+QPushButton:hover {
+
+font-weight: bold;
+background-color:rgb(84, 84, 84);
+color: white;
+border-radius: 2pt;
+
+}
+
+QPushButton{
+font-weight: bold;
+background-color:rgb(106, 106, 106);
+color: #e6e6e6;
+border-radius: 2pt;
+}
+
+QTextBrowser,QListWidget,QTextEdit,QLineEdit,QTabWidget{
+background-color:rgb(40, 40, 40);
+color: rgba(152, 197, 150, 185);
+font-size:12pt;
+}
+
+QTextBrowser:hover,QTextEdit:hover,QLineEdit:hover{
+background-color:rgb(40, 40, 40);
+color: rgb(152, 197, 150);
+font-size:12pt;
+}
+
+
+QLabel{
+color: #ebf905;
+}
+
+
+
+QRadioButton,QCheckBox {
+        border: none;
+        border-radius: 9px;
+}
+QRadioButton::indicator,QCheckBox::indicator{
+    background-color: rgb(42, 45, 66);
+    border: 0px solid #b1b1b1;
+	width: 18px;
+	height: 18px;
+	border-radius: 9px;
+}
+
+QRadioButton::indicator:checked,QCheckBox::indicator:checked {
+    background-color: #ebf905;
+    border-color: #ebf905;
+}
+
+QMenuBar { background-color: transparent; }
+QMenuBar::item { background-color: transparent; }
+QMenuBar::item:selected { background-color:transparent; color: #ffffff;}
+QMenu { background-color: transparent; }
+QMenu::item { background-color: transparent; }
+QMenu::item:selected { background-color: transparent; color: #ffffff; }
+
+</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="maximumSize">
+      <size>
+       <width>908</width>
+       <height>522</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>./huiyuan_link_desc.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

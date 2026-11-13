@@ -1,0 +1,9 @@
+{
+  "schema": "operater-cat-constructor-call-audit.v1",
+  "source": "recovered_src/src",
+  "modules": 368,
+  "classes": 216,
+  "dataclasses": 51,
+  "checked_calls": 224,
+  "findings": []
+}

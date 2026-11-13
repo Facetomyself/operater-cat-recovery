@@ -1,0 +1,42 @@
+{
+  "schema": "reverse-workspace.v1",
+  "project": "operater-cat",
+  "target": {
+    "path": "D:\\reverse_ENV\\workspace\\operater-cat\\运营猫.exe",
+    "sha256": "101DB38FAAD3BA89F99A69EE3BE2F45334332520A2A813A5E69CAAA2D3D68AE0",
+    "type": "Nuitka standalone Python 3.11 Windows PE",
+    "signed": false
+  },
+  "stage": "source-recovery-in-progress",
+  "status": "critical-anti-analysis-shutdown-confirmed",
+  "safety": {
+    "dynamic_analysis_allowed": false,
+    "reason": "目标会记录反调试检查并调用 shutdown.exe；在宿主机直接执行不安全。",
+    "recommended_environment": "disposable isolated VM with power APIs blocked"
+  },
+  "artifacts": {
+    "report": "D:\\reverse_ENV\\workspace\\operater-cat\\report.md",
+    "findings": "D:\\reverse_ENV\\workspace\\operater-cat\\findings.json",
+    "triage": "D:\\reverse_ENV\\workspace\\operater-cat\\triage.md",
+    "evidence_dir": "D:\\reverse_ENV\\workspace\\operater-cat\\agent-notes\\",
+    "recovered_src": "D:\\reverse_ENV\\workspace\\operater-cat\\recovered_src\\",
+    "nuitka_module_table": "D:\\reverse_ENV\\workspace\\operater-cat\\agent-notes\\nuitka_module_table.json",
+    "function_map_full": "D:\\reverse_ENV\\workspace\\operater-cat\\agent-notes\\function_map_full.json",
+    "anti_debug_function_map": "D:\\reverse_ENV\\workspace\\operater-cat\\agent-notes\\anti_debug_function_map.json",
+    "nuitka_constants": "D:\\reverse_ENV\\workspace\\operater-cat\\agent-notes\\nuitka_constants.json",
+    "source_signatures": "D:\\reverse_ENV\\workspace\\operater-cat\\agent-notes\\source_signatures.json",
+    "source_stats": "D:\\reverse_ENV\\workspace\\operater-cat\\agent-notes\\source_stats.json",
+    "static_rebased": "D:\\reverse_ENV\\workspace\\operater-cat\\_re\\static_rebased.exe",
+    "static_hybrid": "D:\\reverse_ENV\\workspace\\operater-cat\\_re\\static_hybrid.exe",
+    "static_hybrid_sha256": "a32827c840a3c0f4ef06671b51baadd26976f92b13d82f7c7841137d7cbfe715"
+  },
+  "notes": [
+    "真实 Nuitka 代码在文件镜像中整体偏移 0x5000000。",
+    "已在 RVA 0x854E100 解析 Nuitka MetaPath 加载器表，共 2777 个条目。",
+    "已产出 346 个 app 模块；286 个 function-init 引用已有名称。",
+    "反调试字符串使用静态恢复的 16 字节密钥做 XOR 加密。",
+    "远端授权端点：https://birder.jinsiqie.life/xb/iil",
+    "恢复树为 368 个文件 / 3127 个函数 / 262 个类；455 个离线测试通过；构造器、UI 引用和方法调用审计均为零发现。",
+    "MainWindow tab 接线/重置对话框、SuspendFrozenTag 恢复流程和 SessionLoader 隐私去重已恢复；AutoBeanXXX 签名 helper 已存在。DTopClass dataclass 字段已按编译后的 __init__ varnames（CommentRuleBean/SuperFlowBean/AutoBean）重新对齐，构造器审计会校验继承的 dataclass 关键字。_fds_tan 的 wb_* 分支、探针门禁、六个隐藏命令入口和七条探针链函数体已按 code-object 行表重建；关机链覆盖直接 Popen、cmd.exe /c、ExitWindowsEx 和 InitiateSystemShutdownExW 路径。wp_jt/bz_uc 权限目录已解码为 SeShutdownPrivilege 以及 advapi32/kernel32/user32 DLL 名称，两个原推断标记已解决。生成的 dyna 表单现在输出恢复出的逐控件 setMinimumSize/setMaximumSize 约束；绝对 Designer 几何仍是反编译器容量限制。_xb_ms._sx_zw_hc 现在重置 _sq_zw 证书 pin 缓存，apply_md5s_body 以 body['lg'] 为前置条件，与反编译体一致。卡密链路已归档到 semantic/card-key-analysis.md，恶意路径已归档并可由 sanitized/neutralize.py 中和；剩余工作集中在混淆 Popen 回退和绝对 UI 几何。"
+  ]
+}

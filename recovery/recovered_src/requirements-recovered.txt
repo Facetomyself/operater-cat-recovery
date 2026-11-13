@@ -1,0 +1,18 @@
+# Third-party packages imported by the recovered source tree.
+# Versions are not recovered; install the versions shipped with the target.
+# PyQt5 is only needed for UI runtime checks, not for the offline test suite.
+APScheduler  # imported by 2 modules
+Pillow  # imported by 5 modules
+PyQt5  # imported by 72 modules
+aiohttp  # imported by 4 modules
+certifi  # imported by 1 modules
+cryptography  # imported by 7 modules
+html2text  # imported by 1 modules
+moviepy  # imported by 4 modules
+numpy  # imported by 1 modules
+openai  # imported by 2 modules
+opencv-python  # imported by 1 modules
+psutil  # imported by 1 modules
+pywin32  # imported by 4 modules
+qrcode  # imported by 1 modules
+telethon  # imported by 16 modules

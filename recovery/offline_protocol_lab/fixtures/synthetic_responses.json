@@ -1,0 +1,61 @@
+{
+  "bootstrap": {
+    "isSuccess": true,
+    "rk": "LAB-ROOT-KEY-NOT-REAL"
+  },
+  "heartbeat": {
+    "isSuccess": true,
+    "is_register": false,
+    "item": {
+      "encoding": "gzip",
+      "payloadB64": ""
+    },
+    "data": {
+      "ucode": "LAB-UCODE",
+      "status": 1,
+      "grade": 1,
+      "limit": 100,
+      "descs": "lab account",
+      "hours": 1,
+      "startTime": "2026-01-01 00:00:00",
+      "endTime": "2026-12-31 23:59:59",
+      "expire": true,
+      "hasExperi": 1,
+      "sendAtName": "lab sender",
+      "keFu": "lab support",
+      "cloudBot": "lab cloud bot",
+      "botAbility": 1,
+      "aiAbility": 1,
+      "experiDuration": 24,
+      "openPremium": 1,
+      "priceConfig": "{\"lab\":1}",
+      "maoContacts": "@lab",
+      "remainingSec": 3600,
+      "apiKey": "LAB-AI-KEY-NOT-REAL",
+      "modelList": "[{\"name\":\"lab-model\"}]",
+      "mul": true
+    }
+  },
+  "convert": {
+    "data": [
+      {
+        "kid": "kid-lab-1",
+        "auto_type": 2,
+        "af": "af-lab-1",
+        "ticket": {
+          "ver": 2,
+          "batch_id": "batch-lab",
+          "etid": "etid-lab",
+          "sn": "sn-lab",
+          "af": "af-lab-1",
+          "uc_hash": "hash-lab",
+          "mode": "timing",
+          "iat": 1,
+          "exp": 9999999999,
+          "sign_item": "00"
+        }
+      }
+    ],
+    "sign_batch": "batch-signature-lab"
+  }
+}

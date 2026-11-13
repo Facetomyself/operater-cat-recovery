@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form_root</class>
+ <widget class="QWidget" name="Form_root">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>653</width>
+    <height>139</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+background-color:#3c3f42;
+color: #e6e6e6;
+}
+
+*:disabled {
+    background-color: #3c3f42;
+    color: #afafaf;
+    cursor: not-allowed;
+
+}
+QListWidget:disabled,QTextEdit:disabled,QLineEdit:disabled,QTabWidget:disabled{
+background-color:rgb(40, 40, 40);
+}
+QTextBrowser:disabled{
+background-color:rgb(40, 40, 40);
+color: rgb(152, 197, 150);
+}
+
+
+QCheckBox:hover,QRadioButton:hover {
+color: white;
+}
+
+
+QPushButton:disabled {
+    background-color: rgb(80, 80, 80);
+    color: #afafaf;
+    cursor: not-allowed;
+
+}
+
+QPushButton:hover {
+
+font-weight: bold;
+background-color:rgb(84, 84, 84);
+color: white;
+border-radius: 2pt;
+
+}
+
+QPushButton{
+font-weight: bold;
+background-color:rgb(106, 106, 106);
+color: #e6e6e6;
+border-radius: 2pt;
+}
+
+QTextBrowser,QListWidget,QTextEdit,QLineEdit,QTabWidget{
+background-color:rgb(40, 40, 40);
+color: rgba(152, 197, 150, 185);
+font-size:12pt;
+}
+
+QTextBrowser:hover,QTextEdit:hover,QLineEdit:hover{
+background-color:rgb(40, 40, 40);
+color: rgb(152, 197, 150);
+font-size:12pt;
+}
+
+
+
+
+QRadioButton,QCheckBox {
+        border: none;
+        border-radius: 9px;
+}
+QRadioButton::indicator,QCheckBox::indicator{
+    background-color: rgb(42, 45, 66);
+    border: 0px solid #b1b1b1;
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+}
+
+QRadioButton::indicator:checked,QCheckBox::indicator:checked {
+    background-color: #ebf905;
+    border-color: #ebf905;
+}
+
+QMenuBar { background-color: transparent; }
+QMenuBar::item { background-color: transparent; }
+QMenuBar::item:selected { background-color:transparent; color: #ffffff;}
+QMenu { background-color: transparent; }
+QMenu::item { background-color: transparent; }
+QMenu::item:selected { background-color: transparent; color: #ffffff; }
+
+</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout" stretch="3,1,1">
+   <item>
+    <widget class="QLabel" name="label_name">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    background-color: transparent;
+}</string>
+     </property>
+     <property name="text">
+      <string>xxx名字xxx名字xxx名字xxx名字xxx名字xxx名字xxx名字xxx名字xxx名字xxx名字xxx名字xxx名字xxx名字xxx名字xxx名字xxx名字xxx名字xxx名字xxx名字xxx名字xxx名字</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_size">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    background-color: transparent;
+}</string>
+     </property>
+     <property name="text">
+      <string>500</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btn_clean_history">
+     <property name="minimumSize">
+      <size>
+       <width>80</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>120</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>清理</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

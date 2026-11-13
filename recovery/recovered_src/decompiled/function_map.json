@@ -1,0 +1,64 @@
+{
+  "schema": "operater-cat-function-map.v1",
+  "image_base": "0x140000000",
+  "known": {
+    "0x615E30": "SqJqm.gen_grade_card_str",
+    "0x616370": "SqJqm.is_multi_permission",
+    "0x616F10": "SqJqm.has_ai_ability",
+    "0x617350": "SqJqm.has_bot_ability",
+    "0x67A530": "SqJqm.gen_ka_info",
+    "0x6BCBF0": "_sq_chk.hy_jx_bc",
+    "0x6C3460": "_sq_chk.parse_report"
+  },
+  "sq_jqm_candidates": {
+    "0x6154D0": "SqJqm.__candidate_0x6154D0",
+    "0x615550": "SqJqm.__candidate_0x615550",
+    "0x615990": "SqJqm.__candidate_0x615990",
+    "0x615E30": "SqJqm.gen_grade_card_str",
+    "0x616370": "SqJqm.is_multi_permission",
+    "0x616750": "SqJqm.__candidate_0x616750",
+    "0x616B30": "SqJqm.__candidate_0x616B30",
+    "0x616F10": "SqJqm.has_ai_ability",
+    "0x617350": "SqJqm.has_bot_ability",
+    "0x617790": "SqJqm.__candidate_0x617790"
+  },
+  "sq_chk_candidates": {
+    "0x6B7670": "_sq_chk.__candidate_0x6B7670",
+    "0x6BC4E0": "_sq_chk.__candidate_0x6BC4E0",
+    "0x6BCBF0": "_sq_chk.hy_jx_bc",
+    "0x6C2B60": "_sq_chk.__candidate_0x6C2B60",
+    "0x6C3460": "_sq_chk.parse_report",
+    "0x6C5300": "_sq_chk.__candidate_0x6C5300",
+    "0x6C57E0": "_sq_chk.__candidate_0x6C57E0",
+    "0x6C6780": "_sq_chk.__candidate_0x6C6780",
+    "0x6C6C60": "_sq_chk.__candidate_0x6C6C60",
+    "0x6C7290": "_sq_chk.__candidate_0x6C7290",
+    "0x6C78C0": "_sq_chk.__candidate_0x6C78C0",
+    "0x6CBAD0": "_sq_chk.__candidate_0x6CBAD0",
+    "0x6CC6B0": "_sq_chk.__candidate_0x6CC6B0",
+    "0x6CCCB0": "_sq_chk.__candidate_0x6CCCB0",
+    "0x6CD7F0": "_sq_chk.__candidate_0x6CD7F0"
+  },
+  "runtime": {
+    "0x8540080": "compiled_function PyTypeObject (file offset 0x853EA80)",
+    "0x7F8F600": "compiled_function.tp_call",
+    "0x7F51120": "compiled_function.tp_dealloc",
+    "0x7F4A350": "compiled_function.tp_repr",
+    "0x7F47BF0": "compiled_function.tp_hash"
+  },
+  "compiled_function_layout": {
+    "size": "0xE0",
+    "code_or_state": "+0x18",
+    "c_function_pointer": "+0x78",
+    "name": "+0xB8",
+    "hash": "+0xC8",
+    "closure_count": "+0xD0",
+    "closure_cells": "+0xD8"
+  },
+  "notes": [
+    "Candidate labels are address-derived; rename them after matching field offsets, string constants, or call sites.",
+    "The compiled_function PyTypeObject was found at file offset 0x853EA80; tp_new/tp_init are null, so Nuitka_Function_New is a standalone constructor.",
+    "No target execution was used in this recovery pass.",
+    "_re/static_hybrid.exe maps the inner app block at RVA 0x1000 and keeps the outer runtime tail at its original RVAs; it is analysis-only and must never be executed."
+  ]
+}

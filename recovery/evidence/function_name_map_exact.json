@@ -1,0 +1,3944 @@
+{
+  "schema": "operater-cat-exact-function-names.v1",
+  "method": "parse Nuitka module-init C calls to sub_1480EE3A0/sub_1480EE8A0 and resolve the qword name slot against the module constants base",
+  "modules_scanned": 57,
+  "function_count": 492,
+  "functions": [
+    {
+      "module": "src.py.com.yun.mao.ad.AdIdMapManager",
+      "body_rva": 84517984,
+      "name": "AdIdMapFile",
+      "qualname": null,
+      "name_constant_index": 6,
+      "source_file": "agent-notes/decompiled/targets/0x50a0730_admap_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.ad.AdIdMapManager",
+      "body_rva": 84519696,
+      "name": "loadAdIdMap",
+      "qualname": null,
+      "name_constant_index": 48,
+      "source_file": "agent-notes/decompiled/targets/0x50a0730_admap_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.ad.AdIdMapManager",
+      "body_rva": 84529360,
+      "name": "writeToDist",
+      "qualname": null,
+      "name_constant_index": 33,
+      "source_file": "agent-notes/decompiled/targets/0x50a0730_admap_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.ad.AdIdMapManager",
+      "body_rva": 84537968,
+      "name": "updateAdIds",
+      "qualname": null,
+      "name_constant_index": 49,
+      "source_file": "agent-notes/decompiled/targets/0x50a0730_admap_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.ad.AdIdMapManager",
+      "body_rva": 84540336,
+      "name": "getIds",
+      "qualname": null,
+      "name_constant_index": 50,
+      "source_file": "agent-notes/decompiled/targets/0x50a0730_admap_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.ad.AdIdMapManager",
+      "body_rva": 84541536,
+      "name": "genAdKey",
+      "qualname": null,
+      "name_constant_index": 51,
+      "source_file": "agent-notes/decompiled/targets/0x50a0730_admap_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.ad.UIAdListOp",
+      "body_rva": 84953664,
+      "name": "fillAd2List",
+      "qualname": null,
+      "name_constant_index": 26,
+      "source_file": "agent-notes/decompiled/targets/0x50a7cd0_uialist_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.ai.TextProcessLogic",
+      "body_rva": 84713904,
+      "name": "process_text_by_ai_if_need",
+      "qualname": null,
+      "name_constant_index": 35,
+      "source_file": "agent-notes/decompiled/targets/0x50ca670_tpl_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.ai.TextProcessLogic",
+      "body_rva": 84714512,
+      "name": "process_text_inner",
+      "qualname": null,
+      "name_constant_index": 34,
+      "source_file": "agent-notes/decompiled/targets/0x50ca670_tpl_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.ai.TextProcessLogic",
+      "body_rva": 85176144,
+      "name": "_repeat_print",
+      "qualname": null,
+      "name_constant_index": 13,
+      "source_file": "agent-notes/decompiled/targets/0x50ca670_tpl_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.AutoWorker",
+      "body_rva": 84740784,
+      "name": "worker_start_inner_wrapper",
+      "qualname": null,
+      "name_constant_index": 7,
+      "source_file": "agent-notes/decompiled/targets/0x50d1750_AutoWorker_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.AutoWorker",
+      "body_rva": 84742112,
+      "name": "worker_start_inner",
+      "qualname": null,
+      "name_constant_index": 9,
+      "source_file": "agent-notes/decompiled/targets/0x50d1750_AutoWorker_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.AutoWorker",
+      "body_rva": 84742736,
+      "name": "inner_working",
+      "qualname": null,
+      "name_constant_index": 36,
+      "source_file": "agent-notes/decompiled/targets/0x50d1750_AutoWorker_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.AutoWorker",
+      "body_rva": 84743216,
+      "name": "obtainMessageAndParse",
+      "qualname": null,
+      "name_constant_index": 67,
+      "source_file": "agent-notes/decompiled/targets/0x50d1750_AutoWorker_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.BanYunUnProtect",
+      "body_rva": 85710592,
+      "name": "send_message_un_protect",
+      "qualname": null,
+      "name_constant_index": 100,
+      "source_file": "agent-notes/decompiled/targets/0x51d1f50_banyun_unprotect_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.BizSleeper",
+      "body_rva": 85804608,
+      "name": "biz_sleep",
+      "qualname": null,
+      "name_constant_index": 12,
+      "source_file": "agent-notes/decompiled/targets/0x51d5850_bizsleeper_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.CMCode",
+      "body_rva": 85927888,
+      "name": "grouped_message_ref_from",
+      "qualname": null,
+      "name_constant_index": 186,
+      "source_file": "agent-notes/decompiled/targets/0x52268d0_cmcode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.CMCode",
+      "body_rva": 85933008,
+      "name": "album_anchor_from_messages",
+      "qualname": null,
+      "name_constant_index": 472,
+      "source_file": "agent-notes/decompiled/targets/0x52268d0_cmcode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.CMCode",
+      "body_rva": 85935840,
+      "name": "album_id_window",
+      "qualname": null,
+      "name_constant_index": 206,
+      "source_file": "agent-notes/decompiled/targets/0x52268d0_cmcode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.CMCode",
+      "body_rva": 85937424,
+      "name": "message_ids_of_same_group",
+      "qualname": null,
+      "name_constant_index": 221,
+      "source_file": "agent-notes/decompiled/targets/0x52268d0_cmcode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.CMCode",
+      "body_rva": 85939872,
+      "name": "_as_message_list",
+      "qualname": null,
+      "name_constant_index": 220,
+      "source_file": "agent-notes/decompiled/targets/0x52268d0_cmcode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.CMCode",
+      "body_rva": 85941264,
+      "name": "_retry_until_present",
+      "qualname": null,
+      "name_constant_index": 204,
+      "source_file": "agent-notes/decompiled/targets/0x52268d0_cmcode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.CMCode",
+      "body_rva": 85950064,
+      "name": "_load_complete_group_ids",
+      "qualname": null,
+      "name_constant_index": 214,
+      "source_file": "agent-notes/decompiled/targets/0x52268d0_cmcode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.CMCode",
+      "body_rva": 85961200,
+      "name": "_positive_msg_ids",
+      "qualname": null,
+      "name_constant_index": 231,
+      "source_file": "agent-notes/decompiled/targets/0x52268d0_cmcode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.CMCode",
+      "body_rva": 85965728,
+      "name": "_album_anchor_from_msg_ids",
+      "qualname": null,
+      "name_constant_index": 228,
+      "source_file": "agent-notes/decompiled/targets/0x52268d0_cmcode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.CMCode",
+      "body_rva": 85978832,
+      "name": "resolve_complete_album_target",
+      "qualname": null,
+      "name_constant_index": 236,
+      "source_file": "agent-notes/decompiled/targets/0x52268d0_cmcode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.CMCode",
+      "body_rva": 85984544,
+      "name": "gen_dest_topic_id",
+      "qualname": null,
+      "name_constant_index": 242,
+      "source_file": "agent-notes/decompiled/targets/0x52268d0_cmcode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.CMCode",
+      "body_rva": 85990752,
+      "name": "safeFetchFirstMessage",
+      "qualname": null,
+      "name_constant_index": 474,
+      "source_file": "agent-notes/decompiled/targets/0x52268d0_cmcode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.CMCode",
+      "body_rva": 85992224,
+      "name": "water_only_if_need",
+      "qualname": null,
+      "name_constant_index": 476,
+      "source_file": "agent-notes/decompiled/targets/0x52268d0_cmcode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.CMCode",
+      "body_rva": 86030016,
+      "name": "rebind_path_message_map",
+      "qualname": null,
+      "name_constant_index": 274,
+      "source_file": "agent-notes/decompiled/targets/0x52268d0_cmcode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.CMCode",
+      "body_rva": 86039456,
+      "name": "blur_files_and_rebind_messages",
+      "qualname": null,
+      "name_constant_index": 477,
+      "source_file": "agent-notes/decompiled/targets/0x52268d0_cmcode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.CMCode",
+      "body_rva": 86042096,
+      "name": "gen_blur_pic",
+      "qualname": null,
+      "name_constant_index": 273,
+      "source_file": "agent-notes/decompiled/targets/0x52268d0_cmcode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.CMCode",
+      "body_rva": 86060896,
+      "name": "gen_yulan_if_need",
+      "qualname": null,
+      "name_constant_index": 479,
+      "source_file": "agent-notes/decompiled/targets/0x52268d0_cmcode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.CMCode",
+      "body_rva": 86076720,
+      "name": "gen_preview_video",
+      "qualname": null,
+      "name_constant_index": 293,
+      "source_file": "agent-notes/decompiled/targets/0x52268d0_cmcode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.CMCode",
+      "body_rva": 86086624,
+      "name": "elide_path_middle",
+      "qualname": null,
+      "name_constant_index": 482,
+      "source_file": "agent-notes/decompiled/targets/0x52268d0_cmcode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.CMCode",
+      "body_rva": 86089808,
+      "name": "r_instance_id",
+      "qualname": null,
+      "name_constant_index": 484,
+      "source_file": "agent-notes/decompiled/targets/0x52268d0_cmcode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.CMCode",
+      "body_rva": 86094304,
+      "name": "processAiContent",
+      "qualname": null,
+      "name_constant_index": 486,
+      "source_file": "agent-notes/decompiled/targets/0x52268d0_cmcode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.CMCode",
+      "body_rva": 86095680,
+      "name": "_ten_grid_cover_filename",
+      "qualname": null,
+      "name_constant_index": 350,
+      "source_file": "agent-notes/decompiled/targets/0x52268d0_cmcode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.CMCode",
+      "body_rva": 86097232,
+      "name": "_next_ten_grid_cover_path",
+      "qualname": null,
+      "name_constant_index": 373,
+      "source_file": "agent-notes/decompiled/targets/0x52268d0_cmcode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.CMCode",
+      "body_rva": 86110224,
+      "name": "_ten_grid_cover_ok",
+      "qualname": null,
+      "name_constant_index": 381,
+      "source_file": "agent-notes/decompiled/targets/0x52268d0_cmcode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.CMCode",
+      "body_rva": 86111568,
+      "name": "completeTenGrid",
+      "qualname": null,
+      "name_constant_index": 493,
+      "source_file": "agent-notes/decompiled/targets/0x52268d0_cmcode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.DownLoadProcess",
+      "body_rva": 86290048,
+      "name": "only_down_load",
+      "qualname": null,
+      "name_constant_index": 41,
+      "source_file": "agent-notes/decompiled/targets/0x524f1a0_dl_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.ProcessCache",
+      "body_rva": 86585600,
+      "name": "clean_all_type_but_mode",
+      "qualname": null,
+      "name_constant_index": 27,
+      "source_file": "agent-notes/decompiled/targets/0x52a8380_pc_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.ProcessCache",
+      "body_rva": 86663520,
+      "name": "update_process",
+      "qualname": null,
+      "name_constant_index": 20,
+      "source_file": "agent-notes/decompiled/targets/0x52a8380_pc_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.ProcessCache",
+      "body_rva": 86664768,
+      "name": "update_present",
+      "qualname": null,
+      "name_constant_index": 21,
+      "source_file": "agent-notes/decompiled/targets/0x52a8380_pc_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.ProcessCache",
+      "body_rva": 86666016,
+      "name": "update_Mode_text",
+      "qualname": null,
+      "name_constant_index": 22,
+      "source_file": "agent-notes/decompiled/targets/0x52a8380_pc_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.ProcessCache",
+      "body_rva": 86667264,
+      "name": "update_type_text",
+      "qualname": null,
+      "name_constant_index": 23,
+      "source_file": "agent-notes/decompiled/targets/0x52a8380_pc_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.ProcessCache",
+      "body_rva": 86668512,
+      "name": "update_sub_type_text",
+      "qualname": null,
+      "name_constant_index": 24,
+      "source_file": "agent-notes/decompiled/targets/0x52a8380_pc_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.ProcessCache",
+      "body_rva": 86669760,
+      "name": "update_forward_mode_text",
+      "qualname": null,
+      "name_constant_index": 25,
+      "source_file": "agent-notes/decompiled/targets/0x52a8380_pc_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.ProcessCache",
+      "body_rva": 86671008,
+      "name": "update_scheduler",
+      "qualname": null,
+      "name_constant_index": 26,
+      "source_file": "agent-notes/decompiled/targets/0x52a8380_pc_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.TopicUtils",
+      "body_rva": 86586352,
+      "name": "fetch_topic_info",
+      "qualname": null,
+      "name_constant_index": 24,
+      "source_file": "agent-notes/decompiled/targets/0x52a9780_topicutils_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.TopicUtils",
+      "body_rva": 86586960,
+      "name": "ensure_forum_enabled",
+      "qualname": null,
+      "name_constant_index": 39,
+      "source_file": "agent-notes/decompiled/targets/0x52a9780_topicutils_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.TopicUtils",
+      "body_rva": 86588528,
+      "name": "fetch_dest_topic_id",
+      "qualname": null,
+      "name_constant_index": 89,
+      "source_file": "agent-notes/decompiled/targets/0x52a9780_topicutils_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.TopicUtils",
+      "body_rva": 86675952,
+      "name": "parse_parseBean_topic_id",
+      "qualname": null,
+      "name_constant_index": 114,
+      "source_file": "agent-notes/decompiled/targets/0x52a9780_topicutils_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.TopicUtils",
+      "body_rva": 86850960,
+      "name": "parse_msg_topic_id",
+      "qualname": null,
+      "name_constant_index": 0,
+      "source_file": "agent-notes/decompiled/targets/0x52a9780_topicutils_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.VideoProcessingIds",
+      "body_rva": 86597584,
+      "name": "_walk_updates",
+      "qualname": null,
+      "name_constant_index": 15,
+      "source_file": "agent-notes/decompiled/targets/0x52b6830_vids_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.VideoProcessingIds",
+      "body_rva": 86601840,
+      "name": "capture_send",
+      "qualname": null,
+      "name_constant_index": 137,
+      "source_file": "agent-notes/decompiled/targets/0x52b6830_vids_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.VideoProcessingIds",
+      "body_rva": 86717920,
+      "name": "_positive_int",
+      "qualname": null,
+      "name_constant_index": 6,
+      "source_file": "agent-notes/decompiled/targets/0x52b6830_vids_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.VideoProcessingIds",
+      "body_rva": 86945712,
+      "name": "_media_key",
+      "qualname": null,
+      "name_constant_index": 42,
+      "source_file": "agent-notes/decompiled/targets/0x52b6830_vids_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.VideoProcessingIds",
+      "body_rva": 86948576,
+      "name": "first_still_pending",
+      "qualname": null,
+      "name_constant_index": 104,
+      "source_file": "agent-notes/decompiled/targets/0x52b6830_vids_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.VideoProcessingIds",
+      "body_rva": 87160336,
+      "name": "_as_messages",
+      "qualname": null,
+      "name_constant_index": 18,
+      "source_file": "agent-notes/decompiled/targets/0x52b6830_vids_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.VideoProcessingIds",
+      "body_rva": 87163024,
+      "name": "_peer_key",
+      "qualname": null,
+      "name_constant_index": 41,
+      "source_file": "agent-notes/decompiled/targets/0x52b6830_vids_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.VideoProcessingIds",
+      "body_rva": 87173216,
+      "name": "pending_ids",
+      "qualname": null,
+      "name_constant_index": 43,
+      "source_file": "agent-notes/decompiled/targets/0x52b6830_vids_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.VideoProcessingIds",
+      "body_rva": 87176016,
+      "name": "scheduled_to_real_id_map",
+      "qualname": null,
+      "name_constant_index": 65,
+      "source_file": "agent-notes/decompiled/targets/0x52b6830_vids_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.VideoProcessingIds",
+      "body_rva": 87180720,
+      "name": "_delete_scheduled_hint",
+      "qualname": null,
+      "name_constant_index": 64,
+      "source_file": "agent-notes/decompiled/targets/0x52b6830_vids_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.VideoProcessingIds",
+      "body_rva": 87186688,
+      "name": "collect_posted_messages",
+      "qualname": null,
+      "name_constant_index": 66,
+      "source_file": "agent-notes/decompiled/targets/0x52b6830_vids_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.VideoProcessingIds",
+      "body_rva": 87195552,
+      "name": "map_first_to_posted",
+      "qualname": null,
+      "name_constant_index": 72,
+      "source_file": "agent-notes/decompiled/targets/0x52b6830_vids_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.VideoProcessingIds",
+      "body_rva": 87204864,
+      "name": "apply_id_map",
+      "qualname": null,
+      "name_constant_index": 71,
+      "source_file": "agent-notes/decompiled/targets/0x52b6830_vids_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.VideoProcessingIds",
+      "body_rva": 87209424,
+      "name": "extract_ids",
+      "qualname": null,
+      "name_constant_index": 105,
+      "source_file": "agent-notes/decompiled/targets/0x52b6830_vids_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.VideoProcessingIds",
+      "body_rva": 87532656,
+      "name": "_safe_id_map",
+      "qualname": null,
+      "name_constant_index": 24,
+      "source_file": "agent-notes/decompiled/targets/0x52b6830_vids_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.upload",
+      "body_rva": 86618352,
+      "name": "upload_normal_file",
+      "qualname": null,
+      "name_constant_index": 28,
+      "source_file": "agent-notes/decompiled/targets/0x52c5800_upload_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.upload",
+      "body_rva": 86781040,
+      "name": "_telethon_default_part_size",
+      "qualname": null,
+      "name_constant_index": 88,
+      "source_file": "agent-notes/decompiled/targets/0x52c5800_upload_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.upload",
+      "body_rva": 86782544,
+      "name": "_make_part_context",
+      "qualname": null,
+      "name_constant_index": 85,
+      "source_file": "agent-notes/decompiled/targets/0x52c5800_upload_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.upload",
+      "body_rva": 86785520,
+      "name": "gen_media_file_name",
+      "qualname": null,
+      "name_constant_index": 27,
+      "source_file": "agent-notes/decompiled/targets/0x52c5800_upload_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.bz_uc.aq_22_rt_78",
+      "body_rva": 87719008,
+      "name": "yb_25_fan",
+      "qualname": null,
+      "name_constant_index": 13,
+      "source_file": "agent-notes/decompiled/targets/0x52c7e60_bz_aq_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.bz_uc.fi_49_qs_87",
+      "body_rva": 87793440,
+      "name": "aq_87_fan",
+      "qualname": null,
+      "name_constant_index": 18,
+      "source_file": "agent-notes/decompiled/targets/0x53bb920_bz_fi_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.bz_uc.nq_23_vy_24",
+      "body_rva": 87832336,
+      "name": "cf_79_fan",
+      "qualname": null,
+      "name_constant_index": 18,
+      "source_file": "agent-notes/decompiled/targets/0x53c5070_bz_nq23_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.cd.TaskHardStop",
+      "body_rva": 88103488,
+      "name": "_ensure_main_thread_poster",
+      "qualname": null,
+      "name_constant_index": 22,
+      "source_file": "agent-notes/decompiled/targets/0x542ab90_TaskHardStop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.cd.TaskHardStop",
+      "body_rva": 88108688,
+      "name": "_post_to_main_thread",
+      "qualname": null,
+      "name_constant_index": 58,
+      "source_file": "agent-notes/decompiled/targets/0x542ab90_TaskHardStop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.cd.TaskHardStop",
+      "body_rva": 88111328,
+      "name": "register",
+      "qualname": null,
+      "name_constant_index": 172,
+      "source_file": "agent-notes/decompiled/targets/0x542ab90_TaskHardStop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.cd.TaskHardStop",
+      "body_rva": 88115312,
+      "name": "unregister",
+      "qualname": null,
+      "name_constant_index": 173,
+      "source_file": "agent-notes/decompiled/targets/0x542ab90_TaskHardStop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.cd.TaskHardStop",
+      "body_rva": 88120032,
+      "name": "kill_all",
+      "qualname": null,
+      "name_constant_index": 51,
+      "source_file": "agent-notes/decompiled/targets/0x542ab90_TaskHardStop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.cd.TaskHardStop",
+      "body_rva": 88128560,
+      "name": "prune_ghost_workers",
+      "qualname": null,
+      "name_constant_index": 41,
+      "source_file": "agent-notes/decompiled/targets/0x542ab90_TaskHardStop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.cd.TaskHardStop",
+      "body_rva": 88133792,
+      "name": "track_worker",
+      "qualname": null,
+      "name_constant_index": 39,
+      "source_file": "agent-notes/decompiled/targets/0x542ab90_TaskHardStop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.cd.TaskHardStop",
+      "body_rva": 88139376,
+      "name": "untrack_worker",
+      "qualname": null,
+      "name_constant_index": 40,
+      "source_file": "agent-notes/decompiled/targets/0x542ab90_TaskHardStop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.cd.TaskHardStop",
+      "body_rva": 88144240,
+      "name": "any_tracked_worker_running",
+      "qualname": null,
+      "name_constant_index": 177,
+      "source_file": "agent-notes/decompiled/targets/0x542ab90_TaskHardStop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.cd.TaskHardStop",
+      "body_rva": 88150656,
+      "name": "sync_worker_stop_state",
+      "qualname": null,
+      "name_constant_index": 178,
+      "source_file": "agent-notes/decompiled/targets/0x542ab90_TaskHardStop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.cd.TaskHardStop",
+      "body_rva": 88152144,
+      "name": "nudge_ghost_workers",
+      "qualname": null,
+      "name_constant_index": 179,
+      "source_file": "agent-notes/decompiled/targets/0x542ab90_TaskHardStop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.cd.TaskHardStop",
+      "body_rva": 88158832,
+      "name": "_ghost_snapshot",
+      "qualname": null,
+      "name_constant_index": 47,
+      "source_file": "agent-notes/decompiled/targets/0x542ab90_TaskHardStop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.cd.TaskHardStop",
+      "body_rva": 88162528,
+      "name": "_teardown_worker_loop",
+      "qualname": null,
+      "name_constant_index": 50,
+      "source_file": "agent-notes/decompiled/targets/0x542ab90_TaskHardStop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.cd.TaskHardStop",
+      "body_rva": 88165472,
+      "name": "force_teardown_ghost_workers",
+      "qualname": null,
+      "name_constant_index": 183,
+      "source_file": "agent-notes/decompiled/targets/0x542ab90_TaskHardStop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.cd.TaskHardStop",
+      "body_rva": 88175328,
+      "name": "escalate_kill_ghost_workers_async",
+      "qualname": null,
+      "name_constant_index": 185,
+      "source_file": "agent-notes/decompiled/targets/0x542ab90_TaskHardStop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.cd.TaskHardStop",
+      "body_rva": 88193088,
+      "name": "reap_ghost_workers",
+      "qualname": null,
+      "name_constant_index": 187,
+      "source_file": "agent-notes/decompiled/targets/0x542ab90_TaskHardStop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.cd.TaskHardStop",
+      "body_rva": 88206848,
+      "name": "request_hard_stop",
+      "qualname": null,
+      "name_constant_index": 48,
+      "source_file": "agent-notes/decompiled/targets/0x542ab90_TaskHardStop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.cd.TaskHardStop",
+      "body_rva": 88213632,
+      "name": "schedule_worker_teardown",
+      "qualname": null,
+      "name_constant_index": 46,
+      "source_file": "agent-notes/decompiled/targets/0x542ab90_TaskHardStop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.cd.TaskHardStop",
+      "body_rva": 88237216,
+      "name": "safe_disconnect_fallback",
+      "qualname": null,
+      "name_constant_index": 52,
+      "source_file": "agent-notes/decompiled/targets/0x542ab90_TaskHardStop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.cd.TaskHardStop",
+      "body_rva": 88247264,
+      "name": "wait_worker_stopped",
+      "qualname": null,
+      "name_constant_index": 190,
+      "source_file": "agent-notes/decompiled/targets/0x542ab90_TaskHardStop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.cd.TaskHardStop",
+      "body_rva": 88249520,
+      "name": "finalize_worker_async",
+      "qualname": null,
+      "name_constant_index": 191,
+      "source_file": "agent-notes/decompiled/targets/0x542ab90_TaskHardStop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.config.InnerAppIdConfig",
+      "body_rva": 88433744,
+      "name": "get_api_id",
+      "qualname": null,
+      "name_constant_index": 22,
+      "source_file": "agent-notes/decompiled/targets/0x54575d0_InnerAppIdConfig_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.config.InnerAppIdConfig",
+      "body_rva": 88436016,
+      "name": "get_api_hash",
+      "qualname": null,
+      "name_constant_index": 24,
+      "source_file": "agent-notes/decompiled/targets/0x54575d0_InnerAppIdConfig_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.config.net_config",
+      "body_rva": 88496544,
+      "name": "get_ip",
+      "qualname": null,
+      "name_constant_index": 13,
+      "source_file": "agent-notes/decompiled/targets/0x54679c0_net_config_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.config.net_config",
+      "body_rva": 88498752,
+      "name": "get_port",
+      "qualname": null,
+      "name_constant_index": 14,
+      "source_file": "agent-notes/decompiled/targets/0x54679c0_net_config_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.config.net_config",
+      "body_rva": 88500960,
+      "name": "enable_proxy",
+      "qualname": null,
+      "name_constant_index": 28,
+      "source_file": "agent-notes/decompiled/targets/0x54679c0_net_config_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.config.net_config",
+      "body_rva": 88502928,
+      "name": "get_proxy_config",
+      "qualname": null,
+      "name_constant_index": 29,
+      "source_file": "agent-notes/decompiled/targets/0x54679c0_net_config_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.dclass.AutoBeanXXX",
+      "body_rva": 88539024,
+      "name": "_ticket_from_wire",
+      "qualname": null,
+      "name_constant_index": 67,
+      "source_file": "agent-notes/decompiled/targets/0x548d900_AutoBeanXXX_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.dclass.AutoBeanXXX",
+      "body_rva": 88550544,
+      "name": "_build_item_sign_payload",
+      "qualname": null,
+      "name_constant_index": 27,
+      "source_file": "agent-notes/decompiled/targets/0x548d900_AutoBeanXXX_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.dclass.AutoBeanXXX",
+      "body_rva": 88553856,
+      "name": "_verify_sign_item",
+      "qualname": null,
+      "name_constant_index": 57,
+      "source_file": "agent-notes/decompiled/targets/0x548d900_AutoBeanXXX_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.dclass.AutoBeanXXX",
+      "body_rva": 88558256,
+      "name": "_verify_sign_batch",
+      "qualname": null,
+      "name_constant_index": 64,
+      "source_file": "agent-notes/decompiled/targets/0x548d900_AutoBeanXXX_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.dclass.AutoBeanXXX",
+      "body_rva": 88562976,
+      "name": "_exec_from_wire",
+      "qualname": null,
+      "name_constant_index": 69,
+      "source_file": "agent-notes/decompiled/targets/0x548d900_AutoBeanXXX_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.dclass.AutoBeanXXX",
+      "body_rva": 88658400,
+      "name": "mem_auto_for_writeback",
+      "qualname": null,
+      "name_constant_index": 124,
+      "source_file": "agent-notes/decompiled/targets/0x548d900_AutoBeanXXX_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._cw_jm_file",
+      "body_rva": 90001120,
+      "name": "_fan_hooks",
+      "qualname": null,
+      "name_constant_index": 184,
+      "source_file": "agent-notes/decompiled/targets/0x566ebd0_cw_jm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._cw_jm_file",
+      "body_rva": 90011072,
+      "name": "_tag_of",
+      "qualname": null,
+      "name_constant_index": 125,
+      "source_file": "agent-notes/decompiled/targets/0x566ebd0_cw_jm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._cw_jm_file",
+      "body_rva": 90014656,
+      "name": "_hmac_join",
+      "qualname": null,
+      "name_constant_index": 122,
+      "source_file": "agent-notes/decompiled/targets/0x566ebd0_cw_jm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._cw_jm_file",
+      "body_rva": 90017424,
+      "name": "_cap_valid",
+      "qualname": null,
+      "name_constant_index": 145,
+      "source_file": "agent-notes/decompiled/targets/0x566ebd0_cw_jm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._cw_jm_file",
+      "body_rva": 90022352,
+      "name": "_mac_kid",
+      "qualname": null,
+      "name_constant_index": 151,
+      "source_file": "agent-notes/decompiled/targets/0x566ebd0_cw_jm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._cw_jm_file",
+      "body_rva": 90024000,
+      "name": "_noise",
+      "qualname": null,
+      "name_constant_index": 147,
+      "source_file": "agent-notes/decompiled/targets/0x566ebd0_cw_jm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._cw_jm_file",
+      "body_rva": 90297712,
+      "name": "_digest_kid",
+      "qualname": null,
+      "name_constant_index": 127,
+      "source_file": "agent-notes/decompiled/targets/0x566ebd0_cw_jm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._cw_jm_file",
+      "body_rva": 90299104,
+      "name": "_seal_ok",
+      "qualname": null,
+      "name_constant_index": 185,
+      "source_file": "agent-notes/decompiled/targets/0x566ebd0_cw_jm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._cw_jm_file",
+      "body_rva": 90302288,
+      "name": "_acct_ok",
+      "qualname": null,
+      "name_constant_index": 186,
+      "source_file": "agent-notes/decompiled/targets/0x566ebd0_cw_jm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._cw_jm_file",
+      "body_rva": 90305920,
+      "name": "_record",
+      "qualname": null,
+      "name_constant_index": 182,
+      "source_file": "agent-notes/decompiled/targets/0x566ebd0_cw_jm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._cw_jm_file",
+      "body_rva": 90458304,
+      "name": "o_yt_purge",
+      "qualname": null,
+      "name_constant_index": 94,
+      "source_file": "agent-notes/decompiled/targets/0x566ebd0_cw_jm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._cw_jm_file",
+      "body_rva": 90603056,
+      "name": "_all_caps",
+      "qualname": null,
+      "name_constant_index": 177,
+      "source_file": "agent-notes/decompiled/targets/0x566ebd0_cw_jm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._cw_jm_file",
+      "body_rva": 90609136,
+      "name": "_kid_match",
+      "qualname": null,
+      "name_constant_index": 178,
+      "source_file": "agent-notes/decompiled/targets/0x566ebd0_cw_jm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._cw_jm_file",
+      "body_rva": 90612288,
+      "name": "ri_kc_melt",
+      "qualname": null,
+      "name_constant_index": 188,
+      "source_file": "agent-notes/decompiled/targets/0x566ebd0_cw_jm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._cw_jm_file",
+      "body_rva": 90629808,
+      "name": "n_p6_tick",
+      "qualname": null,
+      "name_constant_index": 209,
+      "source_file": "agent-notes/decompiled/targets/0x566ebd0_cw_jm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._dr_vx_file",
+      "body_rva": 90025920,
+      "name": "s_bq_sweep",
+      "qualname": null,
+      "name_constant_index": 35,
+      "source_file": "agent-notes/decompiled/targets/0x5677010_dr_vx_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._dr_vx_file",
+      "body_rva": 90037920,
+      "name": "_fan_hooks",
+      "qualname": null,
+      "name_constant_index": 124,
+      "source_file": "agent-notes/decompiled/targets/0x5677010_dr_vx_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._dr_vx_file",
+      "body_rva": 90047872,
+      "name": "_tg",
+      "qualname": null,
+      "name_constant_index": 65,
+      "source_file": "agent-notes/decompiled/targets/0x5677010_dr_vx_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._dr_vx_file",
+      "body_rva": 90052320,
+      "name": "_mac",
+      "qualname": null,
+      "name_constant_index": 62,
+      "source_file": "agent-notes/decompiled/targets/0x5677010_dr_vx_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._dr_vx_file",
+      "body_rva": 90055024,
+      "name": "_unseal",
+      "qualname": null,
+      "name_constant_index": 84,
+      "source_file": "agent-notes/decompiled/targets/0x5677010_dr_vx_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._dr_vx_file",
+      "body_rva": 90058272,
+      "name": "_kid_mac",
+      "qualname": null,
+      "name_constant_index": 90,
+      "source_file": "agent-notes/decompiled/targets/0x5677010_dr_vx_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._dr_vx_file",
+      "body_rva": 90059808,
+      "name": "_decoy",
+      "qualname": null,
+      "name_constant_index": 86,
+      "source_file": "agent-notes/decompiled/targets/0x5677010_dr_vx_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._dr_vx_file",
+      "body_rva": 90310880,
+      "name": "_kid_key",
+      "qualname": null,
+      "name_constant_index": 67,
+      "source_file": "agent-notes/decompiled/targets/0x5677010_dr_vx_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._dr_vx_file",
+      "body_rva": 90312224,
+      "name": "_gy_ok",
+      "qualname": null,
+      "name_constant_index": 125,
+      "source_file": "agent-notes/decompiled/targets/0x5677010_dr_vx_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._dr_vx_file",
+      "body_rva": 90315392,
+      "name": "_uc_ok",
+      "qualname": null,
+      "name_constant_index": 126,
+      "source_file": "agent-notes/decompiled/targets/0x5677010_dr_vx_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._dr_vx_file",
+      "body_rva": 90319152,
+      "name": "_fail",
+      "qualname": null,
+      "name_constant_index": 121,
+      "source_file": "agent-notes/decompiled/targets/0x5677010_dr_vx_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._dr_vx_file",
+      "body_rva": 90637360,
+      "name": "_chain_ok",
+      "qualname": null,
+      "name_constant_index": 116,
+      "source_file": "agent-notes/decompiled/targets/0x5677010_dr_vx_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._dr_vx_file",
+      "body_rva": 90642992,
+      "name": "_obj_ok",
+      "qualname": null,
+      "name_constant_index": 117,
+      "source_file": "agent-notes/decompiled/targets/0x5677010_dr_vx_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._dr_vx_file",
+      "body_rva": 90646144,
+      "name": "uj_nv_glow",
+      "qualname": null,
+      "name_constant_index": 128,
+      "source_file": "agent-notes/decompiled/targets/0x5677010_dr_vx_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._dr_vx_file",
+      "body_rva": 90663664,
+      "name": "h_m8_rim",
+      "qualname": null,
+      "name_constant_index": 149,
+      "source_file": "agent-notes/decompiled/targets/0x5677010_dr_vx_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._dtdm_gl",
+      "body_rva": 90324112,
+      "name": "dt_hq_fn",
+      "qualname": null,
+      "name_constant_index": 46,
+      "source_file": "agent-notes/decompiled/targets/0x567b1a0_dtdm_gl_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._dtdm_gl",
+      "body_rva": 90671040,
+      "name": "_dt_yq_mac",
+      "qualname": null,
+      "name_constant_index": 24,
+      "source_file": "agent-notes/decompiled/targets/0x567b1a0_dtdm_gl_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._dtdm_gl",
+      "body_rva": 90674432,
+      "name": "dt_jz_dm",
+      "qualname": null,
+      "name_constant_index": 44,
+      "source_file": "agent-notes/decompiled/targets/0x567b1a0_dtdm_gl_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._dtdm_gl",
+      "body_rva": 90685600,
+      "name": "dt_qc_hc",
+      "qualname": null,
+      "name_constant_index": 47,
+      "source_file": "agent-notes/decompiled/targets/0x567b1a0_dtdm_gl_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._hb_yt_file",
+      "body_rva": 90064848,
+      "name": "k_dm_drain",
+      "qualname": null,
+      "name_constant_index": 20,
+      "source_file": "agent-notes/decompiled/targets/0x56901f0_hb_yt_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._hb_yt_file",
+      "body_rva": 90072208,
+      "name": "_fan_hooks",
+      "qualname": null,
+      "name_constant_index": 112,
+      "source_file": "agent-notes/decompiled/targets/0x56901f0_hb_yt_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._hb_yt_file",
+      "body_rva": 90082160,
+      "name": "_tg",
+      "qualname": null,
+      "name_constant_index": 55,
+      "source_file": "agent-notes/decompiled/targets/0x56901f0_hb_yt_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._hb_yt_file",
+      "body_rva": 90085920,
+      "name": "_parts_mac",
+      "qualname": null,
+      "name_constant_index": 52,
+      "source_file": "agent-notes/decompiled/targets/0x56901f0_hb_yt_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._hb_yt_file",
+      "body_rva": 90087504,
+      "name": "_open_cap",
+      "qualname": null,
+      "name_constant_index": 73,
+      "source_file": "agent-notes/decompiled/targets/0x56901f0_hb_yt_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._hb_yt_file",
+      "body_rva": 90090784,
+      "name": "_km",
+      "qualname": null,
+      "name_constant_index": 79,
+      "source_file": "agent-notes/decompiled/targets/0x56901f0_hb_yt_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._hb_yt_file",
+      "body_rva": 90092320,
+      "name": "_mix",
+      "qualname": null,
+      "name_constant_index": 75,
+      "source_file": "agent-notes/decompiled/targets/0x56901f0_hb_yt_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._hb_yt_file",
+      "body_rva": 90333616,
+      "name": "_kk",
+      "qualname": null,
+      "name_constant_index": 57,
+      "source_file": "agent-notes/decompiled/targets/0x56901f0_hb_yt_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._hb_yt_file",
+      "body_rva": 90334960,
+      "name": "_chk_gy",
+      "qualname": null,
+      "name_constant_index": 113,
+      "source_file": "agent-notes/decompiled/targets/0x56901f0_hb_yt_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._hb_yt_file",
+      "body_rva": 90338128,
+      "name": "_chk_uc",
+      "qualname": null,
+      "name_constant_index": 114,
+      "source_file": "agent-notes/decompiled/targets/0x56901f0_hb_yt_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._hb_yt_file",
+      "body_rva": 90341888,
+      "name": "_mark_bad",
+      "qualname": null,
+      "name_constant_index": 110,
+      "source_file": "agent-notes/decompiled/targets/0x56901f0_hb_yt_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._hb_yt_file",
+      "body_rva": 90740176,
+      "name": "_chk_caps",
+      "qualname": null,
+      "name_constant_index": 105,
+      "source_file": "agent-notes/decompiled/targets/0x56901f0_hb_yt_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._hb_yt_file",
+      "body_rva": 90745872,
+      "name": "_chk_kid",
+      "qualname": null,
+      "name_constant_index": 106,
+      "source_file": "agent-notes/decompiled/targets/0x56901f0_hb_yt_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._hb_yt_file",
+      "body_rva": 90749024,
+      "name": "po_xu_snap",
+      "qualname": null,
+      "name_constant_index": 116,
+      "source_file": "agent-notes/decompiled/targets/0x56901f0_hb_yt_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._hb_yt_file",
+      "body_rva": 90766544,
+      "name": "w_k2_gaze",
+      "qualname": null,
+      "name_constant_index": 137,
+      "source_file": "agent-notes/decompiled/targets/0x56901f0_hb_yt_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._lk_ps_file",
+      "body_rva": 90095792,
+      "name": "_fan_hooks",
+      "qualname": null,
+      "name_constant_index": 124,
+      "source_file": "agent-notes/decompiled/targets/0x569d320_lk_ps_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._lk_ps_file",
+      "body_rva": 90105744,
+      "name": "_tag_of",
+      "qualname": null,
+      "name_constant_index": 64,
+      "source_file": "agent-notes/decompiled/targets/0x569d320_lk_ps_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._lk_ps_file",
+      "body_rva": 90109328,
+      "name": "_hmac_join",
+      "qualname": null,
+      "name_constant_index": 61,
+      "source_file": "agent-notes/decompiled/targets/0x569d320_lk_ps_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._lk_ps_file",
+      "body_rva": 90112096,
+      "name": "_cap_valid",
+      "qualname": null,
+      "name_constant_index": 84,
+      "source_file": "agent-notes/decompiled/targets/0x569d320_lk_ps_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._lk_ps_file",
+      "body_rva": 90117024,
+      "name": "_mac_kid",
+      "qualname": null,
+      "name_constant_index": 90,
+      "source_file": "agent-notes/decompiled/targets/0x569d320_lk_ps_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._lk_ps_file",
+      "body_rva": 90118672,
+      "name": "_noise",
+      "qualname": null,
+      "name_constant_index": 86,
+      "source_file": "agent-notes/decompiled/targets/0x569d320_lk_ps_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._lk_ps_file",
+      "body_rva": 90348464,
+      "name": "n_lc_rinse",
+      "qualname": null,
+      "name_constant_index": 42,
+      "source_file": "agent-notes/decompiled/targets/0x569d320_lk_ps_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._lk_ps_file",
+      "body_rva": 90359120,
+      "name": "_digest_kid",
+      "qualname": null,
+      "name_constant_index": 66,
+      "source_file": "agent-notes/decompiled/targets/0x569d320_lk_ps_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._lk_ps_file",
+      "body_rva": 90360512,
+      "name": "_seal_ok",
+      "qualname": null,
+      "name_constant_index": 125,
+      "source_file": "agent-notes/decompiled/targets/0x569d320_lk_ps_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._lk_ps_file",
+      "body_rva": 90363696,
+      "name": "_acct_ok",
+      "qualname": null,
+      "name_constant_index": 126,
+      "source_file": "agent-notes/decompiled/targets/0x569d320_lk_ps_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._lk_ps_file",
+      "body_rva": 90367328,
+      "name": "_record",
+      "qualname": null,
+      "name_constant_index": 121,
+      "source_file": "agent-notes/decompiled/targets/0x569d320_lk_ps_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._lk_ps_file",
+      "body_rva": 90793344,
+      "name": "_all_caps",
+      "qualname": null,
+      "name_constant_index": 116,
+      "source_file": "agent-notes/decompiled/targets/0x569d320_lk_ps_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._lk_ps_file",
+      "body_rva": 90799424,
+      "name": "_kid_match",
+      "qualname": null,
+      "name_constant_index": 117,
+      "source_file": "agent-notes/decompiled/targets/0x569d320_lk_ps_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._lk_ps_file",
+      "body_rva": 90802576,
+      "name": "wt_fm_dash",
+      "qualname": null,
+      "name_constant_index": 128,
+      "source_file": "agent-notes/decompiled/targets/0x569d320_lk_ps_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._lk_ps_file",
+      "body_rva": 90820096,
+      "name": "r_v3_edge",
+      "qualname": null,
+      "name_constant_index": 149,
+      "source_file": "agent-notes/decompiled/targets/0x569d320_lk_ps_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._pl_wd_file",
+      "body_rva": 90120592,
+      "name": "_tg",
+      "qualname": null,
+      "name_constant_index": 27,
+      "source_file": "agent-notes/decompiled/targets/0x56a60e0_pl_wd_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._pl_wd_file",
+      "body_rva": 90125040,
+      "name": "_mac",
+      "qualname": null,
+      "name_constant_index": 22,
+      "source_file": "agent-notes/decompiled/targets/0x56a60e0_pl_wd_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._pl_wd_file",
+      "body_rva": 90127744,
+      "name": "_unseal",
+      "qualname": null,
+      "name_constant_index": 46,
+      "source_file": "agent-notes/decompiled/targets/0x56a60e0_pl_wd_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._pl_wd_file",
+      "body_rva": 90130752,
+      "name": "_kid_mac",
+      "qualname": null,
+      "name_constant_index": 51,
+      "source_file": "agent-notes/decompiled/targets/0x56a60e0_pl_wd_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._pl_wd_file",
+      "body_rva": 90132448,
+      "name": "b_x1_trim",
+      "qualname": null,
+      "name_constant_index": 122,
+      "source_file": "agent-notes/decompiled/targets/0x56a60e0_pl_wd_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._pl_wd_file",
+      "body_rva": 90372288,
+      "name": "_shred",
+      "qualname": null,
+      "name_constant_index": 18,
+      "source_file": "agent-notes/decompiled/targets/0x56a60e0_pl_wd_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._pl_wd_file",
+      "body_rva": 90373600,
+      "name": "_kid_key",
+      "qualname": null,
+      "name_constant_index": 29,
+      "source_file": "agent-notes/decompiled/targets/0x56a60e0_pl_wd_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._pl_wd_file",
+      "body_rva": 90374944,
+      "name": "m_qv_open",
+      "qualname": null,
+      "name_constant_index": 113,
+      "source_file": "agent-notes/decompiled/targets/0x56a60e0_pl_wd_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._pl_wd_file",
+      "body_rva": 90378544,
+      "name": "k_r9_fwd",
+      "qualname": null,
+      "name_constant_index": 115,
+      "source_file": "agent-notes/decompiled/targets/0x56a60e0_pl_wd_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._pl_wd_file",
+      "body_rva": 90383536,
+      "name": "w_cd",
+      "qualname": null,
+      "name_constant_index": 125,
+      "source_file": "agent-notes/decompiled/targets/0x56a60e0_pl_wd_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._pl_wd_file",
+      "body_rva": 90385024,
+      "name": "q_lg",
+      "qualname": null,
+      "name_constant_index": 127,
+      "source_file": "agent-notes/decompiled/targets/0x56a60e0_pl_wd_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._pl_wd_file",
+      "body_rva": 90827392,
+      "name": "_seal",
+      "qualname": null,
+      "name_constant_index": 42,
+      "source_file": "agent-notes/decompiled/targets/0x56a60e0_pl_wd_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._pl_wd_file",
+      "body_rva": 90829888,
+      "name": "p_w2_sink",
+      "qualname": null,
+      "name_constant_index": 116,
+      "source_file": "agent-notes/decompiled/targets/0x56a60e0_pl_wd_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._pl_wd_file",
+      "body_rva": 90835664,
+      "name": "q_m3_seal",
+      "qualname": null,
+      "name_constant_index": 118,
+      "source_file": "agent-notes/decompiled/targets/0x56a60e0_pl_wd_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._pl_wd_file",
+      "body_rva": 90845856,
+      "name": "u_n7_pack",
+      "qualname": null,
+      "name_constant_index": 121,
+      "source_file": "agent-notes/decompiled/targets/0x56a60e0_pl_wd_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._pl_wd_file",
+      "body_rva": 90852864,
+      "name": "_purge_locked",
+      "qualname": null,
+      "name_constant_index": 73,
+      "source_file": "agent-notes/decompiled/targets/0x56a60e0_pl_wd_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._pl_wd_file",
+      "body_rva": 90855376,
+      "name": "_bump_suspect_locked",
+      "qualname": null,
+      "name_constant_index": 130,
+      "source_file": "agent-notes/decompiled/targets/0x56a60e0_pl_wd_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._qf_rn_file",
+      "body_rva": 90134192,
+      "name": "g_wp_flush",
+      "qualname": null,
+      "name_constant_index": 22,
+      "source_file": "agent-notes/decompiled/targets/0x56af250_qf_rn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._qf_rn_file",
+      "body_rva": 90142288,
+      "name": "_fan_hooks",
+      "qualname": null,
+      "name_constant_index": 118,
+      "source_file": "agent-notes/decompiled/targets/0x56af250_qf_rn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._qf_rn_file",
+      "body_rva": 90152240,
+      "name": "_tg",
+      "qualname": null,
+      "name_constant_index": 61,
+      "source_file": "agent-notes/decompiled/targets/0x56af250_qf_rn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._qf_rn_file",
+      "body_rva": 90156688,
+      "name": "_mac",
+      "qualname": null,
+      "name_constant_index": 58,
+      "source_file": "agent-notes/decompiled/targets/0x56af250_qf_rn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._qf_rn_file",
+      "body_rva": 90159392,
+      "name": "_unseal",
+      "qualname": null,
+      "name_constant_index": 79,
+      "source_file": "agent-notes/decompiled/targets/0x56af250_qf_rn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._qf_rn_file",
+      "body_rva": 90162640,
+      "name": "_kid_mac",
+      "qualname": null,
+      "name_constant_index": 85,
+      "source_file": "agent-notes/decompiled/targets/0x56af250_qf_rn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._qf_rn_file",
+      "body_rva": 90164176,
+      "name": "_decoy",
+      "qualname": null,
+      "name_constant_index": 81,
+      "source_file": "agent-notes/decompiled/targets/0x56af250_qf_rn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._qf_rn_file",
+      "body_rva": 90390160,
+      "name": "_kid_key",
+      "qualname": null,
+      "name_constant_index": 63,
+      "source_file": "agent-notes/decompiled/targets/0x56af250_qf_rn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._qf_rn_file",
+      "body_rva": 90391504,
+      "name": "_gy_ok",
+      "qualname": null,
+      "name_constant_index": 119,
+      "source_file": "agent-notes/decompiled/targets/0x56af250_qf_rn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._qf_rn_file",
+      "body_rva": 90394672,
+      "name": "_uc_ok",
+      "qualname": null,
+      "name_constant_index": 120,
+      "source_file": "agent-notes/decompiled/targets/0x56af250_qf_rn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._qf_rn_file",
+      "body_rva": 90398432,
+      "name": "_fail",
+      "qualname": null,
+      "name_constant_index": 116,
+      "source_file": "agent-notes/decompiled/targets/0x56af250_qf_rn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._qf_rn_file",
+      "body_rva": 90867296,
+      "name": "_chain_ok",
+      "qualname": null,
+      "name_constant_index": 111,
+      "source_file": "agent-notes/decompiled/targets/0x56af250_qf_rn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._qf_rn_file",
+      "body_rva": 90872928,
+      "name": "_obj_ok",
+      "qualname": null,
+      "name_constant_index": 112,
+      "source_file": "agent-notes/decompiled/targets/0x56af250_qf_rn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._qf_rn_file",
+      "body_rva": 90876080,
+      "name": "ae_iq_bind",
+      "qualname": null,
+      "name_constant_index": 122,
+      "source_file": "agent-notes/decompiled/targets/0x56af250_qf_rn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._qf_rn_file",
+      "body_rva": 90893616,
+      "name": "j_c4_fold",
+      "qualname": null,
+      "name_constant_index": 143,
+      "source_file": "agent-notes/decompiled/targets/0x56af250_qf_rn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_jqm",
+      "body_rva": 90256416,
+      "name": "zh_info_pth",
+      "qualname": null,
+      "name_constant_index": 160,
+      "source_file": "agent-notes/decompiled/targets/0x56d0ab0__sq_jqm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_jqm",
+      "body_rva": 90257392,
+      "name": "zh_sc_wj",
+      "qualname": null,
+      "name_constant_index": 162,
+      "source_file": "agent-notes/decompiled/targets/0x56d0ab0__sq_jqm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_jqm",
+      "body_rva": 90275360,
+      "name": "zh_zw_uc",
+      "qualname": null,
+      "name_constant_index": 125,
+      "source_file": "agent-notes/decompiled/targets/0x56d0ab0__sq_jqm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_jqm",
+      "body_rva": 90277024,
+      "name": "zh_ye_xx",
+      "qualname": null,
+      "name_constant_index": 106,
+      "source_file": "agent-notes/decompiled/targets/0x56d0ab0__sq_jqm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_jqm",
+      "body_rva": 90277968,
+      "name": "dic_to_AiModelObj",
+      "qualname": null,
+      "name_constant_index": 113,
+      "source_file": "agent-notes/decompiled/targets/0x56d0ab0__sq_jqm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_jqm",
+      "body_rva": 90422832,
+      "name": "_static_cipher",
+      "qualname": null,
+      "name_constant_index": 82,
+      "source_file": "agent-notes/decompiled/targets/0x56d0ab0__sq_jqm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_jqm",
+      "body_rva": 90424880,
+      "name": "_zh_rd_code",
+      "qualname": null,
+      "name_constant_index": 121,
+      "source_file": "agent-notes/decompiled/targets/0x56d0ab0__sq_jqm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_jqm",
+      "body_rva": 90430784,
+      "name": "_zh_bc_uc",
+      "qualname": null,
+      "name_constant_index": 104,
+      "source_file": "agent-notes/decompiled/targets/0x56d0ab0__sq_jqm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_jqm",
+      "body_rva": 90437344,
+      "name": "has_ai_ability",
+      "qualname": null,
+      "name_constant_index": 60,
+      "source_file": "agent-notes/decompiled/targets/0x56d0ab0__sq_jqm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_jqm",
+      "body_rva": 90438384,
+      "name": "get_ai_model_list",
+      "qualname": null,
+      "name_constant_index": 203,
+      "source_file": "agent-notes/decompiled/targets/0x56d0ab0__sq_jqm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_jqm",
+      "body_rva": 90441568,
+      "name": "get_ai_model_obj_list",
+      "qualname": null,
+      "name_constant_index": 116,
+      "source_file": "agent-notes/decompiled/targets/0x56d0ab0__sq_jqm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_jqm",
+      "body_rva": 90444688,
+      "name": "get_ai_default_api_key",
+      "qualname": null,
+      "name_constant_index": 205,
+      "source_file": "agent-notes/decompiled/targets/0x56d0ab0__sq_jqm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_jqm",
+      "body_rva": 90445824,
+      "name": "zh_bc_xs",
+      "qualname": null,
+      "name_constant_index": 207,
+      "source_file": "agent-notes/decompiled/targets/0x56d0ab0__sq_jqm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_jqm",
+      "body_rva": 90990464,
+      "name": "_union_code_dir",
+      "qualname": null,
+      "name_constant_index": 2,
+      "source_file": "agent-notes/decompiled/targets/0x56d0ab0__sq_jqm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_jqm",
+      "body_rva": 90991712,
+      "name": "zh_old_pth",
+      "qualname": null,
+      "name_constant_index": 6,
+      "source_file": "agent-notes/decompiled/targets/0x56d0ab0__sq_jqm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_jqm",
+      "body_rva": 90993296,
+      "name": "zh_code_pth",
+      "qualname": null,
+      "name_constant_index": 9,
+      "source_file": "agent-notes/decompiled/targets/0x56d0ab0__sq_jqm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_jqm",
+      "body_rva": 91004912,
+      "name": "_read_ucode_from_legacy_bean",
+      "qualname": null,
+      "name_constant_index": 103,
+      "source_file": "agent-notes/decompiled/targets/0x56d0ab0__sq_jqm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_jqm",
+      "body_rva": 91011792,
+      "name": "_migrate_legacy_bean_if_needed",
+      "qualname": null,
+      "name_constant_index": 123,
+      "source_file": "agent-notes/decompiled/targets/0x56d0ab0__sq_jqm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_jqm",
+      "body_rva": 91014832,
+      "name": "is_exp_eight",
+      "qualname": null,
+      "name_constant_index": 107,
+      "source_file": "agent-notes/decompiled/targets/0x56d0ab0__sq_jqm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_jqm",
+      "body_rva": 91016368,
+      "name": "has_ai_ability_but_no_key",
+      "qualname": null,
+      "name_constant_index": 202,
+      "source_file": "agent-notes/decompiled/targets/0x56d0ab0__sq_jqm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_jqm",
+      "body_rva": 91019248,
+      "name": "get_default_ai_model",
+      "qualname": null,
+      "name_constant_index": 204,
+      "source_file": "agent-notes/decompiled/targets/0x56d0ab0__sq_jqm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_jqm",
+      "body_rva": 91022736,
+      "name": "zh_jz_xx",
+      "qualname": null,
+      "name_constant_index": 206,
+      "source_file": "agent-notes/decompiled/targets/0x56d0ab0__sq_jqm_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_r_ks",
+      "body_rva": 91135280,
+      "name": "_dispatch_ui_callback",
+      "qualname": null,
+      "name_constant_index": 29,
+      "source_file": "agent-notes/decompiled/targets/0x5778420__sq_r_ks_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_r_ks",
+      "body_rva": 91140976,
+      "name": "kj_r_spui",
+      "qualname": null,
+      "name_constant_index": 114,
+      "source_file": "agent-notes/decompiled/targets/0x5778420__sq_r_ks_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_r_ks",
+      "body_rva": 91142656,
+      "name": "save_item_r_ui",
+      "qualname": null,
+      "name_constant_index": 115,
+      "source_file": "agent-notes/decompiled/targets/0x5778420__sq_r_ks_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_r_ks",
+      "body_rva": 91144336,
+      "name": "roi_report_fire",
+      "qualname": null,
+      "name_constant_index": 116,
+      "source_file": "agent-notes/decompiled/targets/0x5778420__sq_r_ks_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_r_qi",
+      "body_rva": 91064848,
+      "name": "qd_r_spi_boot",
+      "qualname": null,
+      "name_constant_index": 65,
+      "source_file": "agent-notes/decompiled/targets/0x56f0920__sq_r_qi_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_r_qi",
+      "body_rva": 91068288,
+      "name": "_spi_fetch",
+      "qualname": null,
+      "name_constant_index": 32,
+      "source_file": "agent-notes/decompiled/targets/0x56f0920__sq_r_qi_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_r_qi",
+      "body_rva": 91734592,
+      "name": "_item_wire_tuple",
+      "qualname": null,
+      "name_constant_index": 53,
+      "source_file": "agent-notes/decompiled/targets/0x56f0920__sq_r_qi_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_r_qi",
+      "body_rva": 91737488,
+      "name": "_apply_user_from_remote",
+      "qualname": null,
+      "name_constant_index": 44,
+      "source_file": "agent-notes/decompiled/targets/0x56f0920__sq_r_qi_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_r_qi",
+      "body_rva": 91760080,
+      "name": "qd_r_zc_after_register",
+      "qualname": null,
+      "name_constant_index": 90,
+      "source_file": "agent-notes/decompiled/targets/0x56f0920__sq_r_qi_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91065280,
+      "name": "_get_shared_session",
+      "qualname": null,
+      "name_constant_index": 37,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91065712,
+      "name": "aio_session",
+      "qualname": null,
+      "name_constant_index": 38,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91075232,
+      "name": "_http_post_once",
+      "qualname": null,
+      "name_constant_index": 72,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91076192,
+      "name": "createOrder",
+      "qualname": null,
+      "name_constant_index": 89,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91076992,
+      "name": "CheckOrderAndRecharge",
+      "qualname": null,
+      "name_constant_index": 95,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91077792,
+      "name": "sq_jy_ma",
+      "qualname": null,
+      "name_constant_index": 101,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91078896,
+      "name": "sq_lq_pz",
+      "qualname": null,
+      "name_constant_index": 107,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91079696,
+      "name": "sq_ty_jh",
+      "qualname": null,
+      "name_constant_index": 111,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91080496,
+      "name": "sq_qy_dm",
+      "qualname": null,
+      "name_constant_index": 118,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91081456,
+      "name": "sq_zc",
+      "qualname": null,
+      "name_constant_index": 125,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91082064,
+      "name": "sq_cz_jqm",
+      "qualname": null,
+      "name_constant_index": 131,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91082864,
+      "name": "sq_sb",
+      "qualname": null,
+      "name_constant_index": 135,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91083488,
+      "name": "sq_yp_pd_ch",
+      "qualname": null,
+      "name_constant_index": 149,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91084096,
+      "name": "sq_yp_pd_cm",
+      "qualname": null,
+      "name_constant_index": 153,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91084704,
+      "name": "_safe_parse_request_with_retry",
+      "qualname": null,
+      "name_constant_index": 146,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91085472,
+      "name": "_pack_final_send_once",
+      "qualname": null,
+      "name_constant_index": 169,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91086448,
+      "name": "sq_fs_send_with_retry",
+      "qualname": null,
+      "name_constant_index": 86,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91087840,
+      "name": "failed_or_error",
+      "qualname": null,
+      "name_constant_index": 195,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91088640,
+      "name": "sq_jm_xy",
+      "qualname": null,
+      "name_constant_index": 48,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91193968,
+      "name": "_get_config",
+      "qualname": null,
+      "name_constant_index": 5,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91195952,
+      "name": "get_pro_duct_host",
+      "qualname": null,
+      "name_constant_index": 26,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91196944,
+      "name": "get_dev_local_host",
+      "qualname": null,
+      "name_constant_index": 25,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91197936,
+      "name": "sq_uri_zc",
+      "qualname": null,
+      "name_constant_index": 119,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91198928,
+      "name": "sq_uri_pz",
+      "qualname": null,
+      "name_constant_index": 105,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91199920,
+      "name": "sq_uri_jym",
+      "qualname": null,
+      "name_constant_index": 97,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91200912,
+      "name": "sq_uri_yp_ch",
+      "qualname": null,
+      "name_constant_index": 140,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91201904,
+      "name": "sq_uri_yp_cm",
+      "qualname": null,
+      "name_constant_index": 150,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91202896,
+      "name": "sq_uri_cz",
+      "qualname": null,
+      "name_constant_index": 126,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91203888,
+      "name": "sq_uri_sb",
+      "qualname": null,
+      "name_constant_index": 132,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91204880,
+      "name": "sq_uri_qy",
+      "qualname": null,
+      "name_constant_index": 112,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91205872,
+      "name": "get_activate_code_uri",
+      "qualname": null,
+      "name_constant_index": 108,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91206864,
+      "name": "get_create_order",
+      "qualname": null,
+      "name_constant_index": 76,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91207856,
+      "name": "get_check_order_recharge",
+      "qualname": null,
+      "name_constant_index": 90,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91208848,
+      "name": "_is_async_shutdown_error",
+      "qualname": null,
+      "name_constant_index": 69,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91210256,
+      "name": "get_host",
+      "qualname": null,
+      "name_constant_index": 252,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91212528,
+      "name": "is_product_env",
+      "qualname": null,
+      "name_constant_index": 189,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91262816,
+      "name": "sq_sc_aq_nr",
+      "qualname": null,
+      "name_constant_index": 81,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91265552,
+      "name": "sq_sc_aes_k",
+      "qualname": null,
+      "name_constant_index": 82,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "body_rva": 91804720,
+      "name": "URL_PRE_COM",
+      "qualname": null,
+      "name_constant_index": 27,
+      "source_file": "agent-notes/decompiled/targets/0x570a050__sq_req_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_zw",
+      "body_rva": 91891616,
+      "name": "_zw_hq_prod_host",
+      "qualname": null,
+      "name_constant_index": 49,
+      "source_file": "agent-notes/decompiled/targets/0x570eab0__sq_zw_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_zw",
+      "body_rva": 91905536,
+      "name": "zw_bd_zw",
+      "qualname": null,
+      "name_constant_index": 76,
+      "source_file": "agent-notes/decompiled/targets/0x570eab0__sq_zw_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._yg_bn_file",
+      "body_rva": 91316304,
+      "name": "_fan_hooks",
+      "qualname": null,
+      "name_constant_index": 186,
+      "source_file": "agent-notes/decompiled/targets/0x571bbc0_yg_bn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._yg_bn_file",
+      "body_rva": 91326256,
+      "name": "_tg",
+      "qualname": null,
+      "name_constant_index": 130,
+      "source_file": "agent-notes/decompiled/targets/0x571bbc0_yg_bn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._yg_bn_file",
+      "body_rva": 91330016,
+      "name": "_parts_mac",
+      "qualname": null,
+      "name_constant_index": 127,
+      "source_file": "agent-notes/decompiled/targets/0x571bbc0_yg_bn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._yg_bn_file",
+      "body_rva": 91331600,
+      "name": "_open_cap",
+      "qualname": null,
+      "name_constant_index": 148,
+      "source_file": "agent-notes/decompiled/targets/0x571bbc0_yg_bn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._yg_bn_file",
+      "body_rva": 91334880,
+      "name": "_km",
+      "qualname": null,
+      "name_constant_index": 154,
+      "source_file": "agent-notes/decompiled/targets/0x571bbc0_yg_bn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._yg_bn_file",
+      "body_rva": 91336416,
+      "name": "_mix",
+      "qualname": null,
+      "name_constant_index": 150,
+      "source_file": "agent-notes/decompiled/targets/0x571bbc0_yg_bn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._yg_bn_file",
+      "body_rva": 91338400,
+      "name": "y_t7_glow",
+      "qualname": null,
+      "name_constant_index": 211,
+      "source_file": "agent-notes/decompiled/targets/0x571bbc0_yg_bn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._yg_bn_file",
+      "body_rva": 91928512,
+      "name": "v_hz_scrub",
+      "qualname": null,
+      "name_constant_index": 104,
+      "source_file": "agent-notes/decompiled/targets/0x571bbc0_yg_bn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._yg_bn_file",
+      "body_rva": 91977200,
+      "name": "_kk",
+      "qualname": null,
+      "name_constant_index": 132,
+      "source_file": "agent-notes/decompiled/targets/0x571bbc0_yg_bn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._yg_bn_file",
+      "body_rva": 91978544,
+      "name": "_chk_caps",
+      "qualname": null,
+      "name_constant_index": 179,
+      "source_file": "agent-notes/decompiled/targets/0x571bbc0_yg_bn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._yg_bn_file",
+      "body_rva": 91984240,
+      "name": "_chk_kid",
+      "qualname": null,
+      "name_constant_index": 180,
+      "source_file": "agent-notes/decompiled/targets/0x571bbc0_yg_bn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._yg_bn_file",
+      "body_rva": 91987392,
+      "name": "_chk_gy",
+      "qualname": null,
+      "name_constant_index": 187,
+      "source_file": "agent-notes/decompiled/targets/0x571bbc0_yg_bn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._yg_bn_file",
+      "body_rva": 91990560,
+      "name": "_chk_uc",
+      "qualname": null,
+      "name_constant_index": 188,
+      "source_file": "agent-notes/decompiled/targets/0x571bbc0_yg_bn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._yg_bn_file",
+      "body_rva": 91994320,
+      "name": "_mark_bad",
+      "qualname": null,
+      "name_constant_index": 184,
+      "source_file": "agent-notes/decompiled/targets/0x571bbc0_yg_bn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._yg_bn_file",
+      "body_rva": 91999280,
+      "name": "xy_bs_curl",
+      "qualname": null,
+      "name_constant_index": 190,
+      "source_file": "agent-notes/decompiled/targets/0x571bbc0_yg_bn_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.jm._my_r_gk",
+      "body_rva": 91377936,
+      "name": "jm_jz_r_pk",
+      "qualname": null,
+      "name_constant_index": 16,
+      "source_file": "agent-notes/decompiled/targets/0x57258d0_my_r_gk_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_rt",
+      "body_rva": 92212272,
+      "name": "fs_jc_qd",
+      "qualname": null,
+      "name_constant_index": 43,
+      "source_file": "agent-notes/decompiled/targets/0x57f4e40_fds_rt_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_rt",
+      "body_rva": 92213808,
+      "name": "fs_ui_ok",
+      "qualname": null,
+      "name_constant_index": 44,
+      "source_file": "agent-notes/decompiled/targets/0x57f4e40_fds_rt_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_rt",
+      "body_rva": 92215296,
+      "name": "fs_sjk_ws",
+      "qualname": null,
+      "name_constant_index": 45,
+      "source_file": "agent-notes/decompiled/targets/0x57f4e40_fds_rt_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_rt",
+      "body_rva": 92216784,
+      "name": "fs_sjk_qd",
+      "qualname": null,
+      "name_constant_index": 46,
+      "source_file": "agent-notes/decompiled/targets/0x57f4e40_fds_rt_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_rt",
+      "body_rva": 92218272,
+      "name": "fs_http",
+      "qualname": null,
+      "name_constant_index": 47,
+      "source_file": "agent-notes/decompiled/targets/0x57f4e40_fds_rt_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_rt",
+      "body_rva": 92220352,
+      "name": "fs_hy_men",
+      "qualname": null,
+      "name_constant_index": 48,
+      "source_file": "agent-notes/decompiled/targets/0x57f4e40_fds_rt_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_rt",
+      "body_rva": 92222160,
+      "name": "fs_zh_tb",
+      "qualname": null,
+      "name_constant_index": 49,
+      "source_file": "agent-notes/decompiled/targets/0x57f4e40_fds_rt_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_rt",
+      "body_rva": 92223648,
+      "name": "fs_dt_mk",
+      "qualname": null,
+      "name_constant_index": 50,
+      "source_file": "agent-notes/decompiled/targets/0x57f4e40_fds_rt_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_rt",
+      "body_rva": 92225456,
+      "name": "fs_pz_jm",
+      "qualname": null,
+      "name_constant_index": 53,
+      "source_file": "agent-notes/decompiled/targets/0x57f4e40_fds_rt_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_rt",
+      "body_rva": 92227264,
+      "name": "fs_yp_js",
+      "qualname": null,
+      "name_constant_index": 54,
+      "source_file": "agent-notes/decompiled/targets/0x57f4e40_fds_rt_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_rt",
+      "body_rva": 92539488,
+      "name": "fs_dt_lq",
+      "qualname": null,
+      "name_constant_index": 51,
+      "source_file": "agent-notes/decompiled/targets/0x57f4e40_fds_rt_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_rt",
+      "body_rva": 92546640,
+      "name": "fs_by_pf",
+      "qualname": null,
+      "name_constant_index": 52,
+      "source_file": "agent-notes/decompiled/targets/0x57f4e40_fds_rt_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_tan",
+      "body_rva": 92236320,
+      "name": "_wb_jk_bd",
+      "qualname": null,
+      "name_constant_index": 77,
+      "source_file": "agent-notes/decompiled/targets/0x57f89a0__fds_tan_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_tan",
+      "body_rva": 92239264,
+      "name": "_wb_jk_yc",
+      "qualname": null,
+      "name_constant_index": 83,
+      "source_file": "agent-notes/decompiled/targets/0x57f89a0__fds_tan_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_tan",
+      "body_rva": 92242896,
+      "name": "_wb_jk_sx",
+      "qualname": null,
+      "name_constant_index": 78,
+      "source_file": "agent-notes/decompiled/targets/0x57f89a0__fds_tan_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_tan",
+      "body_rva": 92553184,
+      "name": "_nx_r4_qm",
+      "qualname": null,
+      "name_constant_index": 79,
+      "source_file": "agent-notes/decompiled/targets/0x57f89a0__fds_tan_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_tan",
+      "body_rva": 92559760,
+      "name": "_jv_c8_wt",
+      "qualname": null,
+      "name_constant_index": 84,
+      "source_file": "agent-notes/decompiled/targets/0x57f89a0__fds_tan_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_tan",
+      "body_rva": 92566336,
+      "name": "_pl_a1_hz",
+      "qualname": null,
+      "name_constant_index": 86,
+      "source_file": "agent-notes/decompiled/targets/0x57f89a0__fds_tan_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_tan",
+      "body_rva": 92572912,
+      "name": "_yk_m6_bd",
+      "qualname": null,
+      "name_constant_index": 90,
+      "source_file": "agent-notes/decompiled/targets/0x57f89a0__fds_tan_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_tan",
+      "body_rva": 92579488,
+      "name": "_sg_e3_uf",
+      "qualname": null,
+      "name_constant_index": 92,
+      "source_file": "agent-notes/decompiled/targets/0x57f89a0__fds_tan_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_tan",
+      "body_rva": 92586064,
+      "name": "_to_x9_kr",
+      "qualname": null,
+      "name_constant_index": 94,
+      "source_file": "agent-notes/decompiled/targets/0x57f89a0__fds_tan_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_tan",
+      "body_rva": 92592640,
+      "name": "_wq_b2_ln",
+      "qualname": null,
+      "name_constant_index": 96,
+      "source_file": "agent-notes/decompiled/targets/0x57f89a0__fds_tan_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_tan",
+      "body_rva": 92599216,
+      "name": "wb_tls_wd",
+      "qualname": null,
+      "name_constant_index": 107,
+      "source_file": "agent-notes/decompiled/targets/0x57f89a0__fds_tan_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_tan",
+      "body_rva": 92602512,
+      "name": "wb_sock",
+      "qualname": null,
+      "name_constant_index": 108,
+      "source_file": "agent-notes/decompiled/targets/0x57f89a0__fds_tan_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_tan",
+      "body_rva": 92605088,
+      "name": "wb_zs_bd",
+      "qualname": null,
+      "name_constant_index": 109,
+      "source_file": "agent-notes/decompiled/targets/0x57f89a0__fds_tan_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_tan",
+      "body_rva": 92607456,
+      "name": "wb_jm_yq",
+      "qualname": null,
+      "name_constant_index": 110,
+      "source_file": "agent-notes/decompiled/targets/0x57f89a0__fds_tan_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_tan",
+      "body_rva": 92610752,
+      "name": "wb_dt_zx",
+      "qualname": null,
+      "name_constant_index": 111,
+      "source_file": "agent-notes/decompiled/targets/0x57f89a0__fds_tan_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_tan",
+      "body_rva": 92613040,
+      "name": "wb_sjk_hb",
+      "qualname": null,
+      "name_constant_index": 112,
+      "source_file": "agent-notes/decompiled/targets/0x57f89a0__fds_tan_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_r",
+      "body_rva": 92615792,
+      "name": "gy_jc_b1",
+      "qualname": null,
+      "name_constant_index": 16,
+      "source_file": "agent-notes/decompiled/targets/0x57fc250_lk_gy_r_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_w",
+      "body_rva": 92262384,
+      "name": "_gy_ma",
+      "qualname": null,
+      "name_constant_index": 50,
+      "source_file": "agent-notes/decompiled/targets/0x5882950_lk_gy_w_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_w",
+      "body_rva": 92264480,
+      "name": "_gy_mc",
+      "qualname": null,
+      "name_constant_index": 52,
+      "source_file": "agent-notes/decompiled/targets/0x5882950_lk_gy_w_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_w",
+      "body_rva": 92266752,
+      "name": "_gy_da",
+      "qualname": null,
+      "name_constant_index": 55,
+      "source_file": "agent-notes/decompiled/targets/0x5882950_lk_gy_w_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_w",
+      "body_rva": 92269056,
+      "name": "_gy_db",
+      "qualname": null,
+      "name_constant_index": 56,
+      "source_file": "agent-notes/decompiled/targets/0x5882950_lk_gy_w_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_w",
+      "body_rva": 92271360,
+      "name": "_gy_dc",
+      "qualname": null,
+      "name_constant_index": 57,
+      "source_file": "agent-notes/decompiled/targets/0x5882950_lk_gy_w_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_w",
+      "body_rva": 92273664,
+      "name": "_gy_rs",
+      "qualname": null,
+      "name_constant_index": 77,
+      "source_file": "agent-notes/decompiled/targets/0x5882950_lk_gy_w_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_w",
+      "body_rva": 92619824,
+      "name": "_gy_k0",
+      "qualname": null,
+      "name_constant_index": 49,
+      "source_file": "agent-notes/decompiled/targets/0x5882950_lk_gy_w_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_w",
+      "body_rva": 92622240,
+      "name": "_gy_uc",
+      "qualname": null,
+      "name_constant_index": 74,
+      "source_file": "agent-notes/decompiled/targets/0x5882950_lk_gy_w_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_w",
+      "body_rva": 92624128,
+      "name": "_gy_af",
+      "qualname": null,
+      "name_constant_index": 76,
+      "source_file": "agent-notes/decompiled/targets/0x5882950_lk_gy_w_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_w",
+      "body_rva": 92627776,
+      "name": "_gy_mb",
+      "qualname": null,
+      "name_constant_index": 51,
+      "source_file": "agent-notes/decompiled/targets/0x5882950_lk_gy_w_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_w",
+      "body_rva": 92631552,
+      "name": "gy_wc_hx",
+      "qualname": null,
+      "name_constant_index": 107,
+      "source_file": "agent-notes/decompiled/targets/0x5882950_lk_gy_w_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_w",
+      "body_rva": 92635728,
+      "name": "_gy_h0",
+      "qualname": null,
+      "name_constant_index": 70,
+      "source_file": "agent-notes/decompiled/targets/0x5882950_lk_gy_w_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_w",
+      "body_rva": 92637808,
+      "name": "_gy_ex",
+      "qualname": null,
+      "name_constant_index": 71,
+      "source_file": "agent-notes/decompiled/targets/0x5882950_lk_gy_w_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_w",
+      "body_rva": 92639680,
+      "name": "_gy_sa",
+      "qualname": null,
+      "name_constant_index": 72,
+      "source_file": "agent-notes/decompiled/targets/0x5882950_lk_gy_w_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_w",
+      "body_rva": 92641856,
+      "name": "_gy_sb",
+      "qualname": null,
+      "name_constant_index": 73,
+      "source_file": "agent-notes/decompiled/targets/0x5882950_lk_gy_w_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_w",
+      "body_rva": 92646320,
+      "name": "_gy_sc",
+      "qualname": null,
+      "name_constant_index": 78,
+      "source_file": "agent-notes/decompiled/targets/0x5882950_lk_gy_w_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_w",
+      "body_rva": 92648496,
+      "name": "gy_jc_a1",
+      "qualname": null,
+      "name_constant_index": 109,
+      "source_file": "agent-notes/decompiled/targets/0x5882950_lk_gy_w_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_w",
+      "body_rva": 92649936,
+      "name": "gy_jc_a2",
+      "qualname": null,
+      "name_constant_index": 110,
+      "source_file": "agent-notes/decompiled/targets/0x5882950_lk_gy_w_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_w",
+      "body_rva": 92651664,
+      "name": "gy_jc_a3",
+      "qualname": null,
+      "name_constant_index": 75,
+      "source_file": "agent-notes/decompiled/targets/0x5882950_lk_gy_w_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_w",
+      "body_rva": 92653520,
+      "name": "gy_jc_a4",
+      "qualname": null,
+      "name_constant_index": 111,
+      "source_file": "agent-notes/decompiled/targets/0x5882950_lk_gy_w_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_w",
+      "body_rva": 92655232,
+      "name": "gy_jc_a5",
+      "qualname": null,
+      "name_constant_index": 112,
+      "source_file": "agent-notes/decompiled/targets/0x5882950_lk_gy_w_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_w",
+      "body_rva": 92657968,
+      "name": "gy_jc_a6",
+      "qualname": null,
+      "name_constant_index": 113,
+      "source_file": "agent-notes/decompiled/targets/0x5882950_lk_gy_w_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_w",
+      "body_rva": 92660928,
+      "name": "gy_jc_a7",
+      "qualname": null,
+      "name_constant_index": 114,
+      "source_file": "agent-notes/decompiled/targets/0x5882950_lk_gy_w_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_w",
+      "body_rva": 92663280,
+      "name": "gy_jc_a8",
+      "qualname": null,
+      "name_constant_index": 115,
+      "source_file": "agent-notes/decompiled/targets/0x5882950_lk_gy_w_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_w",
+      "body_rva": 92665104,
+      "name": "gy_jc_a9",
+      "qualname": null,
+      "name_constant_index": 116,
+      "source_file": "agent-notes/decompiled/targets/0x5882950_lk_gy_w_module_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._xb_ms",
+      "body_rva": 92158480,
+      "name": "_fe_s_l_nt_ine",
+      "qualname": null,
+      "name_constant_index": 9,
+      "source_file": "agent-notes/decompiled/targets/0x58851e0_xb_ms_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._xb_ms",
+      "body_rva": 92325376,
+      "name": "kai_shit_f_m_5s",
+      "qualname": null,
+      "name_constant_index": 135,
+      "source_file": "agent-notes/decompiled/targets/0x58851e0_xb_ms_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._xb_ms",
+      "body_rva": 92333088,
+      "name": "_sx_zw_hc",
+      "qualname": null,
+      "name_constant_index": 35,
+      "source_file": "agent-notes/decompiled/targets/0x58851e0_xb_ms_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._xb_ms",
+      "body_rva": 92334672,
+      "name": "_post_once",
+      "qualname": null,
+      "name_constant_index": 60,
+      "source_file": "agent-notes/decompiled/targets/0x58851e0_xb_ms_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._xb_ms",
+      "body_rva": 92713088,
+      "name": "join_xb_url",
+      "qualname": null,
+      "name_constant_index": 45,
+      "source_file": "agent-notes/decompiled/targets/0x58851e0_xb_ms_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._xb_ms",
+      "body_rva": 92716176,
+      "name": "apply_md5s_body",
+      "qualname": null,
+      "name_constant_index": 103,
+      "source_file": "agent-notes/decompiled/targets/0x58851e0_xb_ms_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.link._xb_ms",
+      "body_rva": 92719056,
+      "name": "_resolve_url",
+      "qualname": null,
+      "name_constant_index": 52,
+      "source_file": "agent-notes/decompiled/targets/0x58851e0_xb_ms_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.log.glog",
+      "body_rva": 92833344,
+      "name": "_backfill_ui_log_from_disk",
+      "qualname": "GlobalLog._backfill_ui_log_from_disk",
+      "name_constant_index": 45,
+      "source_file": "agent-notes/decompiled/targets/0x58c4540_glog_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.login.ClientCacheHelper",
+      "body_rva": 92158912,
+      "name": "safe_disconnect_client",
+      "qualname": null,
+      "name_constant_index": 3,
+      "source_file": "agent-notes/decompiled/targets/0x5815840_ClientCacheHelper_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.login.ClientCacheHelper",
+      "body_rva": 92159632,
+      "name": "save_cache_client",
+      "qualname": null,
+      "name_constant_index": 11,
+      "source_file": "agent-notes/decompiled/targets/0x5815840_ClientCacheHelper_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.login.NetTest",
+      "body_rva": 92365376,
+      "name": "net_test_path",
+      "qualname": null,
+      "name_constant_index": 7,
+      "source_file": "agent-notes/decompiled/targets/0x588c2f0_NetTest_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.login.NetTest",
+      "body_rva": 92367536,
+      "name": "FastNetTest",
+      "qualname": null,
+      "name_constant_index": 63,
+      "source_file": "agent-notes/decompiled/targets/0x588c2f0_NetTest_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.login.NetTest",
+      "body_rva": 92375136,
+      "name": "fast_test",
+      "qualname": null,
+      "name_constant_index": 16,
+      "source_file": "agent-notes/decompiled/targets/0x588c2f0_NetTest_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.login.NetTest",
+      "body_rva": 92377056,
+      "name": "fast_test_inner",
+      "qualname": null,
+      "name_constant_index": 21,
+      "source_file": "agent-notes/decompiled/targets/0x588c2f0_NetTest_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.monitor.MonitorSchedulerReport",
+      "body_rva": 93486720,
+      "name": "sync_start_report",
+      "qualname": null,
+      "name_constant_index": 11,
+      "source_file": "agent-notes/decompiled/targets/0x59b9480_MonitorSchedulerReport_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.mthread.ReceiveCodeThread",
+      "body_rva": 93961104,
+      "name": "parse_login_code",
+      "qualname": null,
+      "name_constant_index": 49,
+      "source_file": "agent-notes/decompiled/targets/0x59e74a0_mthread_receivecode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.mthread.SchedulerThreadClass",
+      "body_rva": 93362304,
+      "name": "stop_qthread",
+      "qualname": "SchedulerThread.stop_qthread",
+      "name_constant_index": 159,
+      "source_file": "agent-notes/decompiled/targets/0x59ea8a0_mthread_scheduler_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.telefast.FastTelethon",
+      "body_rva": 96540288,
+      "name": "_init_download",
+      "qualname": "ParallelTransferrer._init_download",
+      "name_constant_index": 104,
+      "source_file": "agent-notes/decompiled/targets/0x5cfa460_fasttelethon_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.telefast.FastTelethon",
+      "body_rva": 96541440,
+      "name": "_create_download_sender",
+      "qualname": "ParallelTransferrer._create_download_sender",
+      "name_constant_index": 93,
+      "source_file": "agent-notes/decompiled/targets/0x5cfa460_fasttelethon_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.telefast.FastTelethon",
+      "body_rva": 96546304,
+      "name": "init_upload",
+      "qualname": "ParallelTransferrer.init_upload",
+      "name_constant_index": 162,
+      "source_file": "agent-notes/decompiled/targets/0x5cfa460_fasttelethon_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.telefast.FastTelethon",
+      "body_rva": 96548432,
+      "name": "download",
+      "qualname": "ParallelTransferrer.download",
+      "name_constant_index": 187,
+      "source_file": "agent-notes/decompiled/targets/0x5cfa460_fasttelethon_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.telefast.FastTelethon",
+      "body_rva": 96549760,
+      "name": "stream_file",
+      "qualname": null,
+      "name_constant_index": 192,
+      "source_file": "agent-notes/decompiled/targets/0x5cfa460_fasttelethon_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.telefast.FastTelethon",
+      "body_rva": 96550496,
+      "name": "_internal_transfer_to_telegram",
+      "qualname": null,
+      "name_constant_index": 217,
+      "source_file": "agent-notes/decompiled/targets/0x5cfa460_fasttelethon_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.telefast.FastTelethon",
+      "body_rva": 96551104,
+      "name": "download_file",
+      "qualname": null,
+      "name_constant_index": 232,
+      "source_file": "agent-notes/decompiled/targets/0x5cfa460_fasttelethon_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.telefast.FastTelethon",
+      "body_rva": 96552240,
+      "name": "upload_file",
+      "qualname": null,
+      "name_constant_index": 233,
+      "source_file": "agent-notes/decompiled/targets/0x5cfa460_fasttelethon_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.telefast.FastTelethon",
+      "body_rva": 96565008,
+      "name": "_get_connection_count",
+      "qualname": "ParallelTransferrer._get_connection_count",
+      "name_constant_index": 155,
+      "source_file": "agent-notes/decompiled/targets/0x5cfa460_fasttelethon_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.telefast.FastTelethon",
+      "body_rva": 96899872,
+      "name": "__init__",
+      "qualname": "ParallelTransferrer.__init__",
+      "name_constant_index": 315,
+      "source_file": "agent-notes/decompiled/targets/0x5cfa460_fasttelethon_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.telefast.FastTelethon",
+      "body_rva": 96928080,
+      "name": "_tg_normalize_limit",
+      "qualname": null,
+      "name_constant_index": 174,
+      "source_file": "agent-notes/decompiled/targets/0x5cfa460_fasttelethon_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.telefast.RateLimiterHelper",
+      "body_rva": 96585680,
+      "name": "mark_flood_time",
+      "qualname": null,
+      "name_constant_index": 44,
+      "source_file": "agent-notes/decompiled/targets/0x5c45570_rate_helper_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.telefast.RateLimiterHelper",
+      "body_rva": 96587504,
+      "name": "flood_descend_rate",
+      "qualname": null,
+      "name_constant_index": 47,
+      "source_file": "agent-notes/decompiled/targets/0x5c45570_rate_helper_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.telefast.RateLimiterHelper",
+      "body_rva": 96589168,
+      "name": "changed_rate",
+      "qualname": null,
+      "name_constant_index": 48,
+      "source_file": "agent-notes/decompiled/targets/0x5c45570_rate_helper_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.telefast.RateLimiterHelper",
+      "body_rva": 96590336,
+      "name": "flood_descend_rate_event",
+      "qualname": null,
+      "name_constant_index": 49,
+      "source_file": "agent-notes/decompiled/targets/0x5c45570_rate_helper_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.telefast.RateLimiterHelper",
+      "body_rva": 96591616,
+      "name": "auto_masu_rate_event",
+      "qualname": null,
+      "name_constant_index": 50,
+      "source_file": "agent-notes/decompiled/targets/0x5c45570_rate_helper_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.telefast.RateLimiterHelper",
+      "body_rva": 96958752,
+      "name": "is_auto_rate",
+      "qualname": null,
+      "name_constant_index": 43,
+      "source_file": "agent-notes/decompiled/targets/0x5c45570_rate_helper_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.telefast.RateLimiterHelper",
+      "body_rva": 96961008,
+      "name": "read_last_flood_time",
+      "qualname": null,
+      "name_constant_index": 46,
+      "source_file": "agent-notes/decompiled/targets/0x5c45570_rate_helper_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.telefast.RateLimiterHelper",
+      "body_rva": 97220592,
+      "name": "get_auto_current_rate",
+      "qualname": null,
+      "name_constant_index": 42,
+      "source_file": "agent-notes/decompiled/targets/0x5c45570_rate_helper_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.telefast.RateTempClass",
+      "body_rva": 96533248,
+      "name": "init_rate",
+      "qualname": null,
+      "name_constant_index": 9,
+      "source_file": "agent-notes/decompiled/targets/0x5c46ca0_rate_temp_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.tgaccount.TGAuthAccountSetting",
+      "body_rva": 96606320,
+      "name": "AUTH_ACCOUNT_FILE",
+      "qualname": null,
+      "name_constant_index": 14,
+      "source_file": "agent-notes/decompiled/targets/0x5c48830_tgset_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.tgaccount.TGAuthAccountSetting",
+      "body_rva": 96607488,
+      "name": "getTgAccountList",
+      "qualname": null,
+      "name_constant_index": 48,
+      "source_file": "agent-notes/decompiled/targets/0x5c48830_tgset_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.tgaccount.TGAuthAccountSetting",
+      "body_rva": 96608544,
+      "name": "addOrUpdateAccount",
+      "qualname": null,
+      "name_constant_index": 50,
+      "source_file": "agent-notes/decompiled/targets/0x5c48830_tgset_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.tgaccount.TGAuthAccountSetting",
+      "body_rva": 96609840,
+      "name": "deleteSession",
+      "qualname": null,
+      "name_constant_index": 51,
+      "source_file": "agent-notes/decompiled/targets/0x5c48830_tgset_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.tgaccount.TGAuthAccountSetting",
+      "body_rva": 96962656,
+      "name": "updateToDisAuthAccountList",
+      "qualname": null,
+      "name_constant_index": 6,
+      "source_file": "agent-notes/decompiled/targets/0x5c48830_tgset_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.tgaccount.TGAuthAccountSetting",
+      "body_rva": 97228400,
+      "name": "loadFromDisAuthAccountList",
+      "qualname": null,
+      "name_constant_index": 52,
+      "source_file": "agent-notes/decompiled/targets/0x5c48830_tgset_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.DirManager",
+      "body_rva": 96725200,
+      "name": "get_net_test_dir",
+      "qualname": null,
+      "name_constant_index": 57,
+      "source_file": "agent-notes/decompiled/targets/0x5c51810_dirmgr_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.DirManager",
+      "body_rva": 96726400,
+      "name": "is_hidden",
+      "qualname": null,
+      "name_constant_index": 17,
+      "source_file": "agent-notes/decompiled/targets/0x5c51810_dirmgr_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.DirManager",
+      "body_rva": 96727952,
+      "name": "init_biz_dir",
+      "qualname": null,
+      "name_constant_index": 61,
+      "source_file": "agent-notes/decompiled/targets/0x5c51810_dirmgr_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.DirManager",
+      "body_rva": 97079856,
+      "name": "get_union_code_dir",
+      "qualname": null,
+      "name_constant_index": 58,
+      "source_file": "agent-notes/decompiled/targets/0x5c51810_dirmgr_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.DirManager",
+      "body_rva": 97081648,
+      "name": "get_local_data_dir",
+      "qualname": null,
+      "name_constant_index": 28,
+      "source_file": "agent-notes/decompiled/targets/0x5c51810_dirmgr_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.DirManager",
+      "body_rva": 97083440,
+      "name": "hid_file",
+      "qualname": null,
+      "name_constant_index": 60,
+      "source_file": "agent-notes/decompiled/targets/0x5c51810_dirmgr_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.DirManager",
+      "body_rva": 97416496,
+      "name": "init_path",
+      "qualname": null,
+      "name_constant_index": 59,
+      "source_file": "agent-notes/decompiled/targets/0x5c51810_dirmgr_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.DirManager",
+      "body_rva": 97421872,
+      "name": "set_hidden_recursive",
+      "qualname": null,
+      "name_constant_index": 16,
+      "source_file": "agent-notes/decompiled/targets/0x5c51810_dirmgr_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.FloodGuard",
+      "body_rva": 96552848,
+      "name": "handle_flood_wait",
+      "qualname": null,
+      "name_constant_index": 38,
+      "source_file": "agent-notes/decompiled/targets/0x5c536d0_flood_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.FloodGuard",
+      "body_rva": 96553648,
+      "name": "flood_guard",
+      "qualname": null,
+      "name_constant_index": 85,
+      "source_file": "agent-notes/decompiled/targets/0x5c536d0_flood_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.FloodGuard",
+      "body_rva": 96554624,
+      "name": "with_flood_retry",
+      "qualname": null,
+      "name_constant_index": 63,
+      "source_file": "agent-notes/decompiled/targets/0x5c536d0_flood_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.FloodGuard",
+      "body_rva": 96733376,
+      "name": "handle_other_ex",
+      "qualname": null,
+      "name_constant_index": 61,
+      "source_file": "agent-notes/decompiled/targets/0x5c536d0_flood_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.FloodGuard",
+      "body_rva": 97097184,
+      "name": "clean_flood_log",
+      "qualname": null,
+      "name_constant_index": 39,
+      "source_file": "agent-notes/decompiled/targets/0x5c536d0_flood_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.XAIKeyValidator",
+      "body_rva": 96742560,
+      "name": "__init__",
+      "qualname": "XAIKeyValidator.__init__",
+      "name_constant_index": 1,
+      "source_file": "agent-notes/decompiled/targets/0x5d21c80_XAIKeyValidator_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97876752,
+      "name": "match_duration_and_size",
+      "qualname": null,
+      "name_constant_index": 246,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97880880,
+      "name": "sigal_message_filter_by_base",
+      "qualname": null,
+      "name_constant_index": 670,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97881984,
+      "name": "group_has_legal_msg",
+      "qualname": null,
+      "name_constant_index": 671,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97884432,
+      "name": "message_has_button",
+      "qualname": null,
+      "name_constant_index": 255,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97885504,
+      "name": "container_at_links",
+      "qualname": null,
+      "name_constant_index": 675,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97886544,
+      "name": "__init__",
+      "qualname": "MessageMyObj.__init__",
+      "name_constant_index": 680,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97887824,
+      "name": "isProtectContent",
+      "qualname": null,
+      "name_constant_index": 687,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97891664,
+      "name": "geneRamdomId",
+      "qualname": null,
+      "name_constant_index": 688,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97897568,
+      "name": "current_time",
+      "qualname": null,
+      "name_constant_index": 693,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97898656,
+      "name": "format_time",
+      "qualname": null,
+      "name_constant_index": 694,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97902944,
+      "name": "str_id_tip",
+      "qualname": null,
+      "name_constant_index": 695,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97905024,
+      "name": "sleepTime",
+      "qualname": null,
+      "name_constant_index": 696,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97906832,
+      "name": "_random_ranges_overlap",
+      "qualname": null,
+      "name_constant_index": 309,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97908192,
+      "name": "genLegalAutoBeanListByLimit",
+      "qualname": null,
+      "name_constant_index": 351,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97911088,
+      "name": "generateFileNameBy",
+      "qualname": null,
+      "name_constant_index": 703,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97914720,
+      "name": "checkChannelAndGroupsWrapper",
+      "qualname": null,
+      "name_constant_index": 348,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97915488,
+      "name": "checkSendMessagePermission",
+      "qualname": null,
+      "name_constant_index": 347,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97916096,
+      "name": "checkSendPermission",
+      "qualname": null,
+      "name_constant_index": 357,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97929344,
+      "name": "topic_exists_safe",
+      "qualname": null,
+      "name_constant_index": 393,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97939136,
+      "name": "checkChannelAndGroups",
+      "qualname": null,
+      "name_constant_index": 341,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97939904,
+      "name": "checkEntityIsExist",
+      "qualname": null,
+      "name_constant_index": 396,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97969808,
+      "name": "real_time_increase_params",
+      "qualname": null,
+      "name_constant_index": 707,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97971920,
+      "name": "auto_correct_step_length",
+      "qualname": null,
+      "name_constant_index": 315,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97974736,
+      "name": "parseVideoDuration",
+      "qualname": null,
+      "name_constant_index": 709,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97976320,
+      "name": "parseVideoIndex",
+      "qualname": null,
+      "name_constant_index": 710,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97977904,
+      "name": "globalPicWater",
+      "qualname": null,
+      "name_constant_index": 712,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97979584,
+      "name": "globalVideoWater",
+      "qualname": null,
+      "name_constant_index": 713,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97981264,
+      "name": "privatePicWater",
+      "qualname": null,
+      "name_constant_index": 714,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97982560,
+      "name": "privateVideoWater",
+      "qualname": null,
+      "name_constant_index": 715,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97983856,
+      "name": "fetch_new_quote_message",
+      "qualname": null,
+      "name_constant_index": 492,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97991312,
+      "name": "fetch_new_quote_messages",
+      "qualname": null,
+      "name_constant_index": 495,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 97997264,
+      "name": "get_channel_messages_replies",
+      "qualname": null,
+      "name_constant_index": 500,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 98003600,
+      "name": "safe_try_run",
+      "qualname": null,
+      "name_constant_index": 503,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 98007952,
+      "name": "boolToStr",
+      "qualname": null,
+      "name_constant_index": 722,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 98008928,
+      "name": "is_broadcast_comment_channel",
+      "qualname": null,
+      "name_constant_index": 506,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 98009968,
+      "name": "check_comment_enable",
+      "qualname": null,
+      "name_constant_index": 518,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 98010576,
+      "name": "obtain_comment_to_id",
+      "qualname": null,
+      "name_constant_index": 725,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 98011792,
+      "name": "is_super_group",
+      "qualname": null,
+      "name_constant_index": 538,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 98324720,
+      "name": "gen_base_filter",
+      "qualname": null,
+      "name_constant_index": 726,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 98499152,
+      "name": "getGroupTextAndMessage",
+      "qualname": null,
+      "name_constant_index": 483,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 98501984,
+      "name": "messages_has_video",
+      "qualname": null,
+      "name_constant_index": 668,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 98504000,
+      "name": "get_max_duration_message",
+      "qualname": null,
+      "name_constant_index": 249,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 98507168,
+      "name": "get_max_size_message",
+      "qualname": null,
+      "name_constant_index": 250,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 98510224,
+      "name": "messages_has_exclude_words",
+      "qualname": null,
+      "name_constant_index": 672,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 98514224,
+      "name": "messages_has_contain_words",
+      "qualname": null,
+      "name_constant_index": 673,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 98518224,
+      "name": "messages_has_button",
+      "qualname": null,
+      "name_constant_index": 674,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 98520528,
+      "name": "process_text_to_obj",
+      "qualname": null,
+      "name_constant_index": 685,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 98530096,
+      "name": "contain_word",
+      "qualname": null,
+      "name_constant_index": 686,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 98532416,
+      "name": "is_key_word_in_text",
+      "qualname": null,
+      "name_constant_index": 689,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 98534400,
+      "name": "safe_with_append_tail",
+      "qualname": null,
+      "name_constant_index": 691,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 98550176,
+      "name": "_random_range_conflicts",
+      "qualname": null,
+      "name_constant_index": 321,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 98554864,
+      "name": "random_start_end",
+      "qualname": null,
+      "name_constant_index": 701,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 98568128,
+      "name": "findAutoBeanBySource",
+      "qualname": null,
+      "name_constant_index": 702,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 98623568,
+      "name": "contain_duration",
+      "qualname": null,
+      "name_constant_index": 718,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 98625552,
+      "name": "message_to_parse_list",
+      "qualname": null,
+      "name_constant_index": 719,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "body_rva": 98636048,
+      "name": "parse_ids",
+      "qualname": null,
+      "name_constant_index": 720,
+      "source_file": "agent-notes/decompiled/targets/0x5da7520_commoncode_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.ListOpHelper",
+      "body_rva": 100502032,
+      "name": "addHeader",
+      "qualname": null,
+      "name_constant_index": 100,
+      "source_file": "agent-notes/decompiled/targets/0x5fda3b0_listop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.ListOpHelper",
+      "body_rva": 100507280,
+      "name": "setALLSelect",
+      "qualname": null,
+      "name_constant_index": 107,
+      "source_file": "agent-notes/decompiled/targets/0x5fda3b0_listop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.ListOpHelper",
+      "body_rva": 101649776,
+      "name": "filter_session_item_to_ui_account_data",
+      "qualname": null,
+      "name_constant_index": 98,
+      "source_file": "agent-notes/decompiled/targets/0x5fda3b0_listop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.ListOpHelper",
+      "body_rva": 101652704,
+      "name": "convert_employee_to_show_item_data",
+      "qualname": null,
+      "name_constant_index": 99,
+      "source_file": "agent-notes/decompiled/targets/0x5fda3b0_listop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.ListOpHelper",
+      "body_rva": 101655136,
+      "name": "fillAccountListView",
+      "qualname": null,
+      "name_constant_index": 102,
+      "source_file": "agent-notes/decompiled/targets/0x5fda3b0_listop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.ListOpHelper",
+      "body_rva": 101663216,
+      "name": "fillEmployeeListView",
+      "qualname": null,
+      "name_constant_index": 103,
+      "source_file": "agent-notes/decompiled/targets/0x5fda3b0_listop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.ListOpHelper",
+      "body_rva": 101671296,
+      "name": "fillYunYinMaoItemListView",
+      "qualname": null,
+      "name_constant_index": 105,
+      "source_file": "agent-notes/decompiled/targets/0x5fda3b0_listop_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.water.PicWaterUtils",
+      "body_rva": 102023056,
+      "name": "_calc_pic_water_text_position",
+      "qualname": null,
+      "name_constant_index": 37,
+      "source_file": "agent-notes/decompiled/targets/0x61f2f70_picwater_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.water.PicWaterUtils",
+      "body_rva": 102024624,
+      "name": "_calc_pic_watermark_image_position",
+      "qualname": null,
+      "name_constant_index": 25,
+      "source_file": "agent-notes/decompiled/targets/0x61f2f70_picwater_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.water.PicWaterUtils",
+      "body_rva": 102027296,
+      "name": "_scale_pic_watermark",
+      "qualname": null,
+      "name_constant_index": 23,
+      "source_file": "agent-notes/decompiled/targets/0x61f2f70_picwater_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.water.PicWaterUtils",
+      "body_rva": 102031648,
+      "name": "draw_block_3_bg",
+      "qualname": null,
+      "name_constant_index": 70,
+      "source_file": "agent-notes/decompiled/targets/0x61f2f70_picwater_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.water.PicWaterUtils",
+      "body_rva": 102696128,
+      "name": "water_text_mark",
+      "qualname": null,
+      "name_constant_index": 69,
+      "source_file": "agent-notes/decompiled/targets/0x61f2f70_picwater_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.water.PicWaterUtils",
+      "body_rva": 102704656,
+      "name": "measure_text_width",
+      "qualname": null,
+      "name_constant_index": 71,
+      "source_file": "agent-notes/decompiled/targets/0x61f2f70_picwater_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.water.VideoBitUtils",
+      "body_rva": 102051408,
+      "name": "animate_text",
+      "qualname": null,
+      "name_constant_index": 62,
+      "source_file": "agent-notes/decompiled/targets/0x61f7310_videobit_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.water.VideoBitUtils",
+      "body_rva": 102598720,
+      "name": "get_video_bitrate",
+      "qualname": null,
+      "name_constant_index": 19,
+      "source_file": "agent-notes/decompiled/targets/0x61f7310_videobit_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.water.VideoBitUtils",
+      "body_rva": 102602304,
+      "name": "get_video_fps",
+      "qualname": null,
+      "name_constant_index": 25,
+      "source_file": "agent-notes/decompiled/targets/0x61f7310_videobit_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.water.VideoBitUtils",
+      "body_rva": 102712240,
+      "name": "change_bit",
+      "qualname": null,
+      "name_constant_index": 56,
+      "source_file": "agent-notes/decompiled/targets/0x61f7310_videobit_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.water.VideoBitUtils",
+      "body_rva": 102717088,
+      "name": "gen_text_clip",
+      "qualname": null,
+      "name_constant_index": 57,
+      "source_file": "agent-notes/decompiled/targets/0x61f7310_videobit_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.water.VideoBitUtils",
+      "body_rva": 102718560,
+      "name": "gen_bit_data",
+      "qualname": null,
+      "name_constant_index": 58,
+      "source_file": "agent-notes/decompiled/targets/0x61f7310_videobit_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.water.VideoBitUtils",
+      "body_rva": 102721696,
+      "name": "gen_fps_data",
+      "qualname": null,
+      "name_constant_index": 59,
+      "source_file": "agent-notes/decompiled/targets/0x61f7310_videobit_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.water.VideoWaterUtilsToSmallFile",
+      "body_rva": 102060560,
+      "name": "_escape_drawtext_text",
+      "qualname": null,
+      "name_constant_index": 129,
+      "source_file": "agent-notes/decompiled/targets/0x620af20_videowater_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.water.VideoWaterUtilsToSmallFile",
+      "body_rva": 102062032,
+      "name": "_normalize_font_for_ffmpeg",
+      "qualname": null,
+      "name_constant_index": 130,
+      "source_file": "agent-notes/decompiled/targets/0x620af20_videowater_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.water.VideoWaterUtilsToSmallFile",
+      "body_rva": 102063936,
+      "name": "_run_ffmpeg_with_progress",
+      "qualname": null,
+      "name_constant_index": 183,
+      "source_file": "agent-notes/decompiled/targets/0x620af20_videowater_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.water.VideoWaterUtilsToSmallFile",
+      "body_rva": 102138848,
+      "name": "_normalize_image_path_for_ffmpeg",
+      "qualname": null,
+      "name_constant_index": 260,
+      "source_file": "agent-notes/decompiled/targets/0x620af20_videowater_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.water.VideoWaterUtilsToSmallFile",
+      "body_rva": 102605888,
+      "name": "_abort_if_stopped",
+      "qualname": null,
+      "name_constant_index": 161,
+      "source_file": "agent-notes/decompiled/targets/0x620af20_videowater_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.water.VideoWaterUtilsToSmallFile",
+      "body_rva": 102607584,
+      "name": "_safe_int",
+      "qualname": null,
+      "name_constant_index": 143,
+      "source_file": "agent-notes/decompiled/targets/0x620af20_videowater_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.water.VideoWaterUtilsToSmallFile",
+      "body_rva": 102610720,
+      "name": "_safe_float",
+      "qualname": null,
+      "name_constant_index": 141,
+      "source_file": "agent-notes/decompiled/targets/0x620af20_videowater_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.water.waterUtils",
+      "body_rva": 102176688,
+      "name": "get_file_size_byte",
+      "qualname": null,
+      "name_constant_index": 2,
+      "source_file": "agent-notes/decompiled/targets/0x6218d20_waterutils_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.water.waterUtils",
+      "body_rva": 102613888,
+      "name": "is_file_up_100m",
+      "qualname": null,
+      "name_constant_index": 40,
+      "source_file": "agent-notes/decompiled/targets/0x6218d20_waterutils_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.water.waterUtils",
+      "body_rva": 102824560,
+      "name": "auto_add_water",
+      "qualname": null,
+      "name_constant_index": 102,
+      "source_file": "agent-notes/decompiled/targets/0x6218d20_waterutils_init.c"
+    },
+    {
+      "module": "src.py.com.yun.mao.water.waterUtils",
+      "body_rva": 102852640,
+      "name": "gen_key_log",
+      "qualname": null,
+      "name_constant_index": 58,
+      "source_file": "agent-notes/decompiled/targets/0x6218d20_waterutils_init.c"
+    }
+  ]
+}

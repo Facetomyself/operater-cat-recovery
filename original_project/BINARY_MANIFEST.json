@@ -1,0 +1,956 @@
+{
+    "source_root":  "original_project/app",
+    "note":  "Large/binaries are kept in the local folder and excluded from the public git tree.",
+    "files":  [
+                  {
+                      "path":  "_asyncio.pyd",
+                      "size":  65304,
+                      "sha256":  "746bc8fa88282afe19dc60e426cc0a75bea3bd137cca06a0b57a30bd31459403"
+                  },
+                  {
+                      "path":  "_bz2.pyd",
+                      "size":  84760,
+                      "sha256":  "00b8ca9a338d2b47285c9e56d6d893db2a999b47216756f18439997fb80a56e3"
+                  },
+                  {
+                      "path":  "_cffi_backend.pyd",
+                      "size":  181248,
+                      "sha256":  "59767b0918859beddf28a7d66a50431411ffd940c32b3e8347e6d938b60facdf"
+                  },
+                  {
+                      "path":  "_ctypes.pyd",
+                      "size":  124696,
+                      "sha256":  "c148292328f0aab7863af82f54f613961e7cb95b7215f7a81cafaf45bd4c42b7"
+                  },
+                  {
+                      "path":  "_decimal.pyd",
+                      "size":  255768,
+                      "sha256":  "980a63f2b39cf16910f44384398e25f24482346a482addb00de42555b17d4278"
+                  },
+                  {
+                      "path":  "_elementtree.pyd",
+                      "size":  128792,
+                      "sha256":  "02e30b6a2bee5be5336e40a9c89575603051bde86f9c9cdc78b7fa7d9b7bd1f0"
+                  },
+                  {
+                      "path":  "_hashlib.pyd",
+                      "size":  65304,
+                      "sha256":  "87dd0c858620287454fd6d31d52b6a48eddbb2a08e09e8b2d9fdb0b92200d766"
+                  },
+                  {
+                      "path":  "_lzma.pyd",
+                      "size":  159512,
+                      "sha256":  "f5e01b516c2c23035f7703e23569dec26c5616c05a929b2580ae474a5c6722c5"
+                  },
+                  {
+                      "path":  "_multiprocessing.pyd",
+                      "size":  34584,
+                      "sha256":  "975c1947798e3c39898c86675ca1eb68249f77361f41f172f9800275227213b9"
+                  },
+                  {
+                      "path":  "_overlapped.pyd",
+                      "size":  51480,
+                      "sha256":  "ca106e4dfdeafeabf9e98956d3d8d0cb73e109f1a96f1a7e35bc47dbd7c7e164"
+                  },
+                  {
+                      "path":  "_queue.pyd",
+                      "size":  32024,
+                      "sha256":  "3f8e7e6aa13b417acc78b63434fb1144e6319a010a9fc376c54d6e69b638fe4c"
+                  },
+                  {
+                      "path":  "_socket.pyd",
+                      "size":  79640,
+                      "sha256":  "a19e3c7c03ef1b5625790b1c9c42594909311ab6df540fbf43c6aa93300ab166"
+                  },
+                  {
+                      "path":  "_sqlite3.pyd",
+                      "size":  120600,
+                      "sha256":  "ff6a2a2f38b21b7784f97d604c99961d8c07ef455f7908110a4e893835d42b76"
+                  },
+                  {
+                      "path":  "_ssl.pyd",
+                      "size":  178456,
+                      "sha256":  "ba5388d6a6557d431e086734a3323621dc447f63ba299b0a815e5837cf869678"
+                  },
+                  {
+                      "path":  "_uuid.pyd",
+                      "size":  25368,
+                      "sha256":  "e6aa7f1637e211251c9d6f467203b2b6d85e5bc2d901699f2a55af637fa89250"
+                  },
+                  {
+                      "path":  "_win32sysloader.pyd",
+                      "size":  14848,
+                      "sha256":  "5a233a01e52ebdda835933bb195e8c9954a27bcfc159bb687dc81526e2c66202"
+                  },
+                  {
+                      "path":  "_zoneinfo.pyd",
+                      "size":  45848,
+                      "sha256":  "7e7b4157e401f8281fd85b68f2e21c828bf739c91416b2824dd22cb385eef819"
+                  },
+                  {
+                      "path":  "agent-notes/bytecode_blob.bin",
+                      "size":  12419043,
+                      "sha256":  "59501c7ccd24e08d2329d06cd4ebfa8f8bfc5bafd393e9993dd02da23b2862e4"
+                  },
+                  {
+                      "path":  "agent-notes/pdata_functions_full.json",
+                      "size":  5281117,
+                      "sha256":  "930eb4d19977c57e72f33b007500e039d1ece72e551ad55dd61570c1d5b2d6c8"
+                  },
+                  {
+                      "path":  "aiohttp/_helpers.pyd",
+                      "size":  51712,
+                      "sha256":  "a445c77bf84becc29a5574dd62416667503b3624bb09a6e091a01d8f34b58891"
+                  },
+                  {
+                      "path":  "aiohttp/_http_parser.pyd",
+                      "size":  266240,
+                      "sha256":  "f7544e76592e3c996662cd8bf0d3f459357d984c051ea7c5ee702d1116a85d0d"
+                  },
+                  {
+                      "path":  "aiohttp/_http_writer.pyd",
+                      "size":  47616,
+                      "sha256":  "943f74ba3ad2fd434abf8495cee7282443739dd01a030b26ad48ec477196c2b5"
+                  },
+                  {
+                      "path":  "aiohttp/_websocket.pyd",
+                      "size":  36864,
+                      "sha256":  "ed6e7e24d751ecabc16c9c340f30b39e612c0c3e0b4d125f350541993dfd3840"
+                  },
+                  {
+                      "path":  "charset_normalizer/md.pyd",
+                      "size":  10752,
+                      "sha256":  "790a11aa270523c2efa6021ce4f994c3c5a67e8eaaaf02074d5308420b68bd94"
+                  },
+                  {
+                      "path":  "charset_normalizer/md__mypyc.pyd",
+                      "size":  119296,
+                      "sha256":  "3d9893aa79efd13d81fcd614e9ef5fb6aad90569beeded5112de5ed5ac3cf753"
+                  },
+                  {
+                      "path":  "concrt140.dll",
+                      "size":  317208,
+                      "sha256":  "1f072a6dc98cd882c542208e7a8fe4fbe5239781588f17c005a2607fdfe62d5d"
+                  },
+                  {
+                      "path":  "cryptg/cryptg.pyd",
+                      "size":  258560,
+                      "sha256":  "891f0b8360ac0fb4985b1317cb9d8ae3ca7ffe2db830f18275a0df0a199b10b4"
+                  },
+                  {
+                      "path":  "cryptography/hazmat/bindings/_rust.pyd",
+                      "size":  6651904,
+                      "sha256":  "8733e477b48edf4a0b1e111652598fd065a39451796acd9e0335893bba3d10ee"
+                  },
+                  {
+                      "path":  "cv2/cv2.pyd",
+                      "size":  74452480,
+                      "sha256":  "a73aeb87dc1b2f6cd6e978b653e89604f09be4b9531573020695cb48eb998e8a"
+                  },
+                  {
+                      "path":  "cv2/opencv_videoio_ffmpeg4100_64.dll",
+                      "size":  26391552,
+                      "sha256":  "3de83b84588b3ee8bacdbea85a8f92d4855a32a1108183963315a7db06ad5744"
+                  },
+                  {
+                      "path":  "ffmpeg-win-x86_64-v7.1.exe",
+                      "size":  87638016,
+                      "sha256":  "2ce797a0f88d7f067180338fb227f7b1928ea727bd9a4d7a1d022f7c52af71a3"
+                  },
+                  {
+                      "path":  "frozenlist/_frozenlist.pyd",
+                      "size":  86016,
+                      "sha256":  "0f7538441c1668248618ee15d11414ce68642c2cbdd1636b903ecefacf88652d"
+                  },
+                  {
+                      "path":  "imageio_ffmpeg/binaries/ffmpeg-win-x86_64-v7.1.exe",
+                      "size":  87638016,
+                      "sha256":  "2ce797a0f88d7f067180338fb227f7b1928ea727bd9a4d7a1d022f7c52af71a3"
+                  },
+                  {
+                      "path":  "jiter/jiter.pyd",
+                      "size":  482816,
+                      "sha256":  "91e3d1200abd2084aab5d2041b852ccd277459c8eb6f9b2f63bd13f4e8963a81"
+                  },
+                  {
+                      "path":  "libcrypto-1_1-x64.dll",
+                      "size":  3205632,
+                      "sha256":  "6db7bdb60559b52e27edb228ae25dcc4c5dd84943ad8e11eac1ef87250c94df4"
+                  },
+                  {
+                      "path":  "libcrypto-3.dll",
+                      "size":  5191960,
+                      "sha256":  "05fe080eab7fc535c51e10c1bd76a2f3e6217f9c91a25034774588881c3f99de"
+                  },
+                  {
+                      "path":  "libeay32.dll",
+                      "size":  1988608,
+                      "sha256":  "44dca66a470dcca1bf9e6c1f22b4fe2175c4d9e796884cdd61d8536f013416ea"
+                  },
+                  {
+                      "path":  "libffi-8.dll",
+                      "size":  39696,
+                      "sha256":  "eff52743773eb550fcc6ce3efc37c85724502233b6b002a35496d828bd7b280a"
+                  },
+                  {
+                      "path":  "libssl-1_1-x64.dll",
+                      "size":  681472,
+                      "sha256":  "da280e1d3cb5168e5e584a57058eb5b05fb3be36bdaefd20a144f4da3cdb9030"
+                  },
+                  {
+                      "path":  "libssl-3.dll",
+                      "size":  787224,
+                      "sha256":  "2e9fbcd8f7fdc13a5179533239811456554f2b3aa2fb10e1b17be0df81c79006"
+                  },
+                  {
+                      "path":  "magick.exe",
+                      "size":  25614848,
+                      "sha256":  "22ce38bbcfc9b230dd0b580d9735819ff4e1439a3351ea65d9e26919a894af2f"
+                  },
+                  {
+                      "path":  "mfc140u.dll",
+                      "size":  5653576,
+                      "sha256":  "1ec2a31a1302e720c799bad2fd90cf3457c6b2a375c4b41faefee1a91d92f3e0"
+                  },
+                  {
+                      "path":  "msvcp140.dll",
+                      "size":  590112,
+                      "sha256":  "88f55d86b50b0a7e55e71ad2d8f7552146ba26e927230daf2e26ad3a971973c5"
+                  },
+                  {
+                      "path":  "msvcp140_1.dll",
+                      "size":  31728,
+                      "sha256":  "446c48c1224c289bd3080087fe15d6759416d64f4136addf30086abd5415d83f"
+                  },
+                  {
+                      "path":  "multidict/_multidict.pyd",
+                      "size":  46592,
+                      "sha256":  "32555defdb044714dbaaec281820fa7a0c226545d40561b905294d2e0bdba102"
+                  },
+                  {
+                      "path":  "mypy/__init__.pyd",
+                      "size":  10240,
+                      "sha256":  "6b494876e5ef5c07baa5e057b3751ad26f56fdeda9aa3e5117cde340b6e82e07"
+                  },
+                  {
+                      "path":  "mypy/applytype.pyd",
+                      "size":  10240,
+                      "sha256":  "c00bedcff074ae2958aab200edb333dc3b05c7cc9d7d64e3ab200d9ba2472b00"
+                  },
+                  {
+                      "path":  "mypy/argmap.pyd",
+                      "size":  10240,
+                      "sha256":  "e424ebd9ebeefdc3f3f8a10b90b164cc4aa817339d31a0eff188772c246e6184"
+                  },
+                  {
+                      "path":  "mypy/checker_shared.pyd",
+                      "size":  10240,
+                      "sha256":  "8a808ff5c6938eed1dc24a250ca210d61f23b62a3bcee260cb2ad58535d169ac"
+                  },
+                  {
+                      "path":  "mypy/checker_state.pyd",
+                      "size":  10240,
+                      "sha256":  "1ceb1a2f219dc514bf5c3893ee4915fb1d1e45a5a0ecc6a14a0f24b53c87d5fb"
+                  },
+                  {
+                      "path":  "mypy/checkmember.pyd",
+                      "size":  10240,
+                      "sha256":  "72b0def68aa45963a556ac782c321bbc3bfffba521344f37ea8409b2843bf2e1"
+                  },
+                  {
+                      "path":  "mypy/constant_fold.pyd",
+                      "size":  10240,
+                      "sha256":  "11d79161297af6cdff9c83c4ac4506fb021efffd1a1eb9c4e81bd5f5a7576b4a"
+                  },
+                  {
+                      "path":  "mypy/constraints.pyd",
+                      "size":  10240,
+                      "sha256":  "ea662c6d220c1c3cbe1d73f8bbde1c6478f95f839a65b7546ac3d2cdad3e01da"
+                  },
+                  {
+                      "path":  "mypy/copytype.pyd",
+                      "size":  10240,
+                      "sha256":  "8434566962d8072cd1f3bb0c7739ed5ea9a233e7a9e094e7225061eb5f664267"
+                  },
+                  {
+                      "path":  "mypy/defaults.pyd",
+                      "size":  10240,
+                      "sha256":  "d48da3d06893312ada708f860a1292cb6c9af9ecb2eb54673be570b879555556"
+                  },
+                  {
+                      "path":  "mypy/erasetype.pyd",
+                      "size":  10240,
+                      "sha256":  "37afcb3e663b2ebc5c1bd412b71ff2b9a70a14edde2403cc0b37baa159759302"
+                  },
+                  {
+                      "path":  "mypy/error_formatter.pyd",
+                      "size":  10240,
+                      "sha256":  "5afbc58c98e3e2b5874b3c727af942b97ee4a53abe3986bb8757cef13f58767c"
+                  },
+                  {
+                      "path":  "mypy/errorcodes.pyd",
+                      "size":  10240,
+                      "sha256":  "386f1a407e3efc378080b901c145eec914687c71dc18db9e3cf0accae2bb45bc"
+                  },
+                  {
+                      "path":  "mypy/errors.pyd",
+                      "size":  10240,
+                      "sha256":  "afef96bd1ccc238a1188c0b3362fe8072a1a19458f3175371fe215ac6740a8be"
+                  },
+                  {
+                      "path":  "mypy/expandtype.pyd",
+                      "size":  10240,
+                      "sha256":  "cfde5d8606b0fae511409e42aafa34b9e842e41683c54b8f4987272d1529543d"
+                  },
+                  {
+                      "path":  "mypy/exprtotype.pyd",
+                      "size":  10240,
+                      "sha256":  "38c9556f998a5e1f259d9beaed9f4e181a2f62714ba5c556bfe41edfc88bba6e"
+                  },
+                  {
+                      "path":  "mypy/fastparse.pyd",
+                      "size":  10240,
+                      "sha256":  "b83cdfa7c466812fc06bba35cf5b2ccd9ef464e5472708c9a7eb55b73b311444"
+                  },
+                  {
+                      "path":  "mypy/fixup.pyd",
+                      "size":  10240,
+                      "sha256":  "d9b24c08f19218c456a8393450b75a0f7aa06d799b3fe256489fe59e15e79a15"
+                  },
+                  {
+                      "path":  "mypy/graph_utils.pyd",
+                      "size":  10240,
+                      "sha256":  "51b3db9455dc57ba2be1e738e6894cdeb306d5d1a6bdb2b366c591cd13812501"
+                  },
+                  {
+                      "path":  "mypy/infer.pyd",
+                      "size":  10240,
+                      "sha256":  "67db90778427a693037db293cadeacf0f04f02c0e48c26afd2158961da45ac85"
+                  },
+                  {
+                      "path":  "mypy/join.pyd",
+                      "size":  10240,
+                      "sha256":  "045ca16a1bb7f04fadef47a9bc7c17f8bfe92f38588a5c2eb175c4d1fa5c2d24"
+                  },
+                  {
+                      "path":  "mypy/literals.pyd",
+                      "size":  10240,
+                      "sha256":  "0921fc6423314783e9d5d52216e05f8f91a91fcebf6ada86743ea130db4a5f0d"
+                  },
+                  {
+                      "path":  "mypy/lookup.pyd",
+                      "size":  10240,
+                      "sha256":  "c5cedb9a21540f78b6e37778b4e6b7f9fab666ccd53e64039f040d07ef70804c"
+                  },
+                  {
+                      "path":  "mypy/maptype.pyd",
+                      "size":  10240,
+                      "sha256":  "d450f7f3f8eee5c4e442a7b6e41724069e1c96e7e5bcdae0fe56910bbad0227b"
+                  },
+                  {
+                      "path":  "mypy/meet.pyd",
+                      "size":  10240,
+                      "sha256":  "1bf21726540830e732542c265bdba38c1203e4423e7f4977e71e6eac65448b2b"
+                  },
+                  {
+                      "path":  "mypy/message_registry.pyd",
+                      "size":  10240,
+                      "sha256":  "fa06687dfb8692553e8a9b4bbad68160cf78046f147afc1f642d5ae299c78481"
+                  },
+                  {
+                      "path":  "mypy/messages.pyd",
+                      "size":  10240,
+                      "sha256":  "b8913c63ec71eb2a2bb2c23f9b93e98223e37ce24e84c90f000fa0daaf1ec8a5"
+                  },
+                  {
+                      "path":  "mypy/mro.pyd",
+                      "size":  10240,
+                      "sha256":  "bd15546ab73827b4d1a1955f7aaff2f70826a996973646402141ea02054b0099"
+                  },
+                  {
+                      "path":  "mypy/nodes.pyd",
+                      "size":  10240,
+                      "sha256":  "d53af907c90c7e492fbb9b715f61dc9d85e9fff5e759b4a37463ef441a11b464"
+                  },
+                  {
+                      "path":  "mypy/operators.pyd",
+                      "size":  10240,
+                      "sha256":  "94072f4ea8437e6d4c6df6d6be67cb5b0c1f424022769cd8e1ab954dc5daa89f"
+                  },
+                  {
+                      "path":  "mypy/options.pyd",
+                      "size":  10240,
+                      "sha256":  "c437d743a176a96e3d93c6bca628ff91e44880b7c42e473a9bce401bf289c846"
+                  },
+                  {
+                      "path":  "mypy/patterns.pyd",
+                      "size":  10240,
+                      "sha256":  "4d0247f14314eb2546b2c56e299c201801454f561e549418502cf80bc4ecf906"
+                  },
+                  {
+                      "path":  "mypy/plugin.pyd",
+                      "size":  10240,
+                      "sha256":  "5ca7219f33cd97b9c52f622c14af6df05a3b37ddf2b2af0e34394c4ef2c7fb7e"
+                  },
+                  {
+                      "path":  "mypy/plugins/__init__.pyd",
+                      "size":  10240,
+                      "sha256":  "727cdd72794a2bb0f63fe19e06b7c6c863302deff262a8f10bbadd867d0b888d"
+                  },
+                  {
+                      "path":  "mypy/plugins/common.pyd",
+                      "size":  10240,
+                      "sha256":  "29b750c60882337a88b23695e91b5349cfe1a3c88fcc1210684964fef3c362f0"
+                  },
+                  {
+                      "path":  "mypy/reachability.pyd",
+                      "size":  10240,
+                      "sha256":  "05c60f4cec8e82bb05de19224b0499d58f24da6fa820afc10286a24590af3864"
+                  },
+                  {
+                      "path":  "mypy/scope.pyd",
+                      "size":  10240,
+                      "sha256":  "6b23a999d2df52201879cfe53f4ed6ba7f827af5e894587381584517ad887d24"
+                  },
+                  {
+                      "path":  "mypy/semanal.pyd",
+                      "size":  10240,
+                      "sha256":  "69a2cad44e2ebcd60e4d851b3f63c927bec34e3c6626250e742e485ab0189d97"
+                  },
+                  {
+                      "path":  "mypy/semanal_enum.pyd",
+                      "size":  10240,
+                      "sha256":  "b44de5ff0f3f6f290b261173ceaa554ac311471fa405ebf151d55eecebb82ed3"
+                  },
+                  {
+                      "path":  "mypy/semanal_namedtuple.pyd",
+                      "size":  10240,
+                      "sha256":  "6b77d5875039653c26bae9557d6eaaf74fbf42612b3d588b8f7e8b4719675ff1"
+                  },
+                  {
+                      "path":  "mypy/semanal_newtype.pyd",
+                      "size":  10240,
+                      "sha256":  "3e3dbb92aa0f905814e6f1893466bd29d77192e03ccb3bcde4980863797d487e"
+                  },
+                  {
+                      "path":  "mypy/semanal_shared.pyd",
+                      "size":  10240,
+                      "sha256":  "e10d97475f72e44f7f3f7e3bc21731279d19b28e6f3f206bba412c415be82a2e"
+                  },
+                  {
+                      "path":  "mypy/semanal_typeddict.pyd",
+                      "size":  10240,
+                      "sha256":  "294c7c6392847a26928e1b87299f3f3db9f888c5d8c41066a0856b4acea07b1f"
+                  },
+                  {
+                      "path":  "mypy/server/__init__.pyd",
+                      "size":  10240,
+                      "sha256":  "dff2e311902ec3c7255cc6e7bdd1498d951de9e94ce070be3344247c13edf6e3"
+                  },
+                  {
+                      "path":  "mypy/server/trigger.pyd",
+                      "size":  10240,
+                      "sha256":  "16e97ca2d0a904d3f22a5bc097e49a16dbff117deb5026edc9925dc7a211c5f4"
+                  },
+                  {
+                      "path":  "mypy/sharedparse.pyd",
+                      "size":  10240,
+                      "sha256":  "f6c61df83cc806ae6c28cf389677adbcd8cfc7b07132b37a208dee9c51e1edcc"
+                  },
+                  {
+                      "path":  "mypy/solve.pyd",
+                      "size":  10240,
+                      "sha256":  "6ea9e6ace97cf038c7ed074457f9af9e207fd4244f4dc1c21463509120b19bd2"
+                  },
+                  {
+                      "path":  "mypy/state.pyd",
+                      "size":  10240,
+                      "sha256":  "1e0022033d658eb709741baeb1680076b86607df17d020f693b4664bd4367572"
+                  },
+                  {
+                      "path":  "mypy/strconv.pyd",
+                      "size":  10240,
+                      "sha256":  "c22f9b47f56de8385a2552f831a93716adb2d86f6961da903a69a89bc4ec61c4"
+                  },
+                  {
+                      "path":  "mypy/subtypes.pyd",
+                      "size":  10240,
+                      "sha256":  "23a3ab099dd51e2d154245df47c468355caaaf91450c650ee1a5a4bfbe3a581c"
+                  },
+                  {
+                      "path":  "mypy/traverser.pyd",
+                      "size":  10240,
+                      "sha256":  "36513afeee37f5d457f82d1246bdc975585c3e5d988f109dfc85bfb4fd45e276"
+                  },
+                  {
+                      "path":  "mypy/tvar_scope.pyd",
+                      "size":  10240,
+                      "sha256":  "636997f411d4da01e4f45c6540390b9727f1c4f18de9d15d94598a3afa98ef33"
+                  },
+                  {
+                      "path":  "mypy/type_visitor.pyd",
+                      "size":  10240,
+                      "sha256":  "bccd99c2bf4d70e7e52ebe94c801bb720a81c7cd3fee4822ceab16d366303dfc"
+                  },
+                  {
+                      "path":  "mypy/typeanal.pyd",
+                      "size":  10240,
+                      "sha256":  "7dcf2033fe11f02634053948a0d4b555871f366913973ab8485d43b3d2dfa51b"
+                  },
+                  {
+                      "path":  "mypy/typeops.pyd",
+                      "size":  10240,
+                      "sha256":  "552041437af4314d4453260532ca68db151f12d33277a515e0faeb211c69cb59"
+                  },
+                  {
+                      "path":  "mypy/types.pyd",
+                      "size":  10240,
+                      "sha256":  "7ede93cb0963fbca7f616bc5863f0f41f0a54c274173912dabd70b9478ee40be"
+                  },
+                  {
+                      "path":  "mypy/types_utils.pyd",
+                      "size":  10240,
+                      "sha256":  "e316da447e25c73e2306bbbe1af421708ee23fcd9d7cbdeb649c53f41ff7f0c1"
+                  },
+                  {
+                      "path":  "mypy/typestate.pyd",
+                      "size":  10240,
+                      "sha256":  "d376405f7aa865ff1da8419b9df51ac6cc6d94ce2bf26a9ad0f2bacfc66ddfc2"
+                  },
+                  {
+                      "path":  "mypy/typetraverser.pyd",
+                      "size":  10240,
+                      "sha256":  "1a78c097afd2b01a7266e2ffd7058782b93deed1aa0a33aa8b13edeea1a23960"
+                  },
+                  {
+                      "path":  "mypy/typevars.pyd",
+                      "size":  10240,
+                      "sha256":  "18df95c9814af5bd1e29bebed6a29ae16a263deb97c3822f8019d92e7e9950f4"
+                  },
+                  {
+                      "path":  "mypy/typevartuples.pyd",
+                      "size":  10240,
+                      "sha256":  "e5f0c41b09eae72923e9a8a0f7f391a67948166a4801528b5b5d5f215b3f83ed"
+                  },
+                  {
+                      "path":  "mypy/util.pyd",
+                      "size":  10240,
+                      "sha256":  "bfd65feafa3db5ced27078c2536091dbf20fe60ed40dd0e4f42242f27a2f408b"
+                  },
+                  {
+                      "path":  "mypy/visitor.pyd",
+                      "size":  10240,
+                      "sha256":  "870a34fa098c55d6ee07c999e69e3968ee4516eb24cf7cc9ff0d3b5e9a4e9504"
+                  },
+                  {
+                      "path":  "numpy.libs/libscipy_openblas64_-c16e4918366c6bc1f1cd71e28ca36fc0.dll",
+                      "size":  20269568,
+                      "sha256":  "7a62620b556f4a485ca273e34f0e224f345da4530d15029c74ba6ea5de878934"
+                  },
+                  {
+                      "path":  "numpy.libs/msvcp140-23ebcc0b37c8e3d074511f362feac48b.dll",
+                      "size":  618728,
+                      "sha256":  "32e6c8100bd62e7a91f50996c2a59692dc796b6f140a2dfa4de313ca43d4c748"
+                  },
+                  {
+                      "path":  "numpy/_core/_multiarray_tests.pyd",
+                      "size":  62976,
+                      "sha256":  "406aaebf176f01bf515c4d6ce2bf8b28bd5276799001744c18dda9796fa9f68e"
+                  },
+                  {
+                      "path":  "numpy/_core/_multiarray_umath.pyd",
+                      "size":  4150272,
+                      "sha256":  "15a782a46d71e60a668afcfbcf416a72069cf6913137554ec78b552f2f38c0a8"
+                  },
+                  {
+                      "path":  "numpy/fft/_pocketfft_umath.pyd",
+                      "size":  279040,
+                      "sha256":  "1aaff6b9b31e2b991daa4aac58af7823a110f8ad49fcace1b85da40cebe6b9e2"
+                  },
+                  {
+                      "path":  "numpy/linalg/_umath_linalg.pyd",
+                      "size":  108032,
+                      "sha256":  "0f724096803ceb30eb224cdd2f0ac0a6ed9b93be9e5c441af9dcb452079d2426"
+                  },
+                  {
+                      "path":  "numpy/random/_bounded_integers.pyd",
+                      "size":  252416,
+                      "sha256":  "74938dc2dfffc1035c723a491ca0551ece9847359f6664a8e597403d8e058164"
+                  },
+                  {
+                      "path":  "numpy/random/_common.pyd",
+                      "size":  177152,
+                      "sha256":  "9c5663582d07b9e3ffadc076765967aaedb488c0e66682c11450eafd862e4b64"
+                  },
+                  {
+                      "path":  "numpy/random/_generator.pyd",
+                      "size":  755200,
+                      "sha256":  "258ac590cc9bae1dbd8cc5040b4b69c43bfd84730720de69ee7da403bc9a676b"
+                  },
+                  {
+                      "path":  "numpy/random/_mt19937.pyd",
+                      "size":  89088,
+                      "sha256":  "91b1649ab51554c805ec7404e03801948507169784d3afa3cb63fb7c2c6a5f0f"
+                  },
+                  {
+                      "path":  "numpy/random/_pcg64.pyd",
+                      "size":  97792,
+                      "sha256":  "ac3d8c5be2e328a305d07585e36e3e292db9309d7d8d4ee2612ca94ad3786ed3"
+                  },
+                  {
+                      "path":  "numpy/random/_philox.pyd",
+                      "size":  82944,
+                      "sha256":  "9d7cd42f6d8c37d306ae743bdf8fe14b6452eecf7f096941a3ba2eea7a7a8dca"
+                  },
+                  {
+                      "path":  "numpy/random/_sfc64.pyd",
+                      "size":  61952,
+                      "sha256":  "c1ba6e5b7df57f2c0f12fade56b1c990e74c722f2506b6d11296e739147fa633"
+                  },
+                  {
+                      "path":  "numpy/random/bit_generator.pyd",
+                      "size":  175104,
+                      "sha256":  "b67415ead99d5797d1e9e0bd08850cd41d5e9e81221d2994392d2fd1ae84f60d"
+                  },
+                  {
+                      "path":  "numpy/random/mtrand.pyd",
+                      "size":  645120,
+                      "sha256":  "3358fcf3667d6badf4067e7b633b91c96ad3e753be0119e2a1caee38e1df1507"
+                  },
+                  {
+                      "path":  "PIL/_imaging.pyd",
+                      "size":  2341888,
+                      "sha256":  "eaad1713dbcae6191b925a12ce4065de247abbc06b8b1e6b36093b38d8703b29"
+                  },
+                  {
+                      "path":  "PIL/_imagingcms.pyd",
+                      "size":  263168,
+                      "sha256":  "08f2dccc7fdc49b641fd234bd13c6f5237d236ab7a3b3ca26b30cd5012154ab7"
+                  },
+                  {
+                      "path":  "PIL/_imagingft.pyd",
+                      "size":  1819136,
+                      "sha256":  "d6d73d8f8c51d17884ee972f39cbb333c3ebf75b769353b0e46ebacf9b3a2609"
+                  },
+                  {
+                      "path":  "PIL/_imagingmath.pyd",
+                      "size":  24064,
+                      "sha256":  "e3f179bb353106b74fd3259595f2d2d3bb1207e4931da594ed4df72d4ac98196"
+                  },
+                  {
+                      "path":  "PIL/_imagingtk.pyd",
+                      "size":  14848,
+                      "sha256":  "8cc471f2f167e5eda1398373eeb7c6689420da308d50771745abded73eee7eef"
+                  },
+                  {
+                      "path":  "PIL/_webp.pyd",
+                      "size":  412672,
+                      "sha256":  "5aad99a74f8c37855c98948e2f5495a07750891cb907267fb34620373e2655c4"
+                  },
+                  {
+                      "path":  "psutil/_psutil_windows.pyd",
+                      "size":  70656,
+                      "sha256":  "0035450801bd7d938e9e146c5ec28e619cb5a5f4a18cdc53ac7e9734c7f94f78"
+                  },
+                  {
+                      "path":  "pydantic_core/_pydantic_core.pyd",
+                      "size":  5282304,
+                      "sha256":  "d4c06d29c37daf590650a68d3936d6270d7d16b7f653a5464873a667fe00efb1"
+                  },
+                  {
+                      "path":  "pyexpat.pyd",
+                      "size":  199448,
+                      "sha256":  "c7c7564f7f874fb660a46384980a2cf28bc3e245ca83628a197ccf861eab5560"
+                  },
+                  {
+                      "path":  "PyQt5/QtCore.pyd",
+                      "size":  2467840,
+                      "sha256":  "203bb6236f23f57ad8cdab5bbf4537a4abbc0b0879cf2893a8dc930e679dd846"
+                  },
+                  {
+                      "path":  "PyQt5/QtGui.pyd",
+                      "size":  2482688,
+                      "sha256":  "2ca28d29ec4f2f50b4ccc70c7d6399b314151bc38852833d2d30097773bb1c00"
+                  },
+                  {
+                      "path":  "PyQt5/QtNetwork.pyd",
+                      "size":  704000,
+                      "sha256":  "f1c14d96cc3374dce10fee56f3a03bae114ce052d22a5817f192c85947579511"
+                  },
+                  {
+                      "path":  "PyQt5/qt-plugins/iconengines/qsvgicon.dll",
+                      "size":  41968,
+                      "sha256":  "42dde60befcf1d9f96b8366a9988626b97d7d0d829ebea32f756d6ecd9ea99a8"
+                  },
+                  {
+                      "path":  "PyQt5/qt-plugins/imageformats/qgif.dll",
+                      "size":  39408,
+                      "sha256":  "36174dd4c5f37c5f065c7a26e0ac65c4c3a41fdc0416882af856a23a5d03bb9d"
+                  },
+                  {
+                      "path":  "PyQt5/qt-plugins/imageformats/qicns.dll",
+                      "size":  45040,
+                      "sha256":  "f4a229a082d16f80016f366156a2b951550f1e9df6d4177323bbedd92a429909"
+                  },
+                  {
+                      "path":  "PyQt5/qt-plugins/imageformats/qico.dll",
+                      "size":  38384,
+                      "sha256":  "1982a635db9652304131c9c6ff9a693e70241600d2ef22b354962aa37997de0b"
+                  },
+                  {
+                      "path":  "PyQt5/qt-plugins/imageformats/qjpeg.dll",
+                      "size":  421360,
+                      "sha256":  "fb4e980cb5fafa8a4cd4239329aed93f7c32ed939c94b61fb2df657f3c6ad158"
+                  },
+                  {
+                      "path":  "PyQt5/qt-plugins/imageformats/qsvg.dll",
+                      "size":  32240,
+                      "sha256":  "b3498f0a10ac4cb42cf7213db4944a34594ff36c78c50a0f249c9085d1b1ff39"
+                  },
+                  {
+                      "path":  "PyQt5/qt-plugins/imageformats/qtga.dll",
+                      "size":  31728,
+                      "sha256":  "5b641dec81aec1cf7ac0cce9fc067bb642fbd32da138a36e3bdac3bb5b36c37a"
+                  },
+                  {
+                      "path":  "PyQt5/qt-plugins/imageformats/qtiff.dll",
+                      "size":  390128,
+                      "sha256":  "825174429ced6b3dab18115dbc6c9da07bf5248c86ec1bd5c0dcaeca93b4c22d"
+                  },
+                  {
+                      "path":  "PyQt5/qt-plugins/imageformats/qwbmp.dll",
+                      "size":  30192,
+                      "sha256":  "0f05969fb926a62a338782b32446ea3e28e4bfbffc0dbd25ed303fab3404abac"
+                  },
+                  {
+                      "path":  "PyQt5/qt-plugins/imageformats/qwebp.dll",
+                      "size":  510448,
+                      "sha256":  "6e37acd0d357871f92b7fde7206c904c734caa02f94544df646957df8c4987af"
+                  },
+                  {
+                      "path":  "PyQt5/qt-plugins/mediaservice/dsengine.dll",
+                      "size":  301040,
+                      "sha256":  "3539aa922fcc946c8af2bdbabf10b0260b9cc14ad62ea331d29766b170d1d3d4"
+                  },
+                  {
+                      "path":  "PyQt5/qt-plugins/mediaservice/qtmedia_audioengine.dll",
+                      "size":  68080,
+                      "sha256":  "1e8dc7e376664b17a5356e53cfb5bb7cff148e05a5b96923ef59e2c29ada28fd"
+                  },
+                  {
+                      "path":  "PyQt5/qt-plugins/mediaservice/wmfengine.dll",
+                      "size":  208368,
+                      "sha256":  "7e76a6b05ea7919a17c90591aa406e4f4835bb6478b5e43fc683c18f251ea96f"
+                  },
+                  {
+                      "path":  "PyQt5/qt-plugins/platforms/qminimal.dll",
+                      "size":  844784,
+                      "sha256":  "05d1e7364dd2a672df3ca44dd6fd85bed3d3dc239dcfe29bfb464f10b4daa628"
+                  },
+                  {
+                      "path":  "PyQt5/qt-plugins/platforms/qoffscreen.dll",
+                      "size":  754672,
+                      "sha256":  "54097626faae718a4bc8e436c85b4ded8f8fb7051b2b9563a29aee4ed5c32b7b"
+                  },
+                  {
+                      "path":  "PyQt5/qt-plugins/platforms/qwebgl.dll",
+                      "size":  482288,
+                      "sha256":  "9c3b2fa2383eeed92bb5810bdcf893ae30fa654a30b453ab2e49a95e1ccf1631"
+                  },
+                  {
+                      "path":  "PyQt5/qt-plugins/platforms/qwindows.dll",
+                      "size":  1477104,
+                      "sha256":  "3333ba244c97264e3bd19db5953efa80a6e47aaced9d337ac3287ec718162b85"
+                  },
+                  {
+                      "path":  "PyQt5/qt-plugins/platformthemes/qxdgdesktopportal.dll",
+                      "size":  68592,
+                      "sha256":  "e23fbc1bec6ceedfa9fd305606a460d9cac5d43a66d19c0de36e27632fddd952"
+                  },
+                  {
+                      "path":  "PyQt5/qt-plugins/printsupport/windowsprintersupport.dll",
+                      "size":  55280,
+                      "sha256":  "c7a1bbf4ea6a74888e71f7199373c9920017199b41f624267ead151eb8cf99b6"
+                  },
+                  {
+                      "path":  "PyQt5/qt-plugins/styles/qwindowsvistastyle.dll",
+                      "size":  144368,
+                      "sha256":  "d9b21182952682fe7ba63af1df24e23ace592c35b3f31eceef9f0eabeb5881b9"
+                  },
+                  {
+                      "path":  "PyQt5/QtWidgets.pyd",
+                      "size":  5092864,
+                      "sha256":  "e4a06fe65b02c568db984771fb9a46ea95a8e4353ea85c942f954cba02dec635"
+                  },
+                  {
+                      "path":  "PyQt5/sip.pyd",
+                      "size":  121856,
+                      "sha256":  "5dbb033f059967fc7d249613988329301d391687cf0f1efee9a23728509a1aec"
+                  },
+                  {
+                      "path":  "python3.dll",
+                      "size":  67352,
+                      "sha256":  "db84bc052cfb121fe4db36242ba5f1d2c031b600ef5d8d752cf25b7c02b6bac6"
+                  },
+                  {
+                      "path":  "python311.dll",
+                      "size":  5800216,
+                      "sha256":  "0817a2a657a24c0d5fbb60df56960f42fc66b3039d522ec952dab83e2d869364"
+                  },
+                  {
+                      "path":  "pythoncom311.dll",
+                      "size":  672256,
+                      "sha256":  "1b1663859d7ee7ca0fcd5328a9d9a57b0d7f03e2a82a026e4749aeed97bac119"
+                  },
+                  {
+                      "path":  "pywintypes311.dll",
+                      "size":  135168,
+                      "sha256":  "074a73db77cbd9a8a1eed34dbfeddcea2d5772d34f8761b94957ae463c9a16ae"
+                  },
+                  {
+                      "path":  "qt5core.dll",
+                      "size":  6023664,
+                      "sha256":  "8d2ff4ce9096ddccc4f4cd62c2e41fc854cfd1b0d6e8d296645a7f5fd4ae565a"
+                  },
+                  {
+                      "path":  "qt5dbus.dll",
+                      "size":  436720,
+                      "sha256":  "1aa70b106a10c86946e23caa9fc752dc16e29fbe803bba1f1ab30d1c63ee852a"
+                  },
+                  {
+                      "path":  "qt5gui.dll",
+                      "size":  7008240,
+                      "sha256":  "5e7d2d41b8b92a880e83b8cc0ca173f5da61218604186196787ee1600956be1e"
+                  },
+                  {
+                      "path":  "qt5multimedia.dll",
+                      "size":  746480,
+                      "sha256":  "1a59ae2a9ff768ad6bfb888fe3dd2544e238f0b28da83cf375ebd803ce713dc4"
+                  },
+                  {
+                      "path":  "qt5network.dll",
+                      "size":  1340400,
+                      "sha256":  "4ef341ae9302e793878020f0740b09b0f31cb380408a697f75c69fdbd20fc7a1"
+                  },
+                  {
+                      "path":  "qt5printsupport.dll",
+                      "size":  317424,
+                      "sha256":  "783d4f1feb8dc0bc00acb8c094d6c1ab39ac6b5858874e60dd3d45677af4307a"
+                  },
+                  {
+                      "path":  "qt5qml.dll",
+                      "size":  3591664,
+                      "sha256":  "30035484c81590976627f8face9507caa8581a7dc7630cccf6a8d6de65cab707"
+                  },
+                  {
+                      "path":  "qt5qmlmodels.dll",
+                      "size":  438768,
+                      "sha256":  "51e4e5a5e91f78774c44f69b599fae4735277ef2918f7061778615cb5c4f6e81"
+                  },
+                  {
+                      "path":  "qt5quick.dll",
+                      "size":  4148720,
+                      "sha256":  "c81ad3c1111544064b1830c6f1aef3c1fd13b401546ab3b852d697c0f4d854b3"
+                  },
+                  {
+                      "path":  "qt5svg.dll",
+                      "size":  330736,
+                      "sha256":  "7348cfc6444438b8845fb3f59381227325d40ca2187d463e82fc7b8e93e38db5"
+                  },
+                  {
+                      "path":  "qt5websockets.dll",
+                      "size":  149488,
+                      "sha256":  "6b56f77da6f17880a42d2f9d2ec8b426248f7ab2196a0f55d37ade39e3878bc6"
+                  },
+                  {
+                      "path":  "qt5widgets.dll",
+                      "size":  5498352,
+                      "sha256":  "3788c669d4b645e5a576de9fc77fca776bf516d43c89143dc2ca28291ba14358"
+                  },
+                  {
+                      "path":  "select.pyd",
+                      "size":  30488,
+                      "sha256":  "bae0974390945520eb99ab32486c6a964691f8f4a028ac408d98fa8fb0db7d90"
+                  },
+                  {
+                      "path":  "sqlite3.dll",
+                      "size":  1540888,
+                      "sha256":  "314bba62f4a1628b986afc94c09dc29cdaf08210eae469440fbf46bcdb86d3fd"
+                  },
+                  {
+                      "path":  "ssleay32.dll",
+                      "size":  361984,
+                      "sha256":  "a62510849adecda090f53a132be49daa3acd92b4eacb02d0464f62c06d655af6"
+                  },
+                  {
+                      "path":  "ttf_song_jian_ti.TTF",
+                      "size":  3497204,
+                      "sha256":  "022f4c74252b0fae92c8bc4714f0e0f001a534bed0c7fb7734d1cd113991641b"
+                  },
+                  {
+                      "path":  "unicodedata.pyd",
+                      "size":  1140504,
+                      "sha256":  "37c68617fa02a2cadced17ef724e2d450ef12a8a37215da789a4679fde1c5c02"
+                  },
+                  {
+                      "path":  "vcomp140.dll",
+                      "size":  181584,
+                      "sha256":  "58263d1bdf1ef5bb7b26801045a433311ae07aba2ee0054a0411cc90a4087771"
+                  },
+                  {
+                      "path":  "vcruntime140.dll",
+                      "size":  119192,
+                      "sha256":  "4d292623516f65c80482081e62d5dadb759dc16e851de5db24c3cbb57b87db83"
+                  },
+                  {
+                      "path":  "vcruntime140_1.dll",
+                      "size":  49528,
+                      "sha256":  "a113f192195f245f17389e6ecbed8005990bcb2476ddad33f7c4c6c86327afe5"
+                  },
+                  {
+                      "path":  "win32api.pyd",
+                      "size":  132608,
+                      "sha256":  "6ba86018ac060effa78e1597310c83408eb5c9f9cacdf86511c442a6f7bc5464"
+                  },
+                  {
+                      "path":  "win32event.pyd",
+                      "size":  28672,
+                      "sha256":  "8b36e49212f867d2c125d595e1088ade5220fbebe70fc7feef9fa9316867a838"
+                  },
+                  {
+                      "path":  "win32gui.pyd",
+                      "size":  219136,
+                      "sha256":  "a9e15fe4c515e93fcbf9928f2a9d219b5bb855e686fc045579a824882579457f"
+                  },
+                  {
+                      "path":  "win32ui.pyd",
+                      "size":  1142784,
+                      "sha256":  "629e9120f53fdcfa989fe4d0ddb095ff8f91637fdd8927b34a15162f3ba931f6"
+                  },
+                  {
+                      "path":  "yarl/_helpers_c.pyd",
+                      "size":  54784,
+                      "sha256":  "1289ba874e92dfa16b70d9e8fb0198d8c84b58c771101e9dd933b9b6a559a717"
+                  },
+                  {
+                      "path":  "yarl/_quoting_c.pyd",
+                      "size":  96768,
+                      "sha256":  "c7f7abfe70d2ec9820ffb6b43804f8acdd80d403e4fafb7aeb1fdaa3f6073076"
+                  },
+                  {
+                      "path":  "zstandard/_cffi.pyd",
+                      "size":  650752,
+                      "sha256":  "3ed00bb5876eafa617bebb213d2bc887b5637c53c4a849fcc2366084bf056787"
+                  },
+                  {
+                      "path":  "zstandard/backend_c.pyd",
+                      "size":  519680,
+                      "sha256":  "6ab611c4a24406d9d97f09d49d50142ab2734b69a2b0d9ea6489e4af90c4a2a4"
+                  },
+                  {
+                      "path":  "运营猫.exe",
+                      "size":  161002496,
+                      "sha256":  "101db38faad3ba89f99a69ee3be2f45334332520a2a813a5e69caaa2d3d68ae0"
+                  }
+              ]
+}

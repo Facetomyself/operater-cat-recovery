@@ -1,0 +1,121 @@
+{
+  "lab": "offline-synthetic-only",
+  "network": "disabled-by-stub",
+  "sanitized": "applied",
+  "fixtures": "fixtures\\synthetic_responses.json",
+  "bootstrap": {
+    "result": true,
+    "responses": [
+      {
+        "args": [
+          "https://lab.invalid/xb/iil",
+          "LAB-PUBLIC-KEY-NOT-REAL",
+          "9.6.3",
+          "101db38faad3ba89f99a69ee3be2f45334332520a2a813a5e69caaa2d3d68ae0",
+          "False"
+        ],
+        "kwargs": {}
+      }
+    ]
+  },
+  "heartbeat": {
+    "startup_result": true,
+    "hy_jx_bc_contract": {
+      "direct_inner_error": "KeyError: 'data'",
+      "expected_input": "envelope containing a top-level 'data' key"
+    },
+    "request": {
+      "uCode": "LAB-UCODE",
+      "instance_id": "",
+      "cfg_ver": 0,
+      "item_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "bootstrap_args": {
+      "is_register": false,
+      "cloud_empty": true,
+      "cloud_encoding": "gzip",
+      "cloud_payload_b64": ""
+    },
+    "login_ucodes": [
+      "LAB-UCODE"
+    ],
+    "account_after": {
+      "ucode": "LAB-UCODE",
+      "status": 1,
+      "grade": 1,
+      "limit": 100,
+      "descs": "lab account",
+      "hours": 1,
+      "startTime": "2026-01-01 00:00:00",
+      "endTime": "2026-12-31 23:59:59",
+      "expire": true,
+      "hasExperi": 1,
+      "sendAtName": "lab sender",
+      "keFu": "lab support",
+      "cloudBot": "lab cloud bot",
+      "botAbility": 1,
+      "aiAbility": 1,
+      "experiDuration": 24,
+      "openPremium": 1,
+      "priceConfig": "{\"lab\":1}",
+      "maoContacts": "@lab",
+      "remainingSec": 3600,
+      "apiKey": "LAB-AI-KEY-NOT-REAL",
+      "modelList": "[{\"name\":\"lab-model\"}]",
+      "mul": true
+    }
+  },
+  "convert": {
+    "request": {
+      "uCode": "LAB-UCODE",
+      "mode": "convert",
+      "items": [
+        {
+          "kid": "kid-lab-1",
+          "source": "lab"
+        }
+      ]
+    },
+    "sealed_items": [
+      {
+        "kid": "kid-lab-1",
+        "auto_type": 2,
+        "af": "af-lab-1",
+        "ticket": {
+          "ver": 2,
+          "batch_id": "batch-lab",
+          "etid": "etid-lab",
+          "sn": "sn-lab",
+          "af": "af-lab-1",
+          "uc_hash": "hash-lab",
+          "mode": "timing",
+          "iat": 1,
+          "exp": 9999999999,
+          "sign_item": "00"
+        }
+      }
+    ],
+    "result": [
+      {
+        "kid": {
+          "hex": "6b69642d6c61622d31"
+        },
+        "auto_type": 2,
+        "af": "af-lab-1",
+        "ticket": {
+          "ver": 2,
+          "batch_id": "batch-lab",
+          "etid": "etid-lab",
+          "sn": "sn-lab",
+          "af": "af-lab-1",
+          "uc_hash": "hash-lab",
+          "mode": "timing",
+          "iat": 1,
+          "exp": 9999999999,
+          "sign_item": "00"
+        },
+        "sign_batch": "batch-signature-lab"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1703 @@
+[
+  {
+    "module": "src.py.com.yun.mao",
+    "file": "src\\py\\com\\yun\\mao\\__init__.py",
+    "detailed": false,
+    "static_symbols": 0,
+    "status": "stub"
+  },
+  {
+    "module": "src.py.com.yun.mao.ErrorDialog",
+    "file": "src\\py\\com\\yun\\mao\\ErrorDialog.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.GlobalExceptionHandler",
+    "file": "src\\py\\com\\yun\\mao\\GlobalExceptionHandler.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.MainWindow",
+    "file": "src\\py\\com\\yun\\mao\\MainWindow.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.ad",
+    "file": "src\\py\\com\\yun\\mao\\ad\\__init__.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.ad.AdIdMapManager",
+    "file": "src\\py\\com\\yun\\mao\\ad\\AdIdMapManager.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.ad.AddOrEditAdDialog",
+    "file": "src\\py\\com\\yun\\mao\\ad\\AddOrEditAdDialog.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.ad.ToolsBoxEditAdDialog",
+    "file": "src\\py\\com\\yun\\mao\\ad\\ToolsBoxEditAdDialog.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.ad.UIAdListOp",
+    "file": "src\\py\\com\\yun\\mao\\ad\\UIAdListOp.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.ade",
+    "file": "src\\py\\com\\yun\\mao\\ade\\__init__.py",
+    "detailed": false,
+    "static_symbols": 8,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.ade.ad_t",
+    "file": "src\\py\\com\\yun\\mao\\ade\\ad_t.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.ai",
+    "file": "src\\py\\com\\yun\\mao\\ai\\__init__.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.ai.AI_DEFAULT_REFUSE_LIST",
+    "file": "src\\py\\com\\yun\\mao\\ai\\AI_DEFAULT_REFUSE_LIST.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.ai.AiTextGenFlow",
+    "file": "src\\py\\com\\yun\\mao\\ai\\AiTextGenFlow.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.ai.AiTextGenStatus",
+    "file": "src\\py\\com\\yun\\mao\\ai\\AiTextGenStatus.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.ai.TextCache",
+    "file": "src\\py\\com\\yun\\mao\\ai\\TextCache.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.ai.TextProcessLogic",
+    "file": "src\\py\\com\\yun\\mao\\ai\\TextProcessLogic.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.ai._ai_refusal_detect",
+    "file": "src\\py\\com\\yun\\mao\\ai\\_ai_refusal_detect.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.auto",
+    "file": "src\\py\\com\\yun\\mao\\auto\\__init__.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.auto.AutoWorker",
+    "file": "src\\py\\com\\yun\\mao\\auto\\AutoWorker.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.auto.AutoWorkerWrapper",
+    "file": "src\\py\\com\\yun\\mao\\auto\\AutoWorkerWrapper.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.auto.BanYunProtect",
+    "file": "src\\py\\com\\yun\\mao\\auto\\BanYunProtect.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.auto.BanYunUnProtect",
+    "file": "src\\py\\com\\yun\\mao\\auto\\BanYunUnProtect.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.auto.BizSleeper",
+    "file": "src\\py\\com\\yun\\mao\\auto\\BizSleeper.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.auto.CMCode",
+    "file": "src\\py\\com\\yun\\mao\\auto\\CMCode.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.auto.DownLoadBizHelper",
+    "file": "src\\py\\com\\yun\\mao\\auto\\DownLoadBizHelper.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.auto.DownLoadProcess",
+    "file": "src\\py\\com\\yun\\mao\\auto\\DownLoadProcess.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.auto.FlowProcess",
+    "file": "src\\py\\com\\yun\\mao\\auto\\FlowProcess.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.auto.GenSegmentVideoOnePass",
+    "file": "src\\py\\com\\yun\\mao\\auto\\GenSegmentVideoOnePass.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.auto.GenYuLanVideoWrapper",
+    "file": "src\\py\\com\\yun\\mao\\auto\\GenYuLanVideoWrapper.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.auto.GlobalWorkingLock",
+    "file": "src\\py\\com\\yun\\mao\\auto\\GlobalWorkingLock.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.auto.IsoBmffFirstFrameParser",
+    "file": "src\\py\\com\\yun\\mao\\auto\\IsoBmffFirstFrameParser.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.auto.ProcessCache",
+    "file": "src\\py\\com\\yun\\mao\\auto\\ProcessCache.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.auto.TopicUtils",
+    "file": "src\\py\\com\\yun\\mao\\auto\\TopicUtils.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.auto.VideoFirstFrameCoverHelper",
+    "file": "src\\py\\com\\yun\\mao\\auto\\VideoFirstFrameCoverHelper.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.auto.VideoProcessingIds",
+    "file": "src\\py\\com\\yun\\mao\\auto\\VideoProcessingIds.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.auto.YunProcess",
+    "file": "src\\py\\com\\yun\\mao\\auto\\YunProcess.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.auto.down_load_config",
+    "file": "src\\py\\com\\yun\\mao\\auto\\down_load_config.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.auto.upload",
+    "file": "src\\py\\com\\yun\\mao\\auto\\upload.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.bz_uc",
+    "file": "src\\py\\com\\yun\\mao\\bz_uc\\__init__.py",
+    "detailed": false,
+    "static_symbols": 25,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.bz_uc.uw_l7_ln_c2",
+    "file": "src\\py\\com\\yun\\mao\\bz_uc\\uw_l7_ln_c2.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.bz_uc.ya_p1_xz_o4",
+    "file": "src\\py\\com\\yun\\mao\\bz_uc\\ya_p1_xz_o4.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.cd",
+    "file": "src\\py\\com\\yun\\mao\\cd\\__init__.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.cd.AsyncDequeQueueClass",
+    "file": "src\\py\\com\\yun\\mao\\cd\\AsyncDequeQueueClass.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.cd.ConditionalTabWidget",
+    "file": "src\\py\\com\\yun\\mao\\cd\\ConditionalTabWidget.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.cd.TaskHardStop",
+    "file": "src\\py\\com\\yun\\mao\\cd\\TaskHardStop.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.cd.Working",
+    "file": "src\\py\\com\\yun\\mao\\cd\\Working.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.comment",
+    "file": "src\\py\\com\\yun\\mao\\comment\\__init__.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.comment.ConfigCommentRuleDialog",
+    "file": "src\\py\\com\\yun\\mao\\comment\\ConfigCommentRuleDialog.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.config",
+    "file": "src\\py\\com\\yun\\mao\\config\\__init__.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.config.InnerAppIdConfig",
+    "file": "src\\py\\com\\yun\\mao\\config\\InnerAppIdConfig.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.config.NewConfig",
+    "file": "src\\py\\com\\yun\\mao\\config\\NewConfig.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.config.YunYinMaoConfig",
+    "file": "src\\py\\com\\yun\\mao\\config\\YunYinMaoConfig.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.config.constant_cache",
+    "file": "src\\py\\com\\yun\\mao\\config\\constant_cache.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.config.net_config",
+    "file": "src\\py\\com\\yun\\mao\\config\\net_config.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.config.tabl_cache",
+    "file": "src\\py\\com\\yun\\mao\\config\\tabl_cache.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.dclass",
+    "file": "src\\py\\com\\yun\\mao\\dclass\\__init__.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.dclass.AutoBeanXXX",
+    "file": "src\\py\\com\\yun\\mao\\dclass\\AutoBeanXXX.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.dclass.DTopClass",
+    "file": "src\\py\\com\\yun\\mao\\dclass\\DTopClass.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.dclass.DTopClassHelper",
+    "file": "src\\py\\com\\yun\\mao\\dclass\\DTopClassHelper.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.dclass.ExecCandidateHelper",
+    "file": "src\\py\\com\\yun\\mao\\dclass\\ExecCandidateHelper.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.dclass.ItemMemStore",
+    "file": "src\\py\\com\\yun\\mao\\dclass\\ItemMemStore.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.dclass.LoadDataClass",
+    "file": "src\\py\\com\\yun\\mao\\dclass\\LoadDataClass.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.dclass.LoadEmployeeClass",
+    "file": "src\\py\\com\\yun\\mao\\dclass\\LoadEmployeeClass.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.dialog",
+    "file": "src\\py\\com\\yun\\mao\\dialog\\__init__.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.dialog.AiModelInfoPriceDialog",
+    "file": "src\\py\\com\\yun\\mao\\dialog\\AiModelInfoPriceDialog.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.dialog.CourseImageDialog",
+    "file": "src\\py\\com\\yun\\mao\\dialog\\CourseImageDialog.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.dialog.ExpriActivatePermissionDialog",
+    "file": "src\\py\\com\\yun\\mao\\dialog\\ExpriActivatePermissionDialog.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.dialog.ImageDialogHelper",
+    "file": "src\\py\\com\\yun\\mao\\dialog\\ImageDialogHelper.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.dialog.PremiumBigPriceDialog",
+    "file": "src\\py\\com\\yun\\mao\\dialog\\PremiumBigPriceDialog.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.dialog.PremiumDialog",
+    "file": "src\\py\\com\\yun\\mao\\dialog\\PremiumDialog.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.dialog.PremiumExitTipDialog",
+    "file": "src\\py\\com\\yun\\mao\\dialog\\PremiumExitTipDialog.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.dialog.ReceiveCodeDialog",
+    "file": "src\\py\\com\\yun\\mao\\dialog\\ReceiveCodeDialog.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.fea",
+    "file": "src\\py\\com\\yun\\mao\\fea\\__init__.py",
+    "detailed": true,
+    "static_symbols": 8,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.fea._cj_dd_file",
+    "file": "src\\py\\com\\yun\\mao\\fea\\_cj_dd_file.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.fea._dtdm_gl",
+    "file": "src\\py\\com\\yun\\mao\\fea\\_dtdm_gl.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.fea._dtdm_jz",
+    "file": "src\\py\\com\\yun\\mao\\fea\\_dtdm_jz.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.fea._fs_jh_zb_file",
+    "file": "src\\py\\com\\yun\\mao\\fea\\_fs_jh_zb_file.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.fea._jc_dd_cz_file",
+    "file": "src\\py\\com\\yun\\mao\\fea\\_jc_dd_cz_file.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.fea._qy_hy_file",
+    "file": "src\\py\\com\\yun\\mao\\fea\\_qy_hy_file.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.fea._r_hb_file",
+    "file": "src\\py\\com\\yun\\mao\\fea\\_r_hb_file.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.fea._sq_bao",
+    "file": "src\\py\\com\\yun\\mao\\fea\\_sq_bao.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.fea._sq_chk",
+    "file": "src\\py\\com\\yun\\mao\\fea\\_sq_chk.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "decompiled-core"
+  },
+  {
+    "module": "src.py.com.yun.mao.fea._sq_hj",
+    "file": "src\\py\\com\\yun\\mao\\fea\\_sq_hj.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.fea._sq_jqm",
+    "file": "src\\py\\com\\yun\\mao\\fea\\_sq_jqm.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "decompiled-core"
+  },
+  {
+    "module": "src.py.com.yun.mao.fea._sq_ks",
+    "file": "src\\py\\com\\yun\\mao\\fea\\_sq_ks.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.fea._sq_pz",
+    "file": "src\\py\\com\\yun\\mao\\fea\\_sq_pz.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.fea._sq_qi",
+    "file": "src\\py\\com\\yun\\mao\\fea\\_sq_qi.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.fea._sq_r_bao",
+    "file": "src\\py\\com\\yun\\mao\\fea\\_sq_r_bao.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.fea._sq_r_ca",
+    "file": "src\\py\\com\\yun\\mao\\fea\\_sq_r_ca.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.fea._sq_r_ks",
+    "file": "src\\py\\com\\yun\\mao\\fea\\_sq_r_ks.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.fea._sq_r_qi",
+    "file": "src\\py\\com\\yun\\mao\\fea\\_sq_r_qi.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.fea._sq_r_req",
+    "file": "src\\py\\com\\yun\\mao\\fea\\_sq_r_req.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.fea._sq_req",
+    "file": "src\\py\\com\\yun\\mao\\fea\\_sq_req.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.fea._sq_zw",
+    "file": "src\\py\\com\\yun\\mao\\fea\\_sq_zw.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.fea._xx_zy_file",
+    "file": "src\\py\\com\\yun\\mao\\fea\\_xx_zy_file.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.fea._yjx_hb_file",
+    "file": "src\\py\\com\\yun\\mao\\fea\\_yjx_hb_file.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.fea._zz_jh_ty_file",
+    "file": "src\\py\\com\\yun\\mao\\fea\\_zz_jh_ty_file.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.jm",
+    "file": "src\\py\\com\\yun\\mao\\jm\\__init__.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.jm._my_dt",
+    "file": "src\\py\\com\\yun\\mao\\jm\\_my_dt.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.jm._my_gk",
+    "file": "src\\py\\com\\yun\\mao\\jm\\_my_gk.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.jm._my_r_gk",
+    "file": "src\\py\\com\\yun\\mao\\jm\\_my_r_gk.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.jm._my_util",
+    "file": "src\\py\\com\\yun\\mao\\jm\\_my_util.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.kv_nx",
+    "file": "src\\py\\com\\yun\\mao\\kv_nx\\__init__.py",
+    "detailed": false,
+    "static_symbols": 25,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.kv_nx.be_s0_ij_z5",
+    "file": "src\\py\\com\\yun\\mao\\kv_nx\\be_s0_ij_z5.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.kv_nx.dv_r4_uw_l7",
+    "file": "src\\py\\com\\yun\\mao\\kv_nx\\dv_r4_uw_l7.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.kv_nx.hk_y8_gi_x9",
+    "file": "src\\py\\com\\yun\\mao\\kv_nx\\hk_y8_gi_x9.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.link",
+    "file": "src\\py\\com\\yun\\mao\\link\\__init__.py",
+    "detailed": true,
+    "static_symbols": 9,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.link._fds_h_x",
+    "file": "src\\py\\com\\yun\\mao\\link\\_fds_h_x.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.link._fds_jm",
+    "file": "src\\py\\com\\yun\\mao\\link\\_fds_jm.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.link._fds_rt",
+    "file": "src\\py\\com\\yun\\mao\\link\\_fds_rt.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.link._fds_sj",
+    "file": "src\\py\\com\\yun\\mao\\link\\_fds_sj.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.link._fds_tan",
+    "file": "src\\py\\com\\yun\\mao\\link\\_fds_tan.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.link._jmpz_cy",
+    "file": "src\\py\\com\\yun\\mao\\link\\_jmpz_cy.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.link._sjk_bao",
+    "file": "src\\py\\com\\yun\\mao\\link\\_sjk_bao.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.link._sjk_cli",
+    "file": "src\\py\\com\\yun\\mao\\link\\_sjk_cli.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.link._tw_ceng",
+    "file": "src\\py\\com\\yun\\mao\\link\\_tw_ceng.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.link._tw_ctx",
+    "file": "src\\py\\com\\yun\\mao\\link\\_tw_ctx.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.log",
+    "file": "src\\py\\com\\yun\\mao\\log\\__init__.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.log.LocalLogSetting",
+    "file": "src\\py\\com\\yun\\mao\\log\\LocalLogSetting.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.log.LogWorker",
+    "file": "src\\py\\com\\yun\\mao\\log\\LogWorker.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.log.glog",
+    "file": "src\\py\\com\\yun\\mao\\log\\glog.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.login",
+    "file": "src\\py\\com\\yun\\mao\\login\\__init__.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.login.ClientCacheHelper",
+    "file": "src\\py\\com\\yun\\mao\\login\\ClientCacheHelper.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.login.NetTest",
+    "file": "src\\py\\com\\yun\\mao\\login\\NetTest.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.login.SessionLoader",
+    "file": "src\\py\\com\\yun\\mao\\login\\SessionLoader.py",
+    "detailed": true,
+    "static_symbols": 1,
+    "status": "detailed"
+  },
+  {
+    "module": "src.py.com.yun.mao.monitor",
+    "file": "src\\py\\com\\yun\\mao\\monitor\\__init__.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.monitor.HistoryMessageOpDialog",
+    "file": "src\\py\\com\\yun\\mao\\monitor\\HistoryMessageOpDialog.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.monitor.MonitorFollowUp",
+    "file": "src\\py\\com\\yun\\mao\\monitor\\MonitorFollowUp.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.monitor.MonitorHistoryManagerFile",
+    "file": "src\\py\\com\\yun\\mao\\monitor\\MonitorHistoryManagerFile.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.monitor.MonitorSchedulerReport",
+    "file": "src\\py\\com\\yun\\mao\\monitor\\MonitorSchedulerReport.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.monitor.MonitorStyleDef",
+    "file": "src\\py\\com\\yun\\mao\\monitor\\MonitorStyleDef.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.monitor.QHistoryMsgItemQWidget",
+    "file": "src\\py\\com\\yun\\mao\\monitor\\QHistoryMsgItemQWidget.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.monitor.TelegramMonitorWorker",
+    "file": "src\\py\\com\\yun\\mao\\monitor\\TelegramMonitorWorker.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.mthread",
+    "file": "src\\py\\com\\yun\\mao\\mthread\\__init__.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.mthread.GenHtmlThread",
+    "file": "src\\py\\com\\yun\\mao\\mthread\\GenHtmlThread.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.mthread.PostHtmlADThread",
+    "file": "src\\py\\com\\yun\\mao\\mthread\\PostHtmlADThread.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.mthread.ReceiveCodeThread",
+    "file": "src\\py\\com\\yun\\mao\\mthread\\ReceiveCodeThread.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.mthread.SchedulerThreadClass",
+    "file": "src\\py\\com\\yun\\mao\\mthread\\SchedulerThreadClass.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.mthread.SingleLongTaskThreadClass",
+    "file": "src\\py\\com\\yun\\mao\\mthread\\SingleLongTaskThreadClass.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.mthread.TgClientBaseAsyncTaskThread",
+    "file": "src\\py\\com\\yun\\mao\\mthread\\TgClientBaseAsyncTaskThread.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.prices",
+    "file": "src\\py\\com\\yun\\mao\\prices\\__init__.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.prices.AiModelInfoGenHelper",
+    "file": "src\\py\\com\\yun\\mao\\prices\\AiModelInfoGenHelper.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.prices.CreateOrderResponseClass",
+    "file": "src\\py\\com\\yun\\mao\\prices\\CreateOrderResponseClass.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.prices.PaymentHelper",
+    "file": "src\\py\\com\\yun\\mao\\prices\\PaymentHelper.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.prices.PaymentPriceCalculator",
+    "file": "src\\py\\com\\yun\\mao\\prices\\PaymentPriceCalculator.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.prices.PremiumTipHtmlFormatter",
+    "file": "src\\py\\com\\yun\\mao\\prices\\PremiumTipHtmlFormatter.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.prices.PriceHtmlUtils",
+    "file": "src\\py\\com\\yun\\mao\\prices\\PriceHtmlUtils.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.prices.PriceTableBiggerTextHelper",
+    "file": "src\\py\\com\\yun\\mao\\prices\\PriceTableBiggerTextHelper.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.prices.PriceTableTextHelper",
+    "file": "src\\py\\com\\yun\\mao\\prices\\PriceTableTextHelper.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.proxy",
+    "file": "src\\py\\com\\yun\\mao\\proxy\\__init__.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.proxy.ProxySettingDialog",
+    "file": "src\\py\\com\\yun\\mao\\proxy\\ProxySettingDialog.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.record",
+    "file": "src\\py\\com\\yun\\mao\\record\\__init__.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.record.CommentCopyLedger",
+    "file": "src\\py\\com\\yun\\mao\\record\\CommentCopyLedger.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.record.PublishIdRecord",
+    "file": "src\\py\\com\\yun\\mao\\record\\PublishIdRecord.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.remember",
+    "file": "src\\py\\com\\yun\\mao\\remember\\__init__.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.remember.RandomBucketManager",
+    "file": "src\\py\\com\\yun\\mao\\remember\\RandomBucketManager.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.remember.RememberManager",
+    "file": "src\\py\\com\\yun\\mao\\remember\\RememberManager.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.rm_qh",
+    "file": "src\\py\\com\\yun\\mao\\rm_qh\\__init__.py",
+    "detailed": false,
+    "static_symbols": 25,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.rm_qh.lo_c8_cw_p9",
+    "file": "src\\py\\com\\yun\\mao\\rm_qh\\lo_c8_cw_p9.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.rm_qh.ps_g2_oq_f1",
+    "file": "src\\py\\com\\yun\\mao\\rm_qh\\ps_g2_oq_f1.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.rm_qh.tw_k6_ac_r3",
+    "file": "src\\py\\com\\yun\\mao\\rm_qh\\tw_k6_ac_r3.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.tab",
+    "file": "src\\py\\com\\yun\\mao\\tab\\__init__.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.tab.BirderConstants",
+    "file": "src\\py\\com\\yun\\mao\\tab\\BirderConstants.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.tab.gen_session_queue",
+    "file": "src\\py\\com\\yun\\mao\\tab\\gen_session_queue.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.tab.mid_ai_employee_tab",
+    "file": "src\\py\\com\\yun\\mao\\tab\\mid_ai_employee_tab.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.tab.mid_ai_test_tab",
+    "file": "src\\py\\com\\yun\\mao\\tab\\mid_ai_test_tab.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.tab.mid_api_config_tab",
+    "file": "src\\py\\com\\yun\\mao\\tab\\mid_api_config_tab.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.tab.mid_auto_yun_yin_tab",
+    "file": "src\\py\\com\\yun\\mao\\tab\\mid_auto_yun_yin_tab.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.tab.mid_base_tab",
+    "file": "src\\py\\com\\yun\\mao\\tab\\mid_base_tab.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.tab.mid_premium_tab",
+    "file": "src\\py\\com\\yun\\mao\\tab\\mid_premium_tab.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.tab.mid_session_fun_tab",
+    "file": "src\\py\\com\\yun\\mao\\tab\\mid_session_fun_tab.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.tab.mid_toolbox_tab",
+    "file": "src\\py\\com\\yun\\mao\\tab\\mid_toolbox_tab.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.telefast",
+    "file": "src\\py\\com\\yun\\mao\\telefast\\__init__.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.telefast.CallBack",
+    "file": "src\\py\\com\\yun\\mao\\telefast\\CallBack.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.telefast.FastDownUpLoadUtils",
+    "file": "src\\py\\com\\yun\\mao\\telefast\\FastDownUpLoadUtils.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.telefast.FastTelethon",
+    "file": "src\\py\\com\\yun\\mao\\telefast\\FastTelethon.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.telefast.RateLimiterClass",
+    "file": "src\\py\\com\\yun\\mao\\telefast\\RateLimiterClass.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.telefast.RateLimiterHelper",
+    "file": "src\\py\\com\\yun\\mao\\telefast\\RateLimiterHelper.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.telefast.RateTempClass",
+    "file": "src\\py\\com\\yun\\mao\\telefast\\RateTempClass.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.tgaccount",
+    "file": "src\\py\\com\\yun\\mao\\tgaccount\\__init__.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.tgaccount.AiEmployeeListDialog",
+    "file": "src\\py\\com\\yun\\mao\\tgaccount\\AiEmployeeListDialog.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.tgaccount.TGAuthAccount",
+    "file": "src\\py\\com\\yun\\mao\\tgaccount\\TGAuthAccount.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.tgaccount.TGAuthAccountSetting",
+    "file": "src\\py\\com\\yun\\mao\\tgaccount\\TGAuthAccountSetting.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.tgaccount.TgAccountListDialog",
+    "file": "src\\py\\com\\yun\\mao\\tgaccount\\TgAccountListDialog.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util",
+    "file": "src\\py\\com\\yun\\mao\\util\\__init__.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.AITextGenTextRunnable",
+    "file": "src\\py\\com\\yun\\mao\\util\\AITextGenTextRunnable.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.AI_INNER_DEF",
+    "file": "src\\py\\com\\yun\\mao\\util\\AI_INNER_DEF.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.AccelUtils",
+    "file": "src\\py\\com\\yun\\mao\\util\\AccelUtils.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.AiTestTipHtmlHelper",
+    "file": "src\\py\\com\\yun\\mao\\util\\AiTestTipHtmlHelper.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.AppStyleDef",
+    "file": "src\\py\\com\\yun\\mao\\util\\AppStyleDef.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.CacheRemoveTask",
+    "file": "src\\py\\com\\yun\\mao\\util\\CacheRemoveTask.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.CustomerHtmlFormat",
+    "file": "src\\py\\com\\yun\\mao\\util\\CustomerHtmlFormat.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.DirManager",
+    "file": "src\\py\\com\\yun\\mao\\util\\DirManager.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.EnumClass",
+    "file": "src\\py\\com\\yun\\mao\\util\\EnumClass.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.FloodGuard",
+    "file": "src\\py\\com\\yun\\mao\\util\\FloodGuard.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.IncludeMagickConfig",
+    "file": "src\\py\\com\\yun\\mao\\util\\IncludeMagickConfig.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.ResourcePath",
+    "file": "src\\py\\com\\yun\\mao\\util\\ResourcePath.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.SuspendFrozenTag",
+    "file": "src\\py\\com\\yun\\mao\\util\\SuspendFrozenTag.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.TracePrinterHelper",
+    "file": "src\\py\\com\\yun\\mao\\util\\TracePrinterHelper.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.XAIKeyValidator",
+    "file": "src\\py\\com\\yun\\mao\\util\\XAIKeyValidator.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.moviepy_ffmpeg_patch",
+    "file": "src\\py\\com\\yun\\mao\\util\\moviepy_ffmpeg_patch.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\__init__.py",
+    "detailed": false,
+    "static_symbols": 2,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.AllBeanDef",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\AllBeanDef.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.BaseDialog",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\BaseDialog.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.CommonCode",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\CommonCode.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.CoolUtils",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\CoolUtils.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.EditAutoFlowItemEditDialog",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\EditAutoFlowItemEditDialog.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.EditBanYunCommentItemEditDialog",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\EditBanYunCommentItemEditDialog.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.EditDownLoadItemEditDialog",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\EditDownLoadItemEditDialog.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.EditEmployeeItemEditDialog",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\EditEmployeeItemEditDialog.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.EditYulanFlowItemEditDialog",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\EditYulanFlowItemEditDialog.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.EditYunAutoItemEditDialog",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\EditYunAutoItemEditDialog.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.EditYunPreViewItemEditDialog",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\EditYunPreViewItemEditDialog.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.FakeUniqueMachineCode",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\FakeUniqueMachineCode.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.FileUtils",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\FileUtils.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.FindMessageUtils",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\FindMessageUtils.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.ListOpHelper",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\ListOpHelper.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.MiniTipDialog",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\MiniTipDialog.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.QAccountItemQWidget",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\QAccountItemQWidget.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.QAutoFlowItemQWidget",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\QAutoFlowItemQWidget.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.QBanYunFlowItemQWidget",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\QBanYunFlowItemQWidget.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.QDownLoadFlowItemQWidget",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\QDownLoadFlowItemQWidget.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.QEmployeeItemQWidget",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\QEmployeeItemQWidget.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.QYuLanFlowItemQWidget",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\QYuLanFlowItemQWidget.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.QYunAutoItemQWidget",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\QYunAutoItemQWidget.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.QYunPreViewItemQWidget",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\QYunPreViewItemQWidget.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.ResetBirdDialog",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\ResetBirdDialog.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.ShotUtils",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\ShotUtils.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.TipDialog",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\TipDialog.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.signals",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\signals.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.util.need.utils",
+    "file": "src\\py\\com\\yun\\mao\\util\\need\\utils.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.water",
+    "file": "src\\py\\com\\yun\\mao\\water\\__init__.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.water.PicBlurUtils",
+    "file": "src\\py\\com\\yun\\mao\\water\\PicBlurUtils.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.water.PicWaterUtils",
+    "file": "src\\py\\com\\yun\\mao\\water\\PicWaterUtils.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.water.VideoBitUtils",
+    "file": "src\\py\\com\\yun\\mao\\water\\VideoBitUtils.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.water.VideoWaterUtilsToSmallFile",
+    "file": "src\\py\\com\\yun\\mao\\water\\VideoWaterUtilsToSmallFile.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.water.WaterConstants",
+    "file": "src\\py\\com\\yun\\mao\\water\\WaterConstants.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.water.waterUtils",
+    "file": "src\\py\\com\\yun\\mao\\water\\waterUtils.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.wp_jt",
+    "file": "src\\py\\com\\yun\\mao\\wp_jt\\__init__.py",
+    "detailed": false,
+    "static_symbols": 25,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.wp_jt.gj_x5_ft_v6",
+    "file": "src\\py\\com\\yun\\mao\\wp_jt\\gj_x5_ft_v6.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.wp_jt.kn_b9_rt_i8",
+    "file": "src\\py\\com\\yun\\mao\\wp_jt\\kn_b9_rt_i8.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  },
+  {
+    "module": "src.py.com.yun.mao.wp_jt.or_f3_df_u0",
+    "file": "src\\py\\com\\yun\\mao\\wp_jt\\or_f3_df_u0.py",
+    "detailed": false,
+    "static_symbols": 1,
+    "status": "static-symbols"
+  }
+]

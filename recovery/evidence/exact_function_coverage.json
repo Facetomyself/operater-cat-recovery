@@ -1,0 +1,958 @@
+{
+  "schema": "operater-cat-exact-function-coverage.v1",
+  "source": "agent-notes/function_name_map_exact.json",
+  "modules": 57,
+  "checked_names": 492,
+  "present_names": 492,
+  "missing_names": 0,
+  "details": [
+    {
+      "module": "src.py.com.yun.mao.ad.AdIdMapManager",
+      "source_file": "src/py/com/yun/mao/ad/AdIdMapManager.py",
+      "exact_names": 6,
+      "present": [
+        "AdIdMapFile",
+        "genAdKey",
+        "getIds",
+        "loadAdIdMap",
+        "updateAdIds",
+        "writeToDist"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.ad.UIAdListOp",
+      "source_file": "src/py/com/yun/mao/ad/UIAdListOp.py",
+      "exact_names": 1,
+      "present": [
+        "fillAd2List"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.ai.TextProcessLogic",
+      "source_file": "src/py/com/yun/mao/ai/TextProcessLogic.py",
+      "exact_names": 3,
+      "present": [
+        "_repeat_print",
+        "process_text_by_ai_if_need",
+        "process_text_inner"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.AutoWorker",
+      "source_file": "src/py/com/yun/mao/auto/AutoWorker.py",
+      "exact_names": 4,
+      "present": [
+        "inner_working",
+        "obtainMessageAndParse",
+        "worker_start_inner",
+        "worker_start_inner_wrapper"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.BanYunUnProtect",
+      "source_file": "src/py/com/yun/mao/auto/BanYunUnProtect.py",
+      "exact_names": 1,
+      "present": [
+        "send_message_un_protect"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.BizSleeper",
+      "source_file": "src/py/com/yun/mao/auto/BizSleeper.py",
+      "exact_names": 1,
+      "present": [
+        "biz_sleep"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.CMCode",
+      "source_file": "src/py/com/yun/mao/auto/CMCode.py",
+      "exact_names": 25,
+      "present": [
+        "_album_anchor_from_msg_ids",
+        "_as_message_list",
+        "_load_complete_group_ids",
+        "_next_ten_grid_cover_path",
+        "_positive_msg_ids",
+        "_retry_until_present",
+        "_ten_grid_cover_filename",
+        "_ten_grid_cover_ok",
+        "album_anchor_from_messages",
+        "album_id_window",
+        "blur_files_and_rebind_messages",
+        "completeTenGrid",
+        "elide_path_middle",
+        "gen_blur_pic",
+        "gen_dest_topic_id",
+        "gen_preview_video",
+        "gen_yulan_if_need",
+        "grouped_message_ref_from",
+        "message_ids_of_same_group",
+        "processAiContent",
+        "r_instance_id",
+        "rebind_path_message_map",
+        "resolve_complete_album_target",
+        "safeFetchFirstMessage",
+        "water_only_if_need"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.DownLoadProcess",
+      "source_file": "src/py/com/yun/mao/auto/DownLoadProcess.py",
+      "exact_names": 1,
+      "present": [
+        "only_down_load"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.ProcessCache",
+      "source_file": "src/py/com/yun/mao/auto/ProcessCache.py",
+      "exact_names": 8,
+      "present": [
+        "clean_all_type_but_mode",
+        "update_Mode_text",
+        "update_forward_mode_text",
+        "update_present",
+        "update_process",
+        "update_scheduler",
+        "update_sub_type_text",
+        "update_type_text"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.TopicUtils",
+      "source_file": "src/py/com/yun/mao/auto/TopicUtils.py",
+      "exact_names": 5,
+      "present": [
+        "ensure_forum_enabled",
+        "fetch_dest_topic_id",
+        "fetch_topic_info",
+        "parse_msg_topic_id",
+        "parse_parseBean_topic_id"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.VideoProcessingIds",
+      "source_file": "src/py/com/yun/mao/auto/VideoProcessingIds.py",
+      "exact_names": 15,
+      "present": [
+        "_as_messages",
+        "_delete_scheduled_hint",
+        "_media_key",
+        "_peer_key",
+        "_positive_int",
+        "_safe_id_map",
+        "_walk_updates",
+        "apply_id_map",
+        "capture_send",
+        "collect_posted_messages",
+        "extract_ids",
+        "first_still_pending",
+        "map_first_to_posted",
+        "pending_ids",
+        "scheduled_to_real_id_map"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.auto.upload",
+      "source_file": "src/py/com/yun/mao/auto/upload.py",
+      "exact_names": 4,
+      "present": [
+        "_make_part_context",
+        "_telethon_default_part_size",
+        "gen_media_file_name",
+        "upload_normal_file"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.bz_uc.aq_22_rt_78",
+      "source_file": "src/py/com/yun/mao/bz_uc/aq_22_rt_78.py",
+      "exact_names": 1,
+      "present": [
+        "yb_25_fan"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.bz_uc.fi_49_qs_87",
+      "source_file": "src/py/com/yun/mao/bz_uc/fi_49_qs_87.py",
+      "exact_names": 1,
+      "present": [
+        "aq_87_fan"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.bz_uc.nq_23_vy_24",
+      "source_file": "src/py/com/yun/mao/bz_uc/nq_23_vy_24.py",
+      "exact_names": 1,
+      "present": [
+        "cf_79_fan"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.cd.TaskHardStop",
+      "source_file": "src/py/com/yun/mao/cd/TaskHardStop.py",
+      "exact_names": 21,
+      "present": [
+        "_ensure_main_thread_poster",
+        "_ghost_snapshot",
+        "_post_to_main_thread",
+        "_teardown_worker_loop",
+        "any_tracked_worker_running",
+        "escalate_kill_ghost_workers_async",
+        "finalize_worker_async",
+        "force_teardown_ghost_workers",
+        "kill_all",
+        "nudge_ghost_workers",
+        "prune_ghost_workers",
+        "reap_ghost_workers",
+        "register",
+        "request_hard_stop",
+        "safe_disconnect_fallback",
+        "schedule_worker_teardown",
+        "sync_worker_stop_state",
+        "track_worker",
+        "unregister",
+        "untrack_worker",
+        "wait_worker_stopped"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.config.InnerAppIdConfig",
+      "source_file": "src/py/com/yun/mao/config/InnerAppIdConfig.py",
+      "exact_names": 2,
+      "present": [
+        "get_api_hash",
+        "get_api_id"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.config.net_config",
+      "source_file": "src/py/com/yun/mao/config/net_config.py",
+      "exact_names": 4,
+      "present": [
+        "enable_proxy",
+        "get_ip",
+        "get_port",
+        "get_proxy_config"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.dclass.AutoBeanXXX",
+      "source_file": "src/py/com/yun/mao/dclass/AutoBeanXXX.py",
+      "exact_names": 6,
+      "present": [
+        "_build_item_sign_payload",
+        "_exec_from_wire",
+        "_ticket_from_wire",
+        "_verify_sign_batch",
+        "_verify_sign_item",
+        "mem_auto_for_writeback"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._cw_jm_file",
+      "source_file": "src/py/com/yun/mao/fea/_cw_jm_file.py",
+      "exact_names": 15,
+      "present": [
+        "_acct_ok",
+        "_all_caps",
+        "_cap_valid",
+        "_digest_kid",
+        "_fan_hooks",
+        "_hmac_join",
+        "_kid_match",
+        "_mac_kid",
+        "_noise",
+        "_record",
+        "_seal_ok",
+        "_tag_of",
+        "n_p6_tick",
+        "o_yt_purge",
+        "ri_kc_melt"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._dr_vx_file",
+      "source_file": "src/py/com/yun/mao/fea/_dr_vx_file.py",
+      "exact_names": 15,
+      "present": [
+        "_chain_ok",
+        "_decoy",
+        "_fail",
+        "_fan_hooks",
+        "_gy_ok",
+        "_kid_key",
+        "_kid_mac",
+        "_mac",
+        "_obj_ok",
+        "_tg",
+        "_uc_ok",
+        "_unseal",
+        "h_m8_rim",
+        "s_bq_sweep",
+        "uj_nv_glow"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._dtdm_gl",
+      "source_file": "src/py/com/yun/mao/fea/_dtdm_gl.py",
+      "exact_names": 4,
+      "present": [
+        "_dt_yq_mac",
+        "dt_hq_fn",
+        "dt_jz_dm",
+        "dt_qc_hc"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._hb_yt_file",
+      "source_file": "src/py/com/yun/mao/fea/_hb_yt_file.py",
+      "exact_names": 15,
+      "present": [
+        "_chk_caps",
+        "_chk_gy",
+        "_chk_kid",
+        "_chk_uc",
+        "_fan_hooks",
+        "_kk",
+        "_km",
+        "_mark_bad",
+        "_mix",
+        "_open_cap",
+        "_parts_mac",
+        "_tg",
+        "k_dm_drain",
+        "po_xu_snap",
+        "w_k2_gaze"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._lk_ps_file",
+      "source_file": "src/py/com/yun/mao/fea/_lk_ps_file.py",
+      "exact_names": 15,
+      "present": [
+        "_acct_ok",
+        "_all_caps",
+        "_cap_valid",
+        "_digest_kid",
+        "_fan_hooks",
+        "_hmac_join",
+        "_kid_match",
+        "_mac_kid",
+        "_noise",
+        "_record",
+        "_seal_ok",
+        "_tag_of",
+        "n_lc_rinse",
+        "r_v3_edge",
+        "wt_fm_dash"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._pl_wd_file",
+      "source_file": "src/py/com/yun/mao/fea/_pl_wd_file.py",
+      "exact_names": 17,
+      "present": [
+        "_bump_suspect_locked",
+        "_kid_key",
+        "_kid_mac",
+        "_mac",
+        "_purge_locked",
+        "_seal",
+        "_shred",
+        "_tg",
+        "_unseal",
+        "b_x1_trim",
+        "k_r9_fwd",
+        "m_qv_open",
+        "p_w2_sink",
+        "q_lg",
+        "q_m3_seal",
+        "u_n7_pack",
+        "w_cd"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._qf_rn_file",
+      "source_file": "src/py/com/yun/mao/fea/_qf_rn_file.py",
+      "exact_names": 15,
+      "present": [
+        "_chain_ok",
+        "_decoy",
+        "_fail",
+        "_fan_hooks",
+        "_gy_ok",
+        "_kid_key",
+        "_kid_mac",
+        "_mac",
+        "_obj_ok",
+        "_tg",
+        "_uc_ok",
+        "_unseal",
+        "ae_iq_bind",
+        "g_wp_flush",
+        "j_c4_fold"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_jqm",
+      "source_file": "src/py/com/yun/mao/fea/_sq_jqm.py",
+      "exact_names": 22,
+      "present": [
+        "_migrate_legacy_bean_if_needed",
+        "_read_ucode_from_legacy_bean",
+        "_static_cipher",
+        "_union_code_dir",
+        "_zh_bc_uc",
+        "_zh_rd_code",
+        "dic_to_AiModelObj",
+        "get_ai_default_api_key",
+        "get_ai_model_list",
+        "get_ai_model_obj_list",
+        "get_default_ai_model",
+        "has_ai_ability",
+        "has_ai_ability_but_no_key",
+        "is_exp_eight",
+        "zh_bc_xs",
+        "zh_code_pth",
+        "zh_info_pth",
+        "zh_jz_xx",
+        "zh_old_pth",
+        "zh_sc_wj",
+        "zh_ye_xx",
+        "zh_zw_uc"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_r_ks",
+      "source_file": "src/py/com/yun/mao/fea/_sq_r_ks.py",
+      "exact_names": 4,
+      "present": [
+        "_dispatch_ui_callback",
+        "kj_r_spui",
+        "roi_report_fire",
+        "save_item_r_ui"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_r_qi",
+      "source_file": "src/py/com/yun/mao/fea/_sq_r_qi.py",
+      "exact_names": 5,
+      "present": [
+        "_apply_user_from_remote",
+        "_item_wire_tuple",
+        "_spi_fetch",
+        "qd_r_spi_boot",
+        "qd_r_zc_after_register"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_req",
+      "source_file": "src/py/com/yun/mao/fea/_sq_req.py",
+      "exact_names": 39,
+      "present": [
+        "CheckOrderAndRecharge",
+        "URL_PRE_COM",
+        "_get_config",
+        "_get_shared_session",
+        "_http_post_once",
+        "_is_async_shutdown_error",
+        "_pack_final_send_once",
+        "_safe_parse_request_with_retry",
+        "aio_session",
+        "createOrder",
+        "failed_or_error",
+        "get_activate_code_uri",
+        "get_check_order_recharge",
+        "get_create_order",
+        "get_dev_local_host",
+        "get_host",
+        "get_pro_duct_host",
+        "is_product_env",
+        "sq_cz_jqm",
+        "sq_fs_send_with_retry",
+        "sq_jm_xy",
+        "sq_jy_ma",
+        "sq_lq_pz",
+        "sq_qy_dm",
+        "sq_sb",
+        "sq_sc_aes_k",
+        "sq_sc_aq_nr",
+        "sq_ty_jh",
+        "sq_uri_cz",
+        "sq_uri_jym",
+        "sq_uri_pz",
+        "sq_uri_qy",
+        "sq_uri_sb",
+        "sq_uri_yp_ch",
+        "sq_uri_yp_cm",
+        "sq_uri_zc",
+        "sq_yp_pd_ch",
+        "sq_yp_pd_cm",
+        "sq_zc"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._sq_zw",
+      "source_file": "src/py/com/yun/mao/fea/_sq_zw.py",
+      "exact_names": 2,
+      "present": [
+        "_zw_hq_prod_host",
+        "zw_bd_zw"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.fea._yg_bn_file",
+      "source_file": "src/py/com/yun/mao/fea/_yg_bn_file.py",
+      "exact_names": 15,
+      "present": [
+        "_chk_caps",
+        "_chk_gy",
+        "_chk_kid",
+        "_chk_uc",
+        "_fan_hooks",
+        "_kk",
+        "_km",
+        "_mark_bad",
+        "_mix",
+        "_open_cap",
+        "_parts_mac",
+        "_tg",
+        "v_hz_scrub",
+        "xy_bs_curl",
+        "y_t7_glow"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.jm._my_r_gk",
+      "source_file": "src/py/com/yun/mao/jm/_my_r_gk.py",
+      "exact_names": 1,
+      "present": [
+        "jm_jz_r_pk"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_rt",
+      "source_file": "src/py/com/yun/mao/link/_fds_rt.py",
+      "exact_names": 12,
+      "present": [
+        "fs_by_pf",
+        "fs_dt_lq",
+        "fs_dt_mk",
+        "fs_http",
+        "fs_hy_men",
+        "fs_jc_qd",
+        "fs_pz_jm",
+        "fs_sjk_qd",
+        "fs_sjk_ws",
+        "fs_ui_ok",
+        "fs_yp_js",
+        "fs_zh_tb"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.link._fds_tan",
+      "source_file": "src/py/com/yun/mao/link/_fds_tan.py",
+      "exact_names": 16,
+      "present": [
+        "_jv_c8_wt",
+        "_nx_r4_qm",
+        "_pl_a1_hz",
+        "_sg_e3_uf",
+        "_to_x9_kr",
+        "_wb_jk_bd",
+        "_wb_jk_sx",
+        "_wb_jk_yc",
+        "_wq_b2_ln",
+        "_yk_m6_bd",
+        "wb_dt_zx",
+        "wb_jm_yq",
+        "wb_sjk_hb",
+        "wb_sock",
+        "wb_tls_wd",
+        "wb_zs_bd"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_r",
+      "source_file": "src/py/com/yun/mao/link/_lk_gy_r.py",
+      "exact_names": 1,
+      "present": [
+        "gy_jc_b1"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.link._lk_gy_w",
+      "source_file": "src/py/com/yun/mao/link/_lk_gy_w.py",
+      "exact_names": 25,
+      "present": [
+        "_gy_af",
+        "_gy_da",
+        "_gy_db",
+        "_gy_dc",
+        "_gy_ex",
+        "_gy_h0",
+        "_gy_k0",
+        "_gy_ma",
+        "_gy_mb",
+        "_gy_mc",
+        "_gy_rs",
+        "_gy_sa",
+        "_gy_sb",
+        "_gy_sc",
+        "_gy_uc",
+        "gy_jc_a1",
+        "gy_jc_a2",
+        "gy_jc_a3",
+        "gy_jc_a4",
+        "gy_jc_a5",
+        "gy_jc_a6",
+        "gy_jc_a7",
+        "gy_jc_a8",
+        "gy_jc_a9",
+        "gy_wc_hx"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.link._xb_ms",
+      "source_file": "src/py/com/yun/mao/link/_xb_ms.py",
+      "exact_names": 7,
+      "present": [
+        "_fe_s_l_nt_ine",
+        "_post_once",
+        "_resolve_url",
+        "_sx_zw_hc",
+        "apply_md5s_body",
+        "join_xb_url",
+        "kai_shit_f_m_5s"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.log.glog",
+      "source_file": "src/py/com/yun/mao/log/glog.py",
+      "exact_names": 1,
+      "present": [
+        "_backfill_ui_log_from_disk"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.login.ClientCacheHelper",
+      "source_file": "src/py/com/yun/mao/login/ClientCacheHelper.py",
+      "exact_names": 2,
+      "present": [
+        "safe_disconnect_client",
+        "save_cache_client"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.login.NetTest",
+      "source_file": "src/py/com/yun/mao/login/NetTest.py",
+      "exact_names": 4,
+      "present": [
+        "FastNetTest",
+        "fast_test",
+        "fast_test_inner",
+        "net_test_path"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.monitor.MonitorSchedulerReport",
+      "source_file": "src/py/com/yun/mao/monitor/MonitorSchedulerReport.py",
+      "exact_names": 1,
+      "present": [
+        "sync_start_report"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.mthread.ReceiveCodeThread",
+      "source_file": "src/py/com/yun/mao/mthread/ReceiveCodeThread.py",
+      "exact_names": 1,
+      "present": [
+        "parse_login_code"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.mthread.SchedulerThreadClass",
+      "source_file": "src/py/com/yun/mao/mthread/SchedulerThreadClass.py",
+      "exact_names": 1,
+      "present": [
+        "stop_qthread"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.telefast.FastTelethon",
+      "source_file": "src/py/com/yun/mao/telefast/FastTelethon.py",
+      "exact_names": 11,
+      "present": [
+        "__init__",
+        "_create_download_sender",
+        "_get_connection_count",
+        "_init_download",
+        "_internal_transfer_to_telegram",
+        "_tg_normalize_limit",
+        "download",
+        "download_file",
+        "init_upload",
+        "stream_file",
+        "upload_file"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.telefast.RateLimiterHelper",
+      "source_file": "src/py/com/yun/mao/telefast/RateLimiterHelper.py",
+      "exact_names": 8,
+      "present": [
+        "auto_masu_rate_event",
+        "changed_rate",
+        "flood_descend_rate",
+        "flood_descend_rate_event",
+        "get_auto_current_rate",
+        "is_auto_rate",
+        "mark_flood_time",
+        "read_last_flood_time"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.telefast.RateTempClass",
+      "source_file": "src/py/com/yun/mao/telefast/RateTempClass.py",
+      "exact_names": 1,
+      "present": [
+        "init_rate"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.tgaccount.TGAuthAccountSetting",
+      "source_file": "src/py/com/yun/mao/tgaccount/TGAuthAccountSetting.py",
+      "exact_names": 6,
+      "present": [
+        "AUTH_ACCOUNT_FILE",
+        "addOrUpdateAccount",
+        "deleteSession",
+        "getTgAccountList",
+        "loadFromDisAuthAccountList",
+        "updateToDisAuthAccountList"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.DirManager",
+      "source_file": "src/py/com/yun/mao/util/DirManager.py",
+      "exact_names": 8,
+      "present": [
+        "get_local_data_dir",
+        "get_net_test_dir",
+        "get_union_code_dir",
+        "hid_file",
+        "init_biz_dir",
+        "init_path",
+        "is_hidden",
+        "set_hidden_recursive"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.FloodGuard",
+      "source_file": "src/py/com/yun/mao/util/FloodGuard.py",
+      "exact_names": 5,
+      "present": [
+        "clean_flood_log",
+        "flood_guard",
+        "handle_flood_wait",
+        "handle_other_ex",
+        "with_flood_retry"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.XAIKeyValidator",
+      "source_file": "src/py/com/yun/mao/util/XAIKeyValidator.py",
+      "exact_names": 1,
+      "present": [
+        "__init__"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.CommonCode",
+      "source_file": "src/py/com/yun/mao/util/need/CommonCode.py",
+      "exact_names": 56,
+      "present": [
+        "__init__",
+        "_random_range_conflicts",
+        "_random_ranges_overlap",
+        "auto_correct_step_length",
+        "boolToStr",
+        "checkChannelAndGroups",
+        "checkChannelAndGroupsWrapper",
+        "checkEntityIsExist",
+        "checkSendMessagePermission",
+        "checkSendPermission",
+        "check_comment_enable",
+        "contain_duration",
+        "contain_word",
+        "container_at_links",
+        "current_time",
+        "fetch_new_quote_message",
+        "fetch_new_quote_messages",
+        "findAutoBeanBySource",
+        "format_time",
+        "genLegalAutoBeanListByLimit",
+        "gen_base_filter",
+        "geneRamdomId",
+        "generateFileNameBy",
+        "getGroupTextAndMessage",
+        "get_channel_messages_replies",
+        "get_max_duration_message",
+        "get_max_size_message",
+        "globalPicWater",
+        "globalVideoWater",
+        "group_has_legal_msg",
+        "isProtectContent",
+        "is_broadcast_comment_channel",
+        "is_key_word_in_text",
+        "is_super_group",
+        "match_duration_and_size",
+        "message_has_button",
+        "message_to_parse_list",
+        "messages_has_button",
+        "messages_has_contain_words",
+        "messages_has_exclude_words",
+        "messages_has_video",
+        "obtain_comment_to_id",
+        "parseVideoDuration",
+        "parseVideoIndex",
+        "parse_ids",
+        "privatePicWater",
+        "privateVideoWater",
+        "process_text_to_obj",
+        "random_start_end",
+        "real_time_increase_params",
+        "safe_try_run",
+        "safe_with_append_tail",
+        "sigal_message_filter_by_base",
+        "sleepTime",
+        "str_id_tip",
+        "topic_exists_safe"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.util.need.ListOpHelper",
+      "source_file": "src/py/com/yun/mao/util/need/ListOpHelper.py",
+      "exact_names": 7,
+      "present": [
+        "addHeader",
+        "convert_employee_to_show_item_data",
+        "fillAccountListView",
+        "fillEmployeeListView",
+        "fillYunYinMaoItemListView",
+        "filter_session_item_to_ui_account_data",
+        "setALLSelect"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.water.PicWaterUtils",
+      "source_file": "src/py/com/yun/mao/water/PicWaterUtils.py",
+      "exact_names": 6,
+      "present": [
+        "_calc_pic_water_text_position",
+        "_calc_pic_watermark_image_position",
+        "_scale_pic_watermark",
+        "draw_block_3_bg",
+        "measure_text_width",
+        "water_text_mark"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.water.VideoBitUtils",
+      "source_file": "src/py/com/yun/mao/water/VideoBitUtils.py",
+      "exact_names": 7,
+      "present": [
+        "animate_text",
+        "change_bit",
+        "gen_bit_data",
+        "gen_fps_data",
+        "gen_text_clip",
+        "get_video_bitrate",
+        "get_video_fps"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.water.VideoWaterUtilsToSmallFile",
+      "source_file": "src/py/com/yun/mao/water/VideoWaterUtilsToSmallFile.py",
+      "exact_names": 7,
+      "present": [
+        "_abort_if_stopped",
+        "_escape_drawtext_text",
+        "_normalize_font_for_ffmpeg",
+        "_normalize_image_path_for_ffmpeg",
+        "_run_ffmpeg_with_progress",
+        "_safe_float",
+        "_safe_int"
+      ],
+      "missing": []
+    },
+    {
+      "module": "src.py.com.yun.mao.water.waterUtils",
+      "source_file": "src/py/com/yun/mao/water/waterUtils.py",
+      "exact_names": 4,
+      "present": [
+        "auto_add_water",
+        "gen_key_log",
+        "get_file_size_byte",
+        "is_file_up_100m"
+      ],
+      "missing": []
+    }
+  ]
+}

@@ -1,0 +1,3128 @@
+{
+  "schema": "operater-cat-dyna-ui-text-inventory.v1",
+  "module_count": 8,
+  "modules": [
+    {
+      "module": "src.resource.ui.dyna.ai_employee_item",
+      "method_first_use": [
+        "setWindowTitle",
+        "setText",
+        "setPlaceholderText"
+      ],
+      "entry_count": 17,
+      "window_title": "Form",
+      "text_entries": [
+        {
+          "context": "Form",
+          "text": "Form"
+        },
+        {
+          "context": "Form",
+          "text": "AI员工角色描述设定"
+        },
+        {
+          "context": "Form",
+          "text": "初始化为色情AI员工"
+        },
+        {
+          "context": "Form",
+          "text": "初始化为中文新闻记者"
+        },
+        {
+          "context": "Form",
+          "text": "前置文案，就是描述AI员工如何生成文案，这里设置一些简单约束规则"
+        },
+        {
+          "context": "Form",
+          "text": "AI敏感词，必须要设置，使用竖线分割，比可以在默认基础上添加敏感词（敏感词用于防止AI系统风控）"
+        },
+        {
+          "context": "Form",
+          "text": "导入默认敏感词"
+        },
+        {
+          "context": "Form",
+          "text": "目标文本长度(最小值和最大值之间的随机长度)"
+        },
+        {
+          "context": "Form",
+          "text": "最小值"
+        },
+        {
+          "context": "Form",
+          "text": "最大值"
+        },
+        {
+          "context": "Form",
+          "text": "重试次数"
+        },
+        {
+          "context": "Form",
+          "text": "模型选择"
+        },
+        {
+          "context": "Form",
+          "text": "查看模型计费"
+        },
+        {
+          "context": "Form",
+          "text": "在这里输入色情文案，可以去色情频道里面复制色情文本，然后粘贴到这里。"
+        },
+        {
+          "context": "Form",
+          "text": "点击测试文本同义转换效果⬇️"
+        },
+        {
+          "context": "Form",
+          "text": "给这个AI员工取一个名字"
+        },
+        {
+          "context": "Form",
+          "text": "保存"
+        }
+      ]
+    },
+    {
+      "module": "src.resource.ui.dyna.auto_flow_item",
+      "method_first_use": [
+        "setWindowTitle",
+        "setPlaceholderText",
+        "setItemText",
+        "setCurrentText"
+      ],
+      "entry_count": 115,
+      "window_title": "Form",
+      "text_entries": [
+        {
+          "context": "Form",
+          "text": "Form"
+        },
+        {
+          "context": "Form",
+          "text": "基础"
+        },
+        {
+          "context": "Form",
+          "text": "来源频道/群组"
+        },
+        {
+          "context": "Form",
+          "text": "公有链接或私有ID(支持话题)"
+        },
+        {
+          "context": "Form",
+          "text": "教程"
+        },
+        {
+          "context": "Form",
+          "text": "第一步、搬运到私密会员频道"
+        },
+        {
+          "context": "Form",
+          "text": "会员目标频道/群组(支持多个，一行一个，支持话题)"
+        },
+        {
+          "context": "Form",
+          "text": "公有链接或私有ID（支持多个，一行一个，支持话题）"
+        },
+        {
+          "context": "Form",
+          "text": "第二步、自动生成预览资源，并发布到公开预览频道"
+        },
+        {
+          "context": "Form",
+          "text": "公开预览频道/群组(支持多个，一行一个，支持话题)"
+        },
+        {
+          "context": "Form",
+          "text": "资源类型"
+        },
+        {
+          "context": "Form",
+          "text": "仅包含视频的消息组"
+        },
+        {
+          "context": "Form",
+          "text": "图片"
+        },
+        {
+          "context": "Form",
+          "text": "视频"
+        },
+        {
+          "context": "Form",
+          "text": "文件"
+        },
+        {
+          "context": "Form",
+          "text": "纯文本"
+        },
+        {
+          "context": "Form",
+          "text": "预览频道发布资源类型"
+        },
+        {
+          "context": "Form",
+          "text": "预览视频规则"
+        },
+        {
+          "context": "Form",
+          "text": "按比例模式"
+        },
+        {
+          "context": "Form",
+          "text": "自定义时长模式"
+        },
+        {
+          "context": "Form",
+          "text": "10%"
+        },
+        {
+          "context": "Form",
+          "text": "20%"
+        },
+        {
+          "context": "Form",
+          "text": "30%"
+        },
+        {
+          "context": "Form",
+          "text": "自定义"
+        },
+        {
+          "context": "Form",
+          "text": "自定义比例1~99"
+        },
+        {
+          "context": "Form",
+          "text": "自定义时长(单位秒钟)："
+        },
+        {
+          "context": "Form",
+          "text": "最小值"
+        },
+        {
+          "context": "Form",
+          "text": "~"
+        },
+        {
+          "context": "Form",
+          "text": "最大值"
+        },
+        {
+          "context": "Form",
+          "text": "搬运方式"
+        },
+        {
+          "context": "Form",
+          "text": "强制下载方式"
+        },
+        {
+          "context": "Form",
+          "text": "自动方式"
+        },
+        {
+          "context": "Form",
+          "text": "间隔最小值"
+        },
+        {
+          "context": "Form",
+          "text": "间隔最大值"
+        },
+        {
+          "context": "Form",
+          "text": "模式选择"
+        },
+        {
+          "context": "Form",
+          "text": "顺序模式"
+        },
+        {
+          "context": "Form",
+          "text": "随机模式"
+        },
+        {
+          "context": "Form",
+          "text": "循环模式"
+        },
+        {
+          "context": "Form",
+          "text": "随机模式参数"
+        },
+        {
+          "context": "Form",
+          "text": "期望数量"
+        },
+        {
+          "context": "Form",
+          "text": "填写整数"
+        },
+        {
+          "context": "Form",
+          "text": "按组计算"
+        },
+        {
+          "context": "Form",
+          "text": "按个计算"
+        },
+        {
+          "context": "Form",
+          "text": "顺序模式参数（包括开始ID）"
+        },
+        {
+          "context": "Form",
+          "text": "开始ID"
+        },
+        {
+          "context": "Form",
+          "text": "循环模式参数（包括开始ID，不包括结束ID）"
+        },
+        {
+          "context": "Form",
+          "text": "结束ID"
+        },
+        {
+          "context": "Form",
+          "text": "基础条件(如果是视频资源，则需要同时满足时长和大小)"
+        },
+        {
+          "context": "Form",
+          "text": "时长过滤(单位分钟)："
+        },
+        {
+          "context": "Form",
+          "text": "大小过滤(单位 MB )："
+        },
+        {
+          "context": "Form",
+          "text": "资源过滤条件"
+        },
+        {
+          "context": "Form",
+          "text": "丢弃资源自带的文本"
+        },
+        {
+          "context": "Form",
+          "text": "丢弃无文本的资源"
+        },
+        {
+          "context": "Form",
+          "text": "丢弃带按钮的资源"
+        },
+        {
+          "context": "Form",
+          "text": "删除源文本中的外链"
+        },
+        {
+          "context": "Form",
+          "text": "原样文本搬运"
+        },
+        {
+          "context": "Form",
+          "text": "根据大小时长拆组"
+        },
+        {
+          "context": "Form",
+          "text": "包含关键词的资源"
+        },
+        {
+          "context": "Form",
+          "text": "填写关键词，多个词使用竖线\"|\"分割"
+        },
+        {
+          "context": "Form",
+          "text": "排除关键词的资源"
+        },
+        {
+          "context": "Form",
+          "text": "预览频道资源处理（可选）"
+        },
+        {
+          "context": "Form",
+          "text": "图片模糊"
+        },
+        {
+          "context": "Form",
+          "text": "防剧透"
+        },
+        {
+          "context": "Form",
+          "text": "1~20数字越大越模糊"
+        },
+        {
+          "context": "Form",
+          "text": "消息组宫格补齐"
+        },
+        {
+          "context": "Form",
+          "text": "填写0~10的整数"
+        },
+        {
+          "context": "Form",
+          "text": "随机封面"
+        },
+        {
+          "context": "Form",
+          "text": "水印（可选，仅仅对发布到预览频道的资源生效）"
+        },
+        {
+          "context": "Form",
+          "text": "图片水印或者视频动态水印"
+        },
+        {
+          "context": "Form",
+          "text": "图片水印"
+        },
+        {
+          "context": "Form",
+          "text": "视频水印"
+        },
+        {
+          "context": "Form",
+          "text": "1分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "3分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "5分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "10分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "30分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "60分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "90分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "120分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "150分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "文字水印"
+        },
+        {
+          "context": "Form",
+          "text": "水印文字，支持中文，英文"
+        },
+        {
+          "context": "Form",
+          "text": "选择图片"
+        },
+        {
+          "context": "Form",
+          "text": "30"
+        },
+        {
+          "context": "Form",
+          "text": "图片路径："
+        },
+        {
+          "context": "Form",
+          "text": "尾巴（可选，仅仅对发布到预览频道的资源生效）"
+        },
+        {
+          "context": "Form",
+          "text": "尾巴文案，支持html格式和电报会员表情"
+        },
+        {
+          "context": "Form",
+          "text": "替换规则（可选，咨询客服如何编辑）"
+        },
+        {
+          "context": "Form",
+          "text": "源词->目标词（中间使用英文输入法的->分割）"
+        },
+        {
+          "context": "Form",
+          "text": "AI员工（可选，AI文案同义转换）"
+        },
+        {
+          "context": "Form",
+          "text": "启用AI文案"
+        },
+        {
+          "context": "Form",
+          "text": "当前选择：xxx"
+        },
+        {
+          "context": "Form",
+          "text": "选择AI员工"
+        },
+        {
+          "context": "Form",
+          "text": "AI拒绝生成文案时候："
+        },
+        {
+          "context": "Form",
+          "text": "使用源文案"
+        },
+        {
+          "context": "Form",
+          "text": "跳过此资源"
+        },
+        {
+          "context": "Form",
+          "text": "会员超级链接配置（可选，仅仅对发布到预览频道的资源生效）"
+        },
+        {
+          "context": "Form",
+          "text": "启用会员超级链接"
+        },
+        {
+          "context": "Form",
+          "text": "自定义会员超级链接"
+        },
+        {
+          "context": "Form",
+          "text": "BQ字体"
+        },
+        {
+          "context": "Form",
+          "text": "请配置会员提示文案"
+        },
+        {
+          "context": "Form",
+          "text": "请配置会员的超级链接（可选）"
+        },
+        {
+          "context": "Form",
+          "text": "游客超级链接配置（可选，仅仅对发布到预览频道的资源生效）"
+        },
+        {
+          "context": "Form",
+          "text": "启用游客超级链接"
+        },
+        {
+          "context": "Form",
+          "text": "请配置游客提示文案"
+        },
+        {
+          "context": "Form",
+          "text": "请配置游客的超级链接"
+        },
+        {
+          "context": "Form",
+          "text": "添加原视频时长信息"
+        },
+        {
+          "context": "Form",
+          "text": "私有广告（可选，仅仅对发布到预览频道的资源生效）"
+        },
+        {
+          "context": "Form",
+          "text": "启用广告"
+        },
+        {
+          "context": "Form",
+          "text": "置底广告"
+        },
+        {
+          "context": "Form",
+          "text": "删除历史广告"
+        },
+        {
+          "context": "Form",
+          "text": "添加广告"
+        },
+        {
+          "context": "Form",
+          "text": "优先级"
+        },
+        {
+          "context": "Form",
+          "text": "请输入自动流的名字"
+        },
+        {
+          "context": "Form",
+          "text": "保存"
+        }
+      ]
+    },
+    {
+      "module": "src.resource.ui.dyna.ban_yun_flow_comment_item",
+      "method_first_use": [
+        "setWindowTitle",
+        "setPlaceholderText",
+        "setItemText",
+        "setCurrentText"
+      ],
+      "entry_count": 94,
+      "window_title": "Form",
+      "text_entries": [
+        {
+          "context": "Form",
+          "text": "Form"
+        },
+        {
+          "context": "Form",
+          "text": "基础"
+        },
+        {
+          "context": "Form",
+          "text": "来源频道/群组"
+        },
+        {
+          "context": "Form",
+          "text": "公有链接或私有ID(支持话题)"
+        },
+        {
+          "context": "Form",
+          "text": "教程"
+        },
+        {
+          "context": "Form",
+          "text": "目标频道/群组(支持多个，一行一个，支持话题)"
+        },
+        {
+          "context": "Form",
+          "text": "公有链接或私有ID（支持多个，一行一个，支持话题）"
+        },
+        {
+          "context": "Form",
+          "text": "资源类型"
+        },
+        {
+          "context": "Form",
+          "text": "仅包含视频的消息组"
+        },
+        {
+          "context": "Form",
+          "text": "图片"
+        },
+        {
+          "context": "Form",
+          "text": "视频"
+        },
+        {
+          "context": "Form",
+          "text": "文件"
+        },
+        {
+          "context": "Form",
+          "text": "纯文本"
+        },
+        {
+          "context": "Form",
+          "text": "模式选择"
+        },
+        {
+          "context": "Form",
+          "text": "顺序模式"
+        },
+        {
+          "context": "Form",
+          "text": "随机模式"
+        },
+        {
+          "context": "Form",
+          "text": "循环模式"
+        },
+        {
+          "context": "Form",
+          "text": "随机模式参数"
+        },
+        {
+          "context": "Form",
+          "text": "期望数量"
+        },
+        {
+          "context": "Form",
+          "text": "填写整数"
+        },
+        {
+          "context": "Form",
+          "text": "按组计算"
+        },
+        {
+          "context": "Form",
+          "text": "按个计算"
+        },
+        {
+          "context": "Form",
+          "text": "顺序模式参数（包括开始ID）"
+        },
+        {
+          "context": "Form",
+          "text": "开始ID"
+        },
+        {
+          "context": "Form",
+          "text": "循环模式参数（包括开始ID，不包括结束ID）"
+        },
+        {
+          "context": "Form",
+          "text": "结束ID"
+        },
+        {
+          "context": "Form",
+          "text": "搬运方式"
+        },
+        {
+          "context": "Form",
+          "text": "强制下载方式"
+        },
+        {
+          "context": "Form",
+          "text": "自动方式"
+        },
+        {
+          "context": "Form",
+          "text": "间隔最小值"
+        },
+        {
+          "context": "Form",
+          "text": "~"
+        },
+        {
+          "context": "Form",
+          "text": "间隔最大值"
+        },
+        {
+          "context": "Form",
+          "text": "基础条件(如果是视频资源，则需要同时满足时长和大小)"
+        },
+        {
+          "context": "Form",
+          "text": "时长过滤(单位分钟)："
+        },
+        {
+          "context": "Form",
+          "text": "最小值"
+        },
+        {
+          "context": "Form",
+          "text": "最大值"
+        },
+        {
+          "context": "Form",
+          "text": "大小过滤(单位 MB )："
+        },
+        {
+          "context": "Form",
+          "text": "资源过滤条件"
+        },
+        {
+          "context": "Form",
+          "text": "丢弃资源自带的文本"
+        },
+        {
+          "context": "Form",
+          "text": "丢弃无文本的资源"
+        },
+        {
+          "context": "Form",
+          "text": "丢弃带按钮的资源"
+        },
+        {
+          "context": "Form",
+          "text": "删除源文本中的外链"
+        },
+        {
+          "context": "Form",
+          "text": "原样文本搬运"
+        },
+        {
+          "context": "Form",
+          "text": "根据大小时长拆组"
+        },
+        {
+          "context": "Form",
+          "text": "包含关键词的资源"
+        },
+        {
+          "context": "Form",
+          "text": "填写关键词，多个词使用竖线\"|\"分割"
+        },
+        {
+          "context": "Form",
+          "text": "排除关键词的资源"
+        },
+        {
+          "context": "Form",
+          "text": "资源处理（可选）"
+        },
+        {
+          "context": "Form",
+          "text": "图片模糊"
+        },
+        {
+          "context": "Form",
+          "text": "防剧透"
+        },
+        {
+          "context": "Form",
+          "text": "1~20数字越大越模糊"
+        },
+        {
+          "context": "Form",
+          "text": "消息组宫格补齐"
+        },
+        {
+          "context": "Form",
+          "text": "填写0~10的整数"
+        },
+        {
+          "context": "Form",
+          "text": "随机封面"
+        },
+        {
+          "context": "Form",
+          "text": "水印（可选）"
+        },
+        {
+          "context": "Form",
+          "text": "图片水印或者视频动态水印"
+        },
+        {
+          "context": "Form",
+          "text": "图片水印"
+        },
+        {
+          "context": "Form",
+          "text": "视频水印"
+        },
+        {
+          "context": "Form",
+          "text": "1分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "3分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "5分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "10分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "30分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "60分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "90分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "120分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "150分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "文字水印"
+        },
+        {
+          "context": "Form",
+          "text": "水印文字，支持中文，英文"
+        },
+        {
+          "context": "Form",
+          "text": "选择图片"
+        },
+        {
+          "context": "Form",
+          "text": "30"
+        },
+        {
+          "context": "Form",
+          "text": "图片路径："
+        },
+        {
+          "context": "Form",
+          "text": "替换规则（可选，详情可以查看pdf文档）"
+        },
+        {
+          "context": "Form",
+          "text": "源词语->目标词语，详情可以查看pdf文档"
+        },
+        {
+          "context": "Form",
+          "text": "尾巴（可选，支持html格式和电报会员表情）"
+        },
+        {
+          "context": "Form",
+          "text": "支持html格式和电报会员表情，详情可以查看pdf文档"
+        },
+        {
+          "context": "Form",
+          "text": "AI员工（可选，AI文案同义转换）"
+        },
+        {
+          "context": "Form",
+          "text": "启用AI文案"
+        },
+        {
+          "context": "Form",
+          "text": "当前选择：xxx"
+        },
+        {
+          "context": "Form",
+          "text": "选择AI员工"
+        },
+        {
+          "context": "Form",
+          "text": "AI拒绝生成文案时候："
+        },
+        {
+          "context": "Form",
+          "text": "使用源文案"
+        },
+        {
+          "context": "Form",
+          "text": "跳过此资源"
+        },
+        {
+          "context": "Form",
+          "text": "评论区（可选）"
+        },
+        {
+          "context": "Form",
+          "text": "一比一复刻评论区"
+        },
+        {
+          "context": "Form",
+          "text": "配置评论区搬运规则"
+        },
+        {
+          "context": "Form",
+          "text": "私有广告（可选）"
+        },
+        {
+          "context": "Form",
+          "text": "启用广告"
+        },
+        {
+          "context": "Form",
+          "text": "置底广告"
+        },
+        {
+          "context": "Form",
+          "text": "删除历史广告"
+        },
+        {
+          "context": "Form",
+          "text": "添加广告"
+        },
+        {
+          "context": "Form",
+          "text": "优先级"
+        },
+        {
+          "context": "Form",
+          "text": "输入搬运流的名字"
+        },
+        {
+          "context": "Form",
+          "text": "保存"
+        }
+      ]
+    },
+    {
+      "module": "src.resource.ui.dyna.down_load_flow_item",
+      "method_first_use": [
+        "setWindowTitle",
+        "setTitle",
+        "setText",
+        "setPlaceholderText",
+        "setItemText",
+        "setCurrentText"
+      ],
+      "entry_count": 54,
+      "window_title": "Form",
+      "text_entries": [
+        {
+          "context": "Form",
+          "text": "Form"
+        },
+        {
+          "context": "Form",
+          "text": "基础"
+        },
+        {
+          "context": "Form",
+          "text": "来源频道/群组"
+        },
+        {
+          "context": "Form",
+          "text": "公有链接或私有ID(支持话题)"
+        },
+        {
+          "context": "Form",
+          "text": "教程"
+        },
+        {
+          "context": "Form",
+          "text": "资源类型"
+        },
+        {
+          "context": "Form",
+          "text": "仅包含视频的消息组"
+        },
+        {
+          "context": "Form",
+          "text": "图片"
+        },
+        {
+          "context": "Form",
+          "text": "视频"
+        },
+        {
+          "context": "Form",
+          "text": "文件"
+        },
+        {
+          "context": "Form",
+          "text": "模式选择"
+        },
+        {
+          "context": "Form",
+          "text": "顺序模式"
+        },
+        {
+          "context": "Form",
+          "text": "随机模式"
+        },
+        {
+          "context": "Form",
+          "text": "循环模式"
+        },
+        {
+          "context": "Form",
+          "text": "随机模式参数"
+        },
+        {
+          "context": "Form",
+          "text": "期望数量"
+        },
+        {
+          "context": "Form",
+          "text": "填写整数"
+        },
+        {
+          "context": "Form",
+          "text": "按组计算"
+        },
+        {
+          "context": "Form",
+          "text": "按个计算"
+        },
+        {
+          "context": "Form",
+          "text": "顺序模式参数（包括开始ID）"
+        },
+        {
+          "context": "Form",
+          "text": "开始ID"
+        },
+        {
+          "context": "Form",
+          "text": "循环模式参数（包括开始ID，不包括结束ID）"
+        },
+        {
+          "context": "Form",
+          "text": "结束ID"
+        },
+        {
+          "context": "Form",
+          "text": "基础条件(如果是视频资源，则需要同时满足时长和大小)"
+        },
+        {
+          "context": "Form",
+          "text": "时长过滤(单位分钟)："
+        },
+        {
+          "context": "Form",
+          "text": "最小值"
+        },
+        {
+          "context": "Form",
+          "text": "~"
+        },
+        {
+          "context": "Form",
+          "text": "最大值"
+        },
+        {
+          "context": "Form",
+          "text": "大小过滤(单位 MB )："
+        },
+        {
+          "context": "Form",
+          "text": "资源过滤条件"
+        },
+        {
+          "context": "Form",
+          "text": "包含关键词的资源"
+        },
+        {
+          "context": "Form",
+          "text": "填写关键词，多个词使用竖线\"|\"分割"
+        },
+        {
+          "context": "Form",
+          "text": "排除关键词的资源"
+        },
+        {
+          "context": "Form",
+          "text": "水印（可选）"
+        },
+        {
+          "context": "Form",
+          "text": "图片水印或者视频动态水印"
+        },
+        {
+          "context": "Form",
+          "text": "图片水印"
+        },
+        {
+          "context": "Form",
+          "text": "视频水印"
+        },
+        {
+          "context": "Form",
+          "text": "1分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "3分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "5分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "10分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "30分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "60分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "90分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "120分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "150分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "文字水印"
+        },
+        {
+          "context": "Form",
+          "text": "水印文字，支持中文，英文"
+        },
+        {
+          "context": "Form",
+          "text": "选择图片"
+        },
+        {
+          "context": "Form",
+          "text": "30"
+        },
+        {
+          "context": "Form",
+          "text": "图片路径："
+        },
+        {
+          "context": "Form",
+          "text": "优先级"
+        },
+        {
+          "context": "Form",
+          "text": "输入名字"
+        },
+        {
+          "context": "Form",
+          "text": "保存"
+        }
+      ]
+    },
+    {
+      "module": "src.resource.ui.dyna.yulan_flow_item",
+      "method_first_use": [
+        "setWindowTitle",
+        "setPlaceholderText",
+        "setItemText",
+        "setCurrentText"
+      ],
+      "entry_count": 112,
+      "window_title": "Form",
+      "text_entries": [
+        {
+          "context": "Form",
+          "text": "Form"
+        },
+        {
+          "context": "Form",
+          "text": "基础"
+        },
+        {
+          "context": "Form",
+          "text": "来源频道/群组"
+        },
+        {
+          "context": "Form",
+          "text": "公有链接或私有ID(支持话题)"
+        },
+        {
+          "context": "Form",
+          "text": "教程"
+        },
+        {
+          "context": "Form",
+          "text": "公开预览频道/群组(支持多个，一行一个，支持话题)"
+        },
+        {
+          "context": "Form",
+          "text": "公有链接或私有ID（支持多个，一行一个，支持话题）"
+        },
+        {
+          "context": "Form",
+          "text": "资源类型"
+        },
+        {
+          "context": "Form",
+          "text": "仅包含视频的消息组"
+        },
+        {
+          "context": "Form",
+          "text": "图片"
+        },
+        {
+          "context": "Form",
+          "text": "视频"
+        },
+        {
+          "context": "Form",
+          "text": "文件"
+        },
+        {
+          "context": "Form",
+          "text": "纯文本"
+        },
+        {
+          "context": "Form",
+          "text": "预览频道发布资源类型"
+        },
+        {
+          "context": "Form",
+          "text": "预览视频规则"
+        },
+        {
+          "context": "Form",
+          "text": "按比例模式"
+        },
+        {
+          "context": "Form",
+          "text": "自定义时长模式"
+        },
+        {
+          "context": "Form",
+          "text": "10%"
+        },
+        {
+          "context": "Form",
+          "text": "20%"
+        },
+        {
+          "context": "Form",
+          "text": "30%"
+        },
+        {
+          "context": "Form",
+          "text": "自定义"
+        },
+        {
+          "context": "Form",
+          "text": "自定义比例1~99"
+        },
+        {
+          "context": "Form",
+          "text": "自定义时长(单位秒钟)："
+        },
+        {
+          "context": "Form",
+          "text": "最小值"
+        },
+        {
+          "context": "Form",
+          "text": "~"
+        },
+        {
+          "context": "Form",
+          "text": "最大值"
+        },
+        {
+          "context": "Form",
+          "text": "搬运方式"
+        },
+        {
+          "context": "Form",
+          "text": "强制下载方式"
+        },
+        {
+          "context": "Form",
+          "text": "自动方式"
+        },
+        {
+          "context": "Form",
+          "text": "间隔最小值"
+        },
+        {
+          "context": "Form",
+          "text": "间隔最大值"
+        },
+        {
+          "context": "Form",
+          "text": "模式选择"
+        },
+        {
+          "context": "Form",
+          "text": "顺序模式"
+        },
+        {
+          "context": "Form",
+          "text": "随机模式"
+        },
+        {
+          "context": "Form",
+          "text": "循环模式"
+        },
+        {
+          "context": "Form",
+          "text": "随机模式参数"
+        },
+        {
+          "context": "Form",
+          "text": "期望数量"
+        },
+        {
+          "context": "Form",
+          "text": "填写整数"
+        },
+        {
+          "context": "Form",
+          "text": "按组计算"
+        },
+        {
+          "context": "Form",
+          "text": "按个计算"
+        },
+        {
+          "context": "Form",
+          "text": "顺序模式参数（包括开始ID）"
+        },
+        {
+          "context": "Form",
+          "text": "开始ID"
+        },
+        {
+          "context": "Form",
+          "text": "循环模式参数（包括开始ID，不包括结束ID）"
+        },
+        {
+          "context": "Form",
+          "text": "结束ID"
+        },
+        {
+          "context": "Form",
+          "text": "基础条件(如果是视频资源，则需要同时满足时长和大小)"
+        },
+        {
+          "context": "Form",
+          "text": "时长过滤(单位分钟)："
+        },
+        {
+          "context": "Form",
+          "text": "大小过滤(单位 MB )："
+        },
+        {
+          "context": "Form",
+          "text": "资源过滤条件"
+        },
+        {
+          "context": "Form",
+          "text": "丢弃资源自带的文本"
+        },
+        {
+          "context": "Form",
+          "text": "丢弃无文本的资源"
+        },
+        {
+          "context": "Form",
+          "text": "丢弃带按钮的资源"
+        },
+        {
+          "context": "Form",
+          "text": "删除源文本中的外链"
+        },
+        {
+          "context": "Form",
+          "text": "原样文本搬运"
+        },
+        {
+          "context": "Form",
+          "text": "根据大小时长拆组"
+        },
+        {
+          "context": "Form",
+          "text": "包含关键词的资源"
+        },
+        {
+          "context": "Form",
+          "text": "填写关键词，多个词使用竖线\"|\"分割"
+        },
+        {
+          "context": "Form",
+          "text": "排除关键词的资源"
+        },
+        {
+          "context": "Form",
+          "text": "预览频道资源处理（可选）"
+        },
+        {
+          "context": "Form",
+          "text": "图片模糊"
+        },
+        {
+          "context": "Form",
+          "text": "防剧透"
+        },
+        {
+          "context": "Form",
+          "text": "1~20数字越大越模糊"
+        },
+        {
+          "context": "Form",
+          "text": "消息组宫格补齐"
+        },
+        {
+          "context": "Form",
+          "text": "填写0~10的整数"
+        },
+        {
+          "context": "Form",
+          "text": "随机封面"
+        },
+        {
+          "context": "Form",
+          "text": "水印（可选，仅仅对发布到预览频道的资源生效）"
+        },
+        {
+          "context": "Form",
+          "text": "图片水印或者视频动态水印"
+        },
+        {
+          "context": "Form",
+          "text": "图片水印"
+        },
+        {
+          "context": "Form",
+          "text": "视频水印"
+        },
+        {
+          "context": "Form",
+          "text": "1分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "3分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "5分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "10分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "30分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "60分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "90分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "120分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "150分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "文字水印"
+        },
+        {
+          "context": "Form",
+          "text": "水印文字，支持中文，英文"
+        },
+        {
+          "context": "Form",
+          "text": "选择图片"
+        },
+        {
+          "context": "Form",
+          "text": "30"
+        },
+        {
+          "context": "Form",
+          "text": "图片路径："
+        },
+        {
+          "context": "Form",
+          "text": "尾巴（可选，仅仅对发布到预览频道的资源生效）"
+        },
+        {
+          "context": "Form",
+          "text": "尾巴文案，支持html格式和电报会员表情"
+        },
+        {
+          "context": "Form",
+          "text": "替换规则（可选，咨询客服如何编辑）"
+        },
+        {
+          "context": "Form",
+          "text": "源词->目标词（中间使用英文输入法的->分割）"
+        },
+        {
+          "context": "Form",
+          "text": "AI员工（可选，AI文案同义转换）"
+        },
+        {
+          "context": "Form",
+          "text": "启用AI文案"
+        },
+        {
+          "context": "Form",
+          "text": "当前选择：xxx"
+        },
+        {
+          "context": "Form",
+          "text": "选择AI员工"
+        },
+        {
+          "context": "Form",
+          "text": "AI拒绝生成文案时候："
+        },
+        {
+          "context": "Form",
+          "text": "使用源文案"
+        },
+        {
+          "context": "Form",
+          "text": "跳过此资源"
+        },
+        {
+          "context": "Form",
+          "text": "会员超级链接配置（可选，仅仅对发布到预览频道的资源生效）"
+        },
+        {
+          "context": "Form",
+          "text": "启用会员超级链接"
+        },
+        {
+          "context": "Form",
+          "text": "自定义会员超级链接"
+        },
+        {
+          "context": "Form",
+          "text": "BQ字体"
+        },
+        {
+          "context": "Form",
+          "text": "请配置会员提示文案"
+        },
+        {
+          "context": "Form",
+          "text": "请配置会员的超级链接（可选）"
+        },
+        {
+          "context": "Form",
+          "text": "游客超级链接配置（可选，仅仅对发布到预览频道的资源生效）"
+        },
+        {
+          "context": "Form",
+          "text": "启用游客超级链接"
+        },
+        {
+          "context": "Form",
+          "text": "请配置游客提示文案"
+        },
+        {
+          "context": "Form",
+          "text": "请配置游客的超级链接"
+        },
+        {
+          "context": "Form",
+          "text": "添加原视频时长信息"
+        },
+        {
+          "context": "Form",
+          "text": "私有广告（可选，仅仅对发布到预览频道的资源生效）"
+        },
+        {
+          "context": "Form",
+          "text": "启用广告"
+        },
+        {
+          "context": "Form",
+          "text": "置底广告"
+        },
+        {
+          "context": "Form",
+          "text": "删除历史广告"
+        },
+        {
+          "context": "Form",
+          "text": "添加广告"
+        },
+        {
+          "context": "Form",
+          "text": "优先级"
+        },
+        {
+          "context": "Form",
+          "text": "请输入预览流的名字"
+        },
+        {
+          "context": "Form",
+          "text": "保存"
+        }
+      ]
+    },
+    {
+      "module": "src.resource.ui.dyna.yun_auto_item",
+      "method_first_use": [
+        "setWindowTitle",
+        "setPlaceholderText",
+        "setItemText",
+        "setCurrentText"
+      ],
+      "entry_count": 109,
+      "window_title": "Form",
+      "text_entries": [
+        {
+          "context": "Form",
+          "text": "Form"
+        },
+        {
+          "context": "Form",
+          "text": "基础"
+        },
+        {
+          "context": "Form",
+          "text": "来源频道/群组"
+        },
+        {
+          "context": "Form",
+          "text": "公有链接或私有ID(支持话题)"
+        },
+        {
+          "context": "Form",
+          "text": "教程"
+        },
+        {
+          "context": "Form",
+          "text": "私有仓库频道 "
+        },
+        {
+          "context": "Form",
+          "text": "我的机器人   "
+        },
+        {
+          "context": "Form",
+          "text": "资源提取机器人，@xxxbot格式"
+        },
+        {
+          "context": "Form",
+          "text": "Bot教程"
+        },
+        {
+          "context": "Form",
+          "text": "公开预览频道/群组(支持多个，一行一个，支持话题)"
+        },
+        {
+          "context": "Form",
+          "text": "公有链接或私有ID（支持多个，一行一个，支持话题）"
+        },
+        {
+          "context": "Form",
+          "text": "资源类型"
+        },
+        {
+          "context": "Form",
+          "text": "仅包含视频的消息组"
+        },
+        {
+          "context": "Form",
+          "text": "图片"
+        },
+        {
+          "context": "Form",
+          "text": "视频"
+        },
+        {
+          "context": "Form",
+          "text": "文件"
+        },
+        {
+          "context": "Form",
+          "text": "纯文本"
+        },
+        {
+          "context": "Form",
+          "text": "预览频道发布资源类型"
+        },
+        {
+          "context": "Form",
+          "text": "预览视频规则"
+        },
+        {
+          "context": "Form",
+          "text": "按比例模式"
+        },
+        {
+          "context": "Form",
+          "text": "自定义时长模式"
+        },
+        {
+          "context": "Form",
+          "text": "10%"
+        },
+        {
+          "context": "Form",
+          "text": "20%"
+        },
+        {
+          "context": "Form",
+          "text": "30%"
+        },
+        {
+          "context": "Form",
+          "text": "自定义"
+        },
+        {
+          "context": "Form",
+          "text": "自定义比例1~99"
+        },
+        {
+          "context": "Form",
+          "text": "自定义时长(单位秒钟)："
+        },
+        {
+          "context": "Form",
+          "text": "最小值"
+        },
+        {
+          "context": "Form",
+          "text": "~"
+        },
+        {
+          "context": "Form",
+          "text": "最大值"
+        },
+        {
+          "context": "Form",
+          "text": "搬运方式"
+        },
+        {
+          "context": "Form",
+          "text": "强制下载方式"
+        },
+        {
+          "context": "Form",
+          "text": "自动方式"
+        },
+        {
+          "context": "Form",
+          "text": "间隔最小值"
+        },
+        {
+          "context": "Form",
+          "text": "间隔最大值"
+        },
+        {
+          "context": "Form",
+          "text": "模式选择"
+        },
+        {
+          "context": "Form",
+          "text": "顺序模式"
+        },
+        {
+          "context": "Form",
+          "text": "随机模式"
+        },
+        {
+          "context": "Form",
+          "text": "循环模式"
+        },
+        {
+          "context": "Form",
+          "text": "随机模式参数"
+        },
+        {
+          "context": "Form",
+          "text": "期望数量"
+        },
+        {
+          "context": "Form",
+          "text": "填写整数"
+        },
+        {
+          "context": "Form",
+          "text": "按组计算"
+        },
+        {
+          "context": "Form",
+          "text": "按个计算"
+        },
+        {
+          "context": "Form",
+          "text": "顺序模式参数（包括开始ID）"
+        },
+        {
+          "context": "Form",
+          "text": "开始ID"
+        },
+        {
+          "context": "Form",
+          "text": "循环模式参数（包括开始ID，不包括结束ID）"
+        },
+        {
+          "context": "Form",
+          "text": "结束ID"
+        },
+        {
+          "context": "Form",
+          "text": "基础条件(如果是视频资源，则需要同时满足时长和大小)"
+        },
+        {
+          "context": "Form",
+          "text": "时长过滤(单位分钟)："
+        },
+        {
+          "context": "Form",
+          "text": "大小过滤(单位 MB )："
+        },
+        {
+          "context": "Form",
+          "text": "资源过滤条件"
+        },
+        {
+          "context": "Form",
+          "text": "丢弃资源自带的文本"
+        },
+        {
+          "context": "Form",
+          "text": "丢弃无文本的资源"
+        },
+        {
+          "context": "Form",
+          "text": "丢弃带按钮的资源"
+        },
+        {
+          "context": "Form",
+          "text": "删除源文本中的外链"
+        },
+        {
+          "context": "Form",
+          "text": "原样文本搬运"
+        },
+        {
+          "context": "Form",
+          "text": "根据大小时长拆组"
+        },
+        {
+          "context": "Form",
+          "text": "包含关键词的资源"
+        },
+        {
+          "context": "Form",
+          "text": "填写关键词，多个词使用竖线\"|\"分割"
+        },
+        {
+          "context": "Form",
+          "text": "排除关键词的资源"
+        },
+        {
+          "context": "Form",
+          "text": "预览频道资源处理（可选）"
+        },
+        {
+          "context": "Form",
+          "text": "图片模糊"
+        },
+        {
+          "context": "Form",
+          "text": "防剧透"
+        },
+        {
+          "context": "Form",
+          "text": "1~20数字越大越模糊"
+        },
+        {
+          "context": "Form",
+          "text": "消息组宫格补齐"
+        },
+        {
+          "context": "Form",
+          "text": "填写0~10的整数"
+        },
+        {
+          "context": "Form",
+          "text": "随机封面"
+        },
+        {
+          "context": "Form",
+          "text": "水印（可选，仅仅对发布到预览频道的资源生效）"
+        },
+        {
+          "context": "Form",
+          "text": "图片水印或者视频动态水印"
+        },
+        {
+          "context": "Form",
+          "text": "图片水印"
+        },
+        {
+          "context": "Form",
+          "text": "视频水印"
+        },
+        {
+          "context": "Form",
+          "text": "1分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "3分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "5分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "10分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "30分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "60分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "90分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "120分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "150分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "文字水印"
+        },
+        {
+          "context": "Form",
+          "text": "水印文字，支持中文，英文"
+        },
+        {
+          "context": "Form",
+          "text": "选择图片"
+        },
+        {
+          "context": "Form",
+          "text": "30"
+        },
+        {
+          "context": "Form",
+          "text": "图片路径："
+        },
+        {
+          "context": "Form",
+          "text": "尾巴（可选，仅仅对发布到预览频道的资源生效）"
+        },
+        {
+          "context": "Form",
+          "text": "尾巴文案，支持html格式和电报会员表情"
+        },
+        {
+          "context": "Form",
+          "text": "替换规则（可选，咨询客服如何编辑）"
+        },
+        {
+          "context": "Form",
+          "text": "源词->目标词（中间使用英文输入法的->分割）"
+        },
+        {
+          "context": "Form",
+          "text": "AI员工（可选，AI文案同义转换）"
+        },
+        {
+          "context": "Form",
+          "text": "启用AI文案"
+        },
+        {
+          "context": "Form",
+          "text": "当前选择：xxx"
+        },
+        {
+          "context": "Form",
+          "text": "选择AI员工"
+        },
+        {
+          "context": "Form",
+          "text": "AI拒绝生成文案时候："
+        },
+        {
+          "context": "Form",
+          "text": "使用源文案"
+        },
+        {
+          "context": "Form",
+          "text": "跳过此资源"
+        },
+        {
+          "context": "Form",
+          "text": "完整版链接文案配置"
+        },
+        {
+          "context": "Form",
+          "text": "BQ字体"
+        },
+        {
+          "context": "Form",
+          "text": "请配置完整版链接文案"
+        },
+        {
+          "context": "Form",
+          "text": "添加原视频时长信息"
+        },
+        {
+          "context": "Form",
+          "text": "私有广告（可选，仅仅对发布到预览频道的资源生效）"
+        },
+        {
+          "context": "Form",
+          "text": "启用广告"
+        },
+        {
+          "context": "Form",
+          "text": "置底广告"
+        },
+        {
+          "context": "Form",
+          "text": "删除历史广告"
+        },
+        {
+          "context": "Form",
+          "text": "添加广告"
+        },
+        {
+          "context": "Form",
+          "text": "优先级"
+        },
+        {
+          "context": "Form",
+          "text": "请输入云自动的名字"
+        },
+        {
+          "context": "Form",
+          "text": "保存"
+        }
+      ]
+    },
+    {
+      "module": "src.resource.ui.dyna.yun_preview_item",
+      "method_first_use": [
+        "setWindowTitle",
+        "setPlaceholderText",
+        "setItemText",
+        "setCurrentText"
+      ],
+      "entry_count": 108,
+      "window_title": "Form",
+      "text_entries": [
+        {
+          "context": "Form",
+          "text": "Form"
+        },
+        {
+          "context": "Form",
+          "text": "基础"
+        },
+        {
+          "context": "Form",
+          "text": "私有仓库频道 "
+        },
+        {
+          "context": "Form",
+          "text": "公有链接或私有ID(支持话题)"
+        },
+        {
+          "context": "Form",
+          "text": "教程"
+        },
+        {
+          "context": "Form",
+          "text": "我的机器人   "
+        },
+        {
+          "context": "Form",
+          "text": "资源提取机器人，@xxxbot格式"
+        },
+        {
+          "context": "Form",
+          "text": "Bot教程"
+        },
+        {
+          "context": "Form",
+          "text": "公开预览频道/群组(支持多个，一行一个，支持话题)"
+        },
+        {
+          "context": "Form",
+          "text": "公有链接或私有ID（支持多个，一行一个，支持话题）"
+        },
+        {
+          "context": "Form",
+          "text": "资源类型"
+        },
+        {
+          "context": "Form",
+          "text": "仅包含视频的消息组"
+        },
+        {
+          "context": "Form",
+          "text": "图片"
+        },
+        {
+          "context": "Form",
+          "text": "视频"
+        },
+        {
+          "context": "Form",
+          "text": "文件"
+        },
+        {
+          "context": "Form",
+          "text": "纯文本"
+        },
+        {
+          "context": "Form",
+          "text": "预览频道发布资源类型"
+        },
+        {
+          "context": "Form",
+          "text": "预览视频规则"
+        },
+        {
+          "context": "Form",
+          "text": "按比例模式"
+        },
+        {
+          "context": "Form",
+          "text": "自定义时长模式"
+        },
+        {
+          "context": "Form",
+          "text": "10%"
+        },
+        {
+          "context": "Form",
+          "text": "20%"
+        },
+        {
+          "context": "Form",
+          "text": "30%"
+        },
+        {
+          "context": "Form",
+          "text": "自定义"
+        },
+        {
+          "context": "Form",
+          "text": "自定义比例1~99"
+        },
+        {
+          "context": "Form",
+          "text": "自定义时长(单位秒钟)："
+        },
+        {
+          "context": "Form",
+          "text": "最小值"
+        },
+        {
+          "context": "Form",
+          "text": "~"
+        },
+        {
+          "context": "Form",
+          "text": "最大值"
+        },
+        {
+          "context": "Form",
+          "text": "搬运方式"
+        },
+        {
+          "context": "Form",
+          "text": "强制下载方式"
+        },
+        {
+          "context": "Form",
+          "text": "自动方式"
+        },
+        {
+          "context": "Form",
+          "text": "间隔最小值"
+        },
+        {
+          "context": "Form",
+          "text": "间隔最大值"
+        },
+        {
+          "context": "Form",
+          "text": "模式选择"
+        },
+        {
+          "context": "Form",
+          "text": "顺序模式"
+        },
+        {
+          "context": "Form",
+          "text": "随机模式"
+        },
+        {
+          "context": "Form",
+          "text": "循环模式"
+        },
+        {
+          "context": "Form",
+          "text": "随机模式参数"
+        },
+        {
+          "context": "Form",
+          "text": "期望数量"
+        },
+        {
+          "context": "Form",
+          "text": "填写整数"
+        },
+        {
+          "context": "Form",
+          "text": "按组计算"
+        },
+        {
+          "context": "Form",
+          "text": "按个计算"
+        },
+        {
+          "context": "Form",
+          "text": "顺序模式参数（包括开始ID）"
+        },
+        {
+          "context": "Form",
+          "text": "开始ID"
+        },
+        {
+          "context": "Form",
+          "text": "循环模式参数（包括开始ID，不包括结束ID）"
+        },
+        {
+          "context": "Form",
+          "text": "结束ID"
+        },
+        {
+          "context": "Form",
+          "text": "基础条件(如果是视频资源，则需要同时满足时长和大小)"
+        },
+        {
+          "context": "Form",
+          "text": "时长过滤(单位分钟)："
+        },
+        {
+          "context": "Form",
+          "text": "大小过滤(单位 MB )："
+        },
+        {
+          "context": "Form",
+          "text": "资源过滤条件"
+        },
+        {
+          "context": "Form",
+          "text": "丢弃资源自带的文本"
+        },
+        {
+          "context": "Form",
+          "text": "丢弃无文本的资源"
+        },
+        {
+          "context": "Form",
+          "text": "丢弃带按钮的资源"
+        },
+        {
+          "context": "Form",
+          "text": "删除源文本中的外链"
+        },
+        {
+          "context": "Form",
+          "text": "原样文本搬运"
+        },
+        {
+          "context": "Form",
+          "text": "根据大小时长拆组"
+        },
+        {
+          "context": "Form",
+          "text": "包含关键词的资源"
+        },
+        {
+          "context": "Form",
+          "text": "填写关键词，多个词使用竖线\"|\"分割"
+        },
+        {
+          "context": "Form",
+          "text": "排除关键词的资源"
+        },
+        {
+          "context": "Form",
+          "text": "预览频道资源处理（可选）"
+        },
+        {
+          "context": "Form",
+          "text": "图片模糊"
+        },
+        {
+          "context": "Form",
+          "text": "防剧透"
+        },
+        {
+          "context": "Form",
+          "text": "1~20数字越大越模糊"
+        },
+        {
+          "context": "Form",
+          "text": "消息组宫格补齐"
+        },
+        {
+          "context": "Form",
+          "text": "填写0~10的整数"
+        },
+        {
+          "context": "Form",
+          "text": "随机封面"
+        },
+        {
+          "context": "Form",
+          "text": "水印（可选，仅仅对发布到预览频道的资源生效）"
+        },
+        {
+          "context": "Form",
+          "text": "图片水印或者视频动态水印"
+        },
+        {
+          "context": "Form",
+          "text": "图片水印"
+        },
+        {
+          "context": "Form",
+          "text": "视频水印"
+        },
+        {
+          "context": "Form",
+          "text": "1分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "3分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "5分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "10分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "30分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "60分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "90分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "120分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "150分钟内视频"
+        },
+        {
+          "context": "Form",
+          "text": "文字水印"
+        },
+        {
+          "context": "Form",
+          "text": "水印文字，支持中文，英文"
+        },
+        {
+          "context": "Form",
+          "text": "选择图片"
+        },
+        {
+          "context": "Form",
+          "text": "30"
+        },
+        {
+          "context": "Form",
+          "text": "图片路径："
+        },
+        {
+          "context": "Form",
+          "text": "尾巴（可选，仅仅对发布到预览频道的资源生效）"
+        },
+        {
+          "context": "Form",
+          "text": "尾巴文案，支持html格式和电报会员表情"
+        },
+        {
+          "context": "Form",
+          "text": "替换规则（可选，咨询客服如何编辑）"
+        },
+        {
+          "context": "Form",
+          "text": "源词->目标词（中间使用英文输入法的->分割）"
+        },
+        {
+          "context": "Form",
+          "text": "AI员工（可选，AI文案同义转换）"
+        },
+        {
+          "context": "Form",
+          "text": "启用AI文案"
+        },
+        {
+          "context": "Form",
+          "text": "当前选择：xxx"
+        },
+        {
+          "context": "Form",
+          "text": "选择AI员工"
+        },
+        {
+          "context": "Form",
+          "text": "AI拒绝生成文案时候："
+        },
+        {
+          "context": "Form",
+          "text": "使用源文案"
+        },
+        {
+          "context": "Form",
+          "text": "跳过此资源"
+        },
+        {
+          "context": "Form",
+          "text": "完整版链接文案配置"
+        },
+        {
+          "context": "Form",
+          "text": "BQ字体"
+        },
+        {
+          "context": "Form",
+          "text": "请配置完整版链接文案"
+        },
+        {
+          "context": "Form",
+          "text": "添加原视频时长信息"
+        },
+        {
+          "context": "Form",
+          "text": "私有广告（可选，仅仅对发布到预览频道的资源生效）"
+        },
+        {
+          "context": "Form",
+          "text": "启用广告"
+        },
+        {
+          "context": "Form",
+          "text": "置底广告"
+        },
+        {
+          "context": "Form",
+          "text": "删除历史广告"
+        },
+        {
+          "context": "Form",
+          "text": "添加广告"
+        },
+        {
+          "context": "Form",
+          "text": "优先级"
+        },
+        {
+          "context": "Form",
+          "text": "请输入云预览的名字"
+        },
+        {
+          "context": "Form",
+          "text": "保存"
+        }
+      ]
+    },
+    {
+      "module": "src.resource.ui.dyna.yun_yin_mao_main",
+      "method_first_use": [
+        "setWindowTitle",
+        "setPlaceholderText",
+        "setTabText",
+        "setItemText"
+      ],
+      "entry_count": 144,
+      "window_title": "运营猫",
+      "text_entries": [
+        {
+          "context": "MainWindow",
+          "text": "运营猫"
+        },
+        {
+          "context": "MainWindow",
+          "text": "加载中..."
+        },
+        {
+          "context": "MainWindow",
+          "text": "激活体验"
+        },
+        {
+          "context": "MainWindow",
+          "text": "开发环境"
+        },
+        {
+          "context": "MainWindow",
+          "text": "官方频道"
+        },
+        {
+          "context": "MainWindow",
+          "text": "是否启用代理"
+        },
+        {
+          "context": "MainWindow",
+          "text": "代理设置"
+        },
+        {
+          "context": "MainWindow",
+          "text": "注意：只能添加已经存在的电报账号"
+        },
+        {
+          "context": "MainWindow",
+          "text": "输入手机号，带上国际标识，比如大陆：+8613812345678"
+        },
+        {
+          "context": "MainWindow",
+          "text": "两步验证码是可选的，没有就不输入"
+        },
+        {
+          "context": "MainWindow",
+          "text": "请输入手机号码"
+        },
+        {
+          "context": "MainWindow",
+          "text": "获取验证码"
+        },
+        {
+          "context": "MainWindow",
+          "text": "验证码"
+        },
+        {
+          "context": "MainWindow",
+          "text": "两步验证码"
+        },
+        {
+          "context": "MainWindow",
+          "text": "添加账号"
+        },
+        {
+          "context": "MainWindow",
+          "text": "账号列表"
+        },
+        {
+          "context": "MainWindow",
+          "text": "刷新账号列表"
+        },
+        {
+          "context": "MainWindow",
+          "text": "网络连通性测试"
+        },
+        {
+          "context": "MainWindow",
+          "text": "账号功能"
+        },
+        {
+          "context": "MainWindow",
+          "text": "序号 选择状态 优先级     条目"
+        },
+        {
+          "context": "MainWindow",
+          "text": "全部选择"
+        },
+        {
+          "context": "MainWindow",
+          "text": "+下载流"
+        },
+        {
+          "context": "MainWindow",
+          "text": "+搬运流"
+        },
+        {
+          "context": "MainWindow",
+          "text": "+预览流"
+        },
+        {
+          "context": "MainWindow",
+          "text": "+自动流"
+        },
+        {
+          "context": "MainWindow",
+          "text": "+云预览"
+        },
+        {
+          "context": "MainWindow",
+          "text": "+云自动"
+        },
+        {
+          "context": "MainWindow",
+          "text": "+未来1"
+        },
+        {
+          "context": "MainWindow",
+          "text": "+未来2"
+        },
+        {
+          "context": "MainWindow",
+          "text": "快捷复制"
+        },
+        {
+          "context": "MainWindow",
+          "text": "必看教程"
+        },
+        {
+          "context": "MainWindow",
+          "text": "全局水印设置（可选，优先使用条目的私有水印，如果私有水印未设置，就会使用这里配置的全局水印）"
+        },
+        {
+          "context": "MainWindow",
+          "text": "图片水印或者视频动态水印"
+        },
+        {
+          "context": "MainWindow",
+          "text": "图片水印"
+        },
+        {
+          "context": "MainWindow",
+          "text": "视频水印"
+        },
+        {
+          "context": "MainWindow",
+          "text": "1分钟内视频"
+        },
+        {
+          "context": "MainWindow",
+          "text": "3分钟内视频"
+        },
+        {
+          "context": "MainWindow",
+          "text": "5分钟内视频"
+        },
+        {
+          "context": "MainWindow",
+          "text": "10分钟内视频"
+        },
+        {
+          "context": "MainWindow",
+          "text": "30分钟内视频"
+        },
+        {
+          "context": "MainWindow",
+          "text": "60分钟内视频"
+        },
+        {
+          "context": "MainWindow",
+          "text": "90分钟内视频"
+        },
+        {
+          "context": "MainWindow",
+          "text": "120分钟内视频"
+        },
+        {
+          "context": "MainWindow",
+          "text": "150分钟内视频"
+        },
+        {
+          "context": "MainWindow",
+          "text": "文字水印"
+        },
+        {
+          "context": "MainWindow",
+          "text": "水印文字，支持中文，英文"
+        },
+        {
+          "context": "MainWindow",
+          "text": "教程"
+        },
+        {
+          "context": "MainWindow",
+          "text": "选择图片"
+        },
+        {
+          "context": "MainWindow",
+          "text": "30"
+        },
+        {
+          "context": "MainWindow",
+          "text": "图片路径："
+        },
+        {
+          "context": "MainWindow",
+          "text": "全局广告设置（可选，启用全局广告，会对所有条目都发布全局广告，并且不影响条目的私有广告）"
+        },
+        {
+          "context": "MainWindow",
+          "text": "启用全局广告"
+        },
+        {
+          "context": "MainWindow",
+          "text": "置底广告"
+        },
+        {
+          "context": "MainWindow",
+          "text": "删除历史广告"
+        },
+        {
+          "context": "MainWindow",
+          "text": "添加广告"
+        },
+        {
+          "context": "MainWindow",
+          "text": "任务账号设置"
+        },
+        {
+          "context": "MainWindow",
+          "text": "选择账号"
+        },
+        {
+          "context": "MainWindow",
+          "text": "当前账号："
+        },
+        {
+          "context": "MainWindow",
+          "text": "无"
+        },
+        {
+          "context": "MainWindow",
+          "text": "是否检测发消息权限"
+        },
+        {
+          "context": "MainWindow",
+          "text": "速率配置："
+        },
+        {
+          "context": "MainWindow",
+          "text": "下载每秒请求数"
+        },
+        {
+          "context": "MainWindow",
+          "text": "上传每秒请求数"
+        },
+        {
+          "context": "MainWindow",
+          "text": "智能调速"
+        },
+        {
+          "context": "MainWindow",
+          "text": "点击查看如何修改"
+        },
+        {
+          "context": "MainWindow",
+          "text": "删除搬运后的本地资源"
+        },
+        {
+          "context": "MainWindow",
+          "text": "修改搬运目录"
+        },
+        {
+          "context": "MainWindow",
+          "text": "当前目录："
+        },
+        {
+          "context": "MainWindow",
+          "text": "定时模式"
+        },
+        {
+          "context": "MainWindow",
+          "text": "监控模式"
+        },
+        {
+          "context": "MainWindow",
+          "text": "定时设置"
+        },
+        {
+          "context": "MainWindow",
+          "text": "0点"
+        },
+        {
+          "context": "MainWindow",
+          "text": "1点"
+        },
+        {
+          "context": "MainWindow",
+          "text": "2点"
+        },
+        {
+          "context": "MainWindow",
+          "text": "3点"
+        },
+        {
+          "context": "MainWindow",
+          "text": "4点"
+        },
+        {
+          "context": "MainWindow",
+          "text": "5点"
+        },
+        {
+          "context": "MainWindow",
+          "text": "6点"
+        },
+        {
+          "context": "MainWindow",
+          "text": "7点"
+        },
+        {
+          "context": "MainWindow",
+          "text": "8点"
+        },
+        {
+          "context": "MainWindow",
+          "text": "9点"
+        },
+        {
+          "context": "MainWindow",
+          "text": "10点"
+        },
+        {
+          "context": "MainWindow",
+          "text": "11点"
+        },
+        {
+          "context": "MainWindow",
+          "text": "12点"
+        },
+        {
+          "context": "MainWindow",
+          "text": "13点"
+        },
+        {
+          "context": "MainWindow",
+          "text": "14点"
+        },
+        {
+          "context": "MainWindow",
+          "text": "15点"
+        },
+        {
+          "context": "MainWindow",
+          "text": "16点"
+        },
+        {
+          "context": "MainWindow",
+          "text": "17点"
+        },
+        {
+          "context": "MainWindow",
+          "text": "18点"
+        },
+        {
+          "context": "MainWindow",
+          "text": "19点"
+        },
+        {
+          "context": "MainWindow",
+          "text": "20点"
+        },
+        {
+          "context": "MainWindow",
+          "text": "21点"
+        },
+        {
+          "context": "MainWindow",
+          "text": "22点"
+        },
+        {
+          "context": "MainWindow",
+          "text": "23点"
+        },
+        {
+          "context": "MainWindow",
+          "text": "启动定时任务"
+        },
+        {
+          "context": "MainWindow",
+          "text": "执行一次并启动定时"
+        },
+        {
+          "context": "MainWindow",
+          "text": "手动执行一次"
+        },
+        {
+          "context": "MainWindow",
+          "text": "停止任务"
+        },
+        {
+          "context": "MainWindow",
+          "text": "监控大屏"
+        },
+        {
+          "context": "MainWindow",
+          "text": "开启监控"
+        },
+        {
+          "context": "MainWindow",
+          "text": "停止监控"
+        },
+        {
+          "context": "MainWindow",
+          "text": "展开监控大屏"
+        },
+        {
+          "context": "MainWindow",
+          "text": "自动运营"
+        },
+        {
+          "context": "MainWindow",
+          "text": "html格式生成工具（可用于生成带会员表情的文案）"
+        },
+        {
+          "context": "MainWindow",
+          "text": "通过这个小工具，你可以生成支持电报会员表情的html格式的文本，然后可以把它配置到尾巴或者广告的文本中使用"
+        },
+        {
+          "context": "MainWindow",
+          "text": "这里输入帖子链接，即可生成帖子的html格式的文本"
+        },
+        {
+          "context": "MainWindow",
+          "text": "一键生成html文本格式"
+        },
+        {
+          "context": "MainWindow",
+          "text": "广告文案效果测试工具（可用于测试会员表情效果）"
+        },
+        {
+          "context": "MainWindow",
+          "text": "这里输入电报频道或者群组（私有的使用频道或者群组ID）"
+        },
+        {
+          "context": "MainWindow",
+          "text": "当前未配置测试广告"
+        },
+        {
+          "context": "MainWindow",
+          "text": "配置广告和媒体资源"
+        },
+        {
+          "context": "MainWindow",
+          "text": "发布广告查看效果"
+        },
+        {
+          "context": "MainWindow",
+          "text": "会员自助迁移工具"
+        },
+        {
+          "context": "MainWindow",
+          "text": "请你妥善保管好你的唯一机器码，免得被人盗走会员权限"
+        },
+        {
+          "context": "MainWindow",
+          "text": "获取完整机器码路径：软件左上角->菜单->复制机器码"
+        },
+        {
+          "context": "MainWindow",
+          "text": "旧机器码"
+        },
+        {
+          "context": "MainWindow",
+          "text": "新机器码"
+        },
+        {
+          "context": "MainWindow",
+          "text": "强制覆盖目标的体验会员"
+        },
+        {
+          "context": "MainWindow",
+          "text": "强制迁移数据"
+        },
+        {
+          "context": "MainWindow",
+          "text": "迁移会员权限"
+        },
+        {
+          "context": "MainWindow",
+          "text": "工具箱"
+        },
+        {
+          "context": "MainWindow",
+          "text": "修改软件开发者信息，如果长期使用，推荐修改一下"
+        },
+        {
+          "context": "MainWindow",
+          "text": "API_ID:"
+        },
+        {
+          "context": "MainWindow",
+          "text": "请输入你自己的app id"
+        },
+        {
+          "context": "MainWindow",
+          "text": "API_HASH:"
+        },
+        {
+          "context": "MainWindow",
+          "text": "请输入你自己的app hash"
+        },
+        {
+          "context": "MainWindow",
+          "text": "确认修改"
+        },
+        {
+          "context": "MainWindow",
+          "text": "注：用自己TG号注册API，注册地址：https://my.telegram.org"
+        },
+        {
+          "context": "MainWindow",
+          "text": "点击去注册你的API"
+        },
+        {
+          "context": "MainWindow",
+          "text": "API功能"
+        },
+        {
+          "context": "MainWindow",
+          "text": "清空日志"
+        },
+        {
+          "context": "MainWindow",
+          "text": "复制日志"
+        },
+        {
+          "context": "MainWindow",
+          "text": "打开日志目录"
+        },
+        {
+          "context": "MainWindow",
+          "text": "打开下载目录"
+        },
+        {
+          "context": "MainWindow",
+          "text": "功能标识，方便你快速备注当前多开软件功能"
+        },
+        {
+          "context": "MainWindow",
+          "text": "关闭左侧"
+        },
+        {
+          "context": "MainWindow",
+          "text": "关闭右侧"
+        },
+        {
+          "context": "MainWindow",
+          "text": "打开全屏日志"
+        },
+        {
+          "context": "MainWindow",
+          "text": "日志仪表"
+        },
+        {
+          "context": "MainWindow",
+          "text": "菜单"
+        },
+        {
+          "context": "MainWindow",
+          "text": "重置运营猫"
+        },
+        {
+          "context": "MainWindow",
+          "text": "开发者中心"
+        },
+        {
+          "context": "MainWindow",
+          "text": "复制机器码"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "text entries preserve the module constant-pool order",
+    "method names are first-use order because the pool deduplicates them",
+    "widget-to-text pairing is not proven; this is an evidence pool"
+  ]
+}

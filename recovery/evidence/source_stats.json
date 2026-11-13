@@ -1,0 +1,17 @@
+{
+  "schema": "operater-cat-source-stats.v5",
+  "source": {
+    "files": 368,
+    "lines": 60106,
+    "functions": 3127,
+    "classes": 262,
+    "stub_functions": 8,
+    "parse_errors": [],
+    "modules_with_bodies": 323
+  },
+  "tests": {
+    "files": 102,
+    "functions": 388
+  },
+  "semantic_docs": 20
+}

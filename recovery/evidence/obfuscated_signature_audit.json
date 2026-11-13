@@ -1,0 +1,6 @@
+{
+  "schema": "operater-cat-obfuscated-signature-audit.v1",
+  "checked_modules": 90,
+  "findings": [],
+  "missing_evidence": []
+}

@@ -1,0 +1,4873 @@
+{
+  "schema": "operater-cat-dyna-retranslate-pairs.v1",
+  "modules": [
+    {
+      "module": "ai_employee_item",
+      "base": "0x148978840",
+      "window_title": "('Form', 'Form')",
+      "triples": [
+        {
+          "widget": "label_2",
+          "method": "setText",
+          "args": "('Form', 'AI员工角色描述设定')"
+        },
+        {
+          "widget": "btn_em_sexy_init",
+          "method": "setText",
+          "args": "('Form', '初始化为色情AI员工')"
+        },
+        {
+          "widget": "btn_em_news_init",
+          "method": "setText",
+          "args": "('Form', '初始化为中文新闻记者')"
+        },
+        {
+          "widget": "textEdit_em_role_display",
+          "method": "setPlaceholderText",
+          "args": "('Form', 'AI员工角色描述设定')"
+        },
+        {
+          "widget": "label_3",
+          "method": "setText",
+          "args": "('Form', '前置文案，就是描述AI员工如何生成文案，这里设置一些简单约束规则')"
+        },
+        {
+          "widget": "textEdit_em_pre_text_display",
+          "method": "setPlaceholderText",
+          "args": "('Form', '前置文案，就是描述AI员工如何生成文案，这里设置一些简单约束规则')"
+        },
+        {
+          "widget": "label_5",
+          "method": "setText",
+          "args": "('Form', 'AI敏感词，必须要设置，使用竖线分割，比可以在默认基础上添加敏感词（敏感词用于防止AI系统风控）')"
+        },
+        {
+          "widget": "btn_em_import_sensitive",
+          "method": "setText",
+          "args": "('Form', '导入默认敏感词')"
+        },
+        {
+          "widget": "textEdit_em_sensitive_word_display",
+          "method": "setPlaceholderText",
+          "args": "('Form', 'AI敏感词，必须要设置，使用竖线分割，比可以在默认基础上添加敏感词（敏感词用于防止AI系统风控）')"
+        },
+        {
+          "widget": "label",
+          "method": "setText",
+          "args": "('Form', '目标文本长度(最小值和最大值之间的随机长度)')"
+        },
+        {
+          "widget": "lineEdit_em_word_min",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最小值')"
+        },
+        {
+          "widget": "lineEdit_em_word_max",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最大值')"
+        },
+        {
+          "widget": "lineEdit_em_retry_count",
+          "method": "setPlaceholderText",
+          "args": "('Form', '重试次数')"
+        },
+        {
+          "widget": "label_4",
+          "method": "setText",
+          "args": "('Form', '模型选择')"
+        },
+        {
+          "widget": "btn_show_model_info",
+          "method": "setText",
+          "args": "('Form', '查看模型计费')"
+        },
+        {
+          "widget": "textEdit_em_test_input",
+          "method": "setPlaceholderText",
+          "args": "('Form', '在这里输入色情文案，可以去色情频道里面复制色情文本，然后粘贴到这里。')"
+        },
+        {
+          "widget": "btn_em_test",
+          "method": "setText",
+          "args": "('Form', '点击测试文本同义转换效果⬇️')"
+        },
+        {
+          "widget": "lineEdit_em_name",
+          "method": "setPlaceholderText",
+          "args": "('Form', '给这个AI员工取一个名字')"
+        },
+        {
+          "widget": "btn_em_save",
+          "method": "setText",
+          "args": "('Form', '保存')"
+        }
+      ]
+    },
+    {
+      "module": "auto_flow_item",
+      "base": "0x148980260",
+      "window_title": "('Form', 'Form')",
+      "triples": [
+        {
+          "widget": "verticalGroupBox_4",
+          "method": "setTitle",
+          "args": "('Form', '基础')"
+        },
+        {
+          "widget": "label",
+          "method": "setText",
+          "args": "('Form', '来源频道/群组')"
+        },
+        {
+          "widget": "lineEdit_flow_source",
+          "method": "setPlaceholderText",
+          "args": "('Form', '公有链接或私有ID(支持话题)')"
+        },
+        {
+          "widget": "auto_flow_topic_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "pushButton_auto_step1",
+          "method": "setText",
+          "args": "('Form', '第一步、搬运到私密会员频道')"
+        },
+        {
+          "widget": "label_2",
+          "method": "setText",
+          "args": "('Form', '会员目标频道/群组(支持多个，一行一个，支持话题)')"
+        },
+        {
+          "widget": "textEdit_flow_dest_list",
+          "method": "setPlaceholderText",
+          "args": "('Form', '公有链接或私有ID（支持多个，一行一个，支持话题）')"
+        },
+        {
+          "widget": "pushButton_auto_step2",
+          "method": "setText",
+          "args": "('Form', '第二步、自动生成预览资源，并发布到公开预览频道')"
+        },
+        {
+          "widget": "label_4",
+          "method": "setText",
+          "args": "('Form', '公开预览频道/群组(支持多个，一行一个，支持话题)')"
+        },
+        {
+          "widget": "textEdit_flow_auto_flow_dest_list",
+          "method": "setPlaceholderText",
+          "args": "('Form', '公有链接或私有ID（支持多个，一行一个，支持话题）')"
+        },
+        {
+          "widget": "ziyuanleiixing",
+          "method": "setTitle",
+          "args": "('Form', '资源类型')"
+        },
+        {
+          "widget": "checkBox_flow_video_photo",
+          "method": "setText",
+          "args": "('Form', '仅包含视频的消息组')"
+        },
+        {
+          "widget": "checkBox_flow_photo",
+          "method": "setText",
+          "args": "('Form', '图片')"
+        },
+        {
+          "widget": "checkBox_flow_video",
+          "method": "setText",
+          "args": "('Form', '视频')"
+        },
+        {
+          "widget": "checkBox_flow_file",
+          "method": "setText",
+          "args": "('Form', '文件')"
+        },
+        {
+          "widget": "checkBox_flow_text",
+          "method": "setText",
+          "args": "('Form', '纯文本')"
+        },
+        {
+          "widget": "auto_res_btn_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "groupBox",
+          "method": "setTitle",
+          "args": "('Form', '预览频道发布资源类型')"
+        },
+        {
+          "widget": "checkBox_pb_auto_flow_picture",
+          "method": "setText",
+          "args": "('Form', '图片')"
+        },
+        {
+          "widget": "checkBox_pb_auto_flow_video",
+          "method": "setText",
+          "args": "('Form', '视频')"
+        },
+        {
+          "widget": "yulan_qu",
+          "method": "setTitle",
+          "args": "('Form', '预览视频规则')"
+        },
+        {
+          "widget": "comboBox_auto_flow_select_auto_flow_mode",
+          "method": "setItemText",
+          "args": "('Form', '按比例模式')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_auto_flow_select_auto_flow_mode",
+          "method": "setItemText",
+          "args": "('Form', '自定义时长模式')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "radioButton_auto_flow_10",
+          "method": "setText",
+          "args": "('Form', '10%')"
+        },
+        {
+          "widget": "radioButton_auto_flow_20",
+          "method": "setText",
+          "args": "('Form', '20%')"
+        },
+        {
+          "widget": "radioButton_auto_flow_30",
+          "method": "setText",
+          "args": "('Form', '30%')"
+        },
+        {
+          "widget": "radioButton_auto_flow_customer",
+          "method": "setText",
+          "args": "('Form', '自定义')"
+        },
+        {
+          "widget": "lineEdit_auto_flow_customer",
+          "method": "setPlaceholderText",
+          "args": "('Form', '自定义比例1~99')"
+        },
+        {
+          "widget": "label_21",
+          "method": "setText",
+          "args": "('Form', '自定义时长(单位秒钟)：')"
+        },
+        {
+          "widget": "lineEdit_auto_flow_min_duration",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最小值')"
+        },
+        {
+          "widget": "label_13",
+          "method": "setText",
+          "args": "('Form', '~')"
+        },
+        {
+          "widget": "lineEdit_auto_flow_max_duration",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最大值')"
+        },
+        {
+          "widget": "zhuanfa",
+          "method": "setTitle",
+          "args": "('Form', '搬运方式')"
+        },
+        {
+          "widget": "radioButton_auto_flow_action_download",
+          "method": "setText",
+          "args": "('Form', '强制下载方式')"
+        },
+        {
+          "widget": "radioButton_auto_flow_action_auto",
+          "method": "setText",
+          "args": "('Form', '自动方式')"
+        },
+        {
+          "widget": "lineEdit_auto_flow_sleep_min",
+          "method": "setPlaceholderText",
+          "args": "('Form', '间隔最小值')"
+        },
+        {
+          "widget": "label_14",
+          "method": "setText",
+          "args": "('Form', '~')"
+        },
+        {
+          "widget": "lineEdit_auto_flow_sleep_max",
+          "method": "setPlaceholderText",
+          "args": "('Form', '间隔最大值')"
+        },
+        {
+          "widget": "btn_auto_flow_action_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "moshi_xuanze",
+          "method": "setTitle",
+          "args": "('Form', '模式选择')"
+        },
+        {
+          "widget": "comboBox_flow_select_mode",
+          "method": "setItemText",
+          "args": "('Form', '顺序模式')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_flow_select_mode",
+          "method": "setItemText",
+          "args": "('Form', '随机模式')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_flow_select_mode",
+          "method": "setItemText",
+          "args": "('Form', '循环模式')",
+          "index": 2,
+          "index_inferred": false
+        },
+        {
+          "widget": "random_com",
+          "method": "setTitle",
+          "args": "('Form', '随机模式参数')"
+        },
+        {
+          "widget": "label_3",
+          "method": "setText",
+          "args": "('Form', '期望数量')"
+        },
+        {
+          "widget": "lineEdit_flow_random_want_count",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "comboBox_flow_number_random_dan_wei",
+          "method": "setItemText",
+          "args": "('Form', '按组计算')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_flow_number_random_dan_wei",
+          "method": "setItemText",
+          "args": "('Form', '按个计算')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "increase_com",
+          "method": "setTitle",
+          "args": "('Form', '顺序模式参数（包括开始ID）')"
+        },
+        {
+          "widget": "label_7",
+          "method": "setText",
+          "args": "('Form', '开始ID')"
+        },
+        {
+          "widget": "lineEdit_flow_increase_start_id",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "label_6",
+          "method": "setText",
+          "args": "('Form', '期望数量')"
+        },
+        {
+          "widget": "lineEdit_flow_increase_want_count",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "comboBox_flow_number_dan_wei",
+          "method": "setCurrentText",
+          "args": "('Form', '按组计算')"
+        },
+        {
+          "widget": "comboBox_flow_number_dan_wei",
+          "method": "setItemText",
+          "args": "('Form', '按组计算')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_flow_number_dan_wei",
+          "method": "setItemText",
+          "args": "('Form', '按个计算')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "loop_com",
+          "method": "setTitle",
+          "args": "('Form', '循环模式参数（包括开始ID，不包括结束ID）')"
+        },
+        {
+          "widget": "label_8",
+          "method": "setText",
+          "args": "('Form', '开始ID')"
+        },
+        {
+          "widget": "lineEdit_flow_loop_start_id",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "label_5",
+          "method": "setText",
+          "args": "('Form', '结束ID')"
+        },
+        {
+          "widget": "lineEdit_flow_loop_end_id",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "jichu_filter",
+          "method": "setTitle",
+          "args": "('Form', '基础条件(如果是视频资源，则需要同时满足时长和大小)')"
+        },
+        {
+          "widget": "label_41",
+          "method": "setText",
+          "args": "('Form', '时长过滤(单位分钟)：')"
+        },
+        {
+          "widget": "lineEdit_auto_duration_min",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最小值')"
+        },
+        {
+          "widget": "label_10",
+          "method": "setText",
+          "args": "('Form', '~')"
+        },
+        {
+          "widget": "lineEdit_auto_duration_max",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最大值')"
+        },
+        {
+          "widget": "label_9",
+          "method": "setText",
+          "args": "('Form', '大小过滤(单位 MB )：')"
+        },
+        {
+          "widget": "lineEdit_auto_mb_min",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最小值')"
+        },
+        {
+          "widget": "label_11",
+          "method": "setText",
+          "args": "('Form', '~')"
+        },
+        {
+          "widget": "lineEdit_auto_mb_max",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最大值')"
+        },
+        {
+          "widget": "ziyuanguolu",
+          "method": "setTitle",
+          "args": "('Form', '资源过滤条件')"
+        },
+        {
+          "widget": "cb_flow_dele_source_text",
+          "method": "setText",
+          "args": "('Form', '丢弃资源自带的文本')"
+        },
+        {
+          "widget": "checkBox_discard_no_text_resource",
+          "method": "setText",
+          "args": "('Form', '丢弃无文本的资源')"
+        },
+        {
+          "widget": "cb_flow_fliter_button",
+          "method": "setText",
+          "args": "('Form', '丢弃带按钮的资源')"
+        },
+        {
+          "widget": "cb_flow_dele_link",
+          "method": "setText",
+          "args": "('Form', '删除源文本中的外链')"
+        },
+        {
+          "widget": "cb_flow_origin_source_text",
+          "method": "setText",
+          "args": "('Form', '原样文本搬运')"
+        },
+        {
+          "widget": "checkBox_chai_zu",
+          "method": "setText",
+          "args": "('Form', '根据大小时长拆组')"
+        },
+        {
+          "widget": "label_15",
+          "method": "setText",
+          "args": "('Form', '包含关键词的资源')"
+        },
+        {
+          "widget": "lineEdit_flow_fliter_words_contain",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写关键词，多个词使用竖线\"|\"分割')"
+        },
+        {
+          "widget": "label_151",
+          "method": "setText",
+          "args": "('Form', '排除关键词的资源')"
+        },
+        {
+          "widget": "lineEdit_flow_fliter_words_exclude",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写关键词，多个词使用竖线\"|\"分割')"
+        },
+        {
+          "widget": "verticalGroupBox_yulan_op",
+          "method": "setTitle",
+          "args": "('Form', '预览频道资源处理（可选）')"
+        },
+        {
+          "widget": "cb_auto_flow_pic_blur",
+          "method": "setText",
+          "args": "('Form', '图片模糊')"
+        },
+        {
+          "widget": "cb_auto_flow_spoiler",
+          "method": "setText",
+          "args": "('Form', '防剧透')"
+        },
+        {
+          "widget": "btn_auto_flow_res_op_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "auto_flow_pic_blur_radius",
+          "method": "setPlaceholderText",
+          "args": "('Form', '1~20数字越大越模糊')"
+        },
+        {
+          "widget": "label_17",
+          "method": "setText",
+          "args": "('Form', '消息组宫格补齐')"
+        },
+        {
+          "widget": "btn_auto_grid_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "lineEdit_auto_grid_number",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写0~10的整数')"
+        },
+        {
+          "widget": "cb_auto_random_cover",
+          "method": "setText",
+          "args": "('Form', '随机封面')"
+        },
+        {
+          "widget": "auto_cover_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "verticalGroupBox",
+          "method": "setTitle",
+          "args": "('Form', '水印（可选，仅仅对发布到预览频道的资源生效）')"
+        },
+        {
+          "widget": "label_12",
+          "method": "setText",
+          "args": "('Form', '图片水印或者视频动态水印')"
+        },
+        {
+          "widget": "cb_flow_pic_water",
+          "method": "setText",
+          "args": "('Form', '图片水印')"
+        },
+        {
+          "widget": "cb_flow_video_water",
+          "method": "setText",
+          "args": "('Form', '视频水印')"
+        },
+        {
+          "widget": "cb_flow_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '1分钟内视频')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "cb_flow_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '3分钟内视频')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "cb_flow_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '5分钟内视频')",
+          "index": 2,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_flow_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '10分钟内视频')",
+          "index": 3,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_flow_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '30分钟内视频')",
+          "index": 4,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_flow_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '60分钟内视频')",
+          "index": 5,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_flow_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '90分钟内视频')",
+          "index": 6,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_flow_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '120分钟内视频')",
+          "index": 7,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_flow_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '150分钟内视频')",
+          "index": 8,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_flow_water_mode",
+          "method": "setItemText",
+          "args": "('Form', '图片水印')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "cb_flow_water_mode",
+          "method": "setItemText",
+          "args": "('Form', '文字水印')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "lineEdit_cb_water_text",
+          "method": "setPlaceholderText",
+          "args": "('Form', '水印文字，支持中文，英文')"
+        },
+        {
+          "widget": "btn_flow_water_pic_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "btn_flow_water_select_pic",
+          "method": "setText",
+          "args": "('Form', '选择图片')"
+        },
+        {
+          "widget": "line_edit_auto_flow_water_pic_ratio",
+          "method": "setPlaceholderText",
+          "args": "('Form', '30')"
+        },
+        {
+          "widget": "label_flow_water_pic_path",
+          "method": "setText",
+          "args": "('Form', '图片路径：')"
+        },
+        {
+          "widget": "weiba_qu",
+          "method": "setTitle",
+          "args": "('Form', '尾巴（可选，仅仅对发布到预览频道的资源生效）')"
+        },
+        {
+          "widget": "textEdit_flow_tail_text",
+          "method": "setPlaceholderText",
+          "args": "('Form', '尾巴文案，支持html格式和电报会员表情')"
+        },
+        {
+          "widget": "verticalGroupBox1",
+          "method": "setTitle",
+          "args": "('Form', '替换规则（可选，咨询客服如何编辑）')"
+        },
+        {
+          "widget": "textEdit_flow_replace_rule",
+          "method": "setPlaceholderText",
+          "args": "('Form', '源词->目标词（中间使用英文输入法的->分割）')"
+        },
+        {
+          "widget": "ai_employee_qu",
+          "method": "setTitle",
+          "args": "('Form', 'AI员工（可选，AI文案同义转换）')"
+        },
+        {
+          "widget": "checkBox_auto_ai_enable",
+          "method": "setText",
+          "args": "('Form', '启用AI文案')"
+        },
+        {
+          "widget": "label_auto_ai_name",
+          "method": "setText",
+          "args": "('Form', '当前选择：xxx')"
+        },
+        {
+          "widget": "btn_auto_select_ai_em",
+          "method": "setText",
+          "args": "('Form', '选择AI员工')"
+        },
+        {
+          "widget": "label_131",
+          "method": "setText",
+          "args": "('Form', 'AI拒绝生成文案时候：')"
+        },
+        {
+          "widget": "radioButton_ai_auto_use_source",
+          "method": "setText",
+          "args": "('Form', '使用源文案')"
+        },
+        {
+          "widget": "radioButton_ai_auto_skip_source",
+          "method": "setText",
+          "args": "('Form', '跳过此资源')"
+        },
+        {
+          "widget": "huiyuan_quyu",
+          "method": "setTitle",
+          "args": "('Form', '会员超级链接配置（可选，仅仅对发布到预览频道的资源生效）')"
+        },
+        {
+          "widget": "cb_flow_hui_yuan_link",
+          "method": "setText",
+          "args": "('Form', '启用会员超级链接')"
+        },
+        {
+          "widget": "cb_flow_hui_yuan_customer_link",
+          "method": "setText",
+          "args": "('Form', '自定义会员超级链接')"
+        },
+        {
+          "widget": "cb_flow_hui_yuan_link_bq",
+          "method": "setText",
+          "args": "('Form', 'BQ字体')"
+        },
+        {
+          "widget": "btn_flow_hui_yuan_link_jc",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "lineEdit_flow_hui_yuan_tip_text",
+          "method": "setPlaceholderText",
+          "args": "('Form', '请配置会员提示文案')"
+        },
+        {
+          "widget": "lineEdit_flow_hui_yuan_tip_text_link",
+          "method": "setPlaceholderText",
+          "args": "('Form', '请配置会员的超级链接（可选）')"
+        },
+        {
+          "widget": "youkke_quyu",
+          "method": "setTitle",
+          "args": "('Form', '游客超级链接配置（可选，仅仅对发布到预览频道的资源生效）')"
+        },
+        {
+          "widget": "cb_flow_you_ke_link",
+          "method": "setText",
+          "args": "('Form', '启用游客超级链接')"
+        },
+        {
+          "widget": "cb_flow_you_ke_link_bq",
+          "method": "setText",
+          "args": "('Form', 'BQ字体')"
+        },
+        {
+          "widget": "btn_flow_you_ke_link_jc",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "lineEdit_flow_you_ke_tip_text",
+          "method": "setPlaceholderText",
+          "args": "('Form', '请配置游客提示文案')"
+        },
+        {
+          "widget": "lineEdit_flow_you_ke_tip_text_link",
+          "method": "setPlaceholderText",
+          "args": "('Form', '请配置游客的超级链接')"
+        },
+        {
+          "widget": "checkBox_auto_add_duration_info",
+          "method": "setText",
+          "args": "('Form', '添加原视频时长信息')"
+        },
+        {
+          "widget": "checkBox_auto_add_duration_info_bq",
+          "method": "setText",
+          "args": "('Form', 'BQ字体')"
+        },
+        {
+          "widget": "btn_show_duration_dialog",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "horizontalGroupBox_4",
+          "method": "setTitle",
+          "args": "('Form', '私有广告（可选，仅仅对发布到预览频道的资源生效）')"
+        },
+        {
+          "widget": "cb_flow_ad_enable",
+          "method": "setText",
+          "args": "('Form', '启用广告')"
+        },
+        {
+          "widget": "cb_flow_ad_is_bottom_up",
+          "method": "setText",
+          "args": "('Form', '置底广告')"
+        },
+        {
+          "widget": "cb_flow_ad_delete",
+          "method": "setText",
+          "args": "('Form', '删除历史广告')"
+        },
+        {
+          "widget": "btn_flow_add_ad",
+          "method": "setText",
+          "args": "('Form', '添加广告')"
+        },
+        {
+          "widget": "lineEdit_priority",
+          "method": "setPlaceholderText",
+          "args": "('Form', '优先级')"
+        },
+        {
+          "widget": "lineEdit_flow_item_name",
+          "method": "setPlaceholderText",
+          "args": "('Form', '请输入自动流的名字')"
+        },
+        {
+          "widget": "btn_save_flow_item",
+          "method": "setText",
+          "args": "('Form', '保存')"
+        }
+      ]
+    },
+    {
+      "module": "ban_yun_flow_comment_item",
+      "base": "0x14897f100",
+      "window_title": "('Form', 'Form')",
+      "triples": [
+        {
+          "widget": "jichu",
+          "method": "setTitle",
+          "args": "('Form', '基础')"
+        },
+        {
+          "widget": "label",
+          "method": "setText",
+          "args": "('Form', '来源频道/群组')"
+        },
+        {
+          "widget": "lineEdit_source",
+          "method": "setPlaceholderText",
+          "args": "('Form', '公有链接或私有ID(支持话题)')"
+        },
+        {
+          "widget": "ban_yun_topic_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "label_2",
+          "method": "setText",
+          "args": "('Form', '目标频道/群组(支持多个，一行一个，支持话题)')"
+        },
+        {
+          "widget": "textEdit_dest_list",
+          "method": "setPlaceholderText",
+          "args": "('Form', '公有链接或私有ID（支持多个，一行一个，支持话题）')"
+        },
+        {
+          "widget": "ziyuanleiixing",
+          "method": "setTitle",
+          "args": "('Form', '资源类型')"
+        },
+        {
+          "widget": "checkBox_video_photo",
+          "method": "setText",
+          "args": "('Form', '仅包含视频的消息组')"
+        },
+        {
+          "widget": "checkBox_photo",
+          "method": "setText",
+          "args": "('Form', '图片')"
+        },
+        {
+          "widget": "checkBox_video",
+          "method": "setText",
+          "args": "('Form', '视频')"
+        },
+        {
+          "widget": "checkBox_file",
+          "method": "setText",
+          "args": "('Form', '文件')"
+        },
+        {
+          "widget": "checkBox_text",
+          "method": "setText",
+          "args": "('Form', '纯文本')"
+        },
+        {
+          "widget": "ban_yun_res_btn_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "moshi_xuanze",
+          "method": "setTitle",
+          "args": "('Form', '模式选择')"
+        },
+        {
+          "widget": "comboBox_select_mode",
+          "method": "setItemText",
+          "args": "('Form', '顺序模式')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_select_mode",
+          "method": "setItemText",
+          "args": "('Form', '随机模式')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_select_mode",
+          "method": "setItemText",
+          "args": "('Form', '循环模式')",
+          "index": 2,
+          "index_inferred": false
+        },
+        {
+          "widget": "random_com",
+          "method": "setTitle",
+          "args": "('Form', '随机模式参数')"
+        },
+        {
+          "widget": "label_3",
+          "method": "setText",
+          "args": "('Form', '期望数量')"
+        },
+        {
+          "widget": "lineEdit_random_want_count",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "comboBox_number_random_dan_wei",
+          "method": "setItemText",
+          "args": "('Form', '按组计算')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_number_random_dan_wei",
+          "method": "setItemText",
+          "args": "('Form', '按个计算')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "increase_com",
+          "method": "setTitle",
+          "args": "('Form', '顺序模式参数（包括开始ID）')"
+        },
+        {
+          "widget": "label_7",
+          "method": "setText",
+          "args": "('Form', '开始ID')"
+        },
+        {
+          "widget": "lineEdit_increase_start_id",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "label_6",
+          "method": "setText",
+          "args": "('Form', '期望数量')"
+        },
+        {
+          "widget": "lineEdit_increase_want_count",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "comboBox_number_dan_wei",
+          "method": "setCurrentText",
+          "args": "('Form', '按组计算')"
+        },
+        {
+          "widget": "comboBox_number_dan_wei",
+          "method": "setItemText",
+          "args": "('Form', '按组计算')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_number_dan_wei",
+          "method": "setItemText",
+          "args": "('Form', '按个计算')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "loop_com",
+          "method": "setTitle",
+          "args": "('Form', '循环模式参数（包括开始ID，不包括结束ID）')"
+        },
+        {
+          "widget": "label_8",
+          "method": "setText",
+          "args": "('Form', '开始ID')"
+        },
+        {
+          "widget": "lineEdit_loop_start_id",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "label_5",
+          "method": "setText",
+          "args": "('Form', '结束ID')"
+        },
+        {
+          "widget": "lineEdit_loop_end_id",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "zhuanfa",
+          "method": "setTitle",
+          "args": "('Form', '搬运方式')"
+        },
+        {
+          "widget": "radioButton_action_download",
+          "method": "setText",
+          "args": "('Form', '强制下载方式')"
+        },
+        {
+          "widget": "radioButton_action_auto",
+          "method": "setText",
+          "args": "('Form', '自动方式')"
+        },
+        {
+          "widget": "lineEdit_auto_sleep_min",
+          "method": "setPlaceholderText",
+          "args": "('Form', '间隔最小值')"
+        },
+        {
+          "widget": "label_14",
+          "method": "setText",
+          "args": "('Form', '~')"
+        },
+        {
+          "widget": "lineEdit_auto_sleep_max",
+          "method": "setPlaceholderText",
+          "args": "('Form', '间隔最大值')"
+        },
+        {
+          "widget": "jichu_filter",
+          "method": "setTitle",
+          "args": "('Form', '基础条件(如果是视频资源，则需要同时满足时长和大小)')"
+        },
+        {
+          "widget": "label_4",
+          "method": "setText",
+          "args": "('Form', '时长过滤(单位分钟)：')"
+        },
+        {
+          "widget": "lineEdit_ban_yun_duration_min",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最小值')"
+        },
+        {
+          "widget": "label_10",
+          "method": "setText",
+          "args": "('Form', '~')"
+        },
+        {
+          "widget": "lineEdit_ban_yun_duration_max",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最大值')"
+        },
+        {
+          "widget": "label_9",
+          "method": "setText",
+          "args": "('Form', '大小过滤(单位 MB )：')"
+        },
+        {
+          "widget": "lineEdit_ban_yun_mb_min",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最小值')"
+        },
+        {
+          "widget": "label_11",
+          "method": "setText",
+          "args": "('Form', '~')"
+        },
+        {
+          "widget": "lineEdit_ban_yun_mb_max",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最大值')"
+        },
+        {
+          "widget": "ziyuanguolu",
+          "method": "setTitle",
+          "args": "('Form', '资源过滤条件')"
+        },
+        {
+          "widget": "checkBox_dele_source_text",
+          "method": "setText",
+          "args": "('Form', '丢弃资源自带的文本')"
+        },
+        {
+          "widget": "checkBox_discard_no_text_resource",
+          "method": "setText",
+          "args": "('Form', '丢弃无文本的资源')"
+        },
+        {
+          "widget": "checkBox_fliter_button",
+          "method": "setText",
+          "args": "('Form', '丢弃带按钮的资源')"
+        },
+        {
+          "widget": "checkBox_dele_link",
+          "method": "setText",
+          "args": "('Form', '删除源文本中的外链')"
+        },
+        {
+          "widget": "checkBox_origin_source_text",
+          "method": "setText",
+          "args": "('Form', '原样文本搬运')"
+        },
+        {
+          "widget": "checkBox_chai_zu",
+          "method": "setText",
+          "args": "('Form', '根据大小时长拆组')"
+        },
+        {
+          "widget": "label_15",
+          "method": "setText",
+          "args": "('Form', '包含关键词的资源')"
+        },
+        {
+          "widget": "lineEdit_fliter_words_contain",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写关键词，多个词使用竖线\"|\"分割')"
+        },
+        {
+          "widget": "label_151",
+          "method": "setText",
+          "args": "('Form', '排除关键词的资源')"
+        },
+        {
+          "widget": "lineEdit_fliter_words_exclude",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写关键词，多个词使用竖线\"|\"分割')"
+        },
+        {
+          "widget": "verticalGroupBox_yulan_op",
+          "method": "setTitle",
+          "args": "('Form', '资源处理（可选）')"
+        },
+        {
+          "widget": "cb_ban_yun_pic_blur",
+          "method": "setText",
+          "args": "('Form', '图片模糊')"
+        },
+        {
+          "widget": "cb_ban_yun_spoiler",
+          "method": "setText",
+          "args": "('Form', '防剧透')"
+        },
+        {
+          "widget": "btn_ban_yun_res_op_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "ban_yun_pic_blur_radius",
+          "method": "setPlaceholderText",
+          "args": "('Form', '1~20数字越大越模糊')"
+        },
+        {
+          "widget": "label_17",
+          "method": "setText",
+          "args": "('Form', '消息组宫格补齐')"
+        },
+        {
+          "widget": "btn_ban_yun_grid_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "lineEdit_ban_yun_grid_number",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写0~10的整数')"
+        },
+        {
+          "widget": "cb_ban_yun_random_cover",
+          "method": "setText",
+          "args": "('Form', '随机封面')"
+        },
+        {
+          "widget": "ban_yun_cover_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "verticalGroupBox",
+          "method": "setTitle",
+          "args": "('Form', '水印（可选）')"
+        },
+        {
+          "widget": "label_12",
+          "method": "setText",
+          "args": "('Form', '图片水印或者视频动态水印')"
+        },
+        {
+          "widget": "checkBox_pic_water",
+          "method": "setText",
+          "args": "('Form', '图片水印')"
+        },
+        {
+          "widget": "checkBox_video_water",
+          "method": "setText",
+          "args": "('Form', '视频水印')"
+        },
+        {
+          "widget": "comboBox_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '1分钟内视频')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '3分钟内视频')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '5分钟内视频')",
+          "index": 2,
+          "index_inferred": false
+        },
+        {
+          "widget": "comboBox_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '10分钟内视频')",
+          "index": 3,
+          "index_inferred": false
+        },
+        {
+          "widget": "comboBox_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '30分钟内视频')",
+          "index": 4,
+          "index_inferred": false
+        },
+        {
+          "widget": "comboBox_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '60分钟内视频')",
+          "index": 5,
+          "index_inferred": false
+        },
+        {
+          "widget": "comboBox_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '90分钟内视频')",
+          "index": 6,
+          "index_inferred": false
+        },
+        {
+          "widget": "comboBox_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '120分钟内视频')",
+          "index": 7,
+          "index_inferred": false
+        },
+        {
+          "widget": "comboBox_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '150分钟内视频')",
+          "index": 8,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_banyun_water_mode",
+          "method": "setItemText",
+          "args": "('Form', '图片水印')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "cb_banyun_water_mode",
+          "method": "setItemText",
+          "args": "('Form', '文字水印')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "lineEdit_water_text",
+          "method": "setPlaceholderText",
+          "args": "('Form', '水印文字，支持中文，英文')"
+        },
+        {
+          "widget": "btn_banyun_water_pic_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "btn_banyun_water_select_pic",
+          "method": "setText",
+          "args": "('Form', '选择图片')"
+        },
+        {
+          "widget": "line_edit_by_com_water_pic_ratio",
+          "method": "setPlaceholderText",
+          "args": "('Form', '30')"
+        },
+        {
+          "widget": "label_banyun_water_pic_path",
+          "method": "setText",
+          "args": "('Form', '图片路径：')"
+        },
+        {
+          "widget": "verticalGroupBox1",
+          "method": "setTitle",
+          "args": "('Form', '替换规则（可选，详情可以查看pdf文档）')"
+        },
+        {
+          "widget": "textEdit_replace_rule",
+          "method": "setPlaceholderText",
+          "args": "('Form', '源词语->目标词语，详情可以查看pdf文档')"
+        },
+        {
+          "widget": "weiba_qu",
+          "method": "setTitle",
+          "args": "('Form', '尾巴（可选，支持html格式和电报会员表情）')"
+        },
+        {
+          "widget": "textEdit_tail_text",
+          "method": "setPlaceholderText",
+          "args": "('Form', '支持html格式和电报会员表情，详情可以查看pdf文档')"
+        },
+        {
+          "widget": "ai_employee_qu",
+          "method": "setTitle",
+          "args": "('Form', 'AI员工（可选，AI文案同义转换）')"
+        },
+        {
+          "widget": "checkBox_banyun_ai_enable",
+          "method": "setText",
+          "args": "('Form', '启用AI文案')"
+        },
+        {
+          "widget": "label_banyun_ai_name",
+          "method": "setText",
+          "args": "('Form', '当前选择：xxx')"
+        },
+        {
+          "widget": "btn_banyun_select_ai_em",
+          "method": "setText",
+          "args": "('Form', '选择AI员工')"
+        },
+        {
+          "widget": "label_13",
+          "method": "setText",
+          "args": "('Form', 'AI拒绝生成文案时候：')"
+        },
+        {
+          "widget": "radioButton_ai_banyun_use_source",
+          "method": "setText",
+          "args": "('Form', '使用源文案')"
+        },
+        {
+          "widget": "radioButton_ai_banyun_skip_source",
+          "method": "setText",
+          "args": "('Form', '跳过此资源')"
+        },
+        {
+          "widget": "pinlunqu",
+          "method": "setTitle",
+          "args": "('Form', '评论区（可选）')"
+        },
+        {
+          "widget": "checkBox_copy_comment",
+          "method": "setText",
+          "args": "('Form', '一比一复刻评论区')"
+        },
+        {
+          "widget": "btn_config_comment_rule",
+          "method": "setText",
+          "args": "('Form', '配置评论区搬运规则')"
+        },
+        {
+          "widget": "horizontalGroupBox_4",
+          "method": "setTitle",
+          "args": "('Form', '私有广告（可选）')"
+        },
+        {
+          "widget": "checkBox_ad_enable",
+          "method": "setText",
+          "args": "('Form', '启用广告')"
+        },
+        {
+          "widget": "checkBox_ad_is_bottom_up",
+          "method": "setText",
+          "args": "('Form', '置底广告')"
+        },
+        {
+          "widget": "checkBox_ad_delete",
+          "method": "setText",
+          "args": "('Form', '删除历史广告')"
+        },
+        {
+          "widget": "btn_add_ad",
+          "method": "setText",
+          "args": "('Form', '添加广告')"
+        },
+        {
+          "widget": "lineEdit_priority",
+          "method": "setPlaceholderText",
+          "args": "('Form', '优先级')"
+        },
+        {
+          "widget": "lineEdit_yun_yin_name",
+          "method": "setPlaceholderText",
+          "args": "('Form', '输入搬运流的名字')"
+        },
+        {
+          "widget": "btn_save_yun_yin_item",
+          "method": "setText",
+          "args": "('Form', '保存')"
+        }
+      ]
+    },
+    {
+      "module": "down_load_flow_item",
+      "base": "0x14897e5a0",
+      "window_title": "('Form', 'Form')",
+      "triples": [
+        {
+          "widget": "verticalGroupBox_4",
+          "method": "setTitle",
+          "args": "('Form', '基础')"
+        },
+        {
+          "widget": "label",
+          "method": "setText",
+          "args": "('Form', '来源频道/群组')"
+        },
+        {
+          "widget": "dl_lineEdit_source",
+          "method": "setPlaceholderText",
+          "args": "('Form', '公有链接或私有ID(支持话题)')"
+        },
+        {
+          "widget": "down_load_topic_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "ziyuanleiixing",
+          "method": "setTitle",
+          "args": "('Form', '资源类型')"
+        },
+        {
+          "widget": "dl_checkBox_video_photo",
+          "method": "setText",
+          "args": "('Form', '仅包含视频的消息组')"
+        },
+        {
+          "widget": "dl_checkBox_photo",
+          "method": "setText",
+          "args": "('Form', '图片')"
+        },
+        {
+          "widget": "dl_checkBox_video",
+          "method": "setText",
+          "args": "('Form', '视频')"
+        },
+        {
+          "widget": "dl_checkBox_file",
+          "method": "setText",
+          "args": "('Form', '文件')"
+        },
+        {
+          "widget": "down_load_res_btn_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "moshi_xuanze",
+          "method": "setTitle",
+          "args": "('Form', '模式选择')"
+        },
+        {
+          "widget": "dl_comboBox_select_mode",
+          "method": "setItemText",
+          "args": "('Form', '顺序模式')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "dl_comboBox_select_mode",
+          "method": "setItemText",
+          "args": "('Form', '随机模式')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "dl_comboBox_select_mode",
+          "method": "setItemText",
+          "args": "('Form', '循环模式')",
+          "index": 2,
+          "index_inferred": false
+        },
+        {
+          "widget": "dl_random_com",
+          "method": "setTitle",
+          "args": "('Form', '随机模式参数')"
+        },
+        {
+          "widget": "label_3",
+          "method": "setText",
+          "args": "('Form', '期望数量')"
+        },
+        {
+          "widget": "dl_lineEdit_random_want_count",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "dl_comboBox_number_random_dan_wei",
+          "method": "setItemText",
+          "args": "('Form', '按组计算')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "dl_comboBox_number_random_dan_wei",
+          "method": "setItemText",
+          "args": "('Form', '按个计算')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "dl_increase_com",
+          "method": "setTitle",
+          "args": "('Form', '顺序模式参数（包括开始ID）')"
+        },
+        {
+          "widget": "label_7",
+          "method": "setText",
+          "args": "('Form', '开始ID')"
+        },
+        {
+          "widget": "dl_lineEdit_increase_start_id",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "label_6",
+          "method": "setText",
+          "args": "('Form', '期望数量')"
+        },
+        {
+          "widget": "dl_lineEdit_increase_want_count",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "dl_comboBox_number_dan_wei",
+          "method": "setCurrentText",
+          "args": "('Form', '按组计算')"
+        },
+        {
+          "widget": "dl_comboBox_number_dan_wei",
+          "method": "setItemText",
+          "args": "('Form', '按组计算')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "dl_comboBox_number_dan_wei",
+          "method": "setItemText",
+          "args": "('Form', '按个计算')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "dl_loop_com",
+          "method": "setTitle",
+          "args": "('Form', '循环模式参数（包括开始ID，不包括结束ID）')"
+        },
+        {
+          "widget": "label_8",
+          "method": "setText",
+          "args": "('Form', '开始ID')"
+        },
+        {
+          "widget": "dl_lineEdit_loop_start_id",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "label_5",
+          "method": "setText",
+          "args": "('Form', '结束ID')"
+        },
+        {
+          "widget": "dl_lineEdit_loop_end_id",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "jichu_filter",
+          "method": "setTitle",
+          "args": "('Form', '基础条件(如果是视频资源，则需要同时满足时长和大小)')"
+        },
+        {
+          "widget": "label_4",
+          "method": "setText",
+          "args": "('Form', '时长过滤(单位分钟)：')"
+        },
+        {
+          "widget": "lineEdit_down_load_duration_min",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最小值')"
+        },
+        {
+          "widget": "label_10",
+          "method": "setText",
+          "args": "('Form', '~')"
+        },
+        {
+          "widget": "lineEdit_down_load_duration_max",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最大值')"
+        },
+        {
+          "widget": "label_9",
+          "method": "setText",
+          "args": "('Form', '大小过滤(单位 MB )：')"
+        },
+        {
+          "widget": "lineEdit_down_load_mb_min",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最小值')"
+        },
+        {
+          "widget": "label_11",
+          "method": "setText",
+          "args": "('Form', '~')"
+        },
+        {
+          "widget": "lineEdit_down_load_mb_max",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最大值')"
+        },
+        {
+          "widget": "ziyuanguolu",
+          "method": "setTitle",
+          "args": "('Form', '资源过滤条件')"
+        },
+        {
+          "widget": "label_15",
+          "method": "setText",
+          "args": "('Form', '包含关键词的资源')"
+        },
+        {
+          "widget": "dl_lineEdit_fliter_words_contain",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写关键词，多个词使用竖线\"|\"分割')"
+        },
+        {
+          "widget": "label_151",
+          "method": "setText",
+          "args": "('Form', '排除关键词的资源')"
+        },
+        {
+          "widget": "dl_lineEdit_fliter_words_exclude",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写关键词，多个词使用竖线\"|\"分割')"
+        },
+        {
+          "widget": "verticalGroupBox",
+          "method": "setTitle",
+          "args": "('Form', '水印（可选）')"
+        },
+        {
+          "widget": "label_12",
+          "method": "setText",
+          "args": "('Form', '图片水印或者视频动态水印')"
+        },
+        {
+          "widget": "dl_checkBox_pic_water",
+          "method": "setText",
+          "args": "('Form', '图片水印')"
+        },
+        {
+          "widget": "dl_checkBox_video_water",
+          "method": "setText",
+          "args": "('Form', '视频水印')"
+        },
+        {
+          "widget": "dl_comboBox_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '1分钟内视频')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "dl_comboBox_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '3分钟内视频')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "dl_comboBox_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '5分钟内视频')",
+          "index": 2,
+          "index_inferred": false
+        },
+        {
+          "widget": "dl_comboBox_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '10分钟内视频')",
+          "index": 3,
+          "index_inferred": false
+        },
+        {
+          "widget": "dl_comboBox_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '30分钟内视频')",
+          "index": 4,
+          "index_inferred": false
+        },
+        {
+          "widget": "dl_comboBox_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '60分钟内视频')",
+          "index": 5,
+          "index_inferred": false
+        },
+        {
+          "widget": "dl_comboBox_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '90分钟内视频')",
+          "index": 6,
+          "index_inferred": false
+        },
+        {
+          "widget": "dl_comboBox_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '120分钟内视频')",
+          "index": 7,
+          "index_inferred": false
+        },
+        {
+          "widget": "dl_comboBox_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '150分钟内视频')",
+          "index": 8,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_dl_water_mode",
+          "method": "setItemText",
+          "args": "('Form', '图片水印')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "cb_dl_water_mode",
+          "method": "setItemText",
+          "args": "('Form', '文字水印')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "dl_lineEdit_water_text",
+          "method": "setPlaceholderText",
+          "args": "('Form', '水印文字，支持中文，英文')"
+        },
+        {
+          "widget": "btn_dl_water_pic_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "btn_dl_water_select_pic",
+          "method": "setText",
+          "args": "('Form', '选择图片')"
+        },
+        {
+          "widget": "line_edit_dl_water_pic_ratio",
+          "method": "setPlaceholderText",
+          "args": "('Form', '30')"
+        },
+        {
+          "widget": "label_dl_water_pic_path",
+          "method": "setText",
+          "args": "('Form', '图片路径：')"
+        },
+        {
+          "widget": "lineEdit_priority",
+          "method": "setPlaceholderText",
+          "args": "('Form', '优先级')"
+        },
+        {
+          "widget": "lineEdit_dl_name",
+          "method": "setPlaceholderText",
+          "args": "('Form', '输入名字')"
+        },
+        {
+          "widget": "btn_save_dl_item",
+          "method": "setText",
+          "args": "('Form', '保存')"
+        }
+      ]
+    },
+    {
+      "module": "yulan_flow_item",
+      "base": "0x148982de0",
+      "window_title": "('Form', 'Form')",
+      "triples": [
+        {
+          "widget": "jichu",
+          "method": "setTitle",
+          "args": "('Form', '基础')"
+        },
+        {
+          "widget": "label",
+          "method": "setText",
+          "args": "('Form', '来源频道/群组')"
+        },
+        {
+          "widget": "lineEdit_yulan_source",
+          "method": "setPlaceholderText",
+          "args": "('Form', '公有链接或私有ID(支持话题)')"
+        },
+        {
+          "widget": "yulan_topic_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "label_4",
+          "method": "setText",
+          "args": "('Form', '公开预览频道/群组(支持多个，一行一个，支持话题)')"
+        },
+        {
+          "widget": "textEdit_yulan_yulan_dest_list",
+          "method": "setPlaceholderText",
+          "args": "('Form', '公有链接或私有ID（支持多个，一行一个，支持话题）')"
+        },
+        {
+          "widget": "ziyuanleiixing",
+          "method": "setTitle",
+          "args": "('Form', '资源类型')"
+        },
+        {
+          "widget": "checkBox_yulan_video_photo",
+          "method": "setText",
+          "args": "('Form', '仅包含视频的消息组')"
+        },
+        {
+          "widget": "checkBox_yulan_photo",
+          "method": "setText",
+          "args": "('Form', '图片')"
+        },
+        {
+          "widget": "checkBox_yulan_video",
+          "method": "setText",
+          "args": "('Form', '视频')"
+        },
+        {
+          "widget": "checkBox_yulan_file",
+          "method": "setText",
+          "args": "('Form', '文件')"
+        },
+        {
+          "widget": "checkBox_yulan_text",
+          "method": "setText",
+          "args": "('Form', '纯文本')"
+        },
+        {
+          "widget": "yulan_res_btn_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "groupBox",
+          "method": "setTitle",
+          "args": "('Form', '预览频道发布资源类型')"
+        },
+        {
+          "widget": "checkBox_pb_yulan_picture",
+          "method": "setText",
+          "args": "('Form', '图片')"
+        },
+        {
+          "widget": "checkBox_pb_yulan_video",
+          "method": "setText",
+          "args": "('Form', '视频')"
+        },
+        {
+          "widget": "yulan_qu",
+          "method": "setTitle",
+          "args": "('Form', '预览视频规则')"
+        },
+        {
+          "widget": "comboBox_yulan_select_yulan_mode",
+          "method": "setItemText",
+          "args": "('Form', '按比例模式')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_yulan_select_yulan_mode",
+          "method": "setItemText",
+          "args": "('Form', '自定义时长模式')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "radioButton_yulan_10",
+          "method": "setText",
+          "args": "('Form', '10%')"
+        },
+        {
+          "widget": "radioButton_yulan_20",
+          "method": "setText",
+          "args": "('Form', '20%')"
+        },
+        {
+          "widget": "radioButton_yulan_30",
+          "method": "setText",
+          "args": "('Form', '30%')"
+        },
+        {
+          "widget": "radioButton_yulan_customer",
+          "method": "setText",
+          "args": "('Form', '自定义')"
+        },
+        {
+          "widget": "lineEdit_yulan_customer",
+          "method": "setPlaceholderText",
+          "args": "('Form', '自定义比例1~99')"
+        },
+        {
+          "widget": "label_2",
+          "method": "setText",
+          "args": "('Form', '自定义时长(单位秒钟)：')"
+        },
+        {
+          "widget": "lineEdit_yulan_min_duration",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最小值')"
+        },
+        {
+          "widget": "label_13",
+          "method": "setText",
+          "args": "('Form', '~')"
+        },
+        {
+          "widget": "lineEdit_yulan_max_duration",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最大值')"
+        },
+        {
+          "widget": "zhuanfa",
+          "method": "setTitle",
+          "args": "('Form', '搬运方式')"
+        },
+        {
+          "widget": "radioButton_yulan_action_download",
+          "method": "setText",
+          "args": "('Form', '强制下载方式')"
+        },
+        {
+          "widget": "radioButton_yulan_action_auto",
+          "method": "setText",
+          "args": "('Form', '自动方式')"
+        },
+        {
+          "widget": "lineEdit_yulan_sleep_min",
+          "method": "setPlaceholderText",
+          "args": "('Form', '间隔最小值')"
+        },
+        {
+          "widget": "label_14",
+          "method": "setText",
+          "args": "('Form', '~')"
+        },
+        {
+          "widget": "lineEdit_yulan_sleep_max",
+          "method": "setPlaceholderText",
+          "args": "('Form', '间隔最大值')"
+        },
+        {
+          "widget": "btn_yulan_action_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "moshi_xuanze",
+          "method": "setTitle",
+          "args": "('Form', '模式选择')"
+        },
+        {
+          "widget": "comboBox_yulan_select_mode",
+          "method": "setItemText",
+          "args": "('Form', '顺序模式')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_yulan_select_mode",
+          "method": "setItemText",
+          "args": "('Form', '随机模式')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_yulan_select_mode",
+          "method": "setItemText",
+          "args": "('Form', '循环模式')",
+          "index": 2,
+          "index_inferred": false
+        },
+        {
+          "widget": "random_com",
+          "method": "setTitle",
+          "args": "('Form', '随机模式参数')"
+        },
+        {
+          "widget": "label_3",
+          "method": "setText",
+          "args": "('Form', '期望数量')"
+        },
+        {
+          "widget": "lineEdit_yulan_random_want_count",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "comboBox_yulan_number_random_dan_wei",
+          "method": "setItemText",
+          "args": "('Form', '按组计算')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_yulan_number_random_dan_wei",
+          "method": "setItemText",
+          "args": "('Form', '按个计算')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "increase_com",
+          "method": "setTitle",
+          "args": "('Form', '顺序模式参数（包括开始ID）')"
+        },
+        {
+          "widget": "label_7",
+          "method": "setText",
+          "args": "('Form', '开始ID')"
+        },
+        {
+          "widget": "lineEdit_yulan_increase_start_id",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "label_6",
+          "method": "setText",
+          "args": "('Form', '期望数量')"
+        },
+        {
+          "widget": "lineEdit_yulan_increase_want_count",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "comboBox_yulan_number_dan_wei",
+          "method": "setCurrentText",
+          "args": "('Form', '按组计算')"
+        },
+        {
+          "widget": "comboBox_yulan_number_dan_wei",
+          "method": "setItemText",
+          "args": "('Form', '按组计算')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_yulan_number_dan_wei",
+          "method": "setItemText",
+          "args": "('Form', '按个计算')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "loop_com",
+          "method": "setTitle",
+          "args": "('Form', '循环模式参数（包括开始ID，不包括结束ID）')"
+        },
+        {
+          "widget": "label_8",
+          "method": "setText",
+          "args": "('Form', '开始ID')"
+        },
+        {
+          "widget": "lineEdit_yulan_loop_start_id",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "label_5",
+          "method": "setText",
+          "args": "('Form', '结束ID')"
+        },
+        {
+          "widget": "lineEdit_yulan_loop_end_id",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "jichu_filter",
+          "method": "setTitle",
+          "args": "('Form', '基础条件(如果是视频资源，则需要同时满足时长和大小)')"
+        },
+        {
+          "widget": "label_41",
+          "method": "setText",
+          "args": "('Form', '时长过滤(单位分钟)：')"
+        },
+        {
+          "widget": "lineEdit_yulan_duration_min",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最小值')"
+        },
+        {
+          "widget": "label_10",
+          "method": "setText",
+          "args": "('Form', '~')"
+        },
+        {
+          "widget": "lineEdit_yulan_duration_max",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最大值')"
+        },
+        {
+          "widget": "label_9",
+          "method": "setText",
+          "args": "('Form', '大小过滤(单位 MB )：')"
+        },
+        {
+          "widget": "lineEdit_yulan_mb_min",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最小值')"
+        },
+        {
+          "widget": "label_11",
+          "method": "setText",
+          "args": "('Form', '~')"
+        },
+        {
+          "widget": "lineEdit_yulan_mb_max",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最大值')"
+        },
+        {
+          "widget": "ziyuanguolu",
+          "method": "setTitle",
+          "args": "('Form', '资源过滤条件')"
+        },
+        {
+          "widget": "cb_yulan_dele_source_text",
+          "method": "setText",
+          "args": "('Form', '丢弃资源自带的文本')"
+        },
+        {
+          "widget": "checkBox_discard_no_text_resource",
+          "method": "setText",
+          "args": "('Form', '丢弃无文本的资源')"
+        },
+        {
+          "widget": "cb_yulan_fliter_button",
+          "method": "setText",
+          "args": "('Form', '丢弃带按钮的资源')"
+        },
+        {
+          "widget": "cb_yulan_dele_link",
+          "method": "setText",
+          "args": "('Form', '删除源文本中的外链')"
+        },
+        {
+          "widget": "cb_yulan_origin_source_text",
+          "method": "setText",
+          "args": "('Form', '原样文本搬运')"
+        },
+        {
+          "widget": "checkBox_chai_zu",
+          "method": "setText",
+          "args": "('Form', '根据大小时长拆组')"
+        },
+        {
+          "widget": "label_15",
+          "method": "setText",
+          "args": "('Form', '包含关键词的资源')"
+        },
+        {
+          "widget": "lineEdit_yulan_fliter_words_contain",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写关键词，多个词使用竖线\"|\"分割')"
+        },
+        {
+          "widget": "label_151",
+          "method": "setText",
+          "args": "('Form', '排除关键词的资源')"
+        },
+        {
+          "widget": "lineEdit_yulan_fliter_words_exclude",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写关键词，多个词使用竖线\"|\"分割')"
+        },
+        {
+          "widget": "verticalGroupBox_yulan_op",
+          "method": "setTitle",
+          "args": "('Form', '预览频道资源处理（可选）')"
+        },
+        {
+          "widget": "cb_yulan_pic_blur",
+          "method": "setText",
+          "args": "('Form', '图片模糊')"
+        },
+        {
+          "widget": "cb_yulan_spoiler",
+          "method": "setText",
+          "args": "('Form', '防剧透')"
+        },
+        {
+          "widget": "btn_yulan_res_op_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "yulan_pic_blur_radius",
+          "method": "setPlaceholderText",
+          "args": "('Form', '1~20数字越大越模糊')"
+        },
+        {
+          "widget": "label_17",
+          "method": "setText",
+          "args": "('Form', '消息组宫格补齐')"
+        },
+        {
+          "widget": "btn_yulan_grid_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "lineEdit_yulan_grid_number",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写0~10的整数')"
+        },
+        {
+          "widget": "cb_yulan_random_cover",
+          "method": "setText",
+          "args": "('Form', '随机封面')"
+        },
+        {
+          "widget": "yulan_cover_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "verticalGroupBox",
+          "method": "setTitle",
+          "args": "('Form', '水印（可选，仅仅对发布到预览频道的资源生效）')"
+        },
+        {
+          "widget": "label_12",
+          "method": "setText",
+          "args": "('Form', '图片水印或者视频动态水印')"
+        },
+        {
+          "widget": "cb_yulan_pic_water",
+          "method": "setText",
+          "args": "('Form', '图片水印')"
+        },
+        {
+          "widget": "cb_yulan_video_water",
+          "method": "setText",
+          "args": "('Form', '视频水印')"
+        },
+        {
+          "widget": "cb_yulan_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '1分钟内视频')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "cb_yulan_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '3分钟内视频')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "cb_yulan_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '5分钟内视频')",
+          "index": 2,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_yulan_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '10分钟内视频')",
+          "index": 3,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_yulan_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '30分钟内视频')",
+          "index": 4,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_yulan_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '60分钟内视频')",
+          "index": 5,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_yulan_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '90分钟内视频')",
+          "index": 6,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_yulan_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '120分钟内视频')",
+          "index": 7,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_yulan_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '150分钟内视频')",
+          "index": 8,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_yulan_water_mode",
+          "method": "setItemText",
+          "args": "('Form', '图片水印')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "cb_yulan_water_mode",
+          "method": "setItemText",
+          "args": "('Form', '文字水印')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "lineEdit_cb_water_text",
+          "method": "setPlaceholderText",
+          "args": "('Form', '水印文字，支持中文，英文')"
+        },
+        {
+          "widget": "btn_yulan_water_pic_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "btn_yulan_water_select_pic",
+          "method": "setText",
+          "args": "('Form', '选择图片')"
+        },
+        {
+          "widget": "line_edit_yulan_flow_water_pic_ratio",
+          "method": "setPlaceholderText",
+          "args": "('Form', '30')"
+        },
+        {
+          "widget": "label_yulan_water_pic_path",
+          "method": "setText",
+          "args": "('Form', '图片路径：')"
+        },
+        {
+          "widget": "weiba_qu",
+          "method": "setTitle",
+          "args": "('Form', '尾巴（可选，仅仅对发布到预览频道的资源生效）')"
+        },
+        {
+          "widget": "textEdit_yulan_tail_text",
+          "method": "setPlaceholderText",
+          "args": "('Form', '尾巴文案，支持html格式和电报会员表情')"
+        },
+        {
+          "widget": "verticalGroupBox1",
+          "method": "setTitle",
+          "args": "('Form', '替换规则（可选，咨询客服如何编辑）')"
+        },
+        {
+          "widget": "textEdit_yulan_replace_rule",
+          "method": "setPlaceholderText",
+          "args": "('Form', '源词->目标词（中间使用英文输入法的->分割）')"
+        },
+        {
+          "widget": "ai_employee_qu",
+          "method": "setTitle",
+          "args": "('Form', 'AI员工（可选，AI文案同义转换）')"
+        },
+        {
+          "widget": "checkBox_yulan_ai_enable",
+          "method": "setText",
+          "args": "('Form', '启用AI文案')"
+        },
+        {
+          "widget": "label_yulan_ai_name",
+          "method": "setText",
+          "args": "('Form', '当前选择：xxx')"
+        },
+        {
+          "widget": "btn_yulan_select_ai_em",
+          "method": "setText",
+          "args": "('Form', '选择AI员工')"
+        },
+        {
+          "widget": "label_131",
+          "method": "setText",
+          "args": "('Form', 'AI拒绝生成文案时候：')"
+        },
+        {
+          "widget": "radioButton_ai_yulan_use_source",
+          "method": "setText",
+          "args": "('Form', '使用源文案')"
+        },
+        {
+          "widget": "radioButton_ai_yulan_skip_source",
+          "method": "setText",
+          "args": "('Form', '跳过此资源')"
+        },
+        {
+          "widget": "huiyuan_quyu",
+          "method": "setTitle",
+          "args": "('Form', '会员超级链接配置（可选，仅仅对发布到预览频道的资源生效）')"
+        },
+        {
+          "widget": "cb_yulan_hui_yuan_link",
+          "method": "setText",
+          "args": "('Form', '启用会员超级链接')"
+        },
+        {
+          "widget": "cb_yulan_hui_yuan_customer_link",
+          "method": "setText",
+          "args": "('Form', '自定义会员超级链接')"
+        },
+        {
+          "widget": "cb_yulan_hui_yuan_link_bq",
+          "method": "setText",
+          "args": "('Form', 'BQ字体')"
+        },
+        {
+          "widget": "btn_yulan_hui_yuan_link_jc",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "lineEdit_yulan_hui_yuan_tip_text",
+          "method": "setPlaceholderText",
+          "args": "('Form', '请配置会员提示文案')"
+        },
+        {
+          "widget": "lineEdit_yulan_hui_yuan_tip_text_link",
+          "method": "setPlaceholderText",
+          "args": "('Form', '请配置会员的超级链接（可选）')"
+        },
+        {
+          "widget": "youkke_quyu",
+          "method": "setTitle",
+          "args": "('Form', '游客超级链接配置（可选，仅仅对发布到预览频道的资源生效）')"
+        },
+        {
+          "widget": "cb_yulan_you_ke_link",
+          "method": "setText",
+          "args": "('Form', '启用游客超级链接')"
+        },
+        {
+          "widget": "cb_yulan_you_ke_link_bq",
+          "method": "setText",
+          "args": "('Form', 'BQ字体')"
+        },
+        {
+          "widget": "btn_yulan_you_ke_link_jc",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "lineEdit_yulan_you_ke_tip_text",
+          "method": "setPlaceholderText",
+          "args": "('Form', '请配置游客提示文案')"
+        },
+        {
+          "widget": "lineEdit_yulan_you_ke_tip_text_link",
+          "method": "setPlaceholderText",
+          "args": "('Form', '请配置游客的超级链接')"
+        },
+        {
+          "widget": "checkBox_yulan_add_duration_info",
+          "method": "setText",
+          "args": "('Form', '添加原视频时长信息')"
+        },
+        {
+          "widget": "checkBox_yulan_add_duration_info_bq",
+          "method": "setText",
+          "args": "('Form', 'BQ字体')"
+        },
+        {
+          "widget": "btn_show_duration_dialog",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "horizontalGroupBox_4",
+          "method": "setTitle",
+          "args": "('Form', '私有广告（可选，仅仅对发布到预览频道的资源生效）')"
+        },
+        {
+          "widget": "cb_yulan_ad_enable",
+          "method": "setText",
+          "args": "('Form', '启用广告')"
+        },
+        {
+          "widget": "cb_yulan_ad_is_bottom_up",
+          "method": "setText",
+          "args": "('Form', '置底广告')"
+        },
+        {
+          "widget": "cb_yulan_ad_delete",
+          "method": "setText",
+          "args": "('Form', '删除历史广告')"
+        },
+        {
+          "widget": "btn_yulan_add_ad",
+          "method": "setText",
+          "args": "('Form', '添加广告')"
+        },
+        {
+          "widget": "lineEdit_priority",
+          "method": "setPlaceholderText",
+          "args": "('Form', '优先级')"
+        },
+        {
+          "widget": "lineEdit_yulan_item_name",
+          "method": "setPlaceholderText",
+          "args": "('Form', '请输入预览流的名字')"
+        },
+        {
+          "widget": "btn_save_yulan_item",
+          "method": "setText",
+          "args": "('Form', '保存')"
+        }
+      ]
+    },
+    {
+      "module": "yun_auto_item",
+      "base": "0x148981980",
+      "window_title": "('Form', 'Form')",
+      "triples": [
+        {
+          "widget": "verticalGroupBox_4",
+          "method": "setTitle",
+          "args": "('Form', '基础')"
+        },
+        {
+          "widget": "label",
+          "method": "setText",
+          "args": "('Form', '来源频道/群组')"
+        },
+        {
+          "widget": "lineEdit_yun_auto_source",
+          "method": "setPlaceholderText",
+          "args": "('Form', '公有链接或私有ID(支持话题)')"
+        },
+        {
+          "widget": "yun_auto_btn_p_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "label_2",
+          "method": "setText",
+          "args": "('Form', '私有仓库频道 ')"
+        },
+        {
+          "widget": "lineEdit_yun_auto_db_channel",
+          "method": "setPlaceholderText",
+          "args": "('Form', '公有链接或私有ID(支持话题)')"
+        },
+        {
+          "widget": "label1",
+          "method": "setText",
+          "args": "('Form', '我的机器人   ')"
+        },
+        {
+          "widget": "lineEdit_yun_auto_bot",
+          "method": "setPlaceholderText",
+          "args": "('Form', '资源提取机器人，@xxxbot格式')"
+        },
+        {
+          "widget": "yun_auto_btn_db_channel_jiao_chen",
+          "method": "setText",
+          "args": "('Form', 'Bot教程')"
+        },
+        {
+          "widget": "label_4",
+          "method": "setText",
+          "args": "('Form', '公开预览频道/群组(支持多个，一行一个，支持话题)')"
+        },
+        {
+          "widget": "textEdit_yun_auto_yulan_dest_list",
+          "method": "setPlaceholderText",
+          "args": "('Form', '公有链接或私有ID（支持多个，一行一个，支持话题）')"
+        },
+        {
+          "widget": "ziyuanleiixing",
+          "method": "setTitle",
+          "args": "('Form', '资源类型')"
+        },
+        {
+          "widget": "checkBox_yun_auto_video_photo",
+          "method": "setText",
+          "args": "('Form', '仅包含视频的消息组')"
+        },
+        {
+          "widget": "checkBox_yun_auto_photo",
+          "method": "setText",
+          "args": "('Form', '图片')"
+        },
+        {
+          "widget": "checkBox_yun_auto_video",
+          "method": "setText",
+          "args": "('Form', '视频')"
+        },
+        {
+          "widget": "checkBox_yun_auto_file",
+          "method": "setText",
+          "args": "('Form', '文件')"
+        },
+        {
+          "widget": "checkBox_yun_auto_text",
+          "method": "setText",
+          "args": "('Form', '纯文本')"
+        },
+        {
+          "widget": "btn_yun_auto_res_btn_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "groupBox",
+          "method": "setTitle",
+          "args": "('Form', '预览频道发布资源类型')"
+        },
+        {
+          "widget": "checkBox_pb_yun_auto_picture",
+          "method": "setText",
+          "args": "('Form', '图片')"
+        },
+        {
+          "widget": "checkBox_pb_yun_auto_video",
+          "method": "setText",
+          "args": "('Form', '视频')"
+        },
+        {
+          "widget": "yulan_qu",
+          "method": "setTitle",
+          "args": "('Form', '预览视频规则')"
+        },
+        {
+          "widget": "comboBox_yun_auto_select_yulan_mode",
+          "method": "setItemText",
+          "args": "('Form', '按比例模式')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_yun_auto_select_yulan_mode",
+          "method": "setItemText",
+          "args": "('Form', '自定义时长模式')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "radioButton_yun_auto_10",
+          "method": "setText",
+          "args": "('Form', '10%')"
+        },
+        {
+          "widget": "radioButton_yun_auto_20",
+          "method": "setText",
+          "args": "('Form', '20%')"
+        },
+        {
+          "widget": "radioButton_yun_auto_30",
+          "method": "setText",
+          "args": "('Form', '30%')"
+        },
+        {
+          "widget": "radioButton_yun_auto_customer",
+          "method": "setText",
+          "args": "('Form', '自定义')"
+        },
+        {
+          "widget": "lineEdit_yun_auto_customer",
+          "method": "setPlaceholderText",
+          "args": "('Form', '自定义比例1~99')"
+        },
+        {
+          "widget": "label_21",
+          "method": "setText",
+          "args": "('Form', '自定义时长(单位秒钟)：')"
+        },
+        {
+          "widget": "lineEdit_yun_auto_min_duration",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最小值')"
+        },
+        {
+          "widget": "label_13",
+          "method": "setText",
+          "args": "('Form', '~')"
+        },
+        {
+          "widget": "lineEdit_yun_auto_max_duration",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最大值')"
+        },
+        {
+          "widget": "zhuanfa",
+          "method": "setTitle",
+          "args": "('Form', '搬运方式')"
+        },
+        {
+          "widget": "radioButton_yun_auto_action_download",
+          "method": "setText",
+          "args": "('Form', '强制下载方式')"
+        },
+        {
+          "widget": "radioButton_yun_auto_action_au",
+          "method": "setText",
+          "args": "('Form', '自动方式')"
+        },
+        {
+          "widget": "lineEdit_yun_auto_sleep_min",
+          "method": "setPlaceholderText",
+          "args": "('Form', '间隔最小值')"
+        },
+        {
+          "widget": "label_14",
+          "method": "setText",
+          "args": "('Form', '~')"
+        },
+        {
+          "widget": "lineEdit_yun_auto_sleep_max",
+          "method": "setPlaceholderText",
+          "args": "('Form', '间隔最大值')"
+        },
+        {
+          "widget": "btn_yun_auto_action_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "moshi_xuanze",
+          "method": "setTitle",
+          "args": "('Form', '模式选择')"
+        },
+        {
+          "widget": "comboBox_yun_auto_select_mode",
+          "method": "setItemText",
+          "args": "('Form', '顺序模式')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_yun_auto_select_mode",
+          "method": "setItemText",
+          "args": "('Form', '随机模式')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_yun_auto_select_mode",
+          "method": "setItemText",
+          "args": "('Form', '循环模式')",
+          "index": 2,
+          "index_inferred": false
+        },
+        {
+          "widget": "random_com",
+          "method": "setTitle",
+          "args": "('Form', '随机模式参数')"
+        },
+        {
+          "widget": "label_3",
+          "method": "setText",
+          "args": "('Form', '期望数量')"
+        },
+        {
+          "widget": "lineEdit_yun_auto_random_want_count",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "comboBox_yun_auto_number_random_dan_wei",
+          "method": "setItemText",
+          "args": "('Form', '按组计算')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_yun_auto_number_random_dan_wei",
+          "method": "setItemText",
+          "args": "('Form', '按个计算')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "increase_com",
+          "method": "setTitle",
+          "args": "('Form', '顺序模式参数（包括开始ID）')"
+        },
+        {
+          "widget": "label_7",
+          "method": "setText",
+          "args": "('Form', '开始ID')"
+        },
+        {
+          "widget": "lineEdit_yun_auto_increase_start_id",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "label_6",
+          "method": "setText",
+          "args": "('Form', '期望数量')"
+        },
+        {
+          "widget": "lineEdit_yun_auto_increase_want_count",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "comboBox_yun_auto_number_dan_wei",
+          "method": "setCurrentText",
+          "args": "('Form', '按组计算')"
+        },
+        {
+          "widget": "comboBox_yun_auto_number_dan_wei",
+          "method": "setItemText",
+          "args": "('Form', '按组计算')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_yun_auto_number_dan_wei",
+          "method": "setItemText",
+          "args": "('Form', '按个计算')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "loop_com",
+          "method": "setTitle",
+          "args": "('Form', '循环模式参数（包括开始ID，不包括结束ID）')"
+        },
+        {
+          "widget": "label_8",
+          "method": "setText",
+          "args": "('Form', '开始ID')"
+        },
+        {
+          "widget": "lineEdit_yun_auto_loop_start_id",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "label_5",
+          "method": "setText",
+          "args": "('Form', '结束ID')"
+        },
+        {
+          "widget": "lineEdit_yun_auto_loop_end_id",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "jichu_filter",
+          "method": "setTitle",
+          "args": "('Form', '基础条件(如果是视频资源，则需要同时满足时长和大小)')"
+        },
+        {
+          "widget": "label_41",
+          "method": "setText",
+          "args": "('Form', '时长过滤(单位分钟)：')"
+        },
+        {
+          "widget": "lineEdit_yun_auto_duration_min",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最小值')"
+        },
+        {
+          "widget": "label_10",
+          "method": "setText",
+          "args": "('Form', '~')"
+        },
+        {
+          "widget": "lineEdit_yun_auto_duration_max",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最大值')"
+        },
+        {
+          "widget": "label_9",
+          "method": "setText",
+          "args": "('Form', '大小过滤(单位 MB )：')"
+        },
+        {
+          "widget": "lineEdit_yun_auto_mb_min",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最小值')"
+        },
+        {
+          "widget": "label_11",
+          "method": "setText",
+          "args": "('Form', '~')"
+        },
+        {
+          "widget": "lineEdit_yun_auto_mb_max",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最大值')"
+        },
+        {
+          "widget": "ziyuanguolu",
+          "method": "setTitle",
+          "args": "('Form', '资源过滤条件')"
+        },
+        {
+          "widget": "cb_yun_auto_dele_source_text",
+          "method": "setText",
+          "args": "('Form', '丢弃资源自带的文本')"
+        },
+        {
+          "widget": "checkBox_discard_no_text_resource",
+          "method": "setText",
+          "args": "('Form', '丢弃无文本的资源')"
+        },
+        {
+          "widget": "cb_yun_auto_fliter_button",
+          "method": "setText",
+          "args": "('Form', '丢弃带按钮的资源')"
+        },
+        {
+          "widget": "cb_yun_auto_dele_link",
+          "method": "setText",
+          "args": "('Form', '删除源文本中的外链')"
+        },
+        {
+          "widget": "cb_yun_auto_origin_source_text",
+          "method": "setText",
+          "args": "('Form', '原样文本搬运')"
+        },
+        {
+          "widget": "checkBox_chai_zu",
+          "method": "setText",
+          "args": "('Form', '根据大小时长拆组')"
+        },
+        {
+          "widget": "label_15",
+          "method": "setText",
+          "args": "('Form', '包含关键词的资源')"
+        },
+        {
+          "widget": "lineEdit_yun_auto_fliter_words_contain",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写关键词，多个词使用竖线\"|\"分割')"
+        },
+        {
+          "widget": "label_151",
+          "method": "setText",
+          "args": "('Form', '排除关键词的资源')"
+        },
+        {
+          "widget": "lineEdit_yun_auto_fliter_words_exclude",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写关键词，多个词使用竖线\"|\"分割')"
+        },
+        {
+          "widget": "verticalGroupBox_yulan_op",
+          "method": "setTitle",
+          "args": "('Form', '预览频道资源处理（可选）')"
+        },
+        {
+          "widget": "cb_yun_auto_pic_blur",
+          "method": "setText",
+          "args": "('Form', '图片模糊')"
+        },
+        {
+          "widget": "cb_yun_auto_spoiler",
+          "method": "setText",
+          "args": "('Form', '防剧透')"
+        },
+        {
+          "widget": "btn_yun_auto_res_op_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "yun_auto_pic_blur_radius",
+          "method": "setPlaceholderText",
+          "args": "('Form', '1~20数字越大越模糊')"
+        },
+        {
+          "widget": "label_17",
+          "method": "setText",
+          "args": "('Form', '消息组宫格补齐')"
+        },
+        {
+          "widget": "btn_yun_auto_grid_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "lineEdit_yun_auto_grid_number",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写0~10的整数')"
+        },
+        {
+          "widget": "cb_yun_auto_random_cover",
+          "method": "setText",
+          "args": "('Form', '随机封面')"
+        },
+        {
+          "widget": "yun_auto_cover_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "verticalGroupBox_water",
+          "method": "setTitle",
+          "args": "('Form', '水印（可选，仅仅对发布到预览频道的资源生效）')"
+        },
+        {
+          "widget": "label_12",
+          "method": "setText",
+          "args": "('Form', '图片水印或者视频动态水印')"
+        },
+        {
+          "widget": "cb_yun_auto_pic_water",
+          "method": "setText",
+          "args": "('Form', '图片水印')"
+        },
+        {
+          "widget": "cb_yun_auto_video_water",
+          "method": "setText",
+          "args": "('Form', '视频水印')"
+        },
+        {
+          "widget": "cb_yun_auto_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '1分钟内视频')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "cb_yun_auto_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '3分钟内视频')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "cb_yun_auto_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '5分钟内视频')",
+          "index": 2,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_yun_auto_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '10分钟内视频')",
+          "index": 3,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_yun_auto_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '30分钟内视频')",
+          "index": 4,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_yun_auto_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '60分钟内视频')",
+          "index": 5,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_yun_auto_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '90分钟内视频')",
+          "index": 6,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_yun_auto_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '120分钟内视频')",
+          "index": 7,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_yun_auto_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '150分钟内视频')",
+          "index": 8,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_yun_auto_water_mode",
+          "method": "setItemText",
+          "args": "('Form', '图片水印')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "cb_yun_auto_water_mode",
+          "method": "setItemText",
+          "args": "('Form', '文字水印')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "lineEdit_cb_water_text",
+          "method": "setPlaceholderText",
+          "args": "('Form', '水印文字，支持中文，英文')"
+        },
+        {
+          "widget": "btn_yun_auto_water_pic_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "btn_yun_auto_water_select_pic",
+          "method": "setText",
+          "args": "('Form', '选择图片')"
+        },
+        {
+          "widget": "line_edit_yun_auto_water_pic_ratio",
+          "method": "setPlaceholderText",
+          "args": "('Form', '30')"
+        },
+        {
+          "widget": "label_yun_auto_water_pic_path",
+          "method": "setText",
+          "args": "('Form', '图片路径：')"
+        },
+        {
+          "widget": "weiba_qu",
+          "method": "setTitle",
+          "args": "('Form', '尾巴（可选，仅仅对发布到预览频道的资源生效）')"
+        },
+        {
+          "widget": "textEdit_yun_auto_tail_text",
+          "method": "setPlaceholderText",
+          "args": "('Form', '尾巴文案，支持html格式和电报会员表情')"
+        },
+        {
+          "widget": "verticalGroupBox",
+          "method": "setTitle",
+          "args": "('Form', '替换规则（可选，咨询客服如何编辑）')"
+        },
+        {
+          "widget": "textEdit_yun_auto_replace_rule",
+          "method": "setPlaceholderText",
+          "args": "('Form', '源词->目标词（中间使用英文输入法的->分割）')"
+        },
+        {
+          "widget": "ai_employee_qu",
+          "method": "setTitle",
+          "args": "('Form', 'AI员工（可选，AI文案同义转换）')"
+        },
+        {
+          "widget": "checkBox_yunauto_ai_enable",
+          "method": "setText",
+          "args": "('Form', '启用AI文案')"
+        },
+        {
+          "widget": "label_yunauto_ai_name",
+          "method": "setText",
+          "args": "('Form', '当前选择：xxx')"
+        },
+        {
+          "widget": "btn_yunauto_select_ai_em",
+          "method": "setText",
+          "args": "('Form', '选择AI员工')"
+        },
+        {
+          "widget": "label_131",
+          "method": "setText",
+          "args": "('Form', 'AI拒绝生成文案时候：')"
+        },
+        {
+          "widget": "radioButton_ai_yunauto_use_source",
+          "method": "setText",
+          "args": "('Form', '使用源文案')"
+        },
+        {
+          "widget": "radioButton_ai_yunauto_skip_source",
+          "method": "setText",
+          "args": "('Form', '跳过此资源')"
+        },
+        {
+          "widget": "wanzhenban_quyu",
+          "method": "setTitle",
+          "args": "('Form', '完整版链接文案配置')"
+        },
+        {
+          "widget": "cb_yun_auto_block_quote",
+          "method": "setText",
+          "args": "('Form', 'BQ字体')"
+        },
+        {
+          "widget": "btn_yun_auto_wan_zhen_ban_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "lineEdit_yun_auto_wan_zhen_ban_text",
+          "method": "setPlaceholderText",
+          "args": "('Form', '请配置完整版链接文案')"
+        },
+        {
+          "widget": "checkBox_yun_auto_add_duration_info",
+          "method": "setText",
+          "args": "('Form', '添加原视频时长信息')"
+        },
+        {
+          "widget": "checkBox_yun_auto_add_duration_info_bq",
+          "method": "setText",
+          "args": "('Form', 'BQ字体')"
+        },
+        {
+          "widget": "btn_yun_auto_add_duration_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "horizontalGroupBox_4",
+          "method": "setTitle",
+          "args": "('Form', '私有广告（可选，仅仅对发布到预览频道的资源生效）')"
+        },
+        {
+          "widget": "cb_yun_auto_ad_enable",
+          "method": "setText",
+          "args": "('Form', '启用广告')"
+        },
+        {
+          "widget": "cb_yun_auto_ad_is_bottom_up",
+          "method": "setText",
+          "args": "('Form', '置底广告')"
+        },
+        {
+          "widget": "cb_yun_auto_ad_delete",
+          "method": "setText",
+          "args": "('Form', '删除历史广告')"
+        },
+        {
+          "widget": "btn_yun_auto_add_ad",
+          "method": "setText",
+          "args": "('Form', '添加广告')"
+        },
+        {
+          "widget": "lineEdit_priority",
+          "method": "setPlaceholderText",
+          "args": "('Form', '优先级')"
+        },
+        {
+          "widget": "lineEdit_yun_auto_item_name",
+          "method": "setPlaceholderText",
+          "args": "('Form', '请输入云自动的名字')"
+        },
+        {
+          "widget": "btn_save_yun_auto_item",
+          "method": "setText",
+          "args": "('Form', '保存')"
+        }
+      ]
+    },
+    {
+      "module": "yun_preview_item",
+      "base": "0x148986b80",
+      "window_title": "('Form', 'Form')",
+      "triples": [
+        {
+          "widget": "verticalGroupBox_4",
+          "method": "setTitle",
+          "args": "('Form', '基础')"
+        },
+        {
+          "widget": "label_2",
+          "method": "setText",
+          "args": "('Form', '私有仓库频道 ')"
+        },
+        {
+          "widget": "lineEdit_yun_preview_db_channel",
+          "method": "setPlaceholderText",
+          "args": "('Form', '公有链接或私有ID(支持话题)')"
+        },
+        {
+          "widget": "yun_preview_btn_p_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "label",
+          "method": "setText",
+          "args": "('Form', '我的机器人   ')"
+        },
+        {
+          "widget": "lineEdit_yun_preview_bot",
+          "method": "setPlaceholderText",
+          "args": "('Form', '资源提取机器人，@xxxbot格式')"
+        },
+        {
+          "widget": "yun_preview_btn_db_channel_jiao_chen",
+          "method": "setText",
+          "args": "('Form', 'Bot教程')"
+        },
+        {
+          "widget": "label_4",
+          "method": "setText",
+          "args": "('Form', '公开预览频道/群组(支持多个，一行一个，支持话题)')"
+        },
+        {
+          "widget": "textEdit_yun_preview_yulan_dest_list",
+          "method": "setPlaceholderText",
+          "args": "('Form', '公有链接或私有ID（支持多个，一行一个，支持话题）')"
+        },
+        {
+          "widget": "ziyuanleiixing",
+          "method": "setTitle",
+          "args": "('Form', '资源类型')"
+        },
+        {
+          "widget": "checkBox_yun_preview_video_photo",
+          "method": "setText",
+          "args": "('Form', '仅包含视频的消息组')"
+        },
+        {
+          "widget": "checkBox_yun_preview_photo",
+          "method": "setText",
+          "args": "('Form', '图片')"
+        },
+        {
+          "widget": "checkBox_yun_preview_video",
+          "method": "setText",
+          "args": "('Form', '视频')"
+        },
+        {
+          "widget": "checkBox_yun_preview_file",
+          "method": "setText",
+          "args": "('Form', '文件')"
+        },
+        {
+          "widget": "checkBox_yun_preview_text",
+          "method": "setText",
+          "args": "('Form', '纯文本')"
+        },
+        {
+          "widget": "btn_yun_preview_res_btn_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "groupBox",
+          "method": "setTitle",
+          "args": "('Form', '预览频道发布资源类型')"
+        },
+        {
+          "widget": "checkBox_pb_yun_preview_picture",
+          "method": "setText",
+          "args": "('Form', '图片')"
+        },
+        {
+          "widget": "checkBox_pb_yun_preview_video",
+          "method": "setText",
+          "args": "('Form', '视频')"
+        },
+        {
+          "widget": "yulan_qu",
+          "method": "setTitle",
+          "args": "('Form', '预览视频规则')"
+        },
+        {
+          "widget": "comboBox_yun_preview_select_yulan_mode",
+          "method": "setItemText",
+          "args": "('Form', '按比例模式')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_yun_preview_select_yulan_mode",
+          "method": "setItemText",
+          "args": "('Form', '自定义时长模式')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "radioButton_yun_preview_10",
+          "method": "setText",
+          "args": "('Form', '10%')"
+        },
+        {
+          "widget": "radioButton_yun_preview_20",
+          "method": "setText",
+          "args": "('Form', '20%')"
+        },
+        {
+          "widget": "radioButton_yun_preview_30",
+          "method": "setText",
+          "args": "('Form', '30%')"
+        },
+        {
+          "widget": "radioButton_yun_preview_customer",
+          "method": "setText",
+          "args": "('Form', '自定义')"
+        },
+        {
+          "widget": "lineEdit_yun_preview_customer",
+          "method": "setPlaceholderText",
+          "args": "('Form', '自定义比例1~99')"
+        },
+        {
+          "widget": "label_21",
+          "method": "setText",
+          "args": "('Form', '自定义时长(单位秒钟)：')"
+        },
+        {
+          "widget": "lineEdit_yun_preview_min_duration",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最小值')"
+        },
+        {
+          "widget": "label_13",
+          "method": "setText",
+          "args": "('Form', '~')"
+        },
+        {
+          "widget": "lineEdit_yun_preview_max_duration",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最大值')"
+        },
+        {
+          "widget": "zhuanfa",
+          "method": "setTitle",
+          "args": "('Form', '搬运方式')"
+        },
+        {
+          "widget": "radioButton_yun_preview_action_download",
+          "method": "setText",
+          "args": "('Form', '强制下载方式')"
+        },
+        {
+          "widget": "radioButton_yun_preview_action_au",
+          "method": "setText",
+          "args": "('Form', '自动方式')"
+        },
+        {
+          "widget": "lineEdit_yun_preview_sleep_min",
+          "method": "setPlaceholderText",
+          "args": "('Form', '间隔最小值')"
+        },
+        {
+          "widget": "label_14",
+          "method": "setText",
+          "args": "('Form', '~')"
+        },
+        {
+          "widget": "lineEdit_yun_preview_sleep_max",
+          "method": "setPlaceholderText",
+          "args": "('Form', '间隔最大值')"
+        },
+        {
+          "widget": "btn_yun_preview_action_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "moshi_xuanze",
+          "method": "setTitle",
+          "args": "('Form', '模式选择')"
+        },
+        {
+          "widget": "comboBox_yun_preview_select_mode",
+          "method": "setItemText",
+          "args": "('Form', '顺序模式')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_yun_preview_select_mode",
+          "method": "setItemText",
+          "args": "('Form', '随机模式')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_yun_preview_select_mode",
+          "method": "setItemText",
+          "args": "('Form', '循环模式')",
+          "index": 2,
+          "index_inferred": false
+        },
+        {
+          "widget": "random_com",
+          "method": "setTitle",
+          "args": "('Form', '随机模式参数')"
+        },
+        {
+          "widget": "label_3",
+          "method": "setText",
+          "args": "('Form', '期望数量')"
+        },
+        {
+          "widget": "lineEdit_yun_preview_random_want_count",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "comboBox_yun_preview_number_random_dan_wei",
+          "method": "setItemText",
+          "args": "('Form', '按组计算')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_yun_preview_number_random_dan_wei",
+          "method": "setItemText",
+          "args": "('Form', '按个计算')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "increase_com",
+          "method": "setTitle",
+          "args": "('Form', '顺序模式参数（包括开始ID）')"
+        },
+        {
+          "widget": "label_7",
+          "method": "setText",
+          "args": "('Form', '开始ID')"
+        },
+        {
+          "widget": "lineEdit_yun_preview_increase_start_id",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "label_6",
+          "method": "setText",
+          "args": "('Form', '期望数量')"
+        },
+        {
+          "widget": "lineEdit_yun_preview_increase_want_count",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "comboBox_yun_preview_number_dan_wei",
+          "method": "setCurrentText",
+          "args": "('Form', '按组计算')"
+        },
+        {
+          "widget": "comboBox_yun_preview_number_dan_wei",
+          "method": "setItemText",
+          "args": "('Form', '按组计算')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_yun_preview_number_dan_wei",
+          "method": "setItemText",
+          "args": "('Form', '按个计算')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "loop_com",
+          "method": "setTitle",
+          "args": "('Form', '循环模式参数（包括开始ID，不包括结束ID）')"
+        },
+        {
+          "widget": "label_8",
+          "method": "setText",
+          "args": "('Form', '开始ID')"
+        },
+        {
+          "widget": "lineEdit_yun_preview_loop_start_id",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "label_5",
+          "method": "setText",
+          "args": "('Form', '结束ID')"
+        },
+        {
+          "widget": "lineEdit_yun_preview_loop_end_id",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写整数')"
+        },
+        {
+          "widget": "jichu_filter",
+          "method": "setTitle",
+          "args": "('Form', '基础条件(如果是视频资源，则需要同时满足时长和大小)')"
+        },
+        {
+          "widget": "label_41",
+          "method": "setText",
+          "args": "('Form', '时长过滤(单位分钟)：')"
+        },
+        {
+          "widget": "lineEdit_yun_preview_duration_min",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最小值')"
+        },
+        {
+          "widget": "label_10",
+          "method": "setText",
+          "args": "('Form', '~')"
+        },
+        {
+          "widget": "lineEdit_yun_preview_duration_max",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最大值')"
+        },
+        {
+          "widget": "label_9",
+          "method": "setText",
+          "args": "('Form', '大小过滤(单位 MB )：')"
+        },
+        {
+          "widget": "lineEdit_yun_preview_mb_min",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最小值')"
+        },
+        {
+          "widget": "label_11",
+          "method": "setText",
+          "args": "('Form', '~')"
+        },
+        {
+          "widget": "lineEdit_yun_preview_mb_max",
+          "method": "setPlaceholderText",
+          "args": "('Form', '最大值')"
+        },
+        {
+          "widget": "ziyuanguolu",
+          "method": "setTitle",
+          "args": "('Form', '资源过滤条件')"
+        },
+        {
+          "widget": "cb_yun_preview_dele_source_text",
+          "method": "setText",
+          "args": "('Form', '丢弃资源自带的文本')"
+        },
+        {
+          "widget": "checkBox_discard_no_text_resource",
+          "method": "setText",
+          "args": "('Form', '丢弃无文本的资源')"
+        },
+        {
+          "widget": "cb_yun_preview_fliter_button",
+          "method": "setText",
+          "args": "('Form', '丢弃带按钮的资源')"
+        },
+        {
+          "widget": "cb_yun_preview_dele_link",
+          "method": "setText",
+          "args": "('Form', '删除源文本中的外链')"
+        },
+        {
+          "widget": "cb_yun_preview_origin_source_text",
+          "method": "setText",
+          "args": "('Form', '原样文本搬运')"
+        },
+        {
+          "widget": "checkBox_chai_zu",
+          "method": "setText",
+          "args": "('Form', '根据大小时长拆组')"
+        },
+        {
+          "widget": "label_15",
+          "method": "setText",
+          "args": "('Form', '包含关键词的资源')"
+        },
+        {
+          "widget": "lineEdit_yun_preview_fliter_words_contain",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写关键词，多个词使用竖线\"|\"分割')"
+        },
+        {
+          "widget": "label_151",
+          "method": "setText",
+          "args": "('Form', '排除关键词的资源')"
+        },
+        {
+          "widget": "lineEdit_yun_preview_fliter_words_exclude",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写关键词，多个词使用竖线\"|\"分割')"
+        },
+        {
+          "widget": "verticalGroupBox_yulan_op",
+          "method": "setTitle",
+          "args": "('Form', '预览频道资源处理（可选）')"
+        },
+        {
+          "widget": "cb_yun_preview_pic_blur",
+          "method": "setText",
+          "args": "('Form', '图片模糊')"
+        },
+        {
+          "widget": "cb_yun_preview_spoiler",
+          "method": "setText",
+          "args": "('Form', '防剧透')"
+        },
+        {
+          "widget": "btn_yun_preview_res_op_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "yun_preview_pic_blur_radius",
+          "method": "setPlaceholderText",
+          "args": "('Form', '1~20数字越大越模糊')"
+        },
+        {
+          "widget": "label_17",
+          "method": "setText",
+          "args": "('Form', '消息组宫格补齐')"
+        },
+        {
+          "widget": "btn_yun_preview_grid_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "lineEdit_yun_preview_grid_number",
+          "method": "setPlaceholderText",
+          "args": "('Form', '填写0~10的整数')"
+        },
+        {
+          "widget": "cb_yun_preview_random_cover",
+          "method": "setText",
+          "args": "('Form', '随机封面')"
+        },
+        {
+          "widget": "yun_preview_cover_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "verticalGroupBox_water",
+          "method": "setTitle",
+          "args": "('Form', '水印（可选，仅仅对发布到预览频道的资源生效）')"
+        },
+        {
+          "widget": "label_12",
+          "method": "setText",
+          "args": "('Form', '图片水印或者视频动态水印')"
+        },
+        {
+          "widget": "cb_yun_preview_pic_water",
+          "method": "setText",
+          "args": "('Form', '图片水印')"
+        },
+        {
+          "widget": "cb_yun_preview_video_water",
+          "method": "setText",
+          "args": "('Form', '视频水印')"
+        },
+        {
+          "widget": "cb_yun_preview_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '1分钟内视频')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "cb_yun_preview_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '3分钟内视频')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "cb_yun_preview_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '5分钟内视频')",
+          "index": 2,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_yun_preview_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '10分钟内视频')",
+          "index": 3,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_yun_preview_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '30分钟内视频')",
+          "index": 4,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_yun_preview_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '60分钟内视频')",
+          "index": 5,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_yun_preview_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '90分钟内视频')",
+          "index": 6,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_yun_preview_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '120分钟内视频')",
+          "index": 7,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_yun_preview_video_minute",
+          "method": "setItemText",
+          "args": "('Form', '150分钟内视频')",
+          "index": 8,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_yun_preview_water_mode",
+          "method": "setItemText",
+          "args": "('Form', '图片水印')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "cb_yun_preview_water_mode",
+          "method": "setItemText",
+          "args": "('Form', '文字水印')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "lineEdit_cb_water_text",
+          "method": "setPlaceholderText",
+          "args": "('Form', '水印文字，支持中文，英文')"
+        },
+        {
+          "widget": "btn_yun_preview_water_pic_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "btn_yun_preview_water_select_pic",
+          "method": "setText",
+          "args": "('Form', '选择图片')"
+        },
+        {
+          "widget": "line_edit_yun_preview_water_pic_ratio",
+          "method": "setPlaceholderText",
+          "args": "('Form', '30')"
+        },
+        {
+          "widget": "label_yun_preview_water_pic_path",
+          "method": "setText",
+          "args": "('Form', '图片路径：')"
+        },
+        {
+          "widget": "weiba_qu",
+          "method": "setTitle",
+          "args": "('Form', '尾巴（可选，仅仅对发布到预览频道的资源生效）')"
+        },
+        {
+          "widget": "textEdit_yun_preview_tail_text",
+          "method": "setPlaceholderText",
+          "args": "('Form', '尾巴文案，支持html格式和电报会员表情')"
+        },
+        {
+          "widget": "verticalGroupBox",
+          "method": "setTitle",
+          "args": "('Form', '替换规则（可选，咨询客服如何编辑）')"
+        },
+        {
+          "widget": "textEdit_yun_preview_replace_rule",
+          "method": "setPlaceholderText",
+          "args": "('Form', '源词->目标词（中间使用英文输入法的->分割）')"
+        },
+        {
+          "widget": "ai_employee_qu",
+          "method": "setTitle",
+          "args": "('Form', 'AI员工（可选，AI文案同义转换）')"
+        },
+        {
+          "widget": "checkBox_yunpre_ai_enable",
+          "method": "setText",
+          "args": "('Form', '启用AI文案')"
+        },
+        {
+          "widget": "label_yunpre_ai_name",
+          "method": "setText",
+          "args": "('Form', '当前选择：xxx')"
+        },
+        {
+          "widget": "btn_yunpre_select_ai_em",
+          "method": "setText",
+          "args": "('Form', '选择AI员工')"
+        },
+        {
+          "widget": "label_131",
+          "method": "setText",
+          "args": "('Form', 'AI拒绝生成文案时候：')"
+        },
+        {
+          "widget": "radioButton_ai_yunpre_use_source",
+          "method": "setText",
+          "args": "('Form', '使用源文案')"
+        },
+        {
+          "widget": "radioButton_ai_yunpre_skip_source",
+          "method": "setText",
+          "args": "('Form', '跳过此资源')"
+        },
+        {
+          "widget": "wanzheng_quyu",
+          "method": "setTitle",
+          "args": "('Form', '完整版链接文案配置')"
+        },
+        {
+          "widget": "cb_yun_preview_block_quote",
+          "method": "setText",
+          "args": "('Form', 'BQ字体')"
+        },
+        {
+          "widget": "btn_yun_preview_wan_zhen_ban_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "lineEdit_yun_preview_wan_zhen_ban_text",
+          "method": "setPlaceholderText",
+          "args": "('Form', '请配置完整版链接文案')"
+        },
+        {
+          "widget": "checkBox_yun_preview_add_duration_info",
+          "method": "setText",
+          "args": "('Form', '添加原视频时长信息')"
+        },
+        {
+          "widget": "checkBox_yun_preview_add_duration_info_bq",
+          "method": "setText",
+          "args": "('Form', 'BQ字体')"
+        },
+        {
+          "widget": "btn_yun_preview_add_duration_jiao_chen",
+          "method": "setText",
+          "args": "('Form', '教程')"
+        },
+        {
+          "widget": "horizontalGroupBox_4",
+          "method": "setTitle",
+          "args": "('Form', '私有广告（可选，仅仅对发布到预览频道的资源生效）')"
+        },
+        {
+          "widget": "cb_yun_preview_ad_enable",
+          "method": "setText",
+          "args": "('Form', '启用广告')"
+        },
+        {
+          "widget": "cb_yun_preview_ad_is_bottom_up",
+          "method": "setText",
+          "args": "('Form', '置底广告')"
+        },
+        {
+          "widget": "cb_yun_preview_ad_delete",
+          "method": "setText",
+          "args": "('Form', '删除历史广告')"
+        },
+        {
+          "widget": "btn_yun_preview_add_ad",
+          "method": "setText",
+          "args": "('Form', '添加广告')"
+        },
+        {
+          "widget": "lineEdit_priority",
+          "method": "setPlaceholderText",
+          "args": "('Form', '优先级')"
+        },
+        {
+          "widget": "lineEdit_yun_preview_item_name",
+          "method": "setPlaceholderText",
+          "args": "('Form', '请输入云预览的名字')"
+        },
+        {
+          "widget": "btn_save_yun_preview_item",
+          "method": "setText",
+          "args": "('Form', '保存')"
+        }
+      ]
+    },
+    {
+      "module": "yun_yin_mao_main",
+      "base": "0x148985040",
+      "window_title": "('MainWindow', '运营猫')",
+      "triples": [
+        {
+          "widget": "lb_display_txt",
+          "method": "setText",
+          "args": "('MainWindow', '加载中...')"
+        },
+        {
+          "widget": "main_expri_permission",
+          "method": "setText",
+          "args": "('MainWindow', '激活体验')"
+        },
+        {
+          "widget": "label_env_show",
+          "method": "setText",
+          "args": "('MainWindow', '开发环境')"
+        },
+        {
+          "widget": "btn_kefu_link",
+          "method": "setText",
+          "args": "('MainWindow', '官方频道')"
+        },
+        {
+          "widget": "cb_enable_proxy",
+          "method": "setText",
+          "args": "('MainWindow', '是否启用代理')"
+        },
+        {
+          "widget": "btn_proxy_setting",
+          "method": "setText",
+          "args": "('MainWindow', '代理设置')"
+        },
+        {
+          "widget": "label_30",
+          "method": "setText",
+          "args": "('MainWindow', '注意：只能添加已经存在的电报账号')"
+        },
+        {
+          "widget": "label_38",
+          "method": "setText",
+          "args": "('MainWindow', '输入手机号，带上国际标识，比如大陆：+8613812345678')"
+        },
+        {
+          "widget": "label_18",
+          "method": "setText",
+          "args": "('MainWindow', '两步验证码是可选的，没有就不输入')"
+        },
+        {
+          "widget": "lineEdit_input_phone",
+          "method": "setPlaceholderText",
+          "args": "('MainWindow', '请输入手机号码')"
+        },
+        {
+          "widget": "btn_send_yan_zhen_ma",
+          "method": "setText",
+          "args": "('MainWindow', '获取验证码')"
+        },
+        {
+          "widget": "lineEdit_yan_zhen_ma",
+          "method": "setPlaceholderText",
+          "args": "('MainWindow', '验证码')"
+        },
+        {
+          "widget": "lineEdit_two_pass_word",
+          "method": "setPlaceholderText",
+          "args": "('MainWindow', '两步验证码')"
+        },
+        {
+          "widget": "btn_login_gen_session",
+          "method": "setText",
+          "args": "('MainWindow', '添加账号')"
+        },
+        {
+          "widget": "label_5",
+          "method": "setText",
+          "args": "('MainWindow', '账号列表')"
+        },
+        {
+          "widget": "btn_refresh_account",
+          "method": "setText",
+          "args": "('MainWindow', '刷新账号列表')"
+        },
+        {
+          "widget": "btn_net_test",
+          "method": "setText",
+          "args": "('MainWindow', '网络连通性测试')"
+        },
+        {
+          "widget": "tabWidget_important",
+          "method": "setTabText",
+          "page": "gen_session",
+          "args": "('MainWindow', '账号功能')"
+        },
+        {
+          "widget": "label_6",
+          "method": "setText",
+          "args": "('MainWindow', '序号 选择状态 优先级     条目')"
+        },
+        {
+          "widget": "checkBox_auto_selected_all",
+          "method": "setText",
+          "args": "('MainWindow', '全部选择')"
+        },
+        {
+          "widget": "btn_auto_add_down_load",
+          "method": "setText",
+          "args": "('MainWindow', '+下载流')"
+        },
+        {
+          "widget": "btn_auto_add_item",
+          "method": "setText",
+          "args": "('MainWindow', '+搬运流')"
+        },
+        {
+          "widget": "btn_auto_add_yulan",
+          "method": "setText",
+          "args": "('MainWindow', '+预览流')"
+        },
+        {
+          "widget": "btn_auto_add_flow",
+          "method": "setText",
+          "args": "('MainWindow', '+自动流')"
+        },
+        {
+          "widget": "btn_auto_add_yun_preview",
+          "method": "setText",
+          "args": "('MainWindow', '+云预览')"
+        },
+        {
+          "widget": "btn_auto_add_yun_auto",
+          "method": "setText",
+          "args": "('MainWindow', '+云自动')"
+        },
+        {
+          "widget": "btn_auto_add_unkown1",
+          "method": "setText",
+          "args": "('MainWindow', '+未来1')"
+        },
+        {
+          "widget": "btn_auto_add_unkown2",
+          "method": "setText",
+          "args": "('MainWindow', '+未来2')"
+        },
+        {
+          "widget": "btn_copy_format_text",
+          "method": "setText",
+          "args": "('MainWindow', '快捷复制')"
+        },
+        {
+          "widget": "main_btn_items_jiao_chen",
+          "method": "setText",
+          "args": "('MainWindow', '必看教程')"
+        },
+        {
+          "widget": "verticalGroupBox",
+          "method": "setTitle",
+          "args": "('MainWindow', '全局水印设置（可选，优先使用条目的私有水印，如果私有水印未设置，就会使用这里配置的全局水印）')"
+        },
+        {
+          "widget": "label_12",
+          "method": "setText",
+          "args": "('MainWindow', '图片水印或者视频动态水印')"
+        },
+        {
+          "widget": "checkBox_g_pic_water",
+          "method": "setText",
+          "args": "('MainWindow', '图片水印')"
+        },
+        {
+          "widget": "checkBox_g_video_water",
+          "method": "setText",
+          "args": "('MainWindow', '视频水印')"
+        },
+        {
+          "widget": "comboBox_g_video_minute",
+          "method": "setItemText",
+          "args": "('MainWindow', '1分钟内视频')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_g_video_minute",
+          "method": "setItemText",
+          "args": "('MainWindow', '3分钟内视频')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_g_video_minute",
+          "method": "setItemText",
+          "args": "('MainWindow', '5分钟内视频')",
+          "index": 2,
+          "index_inferred": false
+        },
+        {
+          "widget": "comboBox_g_video_minute",
+          "method": "setItemText",
+          "args": "('MainWindow', '10分钟内视频')",
+          "index": 3,
+          "index_inferred": false
+        },
+        {
+          "widget": "comboBox_g_video_minute",
+          "method": "setItemText",
+          "args": "('MainWindow', '30分钟内视频')",
+          "index": 4,
+          "index_inferred": false
+        },
+        {
+          "widget": "comboBox_g_video_minute",
+          "method": "setItemText",
+          "args": "('MainWindow', '60分钟内视频')",
+          "index": 5,
+          "index_inferred": false
+        },
+        {
+          "widget": "comboBox_g_video_minute",
+          "method": "setItemText",
+          "args": "('MainWindow', '90分钟内视频')",
+          "index": 6,
+          "index_inferred": false
+        },
+        {
+          "widget": "comboBox_g_video_minute",
+          "method": "setItemText",
+          "args": "('MainWindow', '120分钟内视频')",
+          "index": 7,
+          "index_inferred": false
+        },
+        {
+          "widget": "comboBox_g_video_minute",
+          "method": "setItemText",
+          "args": "('MainWindow', '150分钟内视频')",
+          "index": 8,
+          "index_inferred": false
+        },
+        {
+          "widget": "cb_g_water_mode",
+          "method": "setItemText",
+          "args": "('MainWindow', '图片水印')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "cb_g_water_mode",
+          "method": "setItemText",
+          "args": "('MainWindow', '文字水印')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "lineEdit_g_water_text",
+          "method": "setPlaceholderText",
+          "args": "('MainWindow', '水印文字，支持中文，英文')"
+        },
+        {
+          "widget": "btn_g_water_pic_jiao_chen",
+          "method": "setText",
+          "args": "('MainWindow', '教程')"
+        },
+        {
+          "widget": "btn_g_water_select_pic",
+          "method": "setText",
+          "args": "('MainWindow', '选择图片')"
+        },
+        {
+          "widget": "line_edit_g_water_pic_ratio",
+          "method": "setPlaceholderText",
+          "args": "('MainWindow', '30')"
+        },
+        {
+          "widget": "label_g_water_pic_path",
+          "method": "setText",
+          "args": "('MainWindow', '图片路径：')"
+        },
+        {
+          "widget": "guanggao",
+          "method": "setTitle",
+          "args": "('MainWindow', '全局广告设置（可选，启用全局广告，会对所有条目都发布全局广告，并且不影响条目的私有广告）')"
+        },
+        {
+          "widget": "checkBox_enable_global_ad",
+          "method": "setText",
+          "args": "('MainWindow', '启用全局广告')"
+        },
+        {
+          "widget": "checkBox_global_ad_is_bottom_up",
+          "method": "setText",
+          "args": "('MainWindow', '置底广告')"
+        },
+        {
+          "widget": "checkBox_global_ad_delete",
+          "method": "setText",
+          "args": "('MainWindow', '删除历史广告')"
+        },
+        {
+          "widget": "btn_add_g_ad",
+          "method": "setText",
+          "args": "('MainWindow', '添加广告')"
+        },
+        {
+          "widget": "zhanghao",
+          "method": "setTitle",
+          "args": "('MainWindow', '任务账号设置')"
+        },
+        {
+          "widget": "btn_auto_select_session",
+          "method": "setText",
+          "args": "('MainWindow', '选择账号')"
+        },
+        {
+          "widget": "label_4",
+          "method": "setText",
+          "args": "('MainWindow', '当前账号：')"
+        },
+        {
+          "widget": "label_current_session",
+          "method": "setText",
+          "args": "('MainWindow', '无')"
+        },
+        {
+          "widget": "checkBox_check_post_permission",
+          "method": "setText",
+          "args": "('MainWindow', '是否检测发消息权限')"
+        },
+        {
+          "widget": "label",
+          "method": "setText",
+          "args": "('MainWindow', '速率配置：')"
+        },
+        {
+          "widget": "lineEdit_down_load_rate",
+          "method": "setPlaceholderText",
+          "args": "('MainWindow', '下载每秒请求数')"
+        },
+        {
+          "widget": "lineEdit_up_load_rate",
+          "method": "setPlaceholderText",
+          "args": "('MainWindow', '上传每秒请求数')"
+        },
+        {
+          "widget": "checkBox_auto_changed_rate",
+          "method": "setText",
+          "args": "('MainWindow', '智能调速')"
+        },
+        {
+          "widget": "btn_show_how",
+          "method": "setText",
+          "args": "('MainWindow', '点击查看如何修改')"
+        },
+        {
+          "widget": "checkBox_delete_temp_files",
+          "method": "setText",
+          "args": "('MainWindow', '删除搬运后的本地资源')"
+        },
+        {
+          "widget": "btn_changed_folder",
+          "method": "setText",
+          "args": "('MainWindow', '修改搬运目录')"
+        },
+        {
+          "widget": "label_folder_text",
+          "method": "setText",
+          "args": "('MainWindow', '当前目录：')"
+        },
+        {
+          "widget": "comboBox_dingshi_monitor",
+          "method": "setItemText",
+          "args": "('MainWindow', '定时模式')",
+          "index": 0,
+          "index_inferred": true
+        },
+        {
+          "widget": "comboBox_dingshi_monitor",
+          "method": "setItemText",
+          "args": "('MainWindow', '监控模式')",
+          "index": 1,
+          "index_inferred": true
+        },
+        {
+          "widget": "main_ban_yun_monitor_jiao_chen",
+          "method": "setText",
+          "args": "('MainWindow', '必看教程')"
+        },
+        {
+          "widget": "dingshi",
+          "method": "setTitle",
+          "args": "('MainWindow', '定时设置')"
+        },
+        {
+          "widget": "checkBox0",
+          "method": "setText",
+          "args": "('MainWindow', '0点')"
+        },
+        {
+          "widget": "checkBox1",
+          "method": "setText",
+          "args": "('MainWindow', '1点')"
+        },
+        {
+          "widget": "checkBox2",
+          "method": "setText",
+          "args": "('MainWindow', '2点')"
+        },
+        {
+          "widget": "checkBox3",
+          "method": "setText",
+          "args": "('MainWindow', '3点')"
+        },
+        {
+          "widget": "checkBox4",
+          "method": "setText",
+          "args": "('MainWindow', '4点')"
+        },
+        {
+          "widget": "checkBox5",
+          "method": "setText",
+          "args": "('MainWindow', '5点')"
+        },
+        {
+          "widget": "checkBox6",
+          "method": "setText",
+          "args": "('MainWindow', '6点')"
+        },
+        {
+          "widget": "checkBox7",
+          "method": "setText",
+          "args": "('MainWindow', '7点')"
+        },
+        {
+          "widget": "checkBox8",
+          "method": "setText",
+          "args": "('MainWindow', '8点')"
+        },
+        {
+          "widget": "checkBox9",
+          "method": "setText",
+          "args": "('MainWindow', '9点')"
+        },
+        {
+          "widget": "checkBox10",
+          "method": "setText",
+          "args": "('MainWindow', '10点')"
+        },
+        {
+          "widget": "checkBox11",
+          "method": "setText",
+          "args": "('MainWindow', '11点')"
+        },
+        {
+          "widget": "checkBox12",
+          "method": "setText",
+          "args": "('MainWindow', '12点')"
+        },
+        {
+          "widget": "checkBox13",
+          "method": "setText",
+          "args": "('MainWindow', '13点')"
+        },
+        {
+          "widget": "checkBox14",
+          "method": "setText",
+          "args": "('MainWindow', '14点')"
+        },
+        {
+          "widget": "checkBox15",
+          "method": "setText",
+          "args": "('MainWindow', '15点')"
+        },
+        {
+          "widget": "checkBox16",
+          "method": "setText",
+          "args": "('MainWindow', '16点')"
+        },
+        {
+          "widget": "checkBox17",
+          "method": "setText",
+          "args": "('MainWindow', '17点')"
+        },
+        {
+          "widget": "checkBox18",
+          "method": "setText",
+          "args": "('MainWindow', '18点')"
+        },
+        {
+          "widget": "checkBox19",
+          "method": "setText",
+          "args": "('MainWindow', '19点')"
+        },
+        {
+          "widget": "checkBox20",
+          "method": "setText",
+          "args": "('MainWindow', '20点')"
+        },
+        {
+          "widget": "checkBox21",
+          "method": "setText",
+          "args": "('MainWindow', '21点')"
+        },
+        {
+          "widget": "checkBox22",
+          "method": "setText",
+          "args": "('MainWindow', '22点')"
+        },
+        {
+          "widget": "checkBox23",
+          "method": "setText",
+          "args": "('MainWindow', '23点')"
+        },
+        {
+          "widget": "btn_auto_yun_yin_start",
+          "method": "setText",
+          "args": "('MainWindow', '启动定时任务')"
+        },
+        {
+          "widget": "btn_auto_yun_yin_run_one_and_start",
+          "method": "setText",
+          "args": "('MainWindow', '执行一次并启动定时')"
+        },
+        {
+          "widget": "btn_auto_yun_yin_run_one",
+          "method": "setText",
+          "args": "('MainWindow', '手动执行一次')"
+        },
+        {
+          "widget": "btn_auto_yun_yin_stop",
+          "method": "setText",
+          "args": "('MainWindow', '停止任务')"
+        },
+        {
+          "widget": "label_monitor_tip",
+          "method": "setText",
+          "args": "('MainWindow', '监控大屏')"
+        },
+        {
+          "widget": "btn_start_monitor",
+          "method": "setText",
+          "args": "('MainWindow', '开启监控')"
+        },
+        {
+          "widget": "btn_stop_monitor",
+          "method": "setText",
+          "args": "('MainWindow', '停止监控')"
+        },
+        {
+          "widget": "btn_open_close_big_show",
+          "method": "setText",
+          "args": "('MainWindow', '展开监控大屏')"
+        },
+        {
+          "widget": "tabWidget_important",
+          "method": "setTabText",
+          "page": "tab",
+          "args": "('MainWindow', '自动运营')"
+        },
+        {
+          "widget": "verticalGroupBox_3",
+          "method": "setTitle",
+          "args": "('MainWindow', 'html格式生成工具（可用于生成带会员表情的文案）')"
+        },
+        {
+          "widget": "label_2",
+          "method": "setText",
+          "args": "('MainWindow', '通过这个小工具，你可以生成支持电报会员表情的html格式的文本，然后可以把它配置到尾巴或者广告的文本中使用')"
+        },
+        {
+          "widget": "lineEdit_tools_post_link",
+          "method": "setPlaceholderText",
+          "args": "('MainWindow', '这里输入帖子链接，即可生成帖子的html格式的文本')"
+        },
+        {
+          "widget": "tools_btn_gen_html",
+          "method": "setText",
+          "args": "('MainWindow', '一键生成html文本格式')"
+        },
+        {
+          "widget": "tools_box_ad_jiao_chen",
+          "method": "setText",
+          "args": "('MainWindow', '教程')"
+        },
+        {
+          "widget": "horizontalGroupBox",
+          "method": "setTitle",
+          "args": "('MainWindow', '广告文案效果测试工具（可用于测试会员表情效果）')"
+        },
+        {
+          "widget": "lineEdit_ad_post_source",
+          "method": "setPlaceholderText",
+          "args": "('MainWindow', '这里输入电报频道或者群组（私有的使用频道或者群组ID）')"
+        },
+        {
+          "widget": "label_ad_config_tip",
+          "method": "setText",
+          "args": "('MainWindow', '当前未配置测试广告')"
+        },
+        {
+          "widget": "tools_btn_edit_ad",
+          "method": "setText",
+          "args": "('MainWindow', '配置广告和媒体资源')"
+        },
+        {
+          "widget": "tools_btn_post_ad",
+          "method": "setText",
+          "args": "('MainWindow', '发布广告查看效果')"
+        },
+        {
+          "widget": "verticalGroupBox_2",
+          "method": "setTitle",
+          "args": "('MainWindow', '会员自助迁移工具')"
+        },
+        {
+          "widget": "label_3",
+          "method": "setText",
+          "args": "('MainWindow', '请你妥善保管好你的唯一机器码，免得被人盗走会员权限')"
+        },
+        {
+          "widget": "label_7",
+          "method": "setText",
+          "args": "('MainWindow', '获取完整机器码路径：软件左上角->菜单->复制机器码')"
+        },
+        {
+          "widget": "lineEdit_old_u_code",
+          "method": "setPlaceholderText",
+          "args": "('MainWindow', '旧机器码')"
+        },
+        {
+          "widget": "lineEdit_new_u_code",
+          "method": "setPlaceholderText",
+          "args": "('MainWindow', '新机器码')"
+        },
+        {
+          "widget": "cb_cover_expri",
+          "method": "setText",
+          "args": "('MainWindow', '强制覆盖目标的体验会员')"
+        },
+        {
+          "widget": "cb_cover_item_yun",
+          "method": "setText",
+          "args": "('MainWindow', '强制迁移数据')"
+        },
+        {
+          "widget": "btn_qian_yi_jiao_chen",
+          "method": "setText",
+          "args": "('MainWindow', '教程')"
+        },
+        {
+          "widget": "tools_move_permission",
+          "method": "setText",
+          "args": "('MainWindow', '迁移会员权限')"
+        },
+        {
+          "widget": "tabWidget_important",
+          "method": "setTabText",
+          "page": "tools",
+          "args": "('MainWindow', '工具箱')"
+        },
+        {
+          "widget": "label_22",
+          "method": "setText",
+          "args": "('MainWindow', '修改软件开发者信息，如果长期使用，推荐修改一下')"
+        },
+        {
+          "widget": "label_23",
+          "method": "setText",
+          "args": "('MainWindow', 'API_ID:')"
+        },
+        {
+          "widget": "lineEdit_api_app_id",
+          "method": "setPlaceholderText",
+          "args": "('MainWindow', '请输入你自己的app id')"
+        },
+        {
+          "widget": "label_24",
+          "method": "setText",
+          "args": "('MainWindow', 'API_HASH:')"
+        },
+        {
+          "widget": "lineEdit_api_app_hash",
+          "method": "setPlaceholderText",
+          "args": "('MainWindow', '请输入你自己的app hash')"
+        },
+        {
+          "widget": "btn_save_app_config",
+          "method": "setText",
+          "args": "('MainWindow', '确认修改')"
+        },
+        {
+          "widget": "label_25",
+          "method": "setText",
+          "args": "('MainWindow', '注：用自己TG号注册API，注册地址：https://my.telegram.org')"
+        },
+        {
+          "widget": "btn_go_to_link",
+          "method": "setText",
+          "args": "('MainWindow', '点击去注册你的API')"
+        },
+        {
+          "widget": "tabWidget_important",
+          "method": "setTabText",
+          "page": "api_fun",
+          "args": "('MainWindow', 'API功能')"
+        },
+        {
+          "widget": "btn_clear_log",
+          "method": "setText",
+          "args": "('MainWindow', '清空日志')"
+        },
+        {
+          "widget": "btn_copy_log",
+          "method": "setText",
+          "args": "('MainWindow', '复制日志')"
+        },
+        {
+          "widget": "btn_open_log_folder",
+          "method": "setText",
+          "args": "('MainWindow', '打开日志目录')"
+        },
+        {
+          "widget": "btn_open_down_load_folder",
+          "method": "setText",
+          "args": "('MainWindow', '打开下载目录')"
+        },
+        {
+          "widget": "lineEdit_text_biao_shi",
+          "method": "setPlaceholderText",
+          "args": "('MainWindow', '功能标识，方便你快速备注当前多开软件功能')"
+        },
+        {
+          "widget": "btn_close_left",
+          "method": "setText",
+          "args": "('MainWindow', '关闭左侧')"
+        },
+        {
+          "widget": "btn_close_right",
+          "method": "setText",
+          "args": "('MainWindow', '关闭右侧')"
+        },
+        {
+          "widget": "btn_expand_log",
+          "method": "setText",
+          "args": "('MainWindow', '打开全屏日志')"
+        },
+        {
+          "widget": "text_brow_log",
+          "method": "setPlaceholderText",
+          "args": "('MainWindow', '日志仪表')"
+        },
+        {
+          "widget": "menu",
+          "method": "setTitle",
+          "args": "('MainWindow', '菜单')"
+        },
+        {
+          "widget": "action_reset",
+          "method": "setText",
+          "args": "('MainWindow', '重置运营猫')"
+        },
+        {
+          "widget": "action_dev",
+          "method": "setText",
+          "args": "('MainWindow', '开发者中心')"
+        },
+        {
+          "widget": "action_copy_code",
+          "method": "setText",
+          "args": "('MainWindow', '复制机器码')"
+        }
+      ]
+    }
+  ]
+}

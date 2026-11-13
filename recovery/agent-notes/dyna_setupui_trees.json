@@ -1,0 +1,199 @@
+{
+  "schema": "operater-cat-dyna-setupui-trees.v1",
+  "modules": [
+    {
+      "module": "ai_employee_item",
+      "source": "agent-notes/decompiled/targets/0x61b9c20_dyna_ai_employee_setupUi.c",
+      "qword_refs": 511,
+      "tree": {
+        "name": "Form",
+        "kind": "root",
+        "class": "Form",
+        "children": [
+          {
+            "name": "horizontalLayout",
+            "kind": "layout",
+            "class": "QHBoxLayout",
+            "children": [
+              {
+                "name": "verticalLayout",
+                "kind": "layout",
+                "class": "QVBoxLayout",
+                "children": [
+                  {
+                    "name": "horizontalLayout_8",
+                    "kind": "layout",
+                    "class": "QHBoxLayout",
+                    "children": [
+                      {
+                        "name": "label_2",
+                        "kind": "widget",
+                        "class": "QLabel",
+                        "children": []
+                      },
+                      {
+                        "name": "btn_em_sexy_init",
+                        "kind": "widget",
+                        "class": "QPushButton",
+                        "children": []
+                      },
+                      {
+                        "name": "btn_em_news_init",
+                        "kind": "widget",
+                        "class": "QPushButton",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "textEdit_em_role_display",
+                    "kind": "widget",
+                    "class": "QTextEdit",
+                    "children": []
+                  },
+                  {
+                    "name": "label_3",
+                    "kind": "widget",
+                    "class": "QLabel",
+                    "children": []
+                  },
+                  {
+                    "name": "textEdit_em_pre_text_display",
+                    "kind": "widget",
+                    "class": "QTextEdit",
+                    "children": []
+                  },
+                  {
+                    "name": "horizontalLayout_6",
+                    "kind": "layout",
+                    "class": "QHBoxLayout",
+                    "children": [
+                      {
+                        "name": "label_5",
+                        "kind": "widget",
+                        "class": "QLabel",
+                        "children": []
+                      },
+                      {
+                        "name": "btn_em_import_sensitive",
+                        "kind": "widget",
+                        "class": "QPushButton",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "textEdit_em_sensitive_word_display",
+                    "kind": "widget",
+                    "class": "QTextEdit",
+                    "children": []
+                  },
+                  {
+                    "name": "horizontalLayout_2",
+                    "kind": "layout",
+                    "class": "QHBoxLayout",
+                    "children": [
+                      {
+                        "name": "label",
+                        "kind": "widget",
+                        "class": "QLabel",
+                        "children": []
+                      },
+                      {
+                        "name": "lineEdit_em_word_min",
+                        "kind": "widget",
+                        "class": "QLineEdit",
+                        "children": []
+                      },
+                      {
+                        "name": "lineEdit_em_word_max",
+                        "kind": "widget",
+                        "class": "QLineEdit",
+                        "children": []
+                      },
+                      {
+                        "name": "lineEdit_em_retry_count",
+                        "kind": "widget",
+                        "class": "QLineEdit",
+                        "children": []
+                      },
+                      {
+                        "name": "label_4",
+                        "kind": "widget",
+                        "class": "QLabel",
+                        "children": []
+                      },
+                      {
+                        "name": "comboBox_em_select_model",
+                        "kind": "widget",
+                        "class": "QComboBox",
+                        "children": []
+                      },
+                      {
+                        "name": "btn_show_model_info",
+                        "kind": "widget",
+                        "class": "QPushButton",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "horizontalLayout_5",
+                    "kind": "layout",
+                    "class": "QHBoxLayout",
+                    "children": [
+                      {
+                        "name": "verticalLayout_3",
+                        "kind": "layout",
+                        "class": "QVBoxLayout",
+                        "children": [
+                          {
+                            "name": "textEdit_em_test_input",
+                            "kind": "widget",
+                            "class": "QTextEdit",
+                            "children": []
+                          },
+                          {
+                            "name": "btn_em_test",
+                            "kind": "widget",
+                            "class": "QPushButton",
+                            "children": []
+                          },
+                          {
+                            "name": "textEdit_em_test_output",
+                            "kind": "widget",
+                            "class": "QTextEdit",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "verticalLayout_2",
+                        "kind": "layout",
+                        "class": "QVBoxLayout",
+                        "children": [
+                          {
+                            "name": "lineEdit_em_name",
+                            "kind": "widget",
+                            "class": "QLineEdit",
+                            "children": []
+                          },
+                          {
+                            "name": "btn_em_save",
+                            "kind": "widget",
+                            "class": "QPushButton",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Local original project and reverse-engineering workspaces
+original_project/app/
+_re/
+temp/
+handoff_operater_cat_20261113/
+
+# Original binaries and large runtime artifacts
+*.exe
+*.dll
+*.pyd
+*.lib
+*.ttf
+*.ttc
+*.bin
+*.db
+*.sqlite
+*.i64
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+*.pdb
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary output
+*.log
+*.tmp

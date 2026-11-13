@@ -1,0 +1,221 @@
+{
+  "schema": "operater-cat-dependency-inventory.v1",
+  "third_party": {
+    "APScheduler": {
+      "package": "APScheduler",
+      "imported_by": [
+        "py\\com\\yun\\mao\\monitor\\MonitorSchedulerReport.py",
+        "py\\com\\yun\\mao\\mthread\\SchedulerThreadClass.py"
+      ],
+      "module_count": 2
+    },
+    "Pillow": {
+      "package": "Pillow",
+      "imported_by": [
+        "py\\com\\yun\\mao\\dialog\\PremiumDialog.py",
+        "py\\com\\yun\\mao\\util\\AccelUtils.py",
+        "py\\com\\yun\\mao\\util\\need\\utils.py",
+        "py\\com\\yun\\mao\\water\\PicBlurUtils.py",
+        "py\\com\\yun\\mao\\water\\PicWaterUtils.py"
+      ],
+      "module_count": 5
+    },
+    "PyQt5": {
+      "package": "PyQt5",
+      "imported_by": [
+        "py\\com\\yun\\mao\\ErrorDialog.py",
+        "py\\com\\yun\\mao\\GlobalExceptionHandler.py",
+        "py\\com\\yun\\mao\\MainWindow.py",
+        "py\\com\\yun\\mao\\ad\\AddOrEditAdDialog.py",
+        "py\\com\\yun\\mao\\ad\\ToolsBoxEditAdDialog.py",
+        "py\\com\\yun\\mao\\ad\\UIAdListOp.py",
+        "py\\com\\yun\\mao\\cd\\ConditionalTabWidget.py",
+        "py\\com\\yun\\mao\\cd\\TaskHardStop.py",
+        "py\\com\\yun\\mao\\comment\\ConfigCommentRuleDialog.py",
+        "py\\com\\yun\\mao\\dialog\\AiModelInfoPriceDialog.py",
+        "py\\com\\yun\\mao\\dialog\\CourseImageDialog.py",
+        "py\\com\\yun\\mao\\dialog\\ExpriActivatePermissionDialog.py",
+        "py\\com\\yun\\mao\\dialog\\PremiumBigPriceDialog.py",
+        "py\\com\\yun\\mao\\dialog\\PremiumDialog.py",
+        "py\\com\\yun\\mao\\dialog\\PremiumExitTipDialog.py",
+        "py\\com\\yun\\mao\\dialog\\ReceiveCodeDialog.py",
+        "py\\com\\yun\\mao\\fea\\_cj_dd_file.py",
+        "py\\com\\yun\\mao\\fea\\_jc_dd_cz_file.py",
+        "py\\com\\yun\\mao\\fea\\_qy_hy_file.py",
+        "py\\com\\yun\\mao\\fea\\_sq_ks.py",
+        "py\\com\\yun\\mao\\fea\\_sq_qi.py",
+        "py\\com\\yun\\mao\\fea\\_sq_r_ks.py",
+        "py\\com\\yun\\mao\\fea\\_zz_jh_ty_file.py",
+        "py\\com\\yun\\mao\\link\\_xb_ms.py",
+        "py\\com\\yun\\mao\\log\\LogWorker.py",
+        "py\\com\\yun\\mao\\log\\glog.py",
+        "py\\com\\yun\\mao\\login\\NetTest.py",
+        "py\\com\\yun\\mao\\monitor\\HistoryMessageOpDialog.py",
+        "py\\com\\yun\\mao\\monitor\\MonitorSchedulerReport.py",
+        "py\\com\\yun\\mao\\monitor\\QHistoryMsgItemQWidget.py",
+        "py\\com\\yun\\mao\\monitor\\TelegramMonitorWorker.py",
+        "py\\com\\yun\\mao\\mthread\\ReceiveCodeThread.py",
+        "py\\com\\yun\\mao\\mthread\\SchedulerThreadClass.py",
+        "py\\com\\yun\\mao\\mthread\\SingleLongTaskThreadClass.py",
+        "py\\com\\yun\\mao\\mthread\\TgClientBaseAsyncTaskThread.py",
+        "py\\com\\yun\\mao\\proxy\\ProxySettingDialog.py",
+        "py\\com\\yun\\mao\\tab\\mid_ai_employee_tab.py",
+        "py\\com\\yun\\mao\\tab\\mid_ai_test_tab.py",
+        "py\\com\\yun\\mao\\tab\\mid_api_config_tab.py",
+        "py\\com\\yun\\mao\\tab\\mid_auto_yun_yin_tab.py",
+        "py\\com\\yun\\mao\\tab\\mid_premium_tab.py",
+        "py\\com\\yun\\mao\\tab\\mid_session_fun_tab.py",
+        "py\\com\\yun\\mao\\tab\\mid_toolbox_tab.py",
+        "py\\com\\yun\\mao\\tgaccount\\AiEmployeeListDialog.py",
+        "py\\com\\yun\\mao\\tgaccount\\TgAccountListDialog.py",
+        "py\\com\\yun\\mao\\util\\AITextGenTextRunnable.py",
+        "py\\com\\yun\\mao\\util\\CacheRemoveTask.py",
+        "py\\com\\yun\\mao\\util\\XAIKeyValidator.py",
+        "py\\com\\yun\\mao\\util\\need\\AllBeanDef.py",
+        "py\\com\\yun\\mao\\util\\need\\BaseDialog.py",
+        "py\\com\\yun\\mao\\util\\need\\CoolUtils.py",
+        "py\\com\\yun\\mao\\util\\need\\EditAutoFlowItemEditDialog.py",
+        "py\\com\\yun\\mao\\util\\need\\EditEmployeeItemEditDialog.py",
+        "py\\com\\yun\\mao\\util\\need\\ListOpHelper.py",
+        "py\\com\\yun\\mao\\util\\need\\LoadingDialog.py",
+        "py\\com\\yun\\mao\\util\\need\\MiniTipDialog.py",
+        "py\\com\\yun\\mao\\util\\need\\QAccountItemQWidget.py",
+        "py\\com\\yun\\mao\\util\\need\\QEmployeeItemQWidget.py",
+        "py\\com\\yun\\mao\\util\\need\\ResetBirdDialog.py",
+        "py\\com\\yun\\mao\\util\\need\\ShotUtils.py",
+        "py\\com\\yun\\mao\\util\\need\\TipDialog.py",
+        "py\\com\\yun\\mao\\util\\need\\_FlowItemWidgetBase.py",
+        "py\\com\\yun\\mao\\util\\need\\signals.py",
+        "py\\com\\yun\\mao\\util\\need\\utils.py",
+        "resource\\ui\\dyna\\ai_employee_item.py",
+        "resource\\ui\\dyna\\auto_flow_item.py",
+        "resource\\ui\\dyna\\ban_yun_flow_comment_item.py",
+        "resource\\ui\\dyna\\down_load_flow_item.py",
+        "resource\\ui\\dyna\\yulan_flow_item.py",
+        "resource\\ui\\dyna\\yun_auto_item.py",
+        "resource\\ui\\dyna\\yun_preview_item.py",
+        "resource\\ui\\dyna\\yun_yin_mao_main.py"
+      ],
+      "module_count": 72
+    },
+    "aiohttp": {
+      "package": "aiohttp",
+      "imported_by": [
+        "py\\com\\yun\\mao\\fea\\_sq_r_req.py",
+        "py\\com\\yun\\mao\\fea\\_sq_req.py",
+        "py\\com\\yun\\mao\\link\\_sjk_cli.py",
+        "py\\com\\yun\\mao\\link\\_xb_ms.py"
+      ],
+      "module_count": 4
+    },
+    "certifi": {
+      "package": "certifi",
+      "imported_by": [
+        "py\\com\\yun\\mao\\fea\\_sq_zw.py"
+      ],
+      "module_count": 1
+    },
+    "cryptography": {
+      "package": "cryptography",
+      "imported_by": [
+        "py\\com\\yun\\mao\\ade\\ad_t.py",
+        "py\\com\\yun\\mao\\jm\\_my_gk.py",
+        "py\\com\\yun\\mao\\jm\\_my_r_gk.py",
+        "py\\com\\yun\\mao\\jm\\_my_util.py",
+        "py\\com\\yun\\mao\\link\\_jmpz_cy.py",
+        "py\\com\\yun\\mao\\link\\_tw_ceng.py",
+        "py\\com\\yun\\mao\\link\\_tw_ctx.py"
+      ],
+      "module_count": 7
+    },
+    "html2text": {
+      "package": "html2text",
+      "imported_by": [
+        "py\\com\\yun\\mao\\util\\need\\utils.py"
+      ],
+      "module_count": 1
+    },
+    "moviepy": {
+      "package": "moviepy",
+      "imported_by": [
+        "py\\com\\yun\\mao\\util\\AccelUtils.py",
+        "py\\com\\yun\\mao\\util\\IncludeMagickConfig.py",
+        "py\\com\\yun\\mao\\util\\moviepy_ffmpeg_patch.py",
+        "py\\com\\yun\\mao\\water\\VideoBitUtils.py"
+      ],
+      "module_count": 4
+    },
+    "numpy": {
+      "package": "numpy",
+      "imported_by": [
+        "py\\com\\yun\\mao\\water\\VideoBitUtils.py"
+      ],
+      "module_count": 1
+    },
+    "openai": {
+      "package": "openai",
+      "imported_by": [
+        "py\\com\\yun\\mao\\ai\\AiTextGenFlow.py",
+        "py\\com\\yun\\mao\\util\\XAIKeyValidator.py"
+      ],
+      "module_count": 2
+    },
+    "opencv-python": {
+      "package": "opencv-python",
+      "imported_by": [
+        "py\\com\\yun\\mao\\water\\VideoBitUtils.py"
+      ],
+      "module_count": 1
+    },
+    "psutil": {
+      "package": "psutil",
+      "imported_by": [
+        "py\\com\\yun\\mao\\link\\_fds_h_x.py"
+      ],
+      "module_count": 1
+    },
+    "pywin32": {
+      "package": "pywin32",
+      "imported_by": [
+        "py\\com\\yun\\mao\\MainWindow.py",
+        "py\\com\\yun\\mao\\util\\DirManager.py"
+      ],
+      "module_count": 4
+    },
+    "qrcode": {
+      "package": "qrcode",
+      "imported_by": [
+        "py\\com\\yun\\mao\\dialog\\PremiumDialog.py"
+      ],
+      "module_count": 1
+    },
+    "telethon": {
+      "package": "telethon",
+      "imported_by": [
+        "py\\com\\yun\\mao\\auto\\CMCode.py",
+        "py\\com\\yun\\mao\\auto\\TopicUtils.py",
+        "py\\com\\yun\\mao\\auto\\VideoFirstFrameCoverHelper.py",
+        "py\\com\\yun\\mao\\auto\\VideoProcessingIds.py",
+        "py\\com\\yun\\mao\\auto\\upload.py",
+        "py\\com\\yun\\mao\\login\\NetTest.py",
+        "py\\com\\yun\\mao\\login\\SessionLoader.py",
+        "py\\com\\yun\\mao\\monitor\\MonitorFollowUp.py",
+        "py\\com\\yun\\mao\\monitor\\TelegramMonitorWorker.py",
+        "py\\com\\yun\\mao\\mthread\\GenHtmlThread.py",
+        "py\\com\\yun\\mao\\mthread\\PostHtmlADThread.py",
+        "py\\com\\yun\\mao\\mthread\\ReceiveCodeThread.py",
+        "py\\com\\yun\\mao\\tab\\gen_session_queue.py",
+        "py\\com\\yun\\mao\\telefast\\FastTelethon.py",
+        "py\\com\\yun\\mao\\util\\FloodGuard.py",
+        "py\\com\\yun\\mao\\util\\need\\CommonCode.py"
+      ],
+      "module_count": 16
+    }
+  },
+  "unmapped_imports": {},
+  "notes": [
+    "versions are not recovered from the static image",
+    "PyQt5 is bundled by the target distribution; install it for runtime UI tests",
+    "the offline pytest suite does not require the third-party runtime"
+  ]
+}

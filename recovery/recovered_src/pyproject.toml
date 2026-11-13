@@ -1,0 +1,30 @@
+[project]
+name = "operater-cat-recovered"
+version = "0.0.0"
+description = "Static/behavioral source recovery for operater-cat 9.6.3"
+requires-python = ">=3.11"
+
+[project.optional-dependencies]
+runtime = [
+    "APScheduler",
+    "Pillow",
+    "PyQt5",
+    "aiohttp",
+    "certifi",
+    "cryptography",
+    "html2text",
+    "moviepy",
+    "numpy",
+    "openai",
+    "opencv-python",
+    "psutil",
+    "pywin32",
+    "qrcode",
+    "telethon",
+]
+test = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra"
