@@ -4,6 +4,7 @@
 | --- | --- |
 | `PROTOCOL_CONTRACTS.md` | endpoint 矩阵、请求/响应字段、关键代码块和已知契约问题 |
 | `OVERALL_LOGIC_AND_GAPS.md` | 整体分层、主链路、已有文档盘点和 P0/P1/P2 缺口 |
+| `NETWORK_VALIDATION.md` | 本机连接验证、TLS 指纹和抓包能力结论 |
 | `report.md` | 安全、反调试、授权和风险分析报告 |
 | `triage.md` | 快速分诊结论 |
 | `RECOVERY_NOTES.md` | 恢复方法、加载表突破、置信度和优先级 |

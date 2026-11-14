@@ -52,6 +52,7 @@ python verify_bundle.py
 
 - `docs/PROTOCOL_CONTRACTS.md`：endpoint、请求/响应字段、关键代码块。
 - `docs/OVERALL_LOGIC_AND_GAPS.md`：整体逻辑和缺口清单。
+- `docs/NETWORK_VALIDATION.md`：本机连接验证、TLS 指纹和抓包结论。
 - `docs/report.md`：安全与行为分析报告。
 - `docs/triage.md`：快速分诊结论。
 - `docs/RECOVERY_NOTES.md`：恢复方法和加载表突破。
