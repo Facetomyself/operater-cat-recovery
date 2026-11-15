@@ -1,0 +1,37 @@
+{
+  "bootstrap_fp16": "dc520a975800f232",
+  "keys": [
+    {
+      "file": "pk_0.pem",
+      "part": 1,
+      "ok": false,
+      "error": "ValueError"
+    },
+    {
+      "file": "pk_1.pem",
+      "part": 1,
+      "ok": true,
+      "bits": 2048,
+      "fp16": "54c404fbee66aa1b",
+      "role": "catalog_candidate"
+    },
+    {
+      "file": "pk_2.pem",
+      "part": 1,
+      "ok": true,
+      "bits": 2048,
+      "fp16": "dc520a975800f232",
+      "role": "bootstrap_init"
+    },
+    {
+      "file": "pk_3.pem",
+      "part": 1,
+      "ok": false,
+      "error": "ValueError"
+    }
+  ],
+  "unique_roles": [
+    "bootstrap_init",
+    "catalog_candidate"
+  ]
+}

@@ -49,3 +49,9 @@ D:\reverse_ENV\.venv\Scripts\python.exe .\offline_protocol_lab\run_lab.py
   因此脚本用同步 stub 替换 `_spi_fetch()`，这是为了隔离验证，不是修复源码。
 - 本实验只能证明“字段如何被消费、分支如何走”，不能证明真实服务端返回值的
   业务含义；真实数据仍需合法授权或完整 mock 服务端。
+
+6. `classify_live_pems.py`：把客户机 RAM 里抠出的 PEM 和引导公钥做指纹分类，只写 `fp16`/角色，不打印 PEM。
+
+7. `catalog_urls.py`：按解密 catalog 离线拼接 origin+path，不发起请求。
+
+8. `envelope_offline.py`：用现场 catalog 的 `_f_pk` 组本地 `v1c/v2k`（AES 可回环，RSA 包装不可解），并对比恢复树字面量 path 与 catalog path。不发起请求。

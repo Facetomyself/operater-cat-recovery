@@ -62,3 +62,4 @@ TCP SYN、TLS ClientHello/ServerHello 和 HTTP 响应头；TLS 应用数据不�
    请求时序。
 4. 不要继续对 `/xb/iil` 做加头/改信封的盲试；合成 `rk` 不代表真实业务配置
    已解密。
+5. 沙箱只验收 contacted，路径拆分见 `docs/SANDBOX_PATHS.md`；不要把沙箱 JA3 并进本文件的指纹线。

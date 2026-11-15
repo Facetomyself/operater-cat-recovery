@@ -27,6 +27,20 @@ get_host()
 https://birder.jinsiqie.life/xb/iil
 ```
 
+
+
+### 1.1.1 现场 catalog 校正（2026-11-15）
+
+官方 PE 引导成功后，用现场 `rk` 解开的 catalog 表明：
+
+- 生产 origin 是 `_p_dh` = `https://birder.jinsiqie.life/`
+- 开发 origin 是 `_d_lh` = `https://localhost:8764/`
+- `_r_u` 是 path `/safeyunyinmaoV260701/saferegister`，不是主机
+- 心跳/票据：`/r/spi` `/r/spui` `/r/ui` `/r/roi` `/r/ca` `/xb/fms`
+
+因此 1.1 里「生产路径 tw_hq_by_k("_r_u") 当主机」是恢复命名，不是现场事实。
+PEM 与 rk 不写进本文。
+
 `fea._sq_zw` 还对生产主机做证书指纹固定；指纹目录来自 `_sq_pz.YC_ZW_HC_LB`，
 失败缓存 30 秒，成功缓存 300 秒。
 

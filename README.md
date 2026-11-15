@@ -18,6 +18,7 @@ docs/                 顶层文档、整体逻辑、接口契约、报告和恢�
 original_project/     原项目整理目录；本地大文件在这里，public git 忽略
 recovery/             恢复源码、测试、语义文档和离线协议 lab
 analysis/scripts/     还原过程中使用的 Python/IDC/C 分析脚本
+live/                 现场明文：rk、static key、catalog、PEM、pcap
 ```
 
 ### `recovery/`
@@ -58,6 +59,8 @@ python verify_bundle.py
 - `docs/RECOVERY_NOTES.md`：恢复方法和加载表突破。
 - `docs/COVERAGE.md`：覆盖率、测试和审计指标。
 - `docs/SOURCE_RECOVERY_PLAN.md`：后续恢复优先级。
+- `docs/SANDBOX_PATHS.md`：沙箱拿 catalog 的路径。
+- `live/README.md`：现场 rk / catalog 明文交接。
 
 ## 安全边界
 
@@ -65,7 +68,8 @@ python verify_bundle.py
 - 不执行 `运营猫.exe`、`static_hybrid*.exe` 或任何恢复入口。
 - 不连接真实授权服务端，不使用真实账号、卡密或密钥。
 - 离线实验只使用合成响应，验签路径在 transport 边界注入。
-- `{{SECRET_*}}` 保持脱敏占位符。
+- 恢复源码里的 `{{SECRET_*}}` 仍是占位符。
+- **`live/` 按交接要求提交现场明文密钥**（`rk`、static key、PEM、catalog）。
 
 ## 权利说明
 

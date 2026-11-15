@@ -1,0 +1,128 @@
+{
+  "note": "offline assembly from decrypted catalog; do not fetch",
+  "matrix": {
+    "origin": "https://birder.jinsiqie.life",
+    "dev_origin": "https://localhost:8764",
+    "bootstrap": "https://birder.jinsiqie.life/xb/iil",
+    "r_spi": "https://birder.jinsiqie.life/r/spi",
+    "r_spui": "https://birder.jinsiqie.life/r/spui",
+    "r_ui": "https://birder.jinsiqie.life/r/ui",
+    "r_roi": "https://birder.jinsiqie.life/r/roi",
+    "r_ca": "https://birder.jinsiqie.life/r/ca",
+    "xb_fms": "https://birder.jinsiqie.life/xb/fms",
+    "register": "https://birder.jinsiqie.life/safeyunyinmaoV260701/saferegister",
+    "experience": "https://birder.jinsiqie.life/safeyunyinmaoV260701/safeExperienceHour"
+  },
+  "rows": [
+    {
+      "key": "_p_dh",
+      "path": "/",
+      "url": "https://birder.jinsiqie.life/"
+    },
+    {
+      "key": "_d_lh",
+      "path": "/",
+      "url": "https://localhost:8764/"
+    },
+    {
+      "key": "_f_pk",
+      "pem_fp16": "e3c2336a82b436d6",
+      "bits": 2048
+    },
+    {
+      "key": "_r_u",
+      "path": "/safeyunyinmaoV260701/saferegister",
+      "url": "https://birder.jinsiqie.life/safeyunyinmaoV260701/saferegister"
+    },
+    {
+      "key": "_f_c_u",
+      "path": "/safeyunyinmaoV260701/safeFetchConfigV260125",
+      "url": "https://birder.jinsiqie.life/safeyunyinmaoV260701/safeFetchConfigV260125"
+    },
+    {
+      "key": "_v_uu",
+      "path": "/safeyunyinmaoV260701/safevcode260619",
+      "url": "https://birder.jinsiqie.life/safeyunyinmaoV260701/safevcode260619"
+    },
+    {
+      "key": "_r_bu",
+      "path": "/safeyunyinmaoV260701/safereset",
+      "url": "https://birder.jinsiqie.life/safeyunyinmaoV260701/safereset"
+    },
+    {
+      "key": "_s_r_u",
+      "path": "/safeyunyinmaoV260701/safereport",
+      "url": "https://birder.jinsiqie.life/safeyunyinmaoV260701/safereport"
+    },
+    {
+      "key": "_m_cu",
+      "path": "/safeyunyinmaoV260701/safeMigrateCode",
+      "url": "https://birder.jinsiqie.life/safeyunyinmaoV260701/safeMigrateCode"
+    },
+    {
+      "key": "_s_ac_u",
+      "path": "/safeyunyinmaoV260701/safeExperienceHour",
+      "url": "https://birder.jinsiqie.life/safeyunyinmaoV260701/safeExperienceHour"
+    },
+    {
+      "key": "_s_co_u",
+      "path": "/safeyunyinmaoV260701/safeCreateOrderV260501",
+      "url": "https://birder.jinsiqie.life/safeyunyinmaoV260701/safeCreateOrderV260501"
+    },
+    {
+      "key": "_s_co_r_u",
+      "path": "/safeyunyinmaoV260701/safeCheckOrderAnRecharge",
+      "url": "https://birder.jinsiqie.life/safeyunyinmaoV260701/safeCheckOrderAnRecharge"
+    },
+    {
+      "key": "_s_p_ch_mu",
+      "path": "/safeyunyinmaoV260701/safeparsechannelmessages",
+      "url": "https://birder.jinsiqie.life/safeyunyinmaoV260701/safeparsechannelmessages"
+    },
+    {
+      "key": "_s_p_co_mu",
+      "path": "/safeyunyinmaoV260701/safeparsecommentmessages",
+      "url": "https://birder.jinsiqie.life/safeyunyinmaoV260701/safeparsecommentmessages"
+    },
+    {
+      "key": "_r_pk",
+      "pem_fp16": "54c404fbee66aa1b",
+      "bits": 2048
+    },
+    {
+      "key": "_v_p_i_u",
+      "path": "/r/spi",
+      "url": "https://birder.jinsiqie.life/r/spi"
+    },
+    {
+      "key": "_v_ps_i_u",
+      "path": "/r/spui",
+      "url": "https://birder.jinsiqie.life/r/spui"
+    },
+    {
+      "key": "_v_r_p_i_u",
+      "path": "/r/roi",
+      "url": "https://birder.jinsiqie.life/r/roi"
+    },
+    {
+      "key": "_v_u_i_u",
+      "path": "/r/ui",
+      "url": "https://birder.jinsiqie.life/r/ui"
+    },
+    {
+      "key": "_v_s_c_i_u",
+      "path": "/r/ca",
+      "url": "https://birder.jinsiqie.life/r/ca"
+    },
+    {
+      "key": "_v_s_f_ms",
+      "path": "/xb/fms",
+      "url": "https://birder.jinsiqie.life/xb/fms"
+    }
+  ],
+  "recovery_warning": [
+    "get_pro_duct_host() -> _r_u is a path, not an origin",
+    "origin is _p_dh = https://birder.jinsiqie.life/",
+    "_r_url('r_spi') recovered literal is not catalog _v_p_i_u=/r/spi"
+  ]
+}

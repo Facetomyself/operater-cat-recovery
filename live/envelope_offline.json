@@ -1,0 +1,63 @@
+{
+  "network": "not-used",
+  "origin": "https://birder.jinsiqie.life",
+  "catalog_urls": {
+    "spi": "https://birder.jinsiqie.life/r/spi",
+    "spui": "https://birder.jinsiqie.life/r/spui",
+    "ui": "https://birder.jinsiqie.life/r/ui",
+    "roi": "https://birder.jinsiqie.life/r/roi",
+    "ca": "https://birder.jinsiqie.life/r/ca",
+    "fms": "https://birder.jinsiqie.life/xb/fms",
+    "register": "https://birder.jinsiqie.life/safeyunyinmaoV260701/saferegister",
+    "experience": "https://birder.jinsiqie.life/safeyunyinmaoV260701/safeExperienceHour"
+  },
+  "recovered_literal_urls": {
+    "spi": "https://birder.jinsiqie.life/r_spi",
+    "spui": "https://birder.jinsiqie.life/r_spui",
+    "ui": "https://birder.jinsiqie.life/r_ui",
+    "roi": "https://birder.jinsiqie.life/r_roi",
+    "ca": "https://birder.jinsiqie.life/r_ca"
+  },
+  "url_delta": {
+    "spi": {
+      "catalog": "https://birder.jinsiqie.life/r/spi",
+      "recovered_literal": "https://birder.jinsiqie.life/r_spi",
+      "same": false
+    },
+    "spui": {
+      "catalog": "https://birder.jinsiqie.life/r/spui",
+      "recovered_literal": "https://birder.jinsiqie.life/r_spui",
+      "same": false
+    },
+    "ui": {
+      "catalog": "https://birder.jinsiqie.life/r/ui",
+      "recovered_literal": "https://birder.jinsiqie.life/r_ui",
+      "same": false
+    },
+    "roi": {
+      "catalog": "https://birder.jinsiqie.life/r/roi",
+      "recovered_literal": "https://birder.jinsiqie.life/r_roi",
+      "same": false
+    },
+    "ca": {
+      "catalog": "https://birder.jinsiqie.life/r/ca",
+      "recovered_literal": "https://birder.jinsiqie.life/r_ca",
+      "same": false
+    }
+  },
+  "envelope": {
+    "v1c_bytes": 64,
+    "v2k_bytes": 256,
+    "aes_roundtrip_ok": true,
+    "v1c_hex_prefix": "3f2c256af7e1b455",
+    "v2k_hex_prefix": "72e5789885658d28"
+  },
+  "keys": {
+    "f_pk_loaded": true,
+    "r_pk_loaded": true,
+    "lab_self_sign_verifies": true,
+    "catalog_f_pk_rejects_lab_sig": true,
+    "catalog_r_pk_rejects_lab_sig": true
+  },
+  "note": "v2k is RSA-PKCS1v15(_f_pk, aes_key). Cannot unwrap without server private key."
+}

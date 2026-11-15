@@ -1,0 +1,92 @@
+{
+  "_p_dh": {
+    "type": "url",
+    "scheme": "https",
+    "host": "birder.jinsiqie.life",
+    "path": "/"
+  },
+  "_d_lh": {
+    "type": "url",
+    "scheme": "https",
+    "host": "localhost:8764",
+    "path": "/"
+  },
+  "_f_pk": {
+    "type": "pem",
+    "bits": 2048,
+    "fp16": "e3c2336a82b436d6"
+  },
+  "_r_u": {
+    "type": "path",
+    "value": "/safeyunyinmaoV260701/saferegister"
+  },
+  "_f_c_u": {
+    "type": "path",
+    "value": "/safeyunyinmaoV260701/safeFetchConfigV260125"
+  },
+  "_v_uu": {
+    "type": "path",
+    "value": "/safeyunyinmaoV260701/safevcode260619"
+  },
+  "_r_bu": {
+    "type": "path",
+    "value": "/safeyunyinmaoV260701/safereset"
+  },
+  "_s_r_u": {
+    "type": "path",
+    "value": "/safeyunyinmaoV260701/safereport"
+  },
+  "_m_cu": {
+    "type": "path",
+    "value": "/safeyunyinmaoV260701/safeMigrateCode"
+  },
+  "_s_ac_u": {
+    "type": "path",
+    "value": "/safeyunyinmaoV260701/safeExperienceHour"
+  },
+  "_s_co_u": {
+    "type": "path",
+    "value": "/safeyunyinmaoV260701/safeCreateOrderV260501"
+  },
+  "_s_co_r_u": {
+    "type": "path",
+    "value": "/safeyunyinmaoV260701/safeCheckOrderAnRecharge"
+  },
+  "_s_p_ch_mu": {
+    "type": "path",
+    "value": "/safeyunyinmaoV260701/safeparsechannelmessages"
+  },
+  "_s_p_co_mu": {
+    "type": "path",
+    "value": "/safeyunyinmaoV260701/safeparsecommentmessages"
+  },
+  "_r_pk": {
+    "type": "pem",
+    "bits": 2048,
+    "fp16": "54c404fbee66aa1b"
+  },
+  "_v_p_i_u": {
+    "type": "path",
+    "value": "/r/spi"
+  },
+  "_v_ps_i_u": {
+    "type": "path",
+    "value": "/r/spui"
+  },
+  "_v_r_p_i_u": {
+    "type": "path",
+    "value": "/r/roi"
+  },
+  "_v_u_i_u": {
+    "type": "path",
+    "value": "/r/ui"
+  },
+  "_v_s_c_i_u": {
+    "type": "path",
+    "value": "/r/ca"
+  },
+  "_v_s_f_ms": {
+    "type": "path",
+    "value": "/xb/fms"
+  }
+}

@@ -1,0 +1,46 @@
+ 2026-11-15 17:23:31 Cannot connect to host birder.jinsiqie.life:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+ 2026-11-15 17:23:33 Cannot connect to host birder.jinsiqie.life:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+ 2026-11-15 17:23:39 Cannot connect to host birder.jinsiqie.life:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+ 2026-11-15 17:23:44 Cannot connect to host birder.jinsiqie.life:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+ 2026-11-15 17:23:44 环境检测失败: 初始化失败，请重启软件！
+ 2026-11-15 18:08:21 Cannot connect to host birder.jinsiqie.life:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+ 2026-11-15 18:08:24 Cannot connect to host birder.jinsiqie.life:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+ 2026-11-15 18:08:29 Cannot connect to host birder.jinsiqie.life:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+ 2026-11-15 18:08:35 Cannot connect to host birder.jinsiqie.life:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+ 2026-11-15 18:08:35 环境检测失败: 初始化失败，请重启软件！
+ 2026-11-15 18:10:04 Cannot connect to host birder.jinsiqie.life:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+ 2026-11-15 18:10:08 Cannot connect to host birder.jinsiqie.life:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+ 2026-11-15 18:10:12 Cannot connect to host birder.jinsiqie.life:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+ 2026-11-15 18:10:18 Cannot connect to host birder.jinsiqie.life:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+ 2026-11-15 18:10:18 环境检测失败: 初始化失败，请重启软件！
+ 2026-11-15 18:11:53 Cannot connect to host birder.jinsiqie.life:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+ 2026-11-15 18:11:56 Cannot connect to host birder.jinsiqie.life:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+ 2026-11-15 18:12:00 Cannot connect to host birder.jinsiqie.life:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+ 2026-11-15 18:12:05 Cannot connect to host birder.jinsiqie.life:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+ 2026-11-15 18:12:05 环境检测失败: 初始化失败，请重启软件！
+ 2026-11-15 18:16:04 Cannot connect to host birder.jinsiqie.life:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+ 2026-11-15 18:16:06 Cannot connect to host birder.jinsiqie.life:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+ 2026-11-15 18:16:10 Cannot connect to host birder.jinsiqie.life:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+ 2026-11-15 18:16:16 Cannot connect to host birder.jinsiqie.life:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+ 2026-11-15 18:16:16 环境检测失败: 初始化失败，请重启软件！
+ 2026-11-15 18:24:07 Cannot connect to host birder.jinsiqie.life:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+ 2026-11-15 18:24:10 Cannot connect to host birder.jinsiqie.life:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+ 2026-11-15 18:24:15 Cannot connect to host birder.jinsiqie.life:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+ 2026-11-15 18:24:21 Cannot connect to host birder.jinsiqie.life:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+ 2026-11-15 18:24:21 环境检测失败: 初始化失败，请重启软件！
+ 2026-11-15 18:29:49 True
+ 2026-11-15 18:29:49 注册 : yunyinmao - 35284147982638006779
+ 2026-11-15 18:29:49 校验指纹...
+ 2026-11-15 18:30:05 更新时间： 2026-11-15 18:30:05
+ 2026-11-15 18:30:05 环境检测成功
+ 2026-11-15 18:30:05 单实例服务器启动成功
+ 2026-11-15 18:30:06 是否使用了代理：
+ 2026-11-15 18:39:40 True
+ 2026-11-15 18:39:40 本地机器码已加载： 2026-11-15 18:39:40
+ 2026-11-15 18:39:40 校验机器码 : yunyinmao-eb7c7787-771c6d7f-eb8a9440-4402
+ 2026-11-15 18:39:42 校验指纹...
+ 2026-11-15 18:39:58 更新时间： 2026-11-15 18:39:58
+ 2026-11-15 18:39:58 [item-bootstrap] branch=cloud_empty_no_local autoCount=0
+ 2026-11-15 18:39:58 环境检测成功
+ 2026-11-15 18:39:58 单实例服务器启动成功
+ 2026-11-15 18:39:58 是否使用了代理：
